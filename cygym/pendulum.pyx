@@ -5,6 +5,14 @@
 # cython: wraparound=False
 # cython: nonecheck=False
 
+"""
+Credit:
+    
+This code has been adapted from the original OpenAI release:
+https://github.com/openai/gym/blob/master/gym/envs/classic_control/pendulum.py
+
+"""
+
 ## Loading packages
 from gym.spaces import Box
 from gym.utils import seeding
@@ -15,10 +23,9 @@ from libc.math cimport sin, cos, M_PI
 
 # Defining our numpy types
 ctypedef np.float_t np_float_t
-ctypedef np.int_t np_int_t
 
 
-cdef class FastPendulumEnv():
+cdef class CyPendulumEnv():
     
     cdef:
         int max_speed

@@ -5,35 +5,41 @@
 # cython: wraparound=False
 # cython: nonecheck=False
 
+"""
+Credit:
+    
+This code has been adapted from the original OpenAI release:
+https://github.com/openai/gym/blob/master/gym/envs/classic_control/mountain_car.py
+
+"""
+
 ## Loading packages
 from gym.spaces import Box, Discrete
 from gym.utils import seeding
 import numpy as np
 cimport numpy as np
 cimport cython
-from libc.math cimport sin, cos, M_PI
+from libc.math cimport cos
 
 
 # Defining our numpy types
 ctypedef np.float_t np_float_t
-ctypedef np.int_t np_int_t
 
 
-cdef class FastContinuous_MountainCarEnv():
+cdef class CyMountainCarEnv():
     
     cdef:
-        float min_action
-        float max_action
         float min_position
         float max_position
         float max_speed
         float goal_position
         float goal_velocity
-        float power
+        float force
+        float gravity
         readonly object action_space
         readonly object observation_space
         tuple state
-    
+        
     cdef object np_random
     metadata = {}
     reward_range = (-float('inf'), float('inf'))
@@ -45,63 +51,56 @@ cdef class FastContinuous_MountainCarEnv():
             self.np_random, _ = seeding.np_random()
         else:
             self.np_random, _ = seeding.np_random(seed)
-
+        
 
     def __cinit__(self, goal_velocity = 0):
-        self.min_action = -1.0
-        self.max_action = 1.0
         self.min_position = -1.2
         self.max_position = 0.6
         self.max_speed = 0.07
-        self.goal_position = 0.45 # was 0.5 in gym, 0.45 in Arnaud de Broissia's version
+        self.goal_position = 0.5
         self.goal_velocity = goal_velocity
-        self.power = 0.0015
         
-        self.action_space = Box(low=self.min_action, high=self.max_action, shape=(1,))
+        self.force=0.001
+        self.gravity=0.0025
+
+        self.action_space = Discrete(3)
         self.observation_space = Box(np.array((self.min_position, -self.max_speed)),
                                      np.array((self.max_position, self.max_speed)))
 
         self.seed()
 
-
-    cpdef tuple step(self, float action):
+    cpdef tuple step(self, int action):
         cdef:
             float position = self.state[0]
             float velocity = self.state[1]
-            float force = min(max(action, -1.0), 1.0)
-            float power = self.power
+            float force = self.force
+            float gravity = self.gravity
             float max_speed = self.max_speed
-            float max_position = self.max_position
             float min_position = self.min_position
-            float goal_position = self.goal_position
-            float goal_velocity = self.goal_velocity
+            float max_position = self.max_position
             bint done
-            float reward
+            float reward = -1.0
             tuple state
 
-        velocity += force*power -0.0025 * cos(3*position)
-        if (velocity > max_speed):
-            velocity = max_speed
-        elif (velocity < max_speed):
+        velocity += (action-1)*force + cos(3*position)*(-gravity)
+        
+        if velocity < -max_speed:
             velocity = -max_speed
+        elif velocity > max_speed:
+            velocity = max_speed
+
         position += velocity
         
-        if (position > max_position):
-            position = max_position
-        elif (position < min_position):
+        if position < min_position:
             position = min_position
-        
+        elif position > max_position:
+            position = max_position
+            
         if (position == min_position and velocity<0):
             velocity = 0
 
-        done = bool(position >= goal_position and velocity >= goal_velocity)
+        done = bool(position >= self.goal_position and velocity >= self.goal_velocity)
 
-        reward = 0
-        if done:
-            reward = 100.0
-        reward-= (action**2)*0.1
-
-        #state = np.array((position, velocity))
         state = (position, velocity)
         self.state = state
         return (np.array(state), reward, done, {})

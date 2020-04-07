@@ -1,17 +1,9 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Apr  5 20:09:33 2020
+from .cartpole import CyCartPoleEnv
+from .acrobot import CyAcrobotEnv
+from .pendulum import CyPendulumEnv
+from .mountain_car import CyMountainCarEnv
+from .continuous_mountain_car import CyContinuous_MountainCarEnv
 
-@author: jacob
-"""
-
-
-from .envs.cartpole import FastCartPoleEnv
-from .envs.pendulum import FastPendulumEnv
-from .envs.acrobot import FastAcrobotEnv
-from .envs.mountain_car import FastMountainCarEnv
-from .envs.continuous_mountain_car import FastContinuous_MountainCarEnv
 """
 from gym.envs.registration import registry, register, make, spec
 

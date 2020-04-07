@@ -10,12 +10,12 @@
         "include_dirs": [
             "/home/jacob/anaconda3/envs/fast_gym/lib/python3.7/site-packages/numpy/core/include"
         ],
-        "name": "cygym.envs.acrobot",
+        "name": "cygym.acrobot",
         "sources": [
-            "cygym/envs/acrobot.pyx"
+            "cygym/acrobot.pyx"
         ]
     },
-    "module_name": "cygym.envs.acrobot"
+    "module_name": "cygym.acrobot"
 }
 END: Cython Metadata */
 
@@ -611,8 +611,8 @@ static CYTHON_INLINE float __PYX_NAN() {
   #endif
 #endif
 
-#define __PYX_HAVE__cygym__envs__acrobot
-#define __PYX_HAVE_API__cygym__envs__acrobot
+#define __PYX_HAVE__cygym__acrobot
+#define __PYX_HAVE_API__cygym__acrobot
 /* Early includes */
 #include <string.h>
 #include <stdio.h>
@@ -853,7 +853,7 @@ static const char *__pyx_filename;
 
 static const char *__pyx_f[] = {
   "stringsource",
-  "cygym/envs/acrobot.pyx",
+  "cygym/acrobot.pyx",
   "__init__.pxd",
   "type.pxd",
 };
@@ -966,7 +966,7 @@ typedef struct {
 #define __Pyx_FastGilFuncInit()
 
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":776
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":776
  * # in Cython to enable them only on the right systems.
  * 
  * ctypedef npy_int8       int8_t             # <<<<<<<<<<<<<<
@@ -975,7 +975,7 @@ typedef struct {
  */
 typedef npy_int8 __pyx_t_5numpy_int8_t;
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":777
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":777
  * 
  * ctypedef npy_int8       int8_t
  * ctypedef npy_int16      int16_t             # <<<<<<<<<<<<<<
@@ -984,7 +984,7 @@ typedef npy_int8 __pyx_t_5numpy_int8_t;
  */
 typedef npy_int16 __pyx_t_5numpy_int16_t;
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":778
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":778
  * ctypedef npy_int8       int8_t
  * ctypedef npy_int16      int16_t
  * ctypedef npy_int32      int32_t             # <<<<<<<<<<<<<<
@@ -993,7 +993,7 @@ typedef npy_int16 __pyx_t_5numpy_int16_t;
  */
 typedef npy_int32 __pyx_t_5numpy_int32_t;
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":779
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":779
  * ctypedef npy_int16      int16_t
  * ctypedef npy_int32      int32_t
  * ctypedef npy_int64      int64_t             # <<<<<<<<<<<<<<
@@ -1002,7 +1002,7 @@ typedef npy_int32 __pyx_t_5numpy_int32_t;
  */
 typedef npy_int64 __pyx_t_5numpy_int64_t;
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":783
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":783
  * #ctypedef npy_int128     int128_t
  * 
  * ctypedef npy_uint8      uint8_t             # <<<<<<<<<<<<<<
@@ -1011,7 +1011,7 @@ typedef npy_int64 __pyx_t_5numpy_int64_t;
  */
 typedef npy_uint8 __pyx_t_5numpy_uint8_t;
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":784
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":784
  * 
  * ctypedef npy_uint8      uint8_t
  * ctypedef npy_uint16     uint16_t             # <<<<<<<<<<<<<<
@@ -1020,7 +1020,7 @@ typedef npy_uint8 __pyx_t_5numpy_uint8_t;
  */
 typedef npy_uint16 __pyx_t_5numpy_uint16_t;
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":785
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":785
  * ctypedef npy_uint8      uint8_t
  * ctypedef npy_uint16     uint16_t
  * ctypedef npy_uint32     uint32_t             # <<<<<<<<<<<<<<
@@ -1029,7 +1029,7 @@ typedef npy_uint16 __pyx_t_5numpy_uint16_t;
  */
 typedef npy_uint32 __pyx_t_5numpy_uint32_t;
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":786
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":786
  * ctypedef npy_uint16     uint16_t
  * ctypedef npy_uint32     uint32_t
  * ctypedef npy_uint64     uint64_t             # <<<<<<<<<<<<<<
@@ -1038,7 +1038,7 @@ typedef npy_uint32 __pyx_t_5numpy_uint32_t;
  */
 typedef npy_uint64 __pyx_t_5numpy_uint64_t;
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":790
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":790
  * #ctypedef npy_uint128    uint128_t
  * 
  * ctypedef npy_float32    float32_t             # <<<<<<<<<<<<<<
@@ -1047,7 +1047,7 @@ typedef npy_uint64 __pyx_t_5numpy_uint64_t;
  */
 typedef npy_float32 __pyx_t_5numpy_float32_t;
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":791
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":791
  * 
  * ctypedef npy_float32    float32_t
  * ctypedef npy_float64    float64_t             # <<<<<<<<<<<<<<
@@ -1056,7 +1056,7 @@ typedef npy_float32 __pyx_t_5numpy_float32_t;
  */
 typedef npy_float64 __pyx_t_5numpy_float64_t;
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":800
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":800
  * # The int types are mapped a bit surprising --
  * # numpy.int corresponds to 'l' and numpy.long to 'q'
  * ctypedef npy_long       int_t             # <<<<<<<<<<<<<<
@@ -1065,7 +1065,7 @@ typedef npy_float64 __pyx_t_5numpy_float64_t;
  */
 typedef npy_long __pyx_t_5numpy_int_t;
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":801
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":801
  * # numpy.int corresponds to 'l' and numpy.long to 'q'
  * ctypedef npy_long       int_t
  * ctypedef npy_longlong   long_t             # <<<<<<<<<<<<<<
@@ -1074,7 +1074,7 @@ typedef npy_long __pyx_t_5numpy_int_t;
  */
 typedef npy_longlong __pyx_t_5numpy_long_t;
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":802
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":802
  * ctypedef npy_long       int_t
  * ctypedef npy_longlong   long_t
  * ctypedef npy_longlong   longlong_t             # <<<<<<<<<<<<<<
@@ -1083,7 +1083,7 @@ typedef npy_longlong __pyx_t_5numpy_long_t;
  */
 typedef npy_longlong __pyx_t_5numpy_longlong_t;
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":804
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":804
  * ctypedef npy_longlong   longlong_t
  * 
  * ctypedef npy_ulong      uint_t             # <<<<<<<<<<<<<<
@@ -1092,7 +1092,7 @@ typedef npy_longlong __pyx_t_5numpy_longlong_t;
  */
 typedef npy_ulong __pyx_t_5numpy_uint_t;
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":805
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":805
  * 
  * ctypedef npy_ulong      uint_t
  * ctypedef npy_ulonglong  ulong_t             # <<<<<<<<<<<<<<
@@ -1101,7 +1101,7 @@ typedef npy_ulong __pyx_t_5numpy_uint_t;
  */
 typedef npy_ulonglong __pyx_t_5numpy_ulong_t;
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":806
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":806
  * ctypedef npy_ulong      uint_t
  * ctypedef npy_ulonglong  ulong_t
  * ctypedef npy_ulonglong  ulonglong_t             # <<<<<<<<<<<<<<
@@ -1110,7 +1110,7 @@ typedef npy_ulonglong __pyx_t_5numpy_ulong_t;
  */
 typedef npy_ulonglong __pyx_t_5numpy_ulonglong_t;
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":808
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":808
  * ctypedef npy_ulonglong  ulonglong_t
  * 
  * ctypedef npy_intp       intp_t             # <<<<<<<<<<<<<<
@@ -1119,7 +1119,7 @@ typedef npy_ulonglong __pyx_t_5numpy_ulonglong_t;
  */
 typedef npy_intp __pyx_t_5numpy_intp_t;
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":809
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":809
  * 
  * ctypedef npy_intp       intp_t
  * ctypedef npy_uintp      uintp_t             # <<<<<<<<<<<<<<
@@ -1128,7 +1128,7 @@ typedef npy_intp __pyx_t_5numpy_intp_t;
  */
 typedef npy_uintp __pyx_t_5numpy_uintp_t;
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":811
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":811
  * ctypedef npy_uintp      uintp_t
  * 
  * ctypedef npy_double     float_t             # <<<<<<<<<<<<<<
@@ -1137,7 +1137,7 @@ typedef npy_uintp __pyx_t_5numpy_uintp_t;
  */
 typedef npy_double __pyx_t_5numpy_float_t;
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":812
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":812
  * 
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t             # <<<<<<<<<<<<<<
@@ -1146,7 +1146,7 @@ typedef npy_double __pyx_t_5numpy_float_t;
  */
 typedef npy_double __pyx_t_5numpy_double_t;
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":813
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":813
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t
  * ctypedef npy_longdouble longdouble_t             # <<<<<<<<<<<<<<
@@ -1155,23 +1155,14 @@ typedef npy_double __pyx_t_5numpy_double_t;
  */
 typedef npy_longdouble __pyx_t_5numpy_longdouble_t;
 
-/* "cygym/envs/acrobot.pyx":18
+/* "cygym/acrobot.pyx":35
  * 
  * # Defining our numpy types
  * ctypedef np.float_t np_float_t             # <<<<<<<<<<<<<<
- * ctypedef np.int_t np_int_t
- * 
- */
-typedef __pyx_t_5numpy_float_t __pyx_t_5cygym_4envs_7acrobot_np_float_t;
-
-/* "cygym/envs/acrobot.pyx":19
- * # Defining our numpy types
- * ctypedef np.float_t np_float_t
- * ctypedef np.int_t np_int_t             # <<<<<<<<<<<<<<
  * 
  * 
  */
-typedef __pyx_t_5numpy_int_t __pyx_t_5cygym_4envs_7acrobot_np_int_t;
+typedef __pyx_t_5numpy_float_t __pyx_t_5cygym_7acrobot_np_float_t;
 /* Declarations.proto */
 #if CYTHON_CCOMPLEX
   #ifdef __cplusplus
@@ -1198,13 +1189,13 @@ static CYTHON_INLINE __pyx_t_double_complex __pyx_t_double_complex_from_parts(do
 
 
 /*--- Type declarations ---*/
-struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv;
+struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv;
 struct __pyx_array_obj;
 struct __pyx_MemviewEnum_obj;
 struct __pyx_memoryview_obj;
 struct __pyx_memoryviewslice_obj;
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":815
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":815
  * ctypedef npy_longdouble longdouble_t
  * 
  * ctypedef npy_cfloat      cfloat_t             # <<<<<<<<<<<<<<
@@ -1213,7 +1204,7 @@ struct __pyx_memoryviewslice_obj;
  */
 typedef npy_cfloat __pyx_t_5numpy_cfloat_t;
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":816
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":816
  * 
  * ctypedef npy_cfloat      cfloat_t
  * ctypedef npy_cdouble     cdouble_t             # <<<<<<<<<<<<<<
@@ -1222,7 +1213,7 @@ typedef npy_cfloat __pyx_t_5numpy_cfloat_t;
  */
 typedef npy_cdouble __pyx_t_5numpy_cdouble_t;
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":817
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":817
  * ctypedef npy_cfloat      cfloat_t
  * ctypedef npy_cdouble     cdouble_t
  * ctypedef npy_clongdouble clongdouble_t             # <<<<<<<<<<<<<<
@@ -1231,7 +1222,7 @@ typedef npy_cdouble __pyx_t_5numpy_cdouble_t;
  */
 typedef npy_clongdouble __pyx_t_5numpy_clongdouble_t;
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":819
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":819
  * ctypedef npy_clongdouble clongdouble_t
  * 
  * ctypedef npy_cdouble     complex_t             # <<<<<<<<<<<<<<
@@ -1239,30 +1230,30 @@ typedef npy_clongdouble __pyx_t_5numpy_clongdouble_t;
  * cdef inline object PyArray_MultiIterNew1(a):
  */
 typedef npy_cdouble __pyx_t_5numpy_complex_t;
-struct __pyx_opt_args_5cygym_4envs_7acrobot_14FastAcrobotEnv_seed;
+struct __pyx_opt_args_5cygym_7acrobot_12CyAcrobotEnv_seed;
 
-/* "cygym/envs/acrobot.pyx":50
+/* "cygym/acrobot.pyx":66
  * 
  * 
  *     cdef inline void seed(self, seed=1):             # <<<<<<<<<<<<<<
  *         if seed == 0:
  *             self.np_random, _ = seeding.np_random()
  */
-struct __pyx_opt_args_5cygym_4envs_7acrobot_14FastAcrobotEnv_seed {
+struct __pyx_opt_args_5cygym_7acrobot_12CyAcrobotEnv_seed {
   int __pyx_n;
   PyObject *seed;
 };
 
-/* "cygym/envs/acrobot.pyx":22
+/* "cygym/acrobot.pyx":38
  * 
  * 
- * cdef class FastAcrobotEnv():             # <<<<<<<<<<<<<<
+ * cdef class CyAcrobotEnv():             # <<<<<<<<<<<<<<
  * 
  * 
  */
-struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv {
+struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv {
   PyObject_HEAD
-  struct __pyx_vtabstruct_5cygym_4envs_7acrobot_FastAcrobotEnv *__pyx_vtab;
+  struct __pyx_vtabstruct_5cygym_7acrobot_CyAcrobotEnv *__pyx_vtab;
   float dt;
   float LINK_LENGTH_1;
   float LINK_LENGTH_2;
@@ -1360,24 +1351,24 @@ struct __pyx_memoryviewslice_obj {
 
 
 
-/* "cygym/envs/acrobot.pyx":22
+/* "cygym/acrobot.pyx":38
  * 
  * 
- * cdef class FastAcrobotEnv():             # <<<<<<<<<<<<<<
+ * cdef class CyAcrobotEnv():             # <<<<<<<<<<<<<<
  * 
  * 
  */
 
-struct __pyx_vtabstruct_5cygym_4envs_7acrobot_FastAcrobotEnv {
-  void (*seed)(struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv *, struct __pyx_opt_args_5cygym_4envs_7acrobot_14FastAcrobotEnv_seed *__pyx_optional_args);
-  PyArrayObject *(*reset)(struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv *, int __pyx_skip_dispatch);
-  PyObject *(*step)(struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv *, int, int __pyx_skip_dispatch);
-  PyObject *(*_get_ob)(struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv *, int __pyx_skip_dispatch);
-  int (*_terminal)(struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv *, int __pyx_skip_dispatch);
-  __Pyx_memviewslice (*_dsdt)(struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv *, __Pyx_memviewslice, int __pyx_skip_dispatch);
+struct __pyx_vtabstruct_5cygym_7acrobot_CyAcrobotEnv {
+  void (*seed)(struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv *, struct __pyx_opt_args_5cygym_7acrobot_12CyAcrobotEnv_seed *__pyx_optional_args);
+  PyArrayObject *(*reset)(struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv *, int __pyx_skip_dispatch);
+  PyObject *(*step)(struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv *, int, int __pyx_skip_dispatch);
+  PyObject *(*_get_ob)(struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv *, int __pyx_skip_dispatch);
+  int (*_terminal)(struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv *, int __pyx_skip_dispatch);
+  __Pyx_memviewslice (*_dsdt)(struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv *, __Pyx_memviewslice, int __pyx_skip_dispatch);
 };
-static struct __pyx_vtabstruct_5cygym_4envs_7acrobot_FastAcrobotEnv *__pyx_vtabptr_5cygym_4envs_7acrobot_FastAcrobotEnv;
-static CYTHON_INLINE void __pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv_seed(struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv *, struct __pyx_opt_args_5cygym_4envs_7acrobot_14FastAcrobotEnv_seed *__pyx_optional_args);
+static struct __pyx_vtabstruct_5cygym_7acrobot_CyAcrobotEnv *__pyx_vtabptr_5cygym_7acrobot_CyAcrobotEnv;
+static CYTHON_INLINE void __pyx_f_5cygym_7acrobot_12CyAcrobotEnv_seed(struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv *, struct __pyx_opt_args_5cygym_7acrobot_12CyAcrobotEnv_seed *__pyx_optional_args);
 
 
 /* "View.MemoryView":105
@@ -2074,14 +2065,14 @@ static int __Pyx_ValidateAndInit_memviewslice(
                 PyObject *original_obj);
 
 /* ObjectToMemviewSlice.proto */
-static CYTHON_INLINE __Pyx_memviewslice __Pyx_PyObject_to_MemoryviewSlice_ds_nn___pyx_t_5cygym_4envs_7acrobot_np_float_t(PyObject *, int writable_flag);
+static CYTHON_INLINE __Pyx_memviewslice __Pyx_PyObject_to_MemoryviewSlice_ds_nn___pyx_t_5cygym_7acrobot_np_float_t(PyObject *, int writable_flag);
 
 /* CIntToPy.proto */
 static CYTHON_INLINE PyObject* __Pyx_PyInt_From_int(int value);
 
 /* MemviewDtypeToObject.proto */
-static CYTHON_INLINE PyObject *__pyx_memview_get_nn___pyx_t_5cygym_4envs_7acrobot_np_float_t(const char *itemp);
-static CYTHON_INLINE int __pyx_memview_set_nn___pyx_t_5cygym_4envs_7acrobot_np_float_t(const char *itemp, PyObject *obj);
+static CYTHON_INLINE PyObject *__pyx_memview_get_nn___pyx_t_5cygym_7acrobot_np_float_t(const char *itemp);
+static CYTHON_INLINE int __pyx_memview_set_nn___pyx_t_5cygym_7acrobot_np_float_t(const char *itemp, PyObject *obj);
 
 /* CIntToPy.proto */
 static CYTHON_INLINE PyObject* __Pyx_PyInt_From_long(long value);
@@ -2204,7 +2195,7 @@ static CYTHON_INLINE long __Pyx_PyInt_As_long(PyObject *);
 static CYTHON_INLINE char __Pyx_PyInt_As_char(PyObject *);
 
 /* ObjectToMemviewSlice.proto */
-static CYTHON_INLINE __Pyx_memviewslice __Pyx_PyObject_to_MemoryviewSlice_dsds_nn___pyx_t_5cygym_4envs_7acrobot_np_float_t(PyObject *, int writable_flag);
+static CYTHON_INLINE __Pyx_memviewslice __Pyx_PyObject_to_MemoryviewSlice_dsds_nn___pyx_t_5cygym_7acrobot_np_float_t(PyObject *, int writable_flag);
 
 /* CheckBinaryVersion.proto */
 static int __Pyx_check_binary_version(void);
@@ -2212,12 +2203,12 @@ static int __Pyx_check_binary_version(void);
 /* InitStrings.proto */
 static int __Pyx_InitStrings(__Pyx_StringTabEntry *t);
 
-static CYTHON_INLINE void __pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv_seed(struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv *__pyx_v_self, struct __pyx_opt_args_5cygym_4envs_7acrobot_14FastAcrobotEnv_seed *__pyx_optional_args); /* proto*/
-static PyArrayObject *__pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv_reset(struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv *__pyx_v_self, int __pyx_skip_dispatch); /* proto*/
-static PyObject *__pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv_step(struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv *__pyx_v_self, int __pyx_v_a, int __pyx_skip_dispatch); /* proto*/
-static PyObject *__pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv__get_ob(struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv *__pyx_v_self, int __pyx_skip_dispatch); /* proto*/
-static int __pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv__terminal(struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv *__pyx_v_self, int __pyx_skip_dispatch); /* proto*/
-static __Pyx_memviewslice __pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv__dsdt(struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv *__pyx_v_self, __Pyx_memviewslice __pyx_v_s_augmented, int __pyx_skip_dispatch); /* proto*/
+static CYTHON_INLINE void __pyx_f_5cygym_7acrobot_12CyAcrobotEnv_seed(struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv *__pyx_v_self, struct __pyx_opt_args_5cygym_7acrobot_12CyAcrobotEnv_seed *__pyx_optional_args); /* proto*/
+static PyArrayObject *__pyx_f_5cygym_7acrobot_12CyAcrobotEnv_reset(struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv *__pyx_v_self, int __pyx_skip_dispatch); /* proto*/
+static PyObject *__pyx_f_5cygym_7acrobot_12CyAcrobotEnv_step(struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv *__pyx_v_self, int __pyx_v_a, int __pyx_skip_dispatch); /* proto*/
+static PyObject *__pyx_f_5cygym_7acrobot_12CyAcrobotEnv__get_ob(struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv *__pyx_v_self, int __pyx_skip_dispatch); /* proto*/
+static int __pyx_f_5cygym_7acrobot_12CyAcrobotEnv__terminal(struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv *__pyx_v_self, int __pyx_skip_dispatch); /* proto*/
+static __Pyx_memviewslice __pyx_f_5cygym_7acrobot_12CyAcrobotEnv__dsdt(struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv *__pyx_v_self, __Pyx_memviewslice __pyx_v_s_augmented, int __pyx_skip_dispatch); /* proto*/
 static PyObject *__pyx_array_get_memview(struct __pyx_array_obj *__pyx_v_self); /* proto*/
 static char *__pyx_memoryview_get_item_pointer(struct __pyx_memoryview_obj *__pyx_v_self, PyObject *__pyx_v_index); /* proto*/
 static PyObject *__pyx_memoryview_is_slice(struct __pyx_memoryview_obj *__pyx_v_self, PyObject *__pyx_v_obj); /* proto*/
@@ -2264,8 +2255,8 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *, cha
 
 /* Module declarations from 'libc.math' */
 
-/* Module declarations from 'cygym.envs.acrobot' */
-static PyTypeObject *__pyx_ptype_5cygym_4envs_7acrobot_FastAcrobotEnv = 0;
+/* Module declarations from 'cygym.acrobot' */
+static PyTypeObject *__pyx_ptype_5cygym_7acrobot_CyAcrobotEnv = 0;
 static PyTypeObject *__pyx_array_type = 0;
 static PyTypeObject *__pyx_MemviewEnum_type = 0;
 static PyTypeObject *__pyx_memoryview_type = 0;
@@ -2277,9 +2268,9 @@ static PyObject *contiguous = 0;
 static PyObject *indirect_contiguous = 0;
 static int __pyx_memoryview_thread_locks_used;
 static PyThread_type_lock __pyx_memoryview_thread_locks[8];
-static float __pyx_f_5cygym_4envs_7acrobot_wrap(float, float, float); /*proto*/
-static float __pyx_f_5cygym_4envs_7acrobot_bound(float, float, float); /*proto*/
-static __Pyx_memviewslice __pyx_f_5cygym_4envs_7acrobot_rk4(PyObject *, __Pyx_memviewslice, PyObject *); /*proto*/
+static float __pyx_f_5cygym_7acrobot_wrap(float, float, float); /*proto*/
+static float __pyx_f_5cygym_7acrobot_bound(float, float, float); /*proto*/
+static __Pyx_memviewslice __pyx_f_5cygym_7acrobot_rk4(PyObject *, __Pyx_memviewslice, PyObject *); /*proto*/
 static struct __pyx_array_obj *__pyx_array_new(PyObject *, Py_ssize_t, char *, char *, char *); /*proto*/
 static void *__pyx_align_pointer(void *, size_t); /*proto*/
 static PyObject *__pyx_memoryview_new(PyObject *, int, int, __Pyx_TypeInfo *); /*proto*/
@@ -2313,12 +2304,12 @@ static void __pyx_memoryview_refcount_objects_in_slice(char *, Py_ssize_t *, Py_
 static void __pyx_memoryview_slice_assign_scalar(__Pyx_memviewslice *, int, size_t, void *, int); /*proto*/
 static void __pyx_memoryview__slice_assign_scalar(char *, Py_ssize_t *, Py_ssize_t *, int, size_t, void *); /*proto*/
 static PyObject *__pyx_unpickle_Enum__set_state(struct __pyx_MemviewEnum_obj *, PyObject *); /*proto*/
-static __Pyx_TypeInfo __Pyx_TypeInfo_nn___pyx_t_5cygym_4envs_7acrobot_np_float_t = { "np_float_t", NULL, sizeof(__pyx_t_5cygym_4envs_7acrobot_np_float_t), { 0 }, 0, 'R', 0, 0 };
-#define __Pyx_MODULE_NAME "cygym.envs.acrobot"
-extern int __pyx_module_is_main_cygym__envs__acrobot;
-int __pyx_module_is_main_cygym__envs__acrobot = 0;
+static __Pyx_TypeInfo __Pyx_TypeInfo_nn___pyx_t_5cygym_7acrobot_np_float_t = { "np_float_t", NULL, sizeof(__pyx_t_5cygym_7acrobot_np_float_t), { 0 }, 0, 'R', 0, 0 };
+#define __Pyx_MODULE_NAME "cygym.acrobot"
+extern int __pyx_module_is_main_cygym__acrobot;
+int __pyx_module_is_main_cygym__acrobot = 0;
 
-/* Implementation of 'cygym.envs.acrobot' */
+/* Implementation of 'cygym.acrobot' */
 static PyObject *__pyx_builtin_TypeError;
 static PyObject *__pyx_builtin_ValueError;
 static PyObject *__pyx_builtin_range;
@@ -2404,13 +2395,13 @@ static const char __pyx_k_pyx_vtable[] = "__pyx_vtable__";
 static const char __pyx_k_ImportError[] = "ImportError";
 static const char __pyx_k_MemoryError[] = "MemoryError";
 static const char __pyx_k_PickleError[] = "PickleError";
+static const char __pyx_k_CyAcrobotEnv[] = "CyAcrobotEnv";
 static const char __pyx_k_RuntimeError[] = "RuntimeError";
 static const char __pyx_k_pyx_checksum[] = "__pyx_checksum";
 static const char __pyx_k_reward_range[] = "reward_range";
 static const char __pyx_k_stringsource[] = "stringsource";
 static const char __pyx_k_pyx_getbuffer[] = "__pyx_getbuffer";
 static const char __pyx_k_reduce_cython[] = "__reduce_cython__";
-static const char __pyx_k_FastAcrobotEnv[] = "FastAcrobotEnv";
 static const char __pyx_k_View_MemoryView[] = "View.MemoryView";
 static const char __pyx_k_allocate_buffer[] = "allocate_buffer";
 static const char __pyx_k_dtype_is_object[] = "dtype_is_object";
@@ -2430,6 +2421,7 @@ static const char __pyx_k_itemsize_0_for_cython_array[] = "itemsize <= 0 for cyt
 static const char __pyx_k_ndarray_is_not_C_contiguous[] = "ndarray is not C contiguous";
 static const char __pyx_k_unable_to_allocate_array_data[] = "unable to allocate array data.";
 static const char __pyx_k_strided_and_direct_or_indirect[] = "<strided and direct or indirect>";
+static const char __pyx_k_Credit_This_code_has_been_adapt[] = "\nCredit:\n    \nThis code has been adapted from the original OpenAI release:\nhttps://github.com/openai/gym/blob/master/gym/envs/classic_control/acrobot.py\n\n__copyright__ = \"Copyright 2013, RLPy http://acl.mit.edu/RLPy\"\n__credits__ = [\"Alborz Geramifard\", \"Robert H. Klein\", \"Christoph Dann\",\n               \"William Dabney\", \"Jonathan P. How\"]\n__license__ = \"BSD 3-Clause\"\n__author__ = \"Christoph Dann <cdann@cdann.de>\"\n\n# SOURCE:\n# https://github.com/rlpy/rlpy/blob/master/rlpy/Domains/Acrobot.py\n\n";
 static const char __pyx_k_numpy_core_multiarray_failed_to[] = "numpy.core.multiarray failed to import";
 static const char __pyx_k_unknown_dtype_code_in_numpy_pxd[] = "unknown dtype code in numpy.pxd (%d)";
 static const char __pyx_k_Buffer_view_does_not_expose_stri[] = "Buffer view does not expose strides";
@@ -2457,10 +2449,10 @@ static PyObject *__pyx_kp_s_Can_only_create_a_buffer_that_is;
 static PyObject *__pyx_kp_s_Cannot_assign_to_read_only_memor;
 static PyObject *__pyx_kp_s_Cannot_create_writable_memory_vi;
 static PyObject *__pyx_kp_s_Cannot_index_with_type_s;
+static PyObject *__pyx_n_s_CyAcrobotEnv;
 static PyObject *__pyx_n_s_Discrete;
 static PyObject *__pyx_n_s_Ellipsis;
 static PyObject *__pyx_kp_s_Empty_shape_tuple_for_cython_arr;
-static PyObject *__pyx_n_s_FastAcrobotEnv;
 static PyObject *__pyx_kp_u_Format_string_allocated_too_shor;
 static PyObject *__pyx_kp_u_Format_string_allocated_too_shor_2;
 static PyObject *__pyx_n_s_ImportError;
@@ -2573,17 +2565,17 @@ static PyObject *__pyx_n_s_uniform;
 static PyObject *__pyx_kp_u_unknown_dtype_code_in_numpy_pxd;
 static PyObject *__pyx_n_s_unpack;
 static PyObject *__pyx_n_s_update;
-static PyObject *__pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_unwrapped(struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv *__pyx_v_self); /* proto */
-static int __pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_2__cinit__(struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_4reset(struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_6step(struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv *__pyx_v_self, int __pyx_v_a); /* proto */
-static PyObject *__pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_8_get_ob(struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_10_terminal(struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_12_dsdt(struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv *__pyx_v_self, __Pyx_memviewslice __pyx_v_s_augmented); /* proto */
-static PyObject *__pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_17observation_space___get__(struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_12action_space___get__(struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_14__reduce_cython__(CYTHON_UNUSED struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_16__setstate_cython__(CYTHON_UNUSED struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv *__pyx_v_self, CYTHON_UNUSED PyObject *__pyx_v___pyx_state); /* proto */
+static PyObject *__pyx_pf_5cygym_7acrobot_12CyAcrobotEnv_unwrapped(struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv *__pyx_v_self); /* proto */
+static int __pyx_pf_5cygym_7acrobot_12CyAcrobotEnv_2__cinit__(struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_5cygym_7acrobot_12CyAcrobotEnv_4reset(struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_5cygym_7acrobot_12CyAcrobotEnv_6step(struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv *__pyx_v_self, int __pyx_v_a); /* proto */
+static PyObject *__pyx_pf_5cygym_7acrobot_12CyAcrobotEnv_8_get_ob(struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_5cygym_7acrobot_12CyAcrobotEnv_10_terminal(struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_5cygym_7acrobot_12CyAcrobotEnv_12_dsdt(struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv *__pyx_v_self, __Pyx_memviewslice __pyx_v_s_augmented); /* proto */
+static PyObject *__pyx_pf_5cygym_7acrobot_12CyAcrobotEnv_17observation_space___get__(struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_5cygym_7acrobot_12CyAcrobotEnv_12action_space___get__(struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_5cygym_7acrobot_12CyAcrobotEnv_14__reduce_cython__(CYTHON_UNUSED struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_5cygym_7acrobot_12CyAcrobotEnv_16__setstate_cython__(CYTHON_UNUSED struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv *__pyx_v_self, CYTHON_UNUSED PyObject *__pyx_v___pyx_state); /* proto */
 static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, Py_buffer *__pyx_v_info, int __pyx_v_flags); /* proto */
 static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_self, Py_buffer *__pyx_v_info); /* proto */
 static int __pyx_array___pyx_pf_15View_dot_MemoryView_5array___cinit__(struct __pyx_array_obj *__pyx_v_self, PyObject *__pyx_v_shape, Py_ssize_t __pyx_v_itemsize, PyObject *__pyx_v_format, PyObject *__pyx_v_mode, int __pyx_v_allocate_buffer); /* proto */
@@ -2628,7 +2620,7 @@ static PyObject *__pyx_pf_15View_dot_MemoryView_16_memoryviewslice_4base___get__
 static PyObject *__pyx_pf___pyx_memoryviewslice___reduce_cython__(CYTHON_UNUSED struct __pyx_memoryviewslice_obj *__pyx_v_self); /* proto */
 static PyObject *__pyx_pf___pyx_memoryviewslice_2__setstate_cython__(CYTHON_UNUSED struct __pyx_memoryviewslice_obj *__pyx_v_self, CYTHON_UNUSED PyObject *__pyx_v___pyx_state); /* proto */
 static PyObject *__pyx_pf_15View_dot_MemoryView___pyx_unpickle_Enum(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v___pyx_type, long __pyx_v___pyx_checksum, PyObject *__pyx_v___pyx_state); /* proto */
-static PyObject *__pyx_tp_new_5cygym_4envs_7acrobot_FastAcrobotEnv(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
+static PyObject *__pyx_tp_new_5cygym_7acrobot_CyAcrobotEnv(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
 static PyObject *__pyx_tp_new_array(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
 static PyObject *__pyx_tp_new_Enum(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
 static PyObject *__pyx_tp_new_memoryview(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
@@ -2684,7 +2676,7 @@ static PyObject *__pyx_tuple__35;
 static PyObject *__pyx_codeobj__36;
 /* Late includes */
 
-/* "cygym/envs/acrobot.pyx":47
+/* "cygym/acrobot.pyx":63
  *     reward_range = (-float('inf'), float('inf'))
  *     spec = None
  *     def unwrapped(self): return self             # <<<<<<<<<<<<<<
@@ -2693,19 +2685,19 @@ static PyObject *__pyx_codeobj__36;
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_5cygym_4envs_7acrobot_14FastAcrobotEnv_1unwrapped(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
-static PyObject *__pyx_pw_5cygym_4envs_7acrobot_14FastAcrobotEnv_1unwrapped(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
+static PyObject *__pyx_pw_5cygym_7acrobot_12CyAcrobotEnv_1unwrapped(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static PyObject *__pyx_pw_5cygym_7acrobot_12CyAcrobotEnv_1unwrapped(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("unwrapped (wrapper)", 0);
-  __pyx_r = __pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_unwrapped(((struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv *)__pyx_v_self));
+  __pyx_r = __pyx_pf_5cygym_7acrobot_12CyAcrobotEnv_unwrapped(((struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_unwrapped(struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv *__pyx_v_self) {
+static PyObject *__pyx_pf_5cygym_7acrobot_12CyAcrobotEnv_unwrapped(struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("unwrapped", 0);
@@ -2721,7 +2713,7 @@ static PyObject *__pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_unwrapped(struc
   return __pyx_r;
 }
 
-/* "cygym/envs/acrobot.pyx":50
+/* "cygym/acrobot.pyx":66
  * 
  * 
  *     cdef inline void seed(self, seed=1):             # <<<<<<<<<<<<<<
@@ -2729,7 +2721,7 @@ static PyObject *__pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_unwrapped(struc
  *             self.np_random, _ = seeding.np_random()
  */
 
-static CYTHON_INLINE void __pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv_seed(struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv *__pyx_v_self, struct __pyx_opt_args_5cygym_4envs_7acrobot_14FastAcrobotEnv_seed *__pyx_optional_args) {
+static CYTHON_INLINE void __pyx_f_5cygym_7acrobot_12CyAcrobotEnv_seed(struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv *__pyx_v_self, struct __pyx_opt_args_5cygym_7acrobot_12CyAcrobotEnv_seed *__pyx_optional_args) {
   PyObject *__pyx_v_seed = ((PyObject *)__pyx_int_1);
   CYTHON_UNUSED PyObject *__pyx_v__ = NULL;
   __Pyx_RefNannyDeclarations
@@ -2746,29 +2738,29 @@ static CYTHON_INLINE void __pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv_seed(st
     }
   }
 
-  /* "cygym/envs/acrobot.pyx":51
+  /* "cygym/acrobot.pyx":67
  * 
  *     cdef inline void seed(self, seed=1):
  *         if seed == 0:             # <<<<<<<<<<<<<<
  *             self.np_random, _ = seeding.np_random()
  *         else:
  */
-  __pyx_t_1 = __Pyx_PyInt_EqObjC(__pyx_v_seed, __pyx_int_0, 0, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 51, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_EqObjC(__pyx_v_seed, __pyx_int_0, 0, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 67, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(1, 51, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(1, 67, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   if (__pyx_t_2) {
 
-    /* "cygym/envs/acrobot.pyx":52
+    /* "cygym/acrobot.pyx":68
  *     cdef inline void seed(self, seed=1):
  *         if seed == 0:
  *             self.np_random, _ = seeding.np_random()             # <<<<<<<<<<<<<<
  *         else:
  *             self.np_random, _ = seeding.np_random(seed)
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_seeding); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 52, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_seeding); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 68, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_np_random); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 52, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_np_random); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 68, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __pyx_t_3 = NULL;
@@ -2783,7 +2775,7 @@ static CYTHON_INLINE void __pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv_seed(st
     }
     __pyx_t_1 = (__pyx_t_3) ? __Pyx_PyObject_CallOneArg(__pyx_t_4, __pyx_t_3) : __Pyx_PyObject_CallNoArg(__pyx_t_4);
     __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 52, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 68, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     if ((likely(PyTuple_CheckExact(__pyx_t_1))) || (PyList_CheckExact(__pyx_t_1))) {
@@ -2792,7 +2784,7 @@ static CYTHON_INLINE void __pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv_seed(st
       if (unlikely(size != 2)) {
         if (size > 2) __Pyx_RaiseTooManyValuesError(2);
         else if (size >= 0) __Pyx_RaiseNeedMoreValuesError(size);
-        __PYX_ERR(1, 52, __pyx_L1_error)
+        __PYX_ERR(1, 68, __pyx_L1_error)
       }
       #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
       if (likely(PyTuple_CheckExact(sequence))) {
@@ -2805,15 +2797,15 @@ static CYTHON_INLINE void __pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv_seed(st
       __Pyx_INCREF(__pyx_t_4);
       __Pyx_INCREF(__pyx_t_3);
       #else
-      __pyx_t_4 = PySequence_ITEM(sequence, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 52, __pyx_L1_error)
+      __pyx_t_4 = PySequence_ITEM(sequence, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 68, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
-      __pyx_t_3 = PySequence_ITEM(sequence, 1); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 52, __pyx_L1_error)
+      __pyx_t_3 = PySequence_ITEM(sequence, 1); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 68, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       #endif
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     } else {
       Py_ssize_t index = -1;
-      __pyx_t_5 = PyObject_GetIter(__pyx_t_1); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 52, __pyx_L1_error)
+      __pyx_t_5 = PyObject_GetIter(__pyx_t_1); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 68, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
       __pyx_t_6 = Py_TYPE(__pyx_t_5)->tp_iternext;
@@ -2821,7 +2813,7 @@ static CYTHON_INLINE void __pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv_seed(st
       __Pyx_GOTREF(__pyx_t_4);
       index = 1; __pyx_t_3 = __pyx_t_6(__pyx_t_5); if (unlikely(!__pyx_t_3)) goto __pyx_L4_unpacking_failed;
       __Pyx_GOTREF(__pyx_t_3);
-      if (__Pyx_IternextUnpackEndCheck(__pyx_t_6(__pyx_t_5), 2) < 0) __PYX_ERR(1, 52, __pyx_L1_error)
+      if (__Pyx_IternextUnpackEndCheck(__pyx_t_6(__pyx_t_5), 2) < 0) __PYX_ERR(1, 68, __pyx_L1_error)
       __pyx_t_6 = NULL;
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       goto __pyx_L5_unpacking_done;
@@ -2829,7 +2821,7 @@ static CYTHON_INLINE void __pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv_seed(st
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       __pyx_t_6 = NULL;
       if (__Pyx_IterFinish() == 0) __Pyx_RaiseNeedMoreValuesError(index);
-      __PYX_ERR(1, 52, __pyx_L1_error)
+      __PYX_ERR(1, 68, __pyx_L1_error)
       __pyx_L5_unpacking_done:;
     }
     __Pyx_GIVEREF(__pyx_t_4);
@@ -2840,7 +2832,7 @@ static CYTHON_INLINE void __pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv_seed(st
     __pyx_v__ = __pyx_t_3;
     __pyx_t_3 = 0;
 
-    /* "cygym/envs/acrobot.pyx":51
+    /* "cygym/acrobot.pyx":67
  * 
  *     cdef inline void seed(self, seed=1):
  *         if seed == 0:             # <<<<<<<<<<<<<<
@@ -2850,7 +2842,7 @@ static CYTHON_INLINE void __pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv_seed(st
     goto __pyx_L3;
   }
 
-  /* "cygym/envs/acrobot.pyx":54
+  /* "cygym/acrobot.pyx":70
  *             self.np_random, _ = seeding.np_random()
  *         else:
  *             self.np_random, _ = seeding.np_random(seed)             # <<<<<<<<<<<<<<
@@ -2858,9 +2850,9 @@ static CYTHON_INLINE void __pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv_seed(st
  * 
  */
   /*else*/ {
-    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_seeding); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 54, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_seeding); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 70, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_np_random); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 54, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_np_random); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 70, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __pyx_t_3 = NULL;
@@ -2875,7 +2867,7 @@ static CYTHON_INLINE void __pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv_seed(st
     }
     __pyx_t_1 = (__pyx_t_3) ? __Pyx_PyObject_Call2Args(__pyx_t_4, __pyx_t_3, __pyx_v_seed) : __Pyx_PyObject_CallOneArg(__pyx_t_4, __pyx_v_seed);
     __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 54, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 70, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     if ((likely(PyTuple_CheckExact(__pyx_t_1))) || (PyList_CheckExact(__pyx_t_1))) {
@@ -2884,7 +2876,7 @@ static CYTHON_INLINE void __pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv_seed(st
       if (unlikely(size != 2)) {
         if (size > 2) __Pyx_RaiseTooManyValuesError(2);
         else if (size >= 0) __Pyx_RaiseNeedMoreValuesError(size);
-        __PYX_ERR(1, 54, __pyx_L1_error)
+        __PYX_ERR(1, 70, __pyx_L1_error)
       }
       #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
       if (likely(PyTuple_CheckExact(sequence))) {
@@ -2897,15 +2889,15 @@ static CYTHON_INLINE void __pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv_seed(st
       __Pyx_INCREF(__pyx_t_4);
       __Pyx_INCREF(__pyx_t_3);
       #else
-      __pyx_t_4 = PySequence_ITEM(sequence, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 54, __pyx_L1_error)
+      __pyx_t_4 = PySequence_ITEM(sequence, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 70, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
-      __pyx_t_3 = PySequence_ITEM(sequence, 1); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 54, __pyx_L1_error)
+      __pyx_t_3 = PySequence_ITEM(sequence, 1); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 70, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       #endif
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     } else {
       Py_ssize_t index = -1;
-      __pyx_t_5 = PyObject_GetIter(__pyx_t_1); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 54, __pyx_L1_error)
+      __pyx_t_5 = PyObject_GetIter(__pyx_t_1); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 70, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
       __pyx_t_6 = Py_TYPE(__pyx_t_5)->tp_iternext;
@@ -2913,7 +2905,7 @@ static CYTHON_INLINE void __pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv_seed(st
       __Pyx_GOTREF(__pyx_t_4);
       index = 1; __pyx_t_3 = __pyx_t_6(__pyx_t_5); if (unlikely(!__pyx_t_3)) goto __pyx_L6_unpacking_failed;
       __Pyx_GOTREF(__pyx_t_3);
-      if (__Pyx_IternextUnpackEndCheck(__pyx_t_6(__pyx_t_5), 2) < 0) __PYX_ERR(1, 54, __pyx_L1_error)
+      if (__Pyx_IternextUnpackEndCheck(__pyx_t_6(__pyx_t_5), 2) < 0) __PYX_ERR(1, 70, __pyx_L1_error)
       __pyx_t_6 = NULL;
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       goto __pyx_L7_unpacking_done;
@@ -2921,7 +2913,7 @@ static CYTHON_INLINE void __pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv_seed(st
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       __pyx_t_6 = NULL;
       if (__Pyx_IterFinish() == 0) __Pyx_RaiseNeedMoreValuesError(index);
-      __PYX_ERR(1, 54, __pyx_L1_error)
+      __PYX_ERR(1, 70, __pyx_L1_error)
       __pyx_L7_unpacking_done:;
     }
     __Pyx_GIVEREF(__pyx_t_4);
@@ -2934,7 +2926,7 @@ static CYTHON_INLINE void __pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv_seed(st
   }
   __pyx_L3:;
 
-  /* "cygym/envs/acrobot.pyx":50
+  /* "cygym/acrobot.pyx":66
  * 
  * 
  *     cdef inline void seed(self, seed=1):             # <<<<<<<<<<<<<<
@@ -2949,13 +2941,13 @@ static CYTHON_INLINE void __pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv_seed(st
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_5);
-  __Pyx_WriteUnraisable("cygym.envs.acrobot.FastAcrobotEnv.seed", __pyx_clineno, __pyx_lineno, __pyx_filename, 1, 0);
+  __Pyx_WriteUnraisable("cygym.acrobot.CyAcrobotEnv.seed", __pyx_clineno, __pyx_lineno, __pyx_filename, 1, 0);
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v__);
   __Pyx_RefNannyFinishContext();
 }
 
-/* "cygym/envs/acrobot.pyx":57
+/* "cygym/acrobot.pyx":73
  * 
  * 
  *     def __cinit__(self):             # <<<<<<<<<<<<<<
@@ -2964,22 +2956,22 @@ static CYTHON_INLINE void __pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv_seed(st
  */
 
 /* Python wrapper */
-static int __pyx_pw_5cygym_4envs_7acrobot_14FastAcrobotEnv_3__cinit__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static int __pyx_pw_5cygym_4envs_7acrobot_14FastAcrobotEnv_3__cinit__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static int __pyx_pw_5cygym_7acrobot_12CyAcrobotEnv_3__cinit__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static int __pyx_pw_5cygym_7acrobot_12CyAcrobotEnv_3__cinit__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__cinit__ (wrapper)", 0);
   if (unlikely(PyTuple_GET_SIZE(__pyx_args) > 0)) {
     __Pyx_RaiseArgtupleInvalid("__cinit__", 1, 0, 0, PyTuple_GET_SIZE(__pyx_args)); return -1;}
   if (unlikely(__pyx_kwds) && unlikely(PyDict_Size(__pyx_kwds) > 0) && unlikely(!__Pyx_CheckKeywordStrings(__pyx_kwds, "__cinit__", 0))) return -1;
-  __pyx_r = __pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_2__cinit__(((struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv *)__pyx_v_self));
+  __pyx_r = __pyx_pf_5cygym_7acrobot_12CyAcrobotEnv_2__cinit__(((struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static int __pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_2__cinit__(struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv *__pyx_v_self) {
+static int __pyx_pf_5cygym_7acrobot_12CyAcrobotEnv_2__cinit__(struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv *__pyx_v_self) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -2991,7 +2983,7 @@ static int __pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_2__cinit__(struct __p
   PyObject *__pyx_t_7 = NULL;
   __Pyx_RefNannySetupContext("__cinit__", 0);
 
-  /* "cygym/envs/acrobot.pyx":58
+  /* "cygym/acrobot.pyx":74
  * 
  *     def __cinit__(self):
  *         self.dt = 0.2             # <<<<<<<<<<<<<<
@@ -3000,7 +2992,7 @@ static int __pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_2__cinit__(struct __p
  */
   __pyx_v_self->dt = 0.2;
 
-  /* "cygym/envs/acrobot.pyx":59
+  /* "cygym/acrobot.pyx":75
  *     def __cinit__(self):
  *         self.dt = 0.2
  *         self.LINK_LENGTH_1 = 1.0             # <<<<<<<<<<<<<<
@@ -3009,7 +3001,7 @@ static int __pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_2__cinit__(struct __p
  */
   __pyx_v_self->LINK_LENGTH_1 = 1.0;
 
-  /* "cygym/envs/acrobot.pyx":60
+  /* "cygym/acrobot.pyx":76
  *         self.dt = 0.2
  *         self.LINK_LENGTH_1 = 1.0
  *         self.LINK_LENGTH_2 = 1.0             # <<<<<<<<<<<<<<
@@ -3018,7 +3010,7 @@ static int __pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_2__cinit__(struct __p
  */
   __pyx_v_self->LINK_LENGTH_2 = 1.0;
 
-  /* "cygym/envs/acrobot.pyx":61
+  /* "cygym/acrobot.pyx":77
  *         self.LINK_LENGTH_1 = 1.0
  *         self.LINK_LENGTH_2 = 1.0
  *         self.LINK_MASS_1 = 1.0             # <<<<<<<<<<<<<<
@@ -3027,7 +3019,7 @@ static int __pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_2__cinit__(struct __p
  */
   __pyx_v_self->LINK_MASS_1 = 1.0;
 
-  /* "cygym/envs/acrobot.pyx":62
+  /* "cygym/acrobot.pyx":78
  *         self.LINK_LENGTH_2 = 1.0
  *         self.LINK_MASS_1 = 1.0
  *         self.LINK_MASS_2 = 1.0             # <<<<<<<<<<<<<<
@@ -3036,7 +3028,7 @@ static int __pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_2__cinit__(struct __p
  */
   __pyx_v_self->LINK_MASS_2 = 1.0;
 
-  /* "cygym/envs/acrobot.pyx":63
+  /* "cygym/acrobot.pyx":79
  *         self.LINK_MASS_1 = 1.0
  *         self.LINK_MASS_2 = 1.0
  *         self.LINK_COM_POS_1 = 0.5             # <<<<<<<<<<<<<<
@@ -3045,7 +3037,7 @@ static int __pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_2__cinit__(struct __p
  */
   __pyx_v_self->LINK_COM_POS_1 = 0.5;
 
-  /* "cygym/envs/acrobot.pyx":64
+  /* "cygym/acrobot.pyx":80
  *         self.LINK_MASS_2 = 1.0
  *         self.LINK_COM_POS_1 = 0.5
  *         self.LINK_COM_POS_2 = 0.5             # <<<<<<<<<<<<<<
@@ -3054,7 +3046,7 @@ static int __pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_2__cinit__(struct __p
  */
   __pyx_v_self->LINK_COM_POS_2 = 0.5;
 
-  /* "cygym/envs/acrobot.pyx":65
+  /* "cygym/acrobot.pyx":81
  *         self.LINK_COM_POS_1 = 0.5
  *         self.LINK_COM_POS_2 = 0.5
  *         self.LINK_MOI = 1.0             # <<<<<<<<<<<<<<
@@ -3063,7 +3055,7 @@ static int __pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_2__cinit__(struct __p
  */
   __pyx_v_self->LINK_MOI = 1.0;
 
-  /* "cygym/envs/acrobot.pyx":66
+  /* "cygym/acrobot.pyx":82
  *         self.LINK_COM_POS_2 = 0.5
  *         self.LINK_MOI = 1.0
  *         self.MAX_VEL_1 = 4*M_PI             # <<<<<<<<<<<<<<
@@ -3072,7 +3064,7 @@ static int __pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_2__cinit__(struct __p
  */
   __pyx_v_self->MAX_VEL_1 = (4.0 * M_PI);
 
-  /* "cygym/envs/acrobot.pyx":67
+  /* "cygym/acrobot.pyx":83
  *         self.LINK_MOI = 1.0
  *         self.MAX_VEL_1 = 4*M_PI
  *         self.MAX_VEL_2 =9*M_PI             # <<<<<<<<<<<<<<
@@ -3081,7 +3073,7 @@ static int __pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_2__cinit__(struct __p
  */
   __pyx_v_self->MAX_VEL_2 = (9.0 * M_PI);
 
-  /* "cygym/envs/acrobot.pyx":68
+  /* "cygym/acrobot.pyx":84
  *         self.MAX_VEL_1 = 4*M_PI
  *         self.MAX_VEL_2 =9*M_PI
  *         self.AVAIL_TORQUE = (1., 0., 1.)             # <<<<<<<<<<<<<<
@@ -3094,7 +3086,7 @@ static int __pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_2__cinit__(struct __p
   __Pyx_DECREF(__pyx_v_self->AVAIL_TORQUE);
   __pyx_v_self->AVAIL_TORQUE = __pyx_tuple_;
 
-  /* "cygym/envs/acrobot.pyx":69
+  /* "cygym/acrobot.pyx":85
  *         self.MAX_VEL_2 =9*M_PI
  *         self.AVAIL_TORQUE = (1., 0., 1.)
  *         self.torque_noise_max = 0.             # <<<<<<<<<<<<<<
@@ -3103,27 +3095,27 @@ static int __pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_2__cinit__(struct __p
  */
   __pyx_v_self->torque_noise_max = 0.;
 
-  /* "cygym/envs/acrobot.pyx":71
+  /* "cygym/acrobot.pyx":87
  *         self.torque_noise_max = 0.
  * 
  *         self.observation_space = Box(low=np.array((-1.0, -1.0, -1.0, -1.0, -self.MAX_VEL_1, -self.MAX_VEL_2)),             # <<<<<<<<<<<<<<
  *                                      high=np.array((1.0, 1.0, 1.0, 1.0, self.MAX_VEL_1, self.MAX_VEL_2)))
  * 
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_Box); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 71, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_Box); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 87, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 71, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 87, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_np); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 71, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_np); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 87, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_array); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 71, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_array); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 87, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  __pyx_t_4 = PyFloat_FromDouble((-__pyx_v_self->MAX_VEL_1)); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 71, __pyx_L1_error)
+  __pyx_t_4 = PyFloat_FromDouble((-__pyx_v_self->MAX_VEL_1)); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 87, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __pyx_t_6 = PyFloat_FromDouble((-__pyx_v_self->MAX_VEL_2)); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 71, __pyx_L1_error)
+  __pyx_t_6 = PyFloat_FromDouble((-__pyx_v_self->MAX_VEL_2)); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 87, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_7 = PyTuple_New(6); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 71, __pyx_L1_error)
+  __pyx_t_7 = PyTuple_New(6); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 87, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
   __Pyx_INCREF(__pyx_float_neg_1_0);
   __Pyx_GIVEREF(__pyx_float_neg_1_0);
@@ -3156,29 +3148,29 @@ static int __pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_2__cinit__(struct __p
   __pyx_t_3 = (__pyx_t_6) ? __Pyx_PyObject_Call2Args(__pyx_t_5, __pyx_t_6, __pyx_t_7) : __Pyx_PyObject_CallOneArg(__pyx_t_5, __pyx_t_7);
   __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 71, __pyx_L1_error)
+  if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 87, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_low, __pyx_t_3) < 0) __PYX_ERR(1, 71, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_low, __pyx_t_3) < 0) __PYX_ERR(1, 87, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "cygym/envs/acrobot.pyx":72
+  /* "cygym/acrobot.pyx":88
  * 
  *         self.observation_space = Box(low=np.array((-1.0, -1.0, -1.0, -1.0, -self.MAX_VEL_1, -self.MAX_VEL_2)),
  *                                      high=np.array((1.0, 1.0, 1.0, 1.0, self.MAX_VEL_1, self.MAX_VEL_2)))             # <<<<<<<<<<<<<<
  * 
  *         self.action_space = Discrete(3)
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_np); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 72, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_np); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 88, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_array); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 72, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_array); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 88, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_5 = PyFloat_FromDouble(__pyx_v_self->MAX_VEL_1); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 72, __pyx_L1_error)
+  __pyx_t_5 = PyFloat_FromDouble(__pyx_v_self->MAX_VEL_1); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 88, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = PyFloat_FromDouble(__pyx_v_self->MAX_VEL_2); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 72, __pyx_L1_error)
+  __pyx_t_6 = PyFloat_FromDouble(__pyx_v_self->MAX_VEL_2); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 88, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_4 = PyTuple_New(6); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 72, __pyx_L1_error)
+  __pyx_t_4 = PyTuple_New(6); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 88, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_INCREF(__pyx_float_1_0);
   __Pyx_GIVEREF(__pyx_float_1_0);
@@ -3211,20 +3203,20 @@ static int __pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_2__cinit__(struct __p
   __pyx_t_3 = (__pyx_t_6) ? __Pyx_PyObject_Call2Args(__pyx_t_7, __pyx_t_6, __pyx_t_4) : __Pyx_PyObject_CallOneArg(__pyx_t_7, __pyx_t_4);
   __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 72, __pyx_L1_error)
+  if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 88, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_high, __pyx_t_3) < 0) __PYX_ERR(1, 71, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_high, __pyx_t_3) < 0) __PYX_ERR(1, 87, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "cygym/envs/acrobot.pyx":71
+  /* "cygym/acrobot.pyx":87
  *         self.torque_noise_max = 0.
  * 
  *         self.observation_space = Box(low=np.array((-1.0, -1.0, -1.0, -1.0, -self.MAX_VEL_1, -self.MAX_VEL_2)),             # <<<<<<<<<<<<<<
  *                                      high=np.array((1.0, 1.0, 1.0, 1.0, self.MAX_VEL_1, self.MAX_VEL_2)))
  * 
  */
-  __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_empty_tuple, __pyx_t_2); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 71, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_empty_tuple, __pyx_t_2); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 87, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -3234,14 +3226,14 @@ static int __pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_2__cinit__(struct __p
   __pyx_v_self->observation_space = __pyx_t_3;
   __pyx_t_3 = 0;
 
-  /* "cygym/envs/acrobot.pyx":74
+  /* "cygym/acrobot.pyx":90
  *                                      high=np.array((1.0, 1.0, 1.0, 1.0, self.MAX_VEL_1, self.MAX_VEL_2)))
  * 
  *         self.action_space = Discrete(3)             # <<<<<<<<<<<<<<
  *         self.seed()
  * 
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_Discrete); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 74, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_Discrete); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 90, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_1 = NULL;
   if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_2))) {
@@ -3255,7 +3247,7 @@ static int __pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_2__cinit__(struct __p
   }
   __pyx_t_3 = (__pyx_t_1) ? __Pyx_PyObject_Call2Args(__pyx_t_2, __pyx_t_1, __pyx_int_3) : __Pyx_PyObject_CallOneArg(__pyx_t_2, __pyx_int_3);
   __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
-  if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 74, __pyx_L1_error)
+  if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 90, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_GIVEREF(__pyx_t_3);
@@ -3264,16 +3256,16 @@ static int __pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_2__cinit__(struct __p
   __pyx_v_self->action_space = __pyx_t_3;
   __pyx_t_3 = 0;
 
-  /* "cygym/envs/acrobot.pyx":75
+  /* "cygym/acrobot.pyx":91
  * 
  *         self.action_space = Discrete(3)
  *         self.seed()             # <<<<<<<<<<<<<<
  * 
  *     cpdef np.ndarray[dtype=np_float_t, ndim=1] reset(self):
  */
-  __pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv_seed(__pyx_v_self, NULL);
+  __pyx_f_5cygym_7acrobot_12CyAcrobotEnv_seed(__pyx_v_self, NULL);
 
-  /* "cygym/envs/acrobot.pyx":57
+  /* "cygym/acrobot.pyx":73
  * 
  * 
  *     def __cinit__(self):             # <<<<<<<<<<<<<<
@@ -3292,14 +3284,14 @@ static int __pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_2__cinit__(struct __p
   __Pyx_XDECREF(__pyx_t_5);
   __Pyx_XDECREF(__pyx_t_6);
   __Pyx_XDECREF(__pyx_t_7);
-  __Pyx_AddTraceback("cygym.envs.acrobot.FastAcrobotEnv.__cinit__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("cygym.acrobot.CyAcrobotEnv.__cinit__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = -1;
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-/* "cygym/envs/acrobot.pyx":77
+/* "cygym/acrobot.pyx":93
  *         self.seed()
  * 
  *     cpdef np.ndarray[dtype=np_float_t, ndim=1] reset(self):             # <<<<<<<<<<<<<<
@@ -3307,8 +3299,8 @@ static int __pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_2__cinit__(struct __p
  *         return np.array(self._get_ob())
  */
 
-static PyObject *__pyx_pw_5cygym_4envs_7acrobot_14FastAcrobotEnv_5reset(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
-static PyArrayObject *__pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv_reset(struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv *__pyx_v_self, int __pyx_skip_dispatch) {
+static PyObject *__pyx_pw_5cygym_7acrobot_12CyAcrobotEnv_5reset(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static PyArrayObject *__pyx_f_5cygym_7acrobot_12CyAcrobotEnv_reset(struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv *__pyx_v_self, int __pyx_skip_dispatch) {
   PyArrayObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -3326,9 +3318,9 @@ static PyArrayObject *__pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv_reset(struc
     if (unlikely(!__Pyx_object_dict_version_matches(((PyObject *)__pyx_v_self), __pyx_tp_dict_version, __pyx_obj_dict_version))) {
       PY_UINT64_T __pyx_type_dict_guard = __Pyx_get_tp_dict_version(((PyObject *)__pyx_v_self));
       #endif
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_reset); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 77, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_reset); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 93, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
-      if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_5cygym_4envs_7acrobot_14FastAcrobotEnv_5reset)) {
+      if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_5cygym_7acrobot_12CyAcrobotEnv_5reset)) {
         __Pyx_XDECREF(((PyObject *)__pyx_r));
         __Pyx_INCREF(__pyx_t_1);
         __pyx_t_3 = __pyx_t_1; __pyx_t_4 = NULL;
@@ -3343,10 +3335,10 @@ static PyArrayObject *__pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv_reset(struc
         }
         __pyx_t_2 = (__pyx_t_4) ? __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_t_4) : __Pyx_PyObject_CallNoArg(__pyx_t_3);
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 77, __pyx_L1_error)
+        if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 93, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-        if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 77, __pyx_L1_error)
+        if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 93, __pyx_L1_error)
         __pyx_r = ((PyArrayObject *)__pyx_t_2);
         __pyx_t_2 = 0;
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -3365,32 +3357,32 @@ static PyArrayObject *__pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv_reset(struc
     #endif
   }
 
-  /* "cygym/envs/acrobot.pyx":78
+  /* "cygym/acrobot.pyx":94
  * 
  *     cpdef np.ndarray[dtype=np_float_t, ndim=1] reset(self):
  *         self.state = self.np_random.uniform(low=-0.1, high=0.1, size=(4,))             # <<<<<<<<<<<<<<
  *         return np.array(self._get_ob())
  * 
  */
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self->np_random, __pyx_n_s_uniform); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 78, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self->np_random, __pyx_n_s_uniform); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 94, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyDict_NewPresized(3); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 78, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyDict_NewPresized(3); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 94, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_low, __pyx_float_neg_0_1) < 0) __PYX_ERR(1, 78, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_high, __pyx_float_0_1) < 0) __PYX_ERR(1, 78, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_size, __pyx_tuple__2) < 0) __PYX_ERR(1, 78, __pyx_L1_error)
-  __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_empty_tuple, __pyx_t_2); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 78, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_low, __pyx_float_neg_0_1) < 0) __PYX_ERR(1, 94, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_high, __pyx_float_0_1) < 0) __PYX_ERR(1, 94, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_size, __pyx_tuple__2) < 0) __PYX_ERR(1, 94, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_empty_tuple, __pyx_t_2); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 94, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_5 = __Pyx_PyObject_to_MemoryviewSlice_ds_nn___pyx_t_5cygym_4envs_7acrobot_np_float_t(__pyx_t_3, PyBUF_WRITABLE); if (unlikely(!__pyx_t_5.memview)) __PYX_ERR(1, 78, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_to_MemoryviewSlice_ds_nn___pyx_t_5cygym_7acrobot_np_float_t(__pyx_t_3, PyBUF_WRITABLE); if (unlikely(!__pyx_t_5.memview)) __PYX_ERR(1, 94, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __PYX_XDEC_MEMVIEW(&__pyx_v_self->state, 0);
   __pyx_v_self->state = __pyx_t_5;
   __pyx_t_5.memview = NULL;
   __pyx_t_5.data = NULL;
 
-  /* "cygym/envs/acrobot.pyx":79
+  /* "cygym/acrobot.pyx":95
  *     cpdef np.ndarray[dtype=np_float_t, ndim=1] reset(self):
  *         self.state = self.np_random.uniform(low=-0.1, high=0.1, size=(4,))
  *         return np.array(self._get_ob())             # <<<<<<<<<<<<<<
@@ -3398,12 +3390,12 @@ static PyArrayObject *__pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv_reset(struc
  *     cpdef tuple step(self, int a):
  */
   __Pyx_XDECREF(((PyObject *)__pyx_r));
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 79, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 95, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_array); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 79, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_array); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 95, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = ((struct __pyx_vtabstruct_5cygym_4envs_7acrobot_FastAcrobotEnv *)__pyx_v_self->__pyx_vtab)->_get_ob(__pyx_v_self, 0); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 79, __pyx_L1_error)
+  __pyx_t_2 = ((struct __pyx_vtabstruct_5cygym_7acrobot_CyAcrobotEnv *)__pyx_v_self->__pyx_vtab)->_get_ob(__pyx_v_self, 0); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 95, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_4 = NULL;
   if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_1))) {
@@ -3418,15 +3410,15 @@ static PyArrayObject *__pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv_reset(struc
   __pyx_t_3 = (__pyx_t_4) ? __Pyx_PyObject_Call2Args(__pyx_t_1, __pyx_t_4, __pyx_t_2) : __Pyx_PyObject_CallOneArg(__pyx_t_1, __pyx_t_2);
   __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 79, __pyx_L1_error)
+  if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 95, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  if (!(likely(((__pyx_t_3) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_3, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 79, __pyx_L1_error)
+  if (!(likely(((__pyx_t_3) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_3, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 95, __pyx_L1_error)
   __pyx_r = ((PyArrayObject *)__pyx_t_3);
   __pyx_t_3 = 0;
   goto __pyx_L0;
 
-  /* "cygym/envs/acrobot.pyx":77
+  /* "cygym/acrobot.pyx":93
  *         self.seed()
  * 
  *     cpdef np.ndarray[dtype=np_float_t, ndim=1] reset(self):             # <<<<<<<<<<<<<<
@@ -3441,7 +3433,7 @@ static PyArrayObject *__pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv_reset(struc
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
   __PYX_XDEC_MEMVIEW(&__pyx_t_5, 1);
-  __Pyx_AddTraceback("cygym.envs.acrobot.FastAcrobotEnv.reset", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("cygym.acrobot.CyAcrobotEnv.reset", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   __Pyx_XGIVEREF((PyObject *)__pyx_r);
@@ -3450,25 +3442,25 @@ static PyArrayObject *__pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv_reset(struc
 }
 
 /* Python wrapper */
-static PyObject *__pyx_pw_5cygym_4envs_7acrobot_14FastAcrobotEnv_5reset(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
-static PyObject *__pyx_pw_5cygym_4envs_7acrobot_14FastAcrobotEnv_5reset(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
+static PyObject *__pyx_pw_5cygym_7acrobot_12CyAcrobotEnv_5reset(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static PyObject *__pyx_pw_5cygym_7acrobot_12CyAcrobotEnv_5reset(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("reset (wrapper)", 0);
-  __pyx_r = __pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_4reset(((struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv *)__pyx_v_self));
+  __pyx_r = __pyx_pf_5cygym_7acrobot_12CyAcrobotEnv_4reset(((struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_4reset(struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv *__pyx_v_self) {
+static PyObject *__pyx_pf_5cygym_7acrobot_12CyAcrobotEnv_4reset(struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
   __Pyx_RefNannySetupContext("reset", 0);
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = ((PyObject *)__pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv_reset(__pyx_v_self, 1)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 77, __pyx_L1_error)
+  __pyx_t_1 = ((PyObject *)__pyx_f_5cygym_7acrobot_12CyAcrobotEnv_reset(__pyx_v_self, 1)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 93, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -3477,7 +3469,7 @@ static PyObject *__pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_4reset(struct _
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("cygym.envs.acrobot.FastAcrobotEnv.reset", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("cygym.acrobot.CyAcrobotEnv.reset", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -3485,7 +3477,7 @@ static PyObject *__pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_4reset(struct _
   return __pyx_r;
 }
 
-/* "cygym/envs/acrobot.pyx":81
+/* "cygym/acrobot.pyx":97
  *         return np.array(self._get_ob())
  * 
  *     cpdef tuple step(self, int a):             # <<<<<<<<<<<<<<
@@ -3493,8 +3485,8 @@ static PyObject *__pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_4reset(struct _
  *             np_float_t[:] s = self.state
  */
 
-static PyObject *__pyx_pw_5cygym_4envs_7acrobot_14FastAcrobotEnv_7step(PyObject *__pyx_v_self, PyObject *__pyx_arg_a); /*proto*/
-static PyObject *__pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv_step(struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv *__pyx_v_self, int __pyx_v_a, int __pyx_skip_dispatch) {
+static PyObject *__pyx_pw_5cygym_7acrobot_12CyAcrobotEnv_7step(PyObject *__pyx_v_self, PyObject *__pyx_arg_a); /*proto*/
+static PyObject *__pyx_f_5cygym_7acrobot_12CyAcrobotEnv_step(struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv *__pyx_v_self, int __pyx_v_a, int __pyx_skip_dispatch) {
   __Pyx_memviewslice __pyx_v_s = { 0, 0, { 0 }, { 0 }, { 0 } };
   float __pyx_v_torque;
   __Pyx_memviewslice __pyx_v_s_augmented = { 0, 0, { 0 }, { 0 }, { 0 } };
@@ -3539,11 +3531,11 @@ static PyObject *__pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv_step(struct __py
     if (unlikely(!__Pyx_object_dict_version_matches(((PyObject *)__pyx_v_self), __pyx_tp_dict_version, __pyx_obj_dict_version))) {
       PY_UINT64_T __pyx_type_dict_guard = __Pyx_get_tp_dict_version(((PyObject *)__pyx_v_self));
       #endif
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_step); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 81, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_step); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 97, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
-      if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_5cygym_4envs_7acrobot_14FastAcrobotEnv_7step)) {
+      if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_5cygym_7acrobot_12CyAcrobotEnv_7step)) {
         __Pyx_XDECREF(__pyx_r);
-        __pyx_t_3 = __Pyx_PyInt_From_int(__pyx_v_a); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 81, __pyx_L1_error)
+        __pyx_t_3 = __Pyx_PyInt_From_int(__pyx_v_a); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 97, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
         __Pyx_INCREF(__pyx_t_1);
         __pyx_t_4 = __pyx_t_1; __pyx_t_5 = NULL;
@@ -3559,10 +3551,10 @@ static PyObject *__pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv_step(struct __py
         __pyx_t_2 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_4, __pyx_t_5, __pyx_t_3) : __Pyx_PyObject_CallOneArg(__pyx_t_4, __pyx_t_3);
         __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-        if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 81, __pyx_L1_error)
+        if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 97, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (!(likely(PyTuple_CheckExact(__pyx_t_2))||((__pyx_t_2) == Py_None)||(PyErr_Format(PyExc_TypeError, "Expected %.16s, got %.200s", "tuple", Py_TYPE(__pyx_t_2)->tp_name), 0))) __PYX_ERR(1, 81, __pyx_L1_error)
+        if (!(likely(PyTuple_CheckExact(__pyx_t_2))||((__pyx_t_2) == Py_None)||(PyErr_Format(PyExc_TypeError, "Expected %.16s, got %.200s", "tuple", Py_TYPE(__pyx_t_2)->tp_name), 0))) __PYX_ERR(1, 97, __pyx_L1_error)
         __pyx_r = ((PyObject*)__pyx_t_2);
         __pyx_t_2 = 0;
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -3581,21 +3573,21 @@ static PyObject *__pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv_step(struct __py
     #endif
   }
 
-  /* "cygym/envs/acrobot.pyx":83
+  /* "cygym/acrobot.pyx":99
  *     cpdef tuple step(self, int a):
  *         cdef:
  *             np_float_t[:] s = self.state             # <<<<<<<<<<<<<<
  *             float torque = self.AVAIL_TORQUE[a]
  *             np_float_t[:] s_augmented
  */
-  if (unlikely(!__pyx_v_self->state.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(1, 83, __pyx_L1_error)}
+  if (unlikely(!__pyx_v_self->state.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(1, 99, __pyx_L1_error)}
   __pyx_t_6 = __pyx_v_self->state;
   __PYX_INC_MEMVIEW(&__pyx_t_6, 1);
   __pyx_v_s = __pyx_t_6;
   __pyx_t_6.memview = NULL;
   __pyx_t_6.data = NULL;
 
-  /* "cygym/envs/acrobot.pyx":84
+  /* "cygym/acrobot.pyx":100
  *         cdef:
  *             np_float_t[:] s = self.state
  *             float torque = self.AVAIL_TORQUE[a]             # <<<<<<<<<<<<<<
@@ -3604,38 +3596,38 @@ static PyObject *__pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv_step(struct __py
  */
   if (unlikely(__pyx_v_self->AVAIL_TORQUE == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
-    __PYX_ERR(1, 84, __pyx_L1_error)
+    __PYX_ERR(1, 100, __pyx_L1_error)
   }
-  __pyx_t_7 = __pyx_PyFloat_AsFloat(PyTuple_GET_ITEM(__pyx_v_self->AVAIL_TORQUE, __pyx_v_a)); if (unlikely((__pyx_t_7 == (float)-1) && PyErr_Occurred())) __PYX_ERR(1, 84, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsFloat(PyTuple_GET_ITEM(__pyx_v_self->AVAIL_TORQUE, __pyx_v_a)); if (unlikely((__pyx_t_7 == (float)-1) && PyErr_Occurred())) __PYX_ERR(1, 100, __pyx_L1_error)
   __pyx_v_torque = __pyx_t_7;
 
-  /* "cygym/envs/acrobot.pyx":94
+  /* "cygym/acrobot.pyx":110
  *         # Now, augment the state with our force action so it can be passed to
  *         # _dsdt
  *         s_augmented = np.array((s[0], s[1], s[2], s[3], torque))             # <<<<<<<<<<<<<<
  * 
  *         nsa = rk4(self._dsdt, s_augmented, (0, self.dt))
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 94, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 110, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_array); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 94, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_array); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 110, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_t_8 = 0;
-  __pyx_t_2 = PyFloat_FromDouble((*((__pyx_t_5cygym_4envs_7acrobot_np_float_t *) ( /* dim=0 */ (__pyx_v_s.data + __pyx_t_8 * __pyx_v_s.strides[0]) )))); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 94, __pyx_L1_error)
+  __pyx_t_2 = PyFloat_FromDouble((*((__pyx_t_5cygym_7acrobot_np_float_t *) ( /* dim=0 */ (__pyx_v_s.data + __pyx_t_8 * __pyx_v_s.strides[0]) )))); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 110, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_9 = 1;
-  __pyx_t_3 = PyFloat_FromDouble((*((__pyx_t_5cygym_4envs_7acrobot_np_float_t *) ( /* dim=0 */ (__pyx_v_s.data + __pyx_t_9 * __pyx_v_s.strides[0]) )))); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 94, __pyx_L1_error)
+  __pyx_t_3 = PyFloat_FromDouble((*((__pyx_t_5cygym_7acrobot_np_float_t *) ( /* dim=0 */ (__pyx_v_s.data + __pyx_t_9 * __pyx_v_s.strides[0]) )))); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 110, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __pyx_t_10 = 2;
-  __pyx_t_5 = PyFloat_FromDouble((*((__pyx_t_5cygym_4envs_7acrobot_np_float_t *) ( /* dim=0 */ (__pyx_v_s.data + __pyx_t_10 * __pyx_v_s.strides[0]) )))); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 94, __pyx_L1_error)
+  __pyx_t_5 = PyFloat_FromDouble((*((__pyx_t_5cygym_7acrobot_np_float_t *) ( /* dim=0 */ (__pyx_v_s.data + __pyx_t_10 * __pyx_v_s.strides[0]) )))); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 110, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __pyx_t_11 = 3;
-  __pyx_t_12 = PyFloat_FromDouble((*((__pyx_t_5cygym_4envs_7acrobot_np_float_t *) ( /* dim=0 */ (__pyx_v_s.data + __pyx_t_11 * __pyx_v_s.strides[0]) )))); if (unlikely(!__pyx_t_12)) __PYX_ERR(1, 94, __pyx_L1_error)
+  __pyx_t_12 = PyFloat_FromDouble((*((__pyx_t_5cygym_7acrobot_np_float_t *) ( /* dim=0 */ (__pyx_v_s.data + __pyx_t_11 * __pyx_v_s.strides[0]) )))); if (unlikely(!__pyx_t_12)) __PYX_ERR(1, 110, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_12);
-  __pyx_t_13 = PyFloat_FromDouble(__pyx_v_torque); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 94, __pyx_L1_error)
+  __pyx_t_13 = PyFloat_FromDouble(__pyx_v_torque); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 110, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_13);
-  __pyx_t_14 = PyTuple_New(5); if (unlikely(!__pyx_t_14)) __PYX_ERR(1, 94, __pyx_L1_error)
+  __pyx_t_14 = PyTuple_New(5); if (unlikely(!__pyx_t_14)) __PYX_ERR(1, 110, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_14);
   __Pyx_GIVEREF(__pyx_t_2);
   PyTuple_SET_ITEM(__pyx_t_14, 0, __pyx_t_2);
@@ -3665,27 +3657,27 @@ static PyObject *__pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv_step(struct __py
   __pyx_t_1 = (__pyx_t_13) ? __Pyx_PyObject_Call2Args(__pyx_t_4, __pyx_t_13, __pyx_t_14) : __Pyx_PyObject_CallOneArg(__pyx_t_4, __pyx_t_14);
   __Pyx_XDECREF(__pyx_t_13); __pyx_t_13 = 0;
   __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
-  if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 94, __pyx_L1_error)
+  if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 110, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  __pyx_t_6 = __Pyx_PyObject_to_MemoryviewSlice_ds_nn___pyx_t_5cygym_4envs_7acrobot_np_float_t(__pyx_t_1, PyBUF_WRITABLE); if (unlikely(!__pyx_t_6.memview)) __PYX_ERR(1, 94, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyObject_to_MemoryviewSlice_ds_nn___pyx_t_5cygym_7acrobot_np_float_t(__pyx_t_1, PyBUF_WRITABLE); if (unlikely(!__pyx_t_6.memview)) __PYX_ERR(1, 110, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_s_augmented = __pyx_t_6;
   __pyx_t_6.memview = NULL;
   __pyx_t_6.data = NULL;
 
-  /* "cygym/envs/acrobot.pyx":96
+  /* "cygym/acrobot.pyx":112
  *         s_augmented = np.array((s[0], s[1], s[2], s[3], torque))
  * 
  *         nsa = rk4(self._dsdt, s_augmented, (0, self.dt))             # <<<<<<<<<<<<<<
  *         # only care about final timestep of integration returned by integrator
  * 
  */
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_dsdt); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 96, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_dsdt); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 112, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_4 = PyFloat_FromDouble(__pyx_v_self->dt); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 96, __pyx_L1_error)
+  __pyx_t_4 = PyFloat_FromDouble(__pyx_v_self->dt); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 112, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __pyx_t_14 = PyTuple_New(2); if (unlikely(!__pyx_t_14)) __PYX_ERR(1, 96, __pyx_L1_error)
+  __pyx_t_14 = PyTuple_New(2); if (unlikely(!__pyx_t_14)) __PYX_ERR(1, 112, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_14);
   __Pyx_INCREF(__pyx_int_0);
   __Pyx_GIVEREF(__pyx_int_0);
@@ -3693,14 +3685,14 @@ static PyObject *__pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv_step(struct __py
   __Pyx_GIVEREF(__pyx_t_4);
   PyTuple_SET_ITEM(__pyx_t_14, 1, __pyx_t_4);
   __pyx_t_4 = 0;
-  __pyx_t_15 = __pyx_f_5cygym_4envs_7acrobot_rk4(__pyx_t_1, __pyx_v_s_augmented, ((PyObject*)__pyx_t_14)); if (unlikely(!__pyx_t_15.memview)) __PYX_ERR(1, 96, __pyx_L1_error)
+  __pyx_t_15 = __pyx_f_5cygym_7acrobot_rk4(__pyx_t_1, __pyx_v_s_augmented, ((PyObject*)__pyx_t_14)); if (unlikely(!__pyx_t_15.memview)) __PYX_ERR(1, 112, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
   __pyx_v_nsa = __pyx_t_15;
   __pyx_t_15.memview = NULL;
   __pyx_t_15.data = NULL;
 
-  /* "cygym/envs/acrobot.pyx":99
+  /* "cygym/acrobot.pyx":115
  *         # only care about final timestep of integration returned by integrator
  * 
  *         nsa_ind = nsa.shape[0]-1             # <<<<<<<<<<<<<<
@@ -3709,24 +3701,24 @@ static PyObject *__pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv_step(struct __py
  */
   __pyx_v_nsa_ind = ((__pyx_v_nsa.shape[0]) - 1);
 
-  /* "cygym/envs/acrobot.pyx":100
+  /* "cygym/acrobot.pyx":116
  * 
  *         nsa_ind = nsa.shape[0]-1
  *         ns = np.array((wrap(nsa[nsa_ind][0], -M_PI, M_PI),             # <<<<<<<<<<<<<<
  *                        wrap(nsa[nsa_ind][1], -M_PI, M_PI),
  *                        bound(nsa[nsa_ind][2], -self.MAX_VEL_1, self.MAX_VEL_1),
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_np); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 100, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_np); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 116, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_array); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 100, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_array); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 116, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_t_16 = __pyx_v_nsa_ind;
   __pyx_t_17 = 0;
-  __pyx_t_1 = PyFloat_FromDouble(__pyx_f_5cygym_4envs_7acrobot_wrap((*((__pyx_t_5cygym_4envs_7acrobot_np_float_t *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_nsa.data + __pyx_t_16 * __pyx_v_nsa.strides[0]) ) + __pyx_t_17 * __pyx_v_nsa.strides[1]) ))), (-M_PI), M_PI)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 100, __pyx_L1_error)
+  __pyx_t_1 = PyFloat_FromDouble(__pyx_f_5cygym_7acrobot_wrap((*((__pyx_t_5cygym_7acrobot_np_float_t *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_nsa.data + __pyx_t_16 * __pyx_v_nsa.strides[0]) ) + __pyx_t_17 * __pyx_v_nsa.strides[1]) ))), (-M_PI), M_PI)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 116, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
 
-  /* "cygym/envs/acrobot.pyx":101
+  /* "cygym/acrobot.pyx":117
  *         nsa_ind = nsa.shape[0]-1
  *         ns = np.array((wrap(nsa[nsa_ind][0], -M_PI, M_PI),
  *                        wrap(nsa[nsa_ind][1], -M_PI, M_PI),             # <<<<<<<<<<<<<<
@@ -3735,10 +3727,10 @@ static PyObject *__pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv_step(struct __py
  */
   __pyx_t_18 = __pyx_v_nsa_ind;
   __pyx_t_19 = 1;
-  __pyx_t_13 = PyFloat_FromDouble(__pyx_f_5cygym_4envs_7acrobot_wrap((*((__pyx_t_5cygym_4envs_7acrobot_np_float_t *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_nsa.data + __pyx_t_18 * __pyx_v_nsa.strides[0]) ) + __pyx_t_19 * __pyx_v_nsa.strides[1]) ))), (-M_PI), M_PI)); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 101, __pyx_L1_error)
+  __pyx_t_13 = PyFloat_FromDouble(__pyx_f_5cygym_7acrobot_wrap((*((__pyx_t_5cygym_7acrobot_np_float_t *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_nsa.data + __pyx_t_18 * __pyx_v_nsa.strides[0]) ) + __pyx_t_19 * __pyx_v_nsa.strides[1]) ))), (-M_PI), M_PI)); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 117, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_13);
 
-  /* "cygym/envs/acrobot.pyx":102
+  /* "cygym/acrobot.pyx":118
  *         ns = np.array((wrap(nsa[nsa_ind][0], -M_PI, M_PI),
  *                        wrap(nsa[nsa_ind][1], -M_PI, M_PI),
  *                        bound(nsa[nsa_ind][2], -self.MAX_VEL_1, self.MAX_VEL_1),             # <<<<<<<<<<<<<<
@@ -3747,10 +3739,10 @@ static PyObject *__pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv_step(struct __py
  */
   __pyx_t_20 = __pyx_v_nsa_ind;
   __pyx_t_21 = 2;
-  __pyx_t_12 = PyFloat_FromDouble(__pyx_f_5cygym_4envs_7acrobot_bound((*((__pyx_t_5cygym_4envs_7acrobot_np_float_t *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_nsa.data + __pyx_t_20 * __pyx_v_nsa.strides[0]) ) + __pyx_t_21 * __pyx_v_nsa.strides[1]) ))), (-__pyx_v_self->MAX_VEL_1), __pyx_v_self->MAX_VEL_1)); if (unlikely(!__pyx_t_12)) __PYX_ERR(1, 102, __pyx_L1_error)
+  __pyx_t_12 = PyFloat_FromDouble(__pyx_f_5cygym_7acrobot_bound((*((__pyx_t_5cygym_7acrobot_np_float_t *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_nsa.data + __pyx_t_20 * __pyx_v_nsa.strides[0]) ) + __pyx_t_21 * __pyx_v_nsa.strides[1]) ))), (-__pyx_v_self->MAX_VEL_1), __pyx_v_self->MAX_VEL_1)); if (unlikely(!__pyx_t_12)) __PYX_ERR(1, 118, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_12);
 
-  /* "cygym/envs/acrobot.pyx":103
+  /* "cygym/acrobot.pyx":119
  *                        wrap(nsa[nsa_ind][1], -M_PI, M_PI),
  *                        bound(nsa[nsa_ind][2], -self.MAX_VEL_1, self.MAX_VEL_1),
  *                        bound(nsa[nsa_ind][3], -self.MAX_VEL_2, self.MAX_VEL_2)))             # <<<<<<<<<<<<<<
@@ -3759,17 +3751,17 @@ static PyObject *__pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv_step(struct __py
  */
   __pyx_t_22 = __pyx_v_nsa_ind;
   __pyx_t_23 = 3;
-  __pyx_t_5 = PyFloat_FromDouble(__pyx_f_5cygym_4envs_7acrobot_bound((*((__pyx_t_5cygym_4envs_7acrobot_np_float_t *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_nsa.data + __pyx_t_22 * __pyx_v_nsa.strides[0]) ) + __pyx_t_23 * __pyx_v_nsa.strides[1]) ))), (-__pyx_v_self->MAX_VEL_2), __pyx_v_self->MAX_VEL_2)); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 103, __pyx_L1_error)
+  __pyx_t_5 = PyFloat_FromDouble(__pyx_f_5cygym_7acrobot_bound((*((__pyx_t_5cygym_7acrobot_np_float_t *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_nsa.data + __pyx_t_22 * __pyx_v_nsa.strides[0]) ) + __pyx_t_23 * __pyx_v_nsa.strides[1]) ))), (-__pyx_v_self->MAX_VEL_2), __pyx_v_self->MAX_VEL_2)); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 119, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
 
-  /* "cygym/envs/acrobot.pyx":100
+  /* "cygym/acrobot.pyx":116
  * 
  *         nsa_ind = nsa.shape[0]-1
  *         ns = np.array((wrap(nsa[nsa_ind][0], -M_PI, M_PI),             # <<<<<<<<<<<<<<
  *                        wrap(nsa[nsa_ind][1], -M_PI, M_PI),
  *                        bound(nsa[nsa_ind][2], -self.MAX_VEL_1, self.MAX_VEL_1),
  */
-  __pyx_t_3 = PyTuple_New(4); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 100, __pyx_L1_error)
+  __pyx_t_3 = PyTuple_New(4); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 116, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_GIVEREF(__pyx_t_1);
   PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_t_1);
@@ -3796,16 +3788,16 @@ static PyObject *__pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv_step(struct __py
   __pyx_t_14 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_4, __pyx_t_5, __pyx_t_3) : __Pyx_PyObject_CallOneArg(__pyx_t_4, __pyx_t_3);
   __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  if (unlikely(!__pyx_t_14)) __PYX_ERR(1, 100, __pyx_L1_error)
+  if (unlikely(!__pyx_t_14)) __PYX_ERR(1, 116, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_14);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  __pyx_t_6 = __Pyx_PyObject_to_MemoryviewSlice_ds_nn___pyx_t_5cygym_4envs_7acrobot_np_float_t(__pyx_t_14, PyBUF_WRITABLE); if (unlikely(!__pyx_t_6.memview)) __PYX_ERR(1, 100, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyObject_to_MemoryviewSlice_ds_nn___pyx_t_5cygym_7acrobot_np_float_t(__pyx_t_14, PyBUF_WRITABLE); if (unlikely(!__pyx_t_6.memview)) __PYX_ERR(1, 116, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
   __pyx_v_ns = __pyx_t_6;
   __pyx_t_6.memview = NULL;
   __pyx_t_6.data = NULL;
 
-  /* "cygym/envs/acrobot.pyx":105
+  /* "cygym/acrobot.pyx":121
  *                        bound(nsa[nsa_ind][3], -self.MAX_VEL_2, self.MAX_VEL_2)))
  * 
  *         self.state = ns             # <<<<<<<<<<<<<<
@@ -3816,16 +3808,16 @@ static PyObject *__pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv_step(struct __py
   __PYX_INC_MEMVIEW(&__pyx_v_ns, 0);
   __pyx_v_self->state = __pyx_v_ns;
 
-  /* "cygym/envs/acrobot.pyx":106
+  /* "cygym/acrobot.pyx":122
  * 
  *         self.state = ns
  *         terminal = self._terminal()             # <<<<<<<<<<<<<<
  *         reward = -1. if not terminal else 0.
  *         return (np.array(self._get_ob()), reward, terminal, {})
  */
-  __pyx_v_terminal = ((struct __pyx_vtabstruct_5cygym_4envs_7acrobot_FastAcrobotEnv *)__pyx_v_self->__pyx_vtab)->_terminal(__pyx_v_self, 0);
+  __pyx_v_terminal = ((struct __pyx_vtabstruct_5cygym_7acrobot_CyAcrobotEnv *)__pyx_v_self->__pyx_vtab)->_terminal(__pyx_v_self, 0);
 
-  /* "cygym/envs/acrobot.pyx":107
+  /* "cygym/acrobot.pyx":123
  *         self.state = ns
  *         terminal = self._terminal()
  *         reward = -1. if not terminal else 0.             # <<<<<<<<<<<<<<
@@ -3839,7 +3831,7 @@ static PyObject *__pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv_step(struct __py
   }
   __pyx_v_reward = __pyx_t_24;
 
-  /* "cygym/envs/acrobot.pyx":108
+  /* "cygym/acrobot.pyx":124
  *         terminal = self._terminal()
  *         reward = -1. if not terminal else 0.
  *         return (np.array(self._get_ob()), reward, terminal, {})             # <<<<<<<<<<<<<<
@@ -3847,12 +3839,12 @@ static PyObject *__pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv_step(struct __py
  *     cpdef tuple _get_ob(self):
  */
   __Pyx_XDECREF(__pyx_r);
-  __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_np); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 108, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_np); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 124, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_array); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 108, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_array); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 124, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  __pyx_t_4 = ((struct __pyx_vtabstruct_5cygym_4envs_7acrobot_FastAcrobotEnv *)__pyx_v_self->__pyx_vtab)->_get_ob(__pyx_v_self, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 108, __pyx_L1_error)
+  __pyx_t_4 = ((struct __pyx_vtabstruct_5cygym_7acrobot_CyAcrobotEnv *)__pyx_v_self->__pyx_vtab)->_get_ob(__pyx_v_self, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 124, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __pyx_t_5 = NULL;
   if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_3))) {
@@ -3867,16 +3859,16 @@ static PyObject *__pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv_step(struct __py
   __pyx_t_14 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_5, __pyx_t_4) : __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_t_4);
   __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  if (unlikely(!__pyx_t_14)) __PYX_ERR(1, 108, __pyx_L1_error)
+  if (unlikely(!__pyx_t_14)) __PYX_ERR(1, 124, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_14);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyFloat_FromDouble(__pyx_v_reward); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 108, __pyx_L1_error)
+  __pyx_t_3 = PyFloat_FromDouble(__pyx_v_reward); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 124, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_4 = __Pyx_PyBool_FromLong(__pyx_v_terminal); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 108, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyBool_FromLong(__pyx_v_terminal); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 124, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __pyx_t_5 = __Pyx_PyDict_NewPresized(0); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 108, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyDict_NewPresized(0); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 124, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_12 = PyTuple_New(4); if (unlikely(!__pyx_t_12)) __PYX_ERR(1, 108, __pyx_L1_error)
+  __pyx_t_12 = PyTuple_New(4); if (unlikely(!__pyx_t_12)) __PYX_ERR(1, 124, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_12);
   __Pyx_GIVEREF(__pyx_t_14);
   PyTuple_SET_ITEM(__pyx_t_12, 0, __pyx_t_14);
@@ -3894,7 +3886,7 @@ static PyObject *__pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv_step(struct __py
   __pyx_t_12 = 0;
   goto __pyx_L0;
 
-  /* "cygym/envs/acrobot.pyx":81
+  /* "cygym/acrobot.pyx":97
  *         return np.array(self._get_ob())
  * 
  *     cpdef tuple step(self, int a):             # <<<<<<<<<<<<<<
@@ -3914,7 +3906,7 @@ static PyObject *__pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv_step(struct __py
   __Pyx_XDECREF(__pyx_t_13);
   __Pyx_XDECREF(__pyx_t_14);
   __PYX_XDEC_MEMVIEW(&__pyx_t_15, 1);
-  __Pyx_AddTraceback("cygym.envs.acrobot.FastAcrobotEnv.step", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("cygym.acrobot.CyAcrobotEnv.step", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   __PYX_XDEC_MEMVIEW(&__pyx_v_s, 1);
@@ -3927,35 +3919,35 @@ static PyObject *__pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv_step(struct __py
 }
 
 /* Python wrapper */
-static PyObject *__pyx_pw_5cygym_4envs_7acrobot_14FastAcrobotEnv_7step(PyObject *__pyx_v_self, PyObject *__pyx_arg_a); /*proto*/
-static PyObject *__pyx_pw_5cygym_4envs_7acrobot_14FastAcrobotEnv_7step(PyObject *__pyx_v_self, PyObject *__pyx_arg_a) {
+static PyObject *__pyx_pw_5cygym_7acrobot_12CyAcrobotEnv_7step(PyObject *__pyx_v_self, PyObject *__pyx_arg_a); /*proto*/
+static PyObject *__pyx_pw_5cygym_7acrobot_12CyAcrobotEnv_7step(PyObject *__pyx_v_self, PyObject *__pyx_arg_a) {
   int __pyx_v_a;
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("step (wrapper)", 0);
   assert(__pyx_arg_a); {
-    __pyx_v_a = __Pyx_PyInt_As_int(__pyx_arg_a); if (unlikely((__pyx_v_a == (int)-1) && PyErr_Occurred())) __PYX_ERR(1, 81, __pyx_L3_error)
+    __pyx_v_a = __Pyx_PyInt_As_int(__pyx_arg_a); if (unlikely((__pyx_v_a == (int)-1) && PyErr_Occurred())) __PYX_ERR(1, 97, __pyx_L3_error)
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
-  __Pyx_AddTraceback("cygym.envs.acrobot.FastAcrobotEnv.step", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("cygym.acrobot.CyAcrobotEnv.step", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_6step(((struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv *)__pyx_v_self), ((int)__pyx_v_a));
+  __pyx_r = __pyx_pf_5cygym_7acrobot_12CyAcrobotEnv_6step(((struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv *)__pyx_v_self), ((int)__pyx_v_a));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_6step(struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv *__pyx_v_self, int __pyx_v_a) {
+static PyObject *__pyx_pf_5cygym_7acrobot_12CyAcrobotEnv_6step(struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv *__pyx_v_self, int __pyx_v_a) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
   __Pyx_RefNannySetupContext("step", 0);
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv_step(__pyx_v_self, __pyx_v_a, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 81, __pyx_L1_error)
+  __pyx_t_1 = __pyx_f_5cygym_7acrobot_12CyAcrobotEnv_step(__pyx_v_self, __pyx_v_a, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 97, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -3964,7 +3956,7 @@ static PyObject *__pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_6step(struct __
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("cygym.envs.acrobot.FastAcrobotEnv.step", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("cygym.acrobot.CyAcrobotEnv.step", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -3972,7 +3964,7 @@ static PyObject *__pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_6step(struct __
   return __pyx_r;
 }
 
-/* "cygym/envs/acrobot.pyx":110
+/* "cygym/acrobot.pyx":126
  *         return (np.array(self._get_ob()), reward, terminal, {})
  * 
  *     cpdef tuple _get_ob(self):             # <<<<<<<<<<<<<<
@@ -3980,8 +3972,8 @@ static PyObject *__pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_6step(struct __
  *         return (cos(s[0]), sin(s[0]), cos(s[1]), sin(s[1]), s[2], s[3])
  */
 
-static PyObject *__pyx_pw_5cygym_4envs_7acrobot_14FastAcrobotEnv_9_get_ob(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
-static PyObject *__pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv__get_ob(struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv *__pyx_v_self, int __pyx_skip_dispatch) {
+static PyObject *__pyx_pw_5cygym_7acrobot_12CyAcrobotEnv_9_get_ob(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static PyObject *__pyx_f_5cygym_7acrobot_12CyAcrobotEnv__get_ob(struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv *__pyx_v_self, int __pyx_skip_dispatch) {
   __Pyx_memviewslice __pyx_v_s = { 0, 0, { 0 }, { 0 }, { 0 } };
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
@@ -4009,9 +4001,9 @@ static PyObject *__pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv__get_ob(struct _
     if (unlikely(!__Pyx_object_dict_version_matches(((PyObject *)__pyx_v_self), __pyx_tp_dict_version, __pyx_obj_dict_version))) {
       PY_UINT64_T __pyx_type_dict_guard = __Pyx_get_tp_dict_version(((PyObject *)__pyx_v_self));
       #endif
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_get_ob); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 110, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_get_ob); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 126, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
-      if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_5cygym_4envs_7acrobot_14FastAcrobotEnv_9_get_ob)) {
+      if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_5cygym_7acrobot_12CyAcrobotEnv_9_get_ob)) {
         __Pyx_XDECREF(__pyx_r);
         __Pyx_INCREF(__pyx_t_1);
         __pyx_t_3 = __pyx_t_1; __pyx_t_4 = NULL;
@@ -4026,10 +4018,10 @@ static PyObject *__pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv__get_ob(struct _
         }
         __pyx_t_2 = (__pyx_t_4) ? __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_t_4) : __Pyx_PyObject_CallNoArg(__pyx_t_3);
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 110, __pyx_L1_error)
+        if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 126, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-        if (!(likely(PyTuple_CheckExact(__pyx_t_2))||((__pyx_t_2) == Py_None)||(PyErr_Format(PyExc_TypeError, "Expected %.16s, got %.200s", "tuple", Py_TYPE(__pyx_t_2)->tp_name), 0))) __PYX_ERR(1, 110, __pyx_L1_error)
+        if (!(likely(PyTuple_CheckExact(__pyx_t_2))||((__pyx_t_2) == Py_None)||(PyErr_Format(PyExc_TypeError, "Expected %.16s, got %.200s", "tuple", Py_TYPE(__pyx_t_2)->tp_name), 0))) __PYX_ERR(1, 126, __pyx_L1_error)
         __pyx_r = ((PyObject*)__pyx_t_2);
         __pyx_t_2 = 0;
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -4048,21 +4040,21 @@ static PyObject *__pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv__get_ob(struct _
     #endif
   }
 
-  /* "cygym/envs/acrobot.pyx":111
+  /* "cygym/acrobot.pyx":127
  * 
  *     cpdef tuple _get_ob(self):
  *         cdef np_float_t[:] s = self.state             # <<<<<<<<<<<<<<
  *         return (cos(s[0]), sin(s[0]), cos(s[1]), sin(s[1]), s[2], s[3])
  * 
  */
-  if (unlikely(!__pyx_v_self->state.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(1, 111, __pyx_L1_error)}
+  if (unlikely(!__pyx_v_self->state.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(1, 127, __pyx_L1_error)}
   __pyx_t_5 = __pyx_v_self->state;
   __PYX_INC_MEMVIEW(&__pyx_t_5, 1);
   __pyx_v_s = __pyx_t_5;
   __pyx_t_5.memview = NULL;
   __pyx_t_5.data = NULL;
 
-  /* "cygym/envs/acrobot.pyx":112
+  /* "cygym/acrobot.pyx":128
  *     cpdef tuple _get_ob(self):
  *         cdef np_float_t[:] s = self.state
  *         return (cos(s[0]), sin(s[0]), cos(s[1]), sin(s[1]), s[2], s[3])             # <<<<<<<<<<<<<<
@@ -4071,24 +4063,24 @@ static PyObject *__pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv__get_ob(struct _
  */
   __Pyx_XDECREF(__pyx_r);
   __pyx_t_6 = 0;
-  __pyx_t_1 = PyFloat_FromDouble(cos((*((__pyx_t_5cygym_4envs_7acrobot_np_float_t *) ( /* dim=0 */ (__pyx_v_s.data + __pyx_t_6 * __pyx_v_s.strides[0]) ))))); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 112, __pyx_L1_error)
+  __pyx_t_1 = PyFloat_FromDouble(cos((*((__pyx_t_5cygym_7acrobot_np_float_t *) ( /* dim=0 */ (__pyx_v_s.data + __pyx_t_6 * __pyx_v_s.strides[0]) ))))); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 128, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_7 = 0;
-  __pyx_t_2 = PyFloat_FromDouble(sin((*((__pyx_t_5cygym_4envs_7acrobot_np_float_t *) ( /* dim=0 */ (__pyx_v_s.data + __pyx_t_7 * __pyx_v_s.strides[0]) ))))); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 112, __pyx_L1_error)
+  __pyx_t_2 = PyFloat_FromDouble(sin((*((__pyx_t_5cygym_7acrobot_np_float_t *) ( /* dim=0 */ (__pyx_v_s.data + __pyx_t_7 * __pyx_v_s.strides[0]) ))))); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 128, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_8 = 1;
-  __pyx_t_3 = PyFloat_FromDouble(cos((*((__pyx_t_5cygym_4envs_7acrobot_np_float_t *) ( /* dim=0 */ (__pyx_v_s.data + __pyx_t_8 * __pyx_v_s.strides[0]) ))))); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 112, __pyx_L1_error)
+  __pyx_t_3 = PyFloat_FromDouble(cos((*((__pyx_t_5cygym_7acrobot_np_float_t *) ( /* dim=0 */ (__pyx_v_s.data + __pyx_t_8 * __pyx_v_s.strides[0]) ))))); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 128, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __pyx_t_9 = 1;
-  __pyx_t_4 = PyFloat_FromDouble(sin((*((__pyx_t_5cygym_4envs_7acrobot_np_float_t *) ( /* dim=0 */ (__pyx_v_s.data + __pyx_t_9 * __pyx_v_s.strides[0]) ))))); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 112, __pyx_L1_error)
+  __pyx_t_4 = PyFloat_FromDouble(sin((*((__pyx_t_5cygym_7acrobot_np_float_t *) ( /* dim=0 */ (__pyx_v_s.data + __pyx_t_9 * __pyx_v_s.strides[0]) ))))); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 128, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __pyx_t_10 = 2;
-  __pyx_t_11 = PyFloat_FromDouble((*((__pyx_t_5cygym_4envs_7acrobot_np_float_t *) ( /* dim=0 */ (__pyx_v_s.data + __pyx_t_10 * __pyx_v_s.strides[0]) )))); if (unlikely(!__pyx_t_11)) __PYX_ERR(1, 112, __pyx_L1_error)
+  __pyx_t_11 = PyFloat_FromDouble((*((__pyx_t_5cygym_7acrobot_np_float_t *) ( /* dim=0 */ (__pyx_v_s.data + __pyx_t_10 * __pyx_v_s.strides[0]) )))); if (unlikely(!__pyx_t_11)) __PYX_ERR(1, 128, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_11);
   __pyx_t_12 = 3;
-  __pyx_t_13 = PyFloat_FromDouble((*((__pyx_t_5cygym_4envs_7acrobot_np_float_t *) ( /* dim=0 */ (__pyx_v_s.data + __pyx_t_12 * __pyx_v_s.strides[0]) )))); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 112, __pyx_L1_error)
+  __pyx_t_13 = PyFloat_FromDouble((*((__pyx_t_5cygym_7acrobot_np_float_t *) ( /* dim=0 */ (__pyx_v_s.data + __pyx_t_12 * __pyx_v_s.strides[0]) )))); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 128, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_13);
-  __pyx_t_14 = PyTuple_New(6); if (unlikely(!__pyx_t_14)) __PYX_ERR(1, 112, __pyx_L1_error)
+  __pyx_t_14 = PyTuple_New(6); if (unlikely(!__pyx_t_14)) __PYX_ERR(1, 128, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_14);
   __Pyx_GIVEREF(__pyx_t_1);
   PyTuple_SET_ITEM(__pyx_t_14, 0, __pyx_t_1);
@@ -4112,7 +4104,7 @@ static PyObject *__pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv__get_ob(struct _
   __pyx_t_14 = 0;
   goto __pyx_L0;
 
-  /* "cygym/envs/acrobot.pyx":110
+  /* "cygym/acrobot.pyx":126
  *         return (np.array(self._get_ob()), reward, terminal, {})
  * 
  *     cpdef tuple _get_ob(self):             # <<<<<<<<<<<<<<
@@ -4130,7 +4122,7 @@ static PyObject *__pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv__get_ob(struct _
   __Pyx_XDECREF(__pyx_t_11);
   __Pyx_XDECREF(__pyx_t_13);
   __Pyx_XDECREF(__pyx_t_14);
-  __Pyx_AddTraceback("cygym.envs.acrobot.FastAcrobotEnv._get_ob", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("cygym.acrobot.CyAcrobotEnv._get_ob", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   __PYX_XDEC_MEMVIEW(&__pyx_v_s, 1);
@@ -4140,25 +4132,25 @@ static PyObject *__pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv__get_ob(struct _
 }
 
 /* Python wrapper */
-static PyObject *__pyx_pw_5cygym_4envs_7acrobot_14FastAcrobotEnv_9_get_ob(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
-static PyObject *__pyx_pw_5cygym_4envs_7acrobot_14FastAcrobotEnv_9_get_ob(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
+static PyObject *__pyx_pw_5cygym_7acrobot_12CyAcrobotEnv_9_get_ob(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static PyObject *__pyx_pw_5cygym_7acrobot_12CyAcrobotEnv_9_get_ob(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("_get_ob (wrapper)", 0);
-  __pyx_r = __pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_8_get_ob(((struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv *)__pyx_v_self));
+  __pyx_r = __pyx_pf_5cygym_7acrobot_12CyAcrobotEnv_8_get_ob(((struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_8_get_ob(struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv *__pyx_v_self) {
+static PyObject *__pyx_pf_5cygym_7acrobot_12CyAcrobotEnv_8_get_ob(struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
   __Pyx_RefNannySetupContext("_get_ob", 0);
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv__get_ob(__pyx_v_self, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 110, __pyx_L1_error)
+  __pyx_t_1 = __pyx_f_5cygym_7acrobot_12CyAcrobotEnv__get_ob(__pyx_v_self, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 126, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -4167,7 +4159,7 @@ static PyObject *__pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_8_get_ob(struct
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("cygym.envs.acrobot.FastAcrobotEnv._get_ob", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("cygym.acrobot.CyAcrobotEnv._get_ob", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -4175,7 +4167,7 @@ static PyObject *__pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_8_get_ob(struct
   return __pyx_r;
 }
 
-/* "cygym/envs/acrobot.pyx":114
+/* "cygym/acrobot.pyx":130
  *         return (cos(s[0]), sin(s[0]), cos(s[1]), sin(s[1]), s[2], s[3])
  * 
  *     cpdef bint _terminal(self):             # <<<<<<<<<<<<<<
@@ -4183,8 +4175,8 @@ static PyObject *__pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_8_get_ob(struct
  *         return bool(-cos(s[0]) - cos(s[1] + s[0]) > 1.)
  */
 
-static PyObject *__pyx_pw_5cygym_4envs_7acrobot_14FastAcrobotEnv_11_terminal(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
-static int __pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv__terminal(struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv *__pyx_v_self, int __pyx_skip_dispatch) {
+static PyObject *__pyx_pw_5cygym_7acrobot_12CyAcrobotEnv_11_terminal(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static int __pyx_f_5cygym_7acrobot_12CyAcrobotEnv__terminal(struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv *__pyx_v_self, int __pyx_skip_dispatch) {
   __Pyx_memviewslice __pyx_v_s = { 0, 0, { 0 }, { 0 }, { 0 } };
   int __pyx_r;
   __Pyx_RefNannyDeclarations
@@ -4207,9 +4199,9 @@ static int __pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv__terminal(struct __pyx
     if (unlikely(!__Pyx_object_dict_version_matches(((PyObject *)__pyx_v_self), __pyx_tp_dict_version, __pyx_obj_dict_version))) {
       PY_UINT64_T __pyx_type_dict_guard = __Pyx_get_tp_dict_version(((PyObject *)__pyx_v_self));
       #endif
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_terminal); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 114, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_terminal); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 130, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
-      if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_5cygym_4envs_7acrobot_14FastAcrobotEnv_11_terminal)) {
+      if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_5cygym_7acrobot_12CyAcrobotEnv_11_terminal)) {
         __Pyx_INCREF(__pyx_t_1);
         __pyx_t_3 = __pyx_t_1; __pyx_t_4 = NULL;
         if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_3))) {
@@ -4223,10 +4215,10 @@ static int __pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv__terminal(struct __pyx
         }
         __pyx_t_2 = (__pyx_t_4) ? __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_t_4) : __Pyx_PyObject_CallNoArg(__pyx_t_3);
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 114, __pyx_L1_error)
+        if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 130, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-        __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely((__pyx_t_5 == (int)-1) && PyErr_Occurred())) __PYX_ERR(1, 114, __pyx_L1_error)
+        __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely((__pyx_t_5 == (int)-1) && PyErr_Occurred())) __PYX_ERR(1, 130, __pyx_L1_error)
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
         __pyx_r = __pyx_t_5;
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -4245,21 +4237,21 @@ static int __pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv__terminal(struct __pyx
     #endif
   }
 
-  /* "cygym/envs/acrobot.pyx":115
+  /* "cygym/acrobot.pyx":131
  * 
  *     cpdef bint _terminal(self):
  *         cdef np_float_t[:] s = self.state             # <<<<<<<<<<<<<<
  *         return bool(-cos(s[0]) - cos(s[1] + s[0]) > 1.)
  * 
  */
-  if (unlikely(!__pyx_v_self->state.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(1, 115, __pyx_L1_error)}
+  if (unlikely(!__pyx_v_self->state.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(1, 131, __pyx_L1_error)}
   __pyx_t_6 = __pyx_v_self->state;
   __PYX_INC_MEMVIEW(&__pyx_t_6, 1);
   __pyx_v_s = __pyx_t_6;
   __pyx_t_6.memview = NULL;
   __pyx_t_6.data = NULL;
 
-  /* "cygym/envs/acrobot.pyx":116
+  /* "cygym/acrobot.pyx":132
  *     cpdef bint _terminal(self):
  *         cdef np_float_t[:] s = self.state
  *         return bool(-cos(s[0]) - cos(s[1] + s[0]) > 1.)             # <<<<<<<<<<<<<<
@@ -4269,11 +4261,11 @@ static int __pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv__terminal(struct __pyx
   __pyx_t_7 = 0;
   __pyx_t_8 = 1;
   __pyx_t_9 = 0;
-  __pyx_t_5 = (((-cos((*((__pyx_t_5cygym_4envs_7acrobot_np_float_t *) ( /* dim=0 */ (__pyx_v_s.data + __pyx_t_7 * __pyx_v_s.strides[0]) ))))) - cos(((*((__pyx_t_5cygym_4envs_7acrobot_np_float_t *) ( /* dim=0 */ (__pyx_v_s.data + __pyx_t_8 * __pyx_v_s.strides[0]) ))) + (*((__pyx_t_5cygym_4envs_7acrobot_np_float_t *) ( /* dim=0 */ (__pyx_v_s.data + __pyx_t_9 * __pyx_v_s.strides[0]) )))))) > 1.);
+  __pyx_t_5 = (((-cos((*((__pyx_t_5cygym_7acrobot_np_float_t *) ( /* dim=0 */ (__pyx_v_s.data + __pyx_t_7 * __pyx_v_s.strides[0]) ))))) - cos(((*((__pyx_t_5cygym_7acrobot_np_float_t *) ( /* dim=0 */ (__pyx_v_s.data + __pyx_t_8 * __pyx_v_s.strides[0]) ))) + (*((__pyx_t_5cygym_7acrobot_np_float_t *) ( /* dim=0 */ (__pyx_v_s.data + __pyx_t_9 * __pyx_v_s.strides[0]) )))))) > 1.);
   __pyx_r = (!(!__pyx_t_5));
   goto __pyx_L0;
 
-  /* "cygym/envs/acrobot.pyx":114
+  /* "cygym/acrobot.pyx":130
  *         return (cos(s[0]), sin(s[0]), cos(s[1]), sin(s[1]), s[2], s[3])
  * 
  *     cpdef bint _terminal(self):             # <<<<<<<<<<<<<<
@@ -4288,7 +4280,7 @@ static int __pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv__terminal(struct __pyx
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
   __PYX_XDEC_MEMVIEW(&__pyx_t_6, 1);
-  __Pyx_WriteUnraisable("cygym.envs.acrobot.FastAcrobotEnv._terminal", __pyx_clineno, __pyx_lineno, __pyx_filename, 1, 0);
+  __Pyx_WriteUnraisable("cygym.acrobot.CyAcrobotEnv._terminal", __pyx_clineno, __pyx_lineno, __pyx_filename, 1, 0);
   __pyx_r = 0;
   __pyx_L0:;
   __PYX_XDEC_MEMVIEW(&__pyx_v_s, 1);
@@ -4297,25 +4289,25 @@ static int __pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv__terminal(struct __pyx
 }
 
 /* Python wrapper */
-static PyObject *__pyx_pw_5cygym_4envs_7acrobot_14FastAcrobotEnv_11_terminal(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
-static PyObject *__pyx_pw_5cygym_4envs_7acrobot_14FastAcrobotEnv_11_terminal(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
+static PyObject *__pyx_pw_5cygym_7acrobot_12CyAcrobotEnv_11_terminal(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static PyObject *__pyx_pw_5cygym_7acrobot_12CyAcrobotEnv_11_terminal(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("_terminal (wrapper)", 0);
-  __pyx_r = __pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_10_terminal(((struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv *)__pyx_v_self));
+  __pyx_r = __pyx_pf_5cygym_7acrobot_12CyAcrobotEnv_10_terminal(((struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_10_terminal(struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv *__pyx_v_self) {
+static PyObject *__pyx_pf_5cygym_7acrobot_12CyAcrobotEnv_10_terminal(struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
   __Pyx_RefNannySetupContext("_terminal", 0);
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyBool_FromLong(__pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv__terminal(__pyx_v_self, 1)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 114, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyBool_FromLong(__pyx_f_5cygym_7acrobot_12CyAcrobotEnv__terminal(__pyx_v_self, 1)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 130, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -4324,7 +4316,7 @@ static PyObject *__pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_10_terminal(str
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("cygym.envs.acrobot.FastAcrobotEnv._terminal", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("cygym.acrobot.CyAcrobotEnv._terminal", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -4332,7 +4324,7 @@ static PyObject *__pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_10_terminal(str
   return __pyx_r;
 }
 
-/* "cygym/envs/acrobot.pyx":118
+/* "cygym/acrobot.pyx":134
  *         return bool(-cos(s[0]) - cos(s[1] + s[0]) > 1.)
  * 
  *     cpdef np_float_t[:] _dsdt(self, np_float_t[:] s_augmented):             # <<<<<<<<<<<<<<
@@ -4340,8 +4332,8 @@ static PyObject *__pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_10_terminal(str
  *             float m1 = self.LINK_MASS_1
  */
 
-static PyObject *__pyx_pw_5cygym_4envs_7acrobot_14FastAcrobotEnv_13_dsdt(PyObject *__pyx_v_self, PyObject *__pyx_arg_s_augmented); /*proto*/
-static __Pyx_memviewslice __pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv__dsdt(struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv *__pyx_v_self, __Pyx_memviewslice __pyx_v_s_augmented, int __pyx_skip_dispatch) {
+static PyObject *__pyx_pw_5cygym_7acrobot_12CyAcrobotEnv_13_dsdt(PyObject *__pyx_v_self, PyObject *__pyx_arg_s_augmented); /*proto*/
+static __Pyx_memviewslice __pyx_f_5cygym_7acrobot_12CyAcrobotEnv__dsdt(struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv *__pyx_v_self, __Pyx_memviewslice __pyx_v_s_augmented, int __pyx_skip_dispatch) {
   float __pyx_v_m1;
   float __pyx_v_m2;
   float __pyx_v_l1;
@@ -4389,11 +4381,11 @@ static __Pyx_memviewslice __pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv__dsdt(s
     if (unlikely(!__Pyx_object_dict_version_matches(((PyObject *)__pyx_v_self), __pyx_tp_dict_version, __pyx_obj_dict_version))) {
       PY_UINT64_T __pyx_type_dict_guard = __Pyx_get_tp_dict_version(((PyObject *)__pyx_v_self));
       #endif
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_dsdt); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 118, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_dsdt); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 134, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
-      if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_5cygym_4envs_7acrobot_14FastAcrobotEnv_13_dsdt)) {
-        if (unlikely(!__pyx_v_s_augmented.memview)) { __Pyx_RaiseUnboundLocalError("s_augmented"); __PYX_ERR(1, 118, __pyx_L1_error) }
-        __pyx_t_3 = __pyx_memoryview_fromslice(__pyx_v_s_augmented, 1, (PyObject *(*)(char *)) __pyx_memview_get_nn___pyx_t_5cygym_4envs_7acrobot_np_float_t, (int (*)(char *, PyObject *)) __pyx_memview_set_nn___pyx_t_5cygym_4envs_7acrobot_np_float_t, 0);; if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 118, __pyx_L1_error)
+      if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_5cygym_7acrobot_12CyAcrobotEnv_13_dsdt)) {
+        if (unlikely(!__pyx_v_s_augmented.memview)) { __Pyx_RaiseUnboundLocalError("s_augmented"); __PYX_ERR(1, 134, __pyx_L1_error) }
+        __pyx_t_3 = __pyx_memoryview_fromslice(__pyx_v_s_augmented, 1, (PyObject *(*)(char *)) __pyx_memview_get_nn___pyx_t_5cygym_7acrobot_np_float_t, (int (*)(char *, PyObject *)) __pyx_memview_set_nn___pyx_t_5cygym_7acrobot_np_float_t, 0);; if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 134, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
         __Pyx_INCREF(__pyx_t_1);
         __pyx_t_4 = __pyx_t_1; __pyx_t_5 = NULL;
@@ -4409,10 +4401,10 @@ static __Pyx_memviewslice __pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv__dsdt(s
         __pyx_t_2 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_4, __pyx_t_5, __pyx_t_3) : __Pyx_PyObject_CallOneArg(__pyx_t_4, __pyx_t_3);
         __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-        if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 118, __pyx_L1_error)
+        if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 134, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-        __pyx_t_6 = __Pyx_PyObject_to_MemoryviewSlice_ds_nn___pyx_t_5cygym_4envs_7acrobot_np_float_t(__pyx_t_2, PyBUF_WRITABLE); if (unlikely(!__pyx_t_6.memview)) __PYX_ERR(1, 118, __pyx_L1_error)
+        __pyx_t_6 = __Pyx_PyObject_to_MemoryviewSlice_ds_nn___pyx_t_5cygym_7acrobot_np_float_t(__pyx_t_2, PyBUF_WRITABLE); if (unlikely(!__pyx_t_6.memview)) __PYX_ERR(1, 134, __pyx_L1_error)
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
         __pyx_r = __pyx_t_6;
         __pyx_t_6.memview = NULL;
@@ -4433,7 +4425,7 @@ static __Pyx_memviewslice __pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv__dsdt(s
     #endif
   }
 
-  /* "cygym/envs/acrobot.pyx":120
+  /* "cygym/acrobot.pyx":136
  *     cpdef np_float_t[:] _dsdt(self, np_float_t[:] s_augmented):
  *         cdef:
  *             float m1 = self.LINK_MASS_1             # <<<<<<<<<<<<<<
@@ -4443,7 +4435,7 @@ static __Pyx_memviewslice __pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv__dsdt(s
   __pyx_t_7 = __pyx_v_self->LINK_MASS_1;
   __pyx_v_m1 = __pyx_t_7;
 
-  /* "cygym/envs/acrobot.pyx":121
+  /* "cygym/acrobot.pyx":137
  *         cdef:
  *             float m1 = self.LINK_MASS_1
  *             float m2 = self.LINK_MASS_2             # <<<<<<<<<<<<<<
@@ -4453,7 +4445,7 @@ static __Pyx_memviewslice __pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv__dsdt(s
   __pyx_t_7 = __pyx_v_self->LINK_MASS_2;
   __pyx_v_m2 = __pyx_t_7;
 
-  /* "cygym/envs/acrobot.pyx":122
+  /* "cygym/acrobot.pyx":138
  *             float m1 = self.LINK_MASS_1
  *             float m2 = self.LINK_MASS_2
  *             float l1 = self.LINK_LENGTH_1             # <<<<<<<<<<<<<<
@@ -4463,7 +4455,7 @@ static __Pyx_memviewslice __pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv__dsdt(s
   __pyx_t_7 = __pyx_v_self->LINK_LENGTH_1;
   __pyx_v_l1 = __pyx_t_7;
 
-  /* "cygym/envs/acrobot.pyx":123
+  /* "cygym/acrobot.pyx":139
  *             float m2 = self.LINK_MASS_2
  *             float l1 = self.LINK_LENGTH_1
  *             float lc1 = self.LINK_COM_POS_1             # <<<<<<<<<<<<<<
@@ -4473,7 +4465,7 @@ static __Pyx_memviewslice __pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv__dsdt(s
   __pyx_t_7 = __pyx_v_self->LINK_COM_POS_1;
   __pyx_v_lc1 = __pyx_t_7;
 
-  /* "cygym/envs/acrobot.pyx":124
+  /* "cygym/acrobot.pyx":140
  *             float l1 = self.LINK_LENGTH_1
  *             float lc1 = self.LINK_COM_POS_1
  *             float lc2 = self.LINK_COM_POS_2             # <<<<<<<<<<<<<<
@@ -4483,7 +4475,7 @@ static __Pyx_memviewslice __pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv__dsdt(s
   __pyx_t_7 = __pyx_v_self->LINK_COM_POS_2;
   __pyx_v_lc2 = __pyx_t_7;
 
-  /* "cygym/envs/acrobot.pyx":125
+  /* "cygym/acrobot.pyx":141
  *             float lc1 = self.LINK_COM_POS_1
  *             float lc2 = self.LINK_COM_POS_2
  *             float I1 = self.LINK_MOI             # <<<<<<<<<<<<<<
@@ -4493,7 +4485,7 @@ static __Pyx_memviewslice __pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv__dsdt(s
   __pyx_t_7 = __pyx_v_self->LINK_MOI;
   __pyx_v_I1 = __pyx_t_7;
 
-  /* "cygym/envs/acrobot.pyx":126
+  /* "cygym/acrobot.pyx":142
  *             float lc2 = self.LINK_COM_POS_2
  *             float I1 = self.LINK_MOI
  *             float I2 = self.LINK_MOI             # <<<<<<<<<<<<<<
@@ -4503,7 +4495,7 @@ static __Pyx_memviewslice __pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv__dsdt(s
   __pyx_t_7 = __pyx_v_self->LINK_MOI;
   __pyx_v_I2 = __pyx_t_7;
 
-  /* "cygym/envs/acrobot.pyx":127
+  /* "cygym/acrobot.pyx":143
  *             float I1 = self.LINK_MOI
  *             float I2 = self.LINK_MOI
  *             float g = 9.8             # <<<<<<<<<<<<<<
@@ -4512,7 +4504,7 @@ static __Pyx_memviewslice __pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv__dsdt(s
  */
   __pyx_v_g = 9.8;
 
-  /* "cygym/envs/acrobot.pyx":128
+  /* "cygym/acrobot.pyx":144
  *             float I2 = self.LINK_MOI
  *             float g = 9.8
  *             float a = s_augmented[s_augmented.shape[0]-1]             # <<<<<<<<<<<<<<
@@ -4520,9 +4512,9 @@ static __Pyx_memviewslice __pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv__dsdt(s
  *             float theta1 = s[0]
  */
   __pyx_t_8 = ((__pyx_v_s_augmented.shape[0]) - 1);
-  __pyx_v_a = (*((__pyx_t_5cygym_4envs_7acrobot_np_float_t *) ( /* dim=0 */ (__pyx_v_s_augmented.data + __pyx_t_8 * __pyx_v_s_augmented.strides[0]) )));
+  __pyx_v_a = (*((__pyx_t_5cygym_7acrobot_np_float_t *) ( /* dim=0 */ (__pyx_v_s_augmented.data + __pyx_t_8 * __pyx_v_s_augmented.strides[0]) )));
 
-  /* "cygym/envs/acrobot.pyx":129
+  /* "cygym/acrobot.pyx":145
  *             float g = 9.8
  *             float a = s_augmented[s_augmented.shape[0]-1]
  *             np_float_t[:] s = s_augmented[:s_augmented.shape[0]-1]             # <<<<<<<<<<<<<<
@@ -4547,14 +4539,14 @@ static __Pyx_memviewslice __pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv__dsdt(s
     0,
     1) < 0))
 {
-    __PYX_ERR(1, 129, __pyx_L1_error)
+    __PYX_ERR(1, 145, __pyx_L1_error)
 }
 
 __pyx_v_s = __pyx_t_6;
   __pyx_t_6.memview = NULL;
   __pyx_t_6.data = NULL;
 
-  /* "cygym/envs/acrobot.pyx":130
+  /* "cygym/acrobot.pyx":146
  *             float a = s_augmented[s_augmented.shape[0]-1]
  *             np_float_t[:] s = s_augmented[:s_augmented.shape[0]-1]
  *             float theta1 = s[0]             # <<<<<<<<<<<<<<
@@ -4562,9 +4554,9 @@ __pyx_v_s = __pyx_t_6;
  *             float dtheta1 = s[2]
  */
   __pyx_t_10 = 0;
-  __pyx_v_theta1 = (*((__pyx_t_5cygym_4envs_7acrobot_np_float_t *) ( /* dim=0 */ (__pyx_v_s.data + __pyx_t_10 * __pyx_v_s.strides[0]) )));
+  __pyx_v_theta1 = (*((__pyx_t_5cygym_7acrobot_np_float_t *) ( /* dim=0 */ (__pyx_v_s.data + __pyx_t_10 * __pyx_v_s.strides[0]) )));
 
-  /* "cygym/envs/acrobot.pyx":131
+  /* "cygym/acrobot.pyx":147
  *             np_float_t[:] s = s_augmented[:s_augmented.shape[0]-1]
  *             float theta1 = s[0]
  *             float theta2 = s[1]             # <<<<<<<<<<<<<<
@@ -4572,9 +4564,9 @@ __pyx_v_s = __pyx_t_6;
  *             float dtheta2 = s[3]
  */
   __pyx_t_11 = 1;
-  __pyx_v_theta2 = (*((__pyx_t_5cygym_4envs_7acrobot_np_float_t *) ( /* dim=0 */ (__pyx_v_s.data + __pyx_t_11 * __pyx_v_s.strides[0]) )));
+  __pyx_v_theta2 = (*((__pyx_t_5cygym_7acrobot_np_float_t *) ( /* dim=0 */ (__pyx_v_s.data + __pyx_t_11 * __pyx_v_s.strides[0]) )));
 
-  /* "cygym/envs/acrobot.pyx":132
+  /* "cygym/acrobot.pyx":148
  *             float theta1 = s[0]
  *             float theta2 = s[1]
  *             float dtheta1 = s[2]             # <<<<<<<<<<<<<<
@@ -4582,9 +4574,9 @@ __pyx_v_s = __pyx_t_6;
  *             float d1 = m1 * lc1**2 + m2 * \
  */
   __pyx_t_12 = 2;
-  __pyx_v_dtheta1 = (*((__pyx_t_5cygym_4envs_7acrobot_np_float_t *) ( /* dim=0 */ (__pyx_v_s.data + __pyx_t_12 * __pyx_v_s.strides[0]) )));
+  __pyx_v_dtheta1 = (*((__pyx_t_5cygym_7acrobot_np_float_t *) ( /* dim=0 */ (__pyx_v_s.data + __pyx_t_12 * __pyx_v_s.strides[0]) )));
 
-  /* "cygym/envs/acrobot.pyx":133
+  /* "cygym/acrobot.pyx":149
  *             float theta2 = s[1]
  *             float dtheta1 = s[2]
  *             float dtheta2 = s[3]             # <<<<<<<<<<<<<<
@@ -4592,9 +4584,9 @@ __pyx_v_s = __pyx_t_6;
  *                       (l1**2 + lc2**2 + 2 * l1 * lc2 * cos(theta2)) + I1 + I2
  */
   __pyx_t_13 = 3;
-  __pyx_v_dtheta2 = (*((__pyx_t_5cygym_4envs_7acrobot_np_float_t *) ( /* dim=0 */ (__pyx_v_s.data + __pyx_t_13 * __pyx_v_s.strides[0]) )));
+  __pyx_v_dtheta2 = (*((__pyx_t_5cygym_7acrobot_np_float_t *) ( /* dim=0 */ (__pyx_v_s.data + __pyx_t_13 * __pyx_v_s.strides[0]) )));
 
-  /* "cygym/envs/acrobot.pyx":135
+  /* "cygym/acrobot.pyx":151
  *             float dtheta2 = s[3]
  *             float d1 = m1 * lc1**2 + m2 * \
  *                       (l1**2 + lc2**2 + 2 * l1 * lc2 * cos(theta2)) + I1 + I2             # <<<<<<<<<<<<<<
@@ -4603,7 +4595,7 @@ __pyx_v_s = __pyx_t_6;
  */
   __pyx_v_d1 = ((((__pyx_v_m1 * powf(__pyx_v_lc1, 2.0)) + (__pyx_v_m2 * ((powf(__pyx_v_l1, 2.0) + powf(__pyx_v_lc2, 2.0)) + (((2.0 * __pyx_v_l1) * __pyx_v_lc2) * cos(__pyx_v_theta2))))) + __pyx_v_I1) + __pyx_v_I2);
 
-  /* "cygym/envs/acrobot.pyx":136
+  /* "cygym/acrobot.pyx":152
  *             float d1 = m1 * lc1**2 + m2 * \
  *                       (l1**2 + lc2**2 + 2 * l1 * lc2 * cos(theta2)) + I1 + I2
  *             float d2 = m2 * (lc2**2 + l1 * lc2 * cos(theta2)) + I2             # <<<<<<<<<<<<<<
@@ -4612,7 +4604,7 @@ __pyx_v_s = __pyx_t_6;
  */
   __pyx_v_d2 = ((__pyx_v_m2 * (powf(__pyx_v_lc2, 2.0) + ((__pyx_v_l1 * __pyx_v_lc2) * cos(__pyx_v_theta2)))) + __pyx_v_I2);
 
-  /* "cygym/envs/acrobot.pyx":137
+  /* "cygym/acrobot.pyx":153
  *                       (l1**2 + lc2**2 + 2 * l1 * lc2 * cos(theta2)) + I1 + I2
  *             float d2 = m2 * (lc2**2 + l1 * lc2 * cos(theta2)) + I2
  *             float phi2 = m2 * lc2 * g * cos(theta1 + theta2 - M_PI / 2.)             # <<<<<<<<<<<<<<
@@ -4621,7 +4613,7 @@ __pyx_v_s = __pyx_t_6;
  */
   __pyx_v_phi2 = (((__pyx_v_m2 * __pyx_v_lc2) * __pyx_v_g) * cos(((__pyx_v_theta1 + __pyx_v_theta2) - (((double)M_PI) / 2.))));
 
-  /* "cygym/envs/acrobot.pyx":140
+  /* "cygym/acrobot.pyx":156
  *             float phi1 = - m2 * l1 * lc2 * dtheta2**2 * sin(theta2) \
  *                          - 2 * m2 * l1 * lc2 * dtheta2 * dtheta1 * sin(theta2)  \
  *                          + (m1 * lc1 + m2 * l1) * g * cos(theta1 - M_PI / 2) + phi2             # <<<<<<<<<<<<<<
@@ -4630,7 +4622,7 @@ __pyx_v_s = __pyx_t_6;
  */
   __pyx_v_phi1 = ((((((((-__pyx_v_m2) * __pyx_v_l1) * __pyx_v_lc2) * powf(__pyx_v_dtheta2, 2.0)) * sin(__pyx_v_theta2)) - ((((((2.0 * __pyx_v_m2) * __pyx_v_l1) * __pyx_v_lc2) * __pyx_v_dtheta2) * __pyx_v_dtheta1) * sin(__pyx_v_theta2))) + ((((__pyx_v_m1 * __pyx_v_lc1) + (__pyx_v_m2 * __pyx_v_l1)) * __pyx_v_g) * cos((__pyx_v_theta1 - (((double)M_PI) / 2.0))))) + __pyx_v_phi2);
 
-  /* "cygym/envs/acrobot.pyx":143
+  /* "cygym/acrobot.pyx":159
  * 
  *             float ddtheta2 = (a + d2 / d1 * phi1 - m2 * l1 * lc2 * dtheta1 ** 2 * sin(theta2) - phi2) \
  *                              / (m2 * lc2**2 + I2 - d2**2 / d1)             # <<<<<<<<<<<<<<
@@ -4639,7 +4631,7 @@ __pyx_v_s = __pyx_t_6;
  */
   __pyx_v_ddtheta2 = ((((__pyx_v_a + ((__pyx_v_d2 / __pyx_v_d1) * __pyx_v_phi1)) - ((((__pyx_v_m2 * __pyx_v_l1) * __pyx_v_lc2) * powf(__pyx_v_dtheta1, 2.0)) * sin(__pyx_v_theta2))) - __pyx_v_phi2) / ((double)(((__pyx_v_m2 * powf(__pyx_v_lc2, 2.0)) + __pyx_v_I2) - (powf(__pyx_v_d2, 2.0) / __pyx_v_d1))));
 
-  /* "cygym/envs/acrobot.pyx":144
+  /* "cygym/acrobot.pyx":160
  *             float ddtheta2 = (a + d2 / d1 * phi1 - m2 * l1 * lc2 * dtheta1 ** 2 * sin(theta2) - phi2) \
  *                              / (m2 * lc2**2 + I2 - d2**2 / d1)
  *             float ddtheta1 = -(d2 * ddtheta2 + phi1) / d1             # <<<<<<<<<<<<<<
@@ -4648,27 +4640,27 @@ __pyx_v_s = __pyx_t_6;
  */
   __pyx_v_ddtheta1 = ((-((__pyx_v_d2 * __pyx_v_ddtheta2) + __pyx_v_phi1)) / __pyx_v_d1);
 
-  /* "cygym/envs/acrobot.pyx":145
+  /* "cygym/acrobot.pyx":161
  *                              / (m2 * lc2**2 + I2 - d2**2 / d1)
  *             float ddtheta1 = -(d2 * ddtheta2 + phi1) / d1
  *         return np.array((dtheta1, dtheta2, ddtheta1, ddtheta2, 0.))             # <<<<<<<<<<<<<<
  * 
  * 
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 145, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 161, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_array); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 145, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_array); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 161, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = PyFloat_FromDouble(__pyx_v_dtheta1); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 145, __pyx_L1_error)
+  __pyx_t_2 = PyFloat_FromDouble(__pyx_v_dtheta1); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 161, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = PyFloat_FromDouble(__pyx_v_dtheta2); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 145, __pyx_L1_error)
+  __pyx_t_3 = PyFloat_FromDouble(__pyx_v_dtheta2); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 161, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = PyFloat_FromDouble(__pyx_v_ddtheta1); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 145, __pyx_L1_error)
+  __pyx_t_5 = PyFloat_FromDouble(__pyx_v_ddtheta1); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 161, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_14 = PyFloat_FromDouble(__pyx_v_ddtheta2); if (unlikely(!__pyx_t_14)) __PYX_ERR(1, 145, __pyx_L1_error)
+  __pyx_t_14 = PyFloat_FromDouble(__pyx_v_ddtheta2); if (unlikely(!__pyx_t_14)) __PYX_ERR(1, 161, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_14);
-  __pyx_t_15 = PyTuple_New(5); if (unlikely(!__pyx_t_15)) __PYX_ERR(1, 145, __pyx_L1_error)
+  __pyx_t_15 = PyTuple_New(5); if (unlikely(!__pyx_t_15)) __PYX_ERR(1, 161, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_15);
   __Pyx_GIVEREF(__pyx_t_2);
   PyTuple_SET_ITEM(__pyx_t_15, 0, __pyx_t_2);
@@ -4698,17 +4690,17 @@ __pyx_v_s = __pyx_t_6;
   __pyx_t_1 = (__pyx_t_14) ? __Pyx_PyObject_Call2Args(__pyx_t_4, __pyx_t_14, __pyx_t_15) : __Pyx_PyObject_CallOneArg(__pyx_t_4, __pyx_t_15);
   __Pyx_XDECREF(__pyx_t_14); __pyx_t_14 = 0;
   __Pyx_DECREF(__pyx_t_15); __pyx_t_15 = 0;
-  if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 145, __pyx_L1_error)
+  if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 161, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  __pyx_t_6 = __Pyx_PyObject_to_MemoryviewSlice_ds_nn___pyx_t_5cygym_4envs_7acrobot_np_float_t(__pyx_t_1, PyBUF_WRITABLE); if (unlikely(!__pyx_t_6.memview)) __PYX_ERR(1, 145, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyObject_to_MemoryviewSlice_ds_nn___pyx_t_5cygym_7acrobot_np_float_t(__pyx_t_1, PyBUF_WRITABLE); if (unlikely(!__pyx_t_6.memview)) __PYX_ERR(1, 161, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_r = __pyx_t_6;
   __pyx_t_6.memview = NULL;
   __pyx_t_6.data = NULL;
   goto __pyx_L0;
 
-  /* "cygym/envs/acrobot.pyx":118
+  /* "cygym/acrobot.pyx":134
  *         return bool(-cos(s[0]) - cos(s[1] + s[0]) > 1.)
  * 
  *     cpdef np_float_t[:] _dsdt(self, np_float_t[:] s_augmented):             # <<<<<<<<<<<<<<
@@ -4728,7 +4720,7 @@ __pyx_v_s = __pyx_t_6;
   __Pyx_XDECREF(__pyx_t_15);
   __pyx_r.data = NULL;
   __pyx_r.memview = NULL;
-  __Pyx_AddTraceback("cygym.envs.acrobot.FastAcrobotEnv._dsdt", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("cygym.acrobot.CyAcrobotEnv._dsdt", __pyx_clineno, __pyx_lineno, __pyx_filename);
   goto __pyx_L2;
   __pyx_L0:;
   if (unlikely(!__pyx_r.memview)) {
@@ -4741,38 +4733,38 @@ __pyx_v_s = __pyx_t_6;
 }
 
 /* Python wrapper */
-static PyObject *__pyx_pw_5cygym_4envs_7acrobot_14FastAcrobotEnv_13_dsdt(PyObject *__pyx_v_self, PyObject *__pyx_arg_s_augmented); /*proto*/
-static PyObject *__pyx_pw_5cygym_4envs_7acrobot_14FastAcrobotEnv_13_dsdt(PyObject *__pyx_v_self, PyObject *__pyx_arg_s_augmented) {
+static PyObject *__pyx_pw_5cygym_7acrobot_12CyAcrobotEnv_13_dsdt(PyObject *__pyx_v_self, PyObject *__pyx_arg_s_augmented); /*proto*/
+static PyObject *__pyx_pw_5cygym_7acrobot_12CyAcrobotEnv_13_dsdt(PyObject *__pyx_v_self, PyObject *__pyx_arg_s_augmented) {
   __Pyx_memviewslice __pyx_v_s_augmented = { 0, 0, { 0 }, { 0 }, { 0 } };
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("_dsdt (wrapper)", 0);
   assert(__pyx_arg_s_augmented); {
-    __pyx_v_s_augmented = __Pyx_PyObject_to_MemoryviewSlice_ds_nn___pyx_t_5cygym_4envs_7acrobot_np_float_t(__pyx_arg_s_augmented, PyBUF_WRITABLE); if (unlikely(!__pyx_v_s_augmented.memview)) __PYX_ERR(1, 118, __pyx_L3_error)
+    __pyx_v_s_augmented = __Pyx_PyObject_to_MemoryviewSlice_ds_nn___pyx_t_5cygym_7acrobot_np_float_t(__pyx_arg_s_augmented, PyBUF_WRITABLE); if (unlikely(!__pyx_v_s_augmented.memview)) __PYX_ERR(1, 134, __pyx_L3_error)
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
-  __Pyx_AddTraceback("cygym.envs.acrobot.FastAcrobotEnv._dsdt", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("cygym.acrobot.CyAcrobotEnv._dsdt", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_12_dsdt(((struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv *)__pyx_v_self), __pyx_v_s_augmented);
+  __pyx_r = __pyx_pf_5cygym_7acrobot_12CyAcrobotEnv_12_dsdt(((struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv *)__pyx_v_self), __pyx_v_s_augmented);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_12_dsdt(struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv *__pyx_v_self, __Pyx_memviewslice __pyx_v_s_augmented) {
+static PyObject *__pyx_pf_5cygym_7acrobot_12CyAcrobotEnv_12_dsdt(struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv *__pyx_v_self, __Pyx_memviewslice __pyx_v_s_augmented) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   __Pyx_memviewslice __pyx_t_1 = { 0, 0, { 0 }, { 0 }, { 0 } };
   PyObject *__pyx_t_2 = NULL;
   __Pyx_RefNannySetupContext("_dsdt", 0);
   __Pyx_XDECREF(__pyx_r);
-  if (unlikely(!__pyx_v_s_augmented.memview)) { __Pyx_RaiseUnboundLocalError("s_augmented"); __PYX_ERR(1, 118, __pyx_L1_error) }
-  __pyx_t_1 = __pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv__dsdt(__pyx_v_self, __pyx_v_s_augmented, 1); if (unlikely(!__pyx_t_1.memview)) __PYX_ERR(1, 118, __pyx_L1_error)
-  __pyx_t_2 = __pyx_memoryview_fromslice(__pyx_t_1, 1, (PyObject *(*)(char *)) __pyx_memview_get_nn___pyx_t_5cygym_4envs_7acrobot_np_float_t, (int (*)(char *, PyObject *)) __pyx_memview_set_nn___pyx_t_5cygym_4envs_7acrobot_np_float_t, 0);; if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 118, __pyx_L1_error)
+  if (unlikely(!__pyx_v_s_augmented.memview)) { __Pyx_RaiseUnboundLocalError("s_augmented"); __PYX_ERR(1, 134, __pyx_L1_error) }
+  __pyx_t_1 = __pyx_f_5cygym_7acrobot_12CyAcrobotEnv__dsdt(__pyx_v_self, __pyx_v_s_augmented, 1); if (unlikely(!__pyx_t_1.memview)) __PYX_ERR(1, 134, __pyx_L1_error)
+  __pyx_t_2 = __pyx_memoryview_fromslice(__pyx_t_1, 1, (PyObject *(*)(char *)) __pyx_memview_get_nn___pyx_t_5cygym_7acrobot_np_float_t, (int (*)(char *, PyObject *)) __pyx_memview_set_nn___pyx_t_5cygym_7acrobot_np_float_t, 0);; if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 134, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __PYX_XDEC_MEMVIEW(&__pyx_t_1, 1);
   __pyx_t_1.memview = NULL;
@@ -4785,7 +4777,7 @@ static PyObject *__pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_12_dsdt(struct 
   __pyx_L1_error:;
   __PYX_XDEC_MEMVIEW(&__pyx_t_1, 1);
   __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_AddTraceback("cygym.envs.acrobot.FastAcrobotEnv._dsdt", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("cygym.acrobot.CyAcrobotEnv._dsdt", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __PYX_XDEC_MEMVIEW(&__pyx_v_s_augmented, 1);
@@ -4794,7 +4786,7 @@ static PyObject *__pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_12_dsdt(struct 
   return __pyx_r;
 }
 
-/* "cygym/envs/acrobot.pyx":39
+/* "cygym/acrobot.pyx":55
  *         float torque_noise_max
  * 
  *         readonly object observation_space             # <<<<<<<<<<<<<<
@@ -4803,19 +4795,19 @@ static PyObject *__pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_12_dsdt(struct 
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_5cygym_4envs_7acrobot_14FastAcrobotEnv_17observation_space_1__get__(PyObject *__pyx_v_self); /*proto*/
-static PyObject *__pyx_pw_5cygym_4envs_7acrobot_14FastAcrobotEnv_17observation_space_1__get__(PyObject *__pyx_v_self) {
+static PyObject *__pyx_pw_5cygym_7acrobot_12CyAcrobotEnv_17observation_space_1__get__(PyObject *__pyx_v_self); /*proto*/
+static PyObject *__pyx_pw_5cygym_7acrobot_12CyAcrobotEnv_17observation_space_1__get__(PyObject *__pyx_v_self) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
-  __pyx_r = __pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_17observation_space___get__(((struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv *)__pyx_v_self));
+  __pyx_r = __pyx_pf_5cygym_7acrobot_12CyAcrobotEnv_17observation_space___get__(((struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_17observation_space___get__(struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv *__pyx_v_self) {
+static PyObject *__pyx_pf_5cygym_7acrobot_12CyAcrobotEnv_17observation_space___get__(struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__", 0);
@@ -4831,7 +4823,7 @@ static PyObject *__pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_17observation_s
   return __pyx_r;
 }
 
-/* "cygym/envs/acrobot.pyx":40
+/* "cygym/acrobot.pyx":56
  * 
  *         readonly object observation_space
  *         readonly object action_space             # <<<<<<<<<<<<<<
@@ -4840,19 +4832,19 @@ static PyObject *__pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_17observation_s
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_5cygym_4envs_7acrobot_14FastAcrobotEnv_12action_space_1__get__(PyObject *__pyx_v_self); /*proto*/
-static PyObject *__pyx_pw_5cygym_4envs_7acrobot_14FastAcrobotEnv_12action_space_1__get__(PyObject *__pyx_v_self) {
+static PyObject *__pyx_pw_5cygym_7acrobot_12CyAcrobotEnv_12action_space_1__get__(PyObject *__pyx_v_self); /*proto*/
+static PyObject *__pyx_pw_5cygym_7acrobot_12CyAcrobotEnv_12action_space_1__get__(PyObject *__pyx_v_self) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
-  __pyx_r = __pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_12action_space___get__(((struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv *)__pyx_v_self));
+  __pyx_r = __pyx_pf_5cygym_7acrobot_12CyAcrobotEnv_12action_space___get__(((struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_12action_space___get__(struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv *__pyx_v_self) {
+static PyObject *__pyx_pf_5cygym_7acrobot_12CyAcrobotEnv_12action_space___get__(struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__", 0);
@@ -4875,19 +4867,19 @@ static PyObject *__pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_12action_space_
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_5cygym_4envs_7acrobot_14FastAcrobotEnv_15__reduce_cython__(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
-static PyObject *__pyx_pw_5cygym_4envs_7acrobot_14FastAcrobotEnv_15__reduce_cython__(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
+static PyObject *__pyx_pw_5cygym_7acrobot_12CyAcrobotEnv_15__reduce_cython__(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static PyObject *__pyx_pw_5cygym_7acrobot_12CyAcrobotEnv_15__reduce_cython__(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__reduce_cython__ (wrapper)", 0);
-  __pyx_r = __pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_14__reduce_cython__(((struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv *)__pyx_v_self));
+  __pyx_r = __pyx_pf_5cygym_7acrobot_12CyAcrobotEnv_14__reduce_cython__(((struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_14__reduce_cython__(CYTHON_UNUSED struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv *__pyx_v_self) {
+static PyObject *__pyx_pf_5cygym_7acrobot_12CyAcrobotEnv_14__reduce_cython__(CYTHON_UNUSED struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -4914,7 +4906,7 @@ static PyObject *__pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_14__reduce_cyth
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("cygym.envs.acrobot.FastAcrobotEnv.__reduce_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("cygym.acrobot.CyAcrobotEnv.__reduce_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __Pyx_XGIVEREF(__pyx_r);
   __Pyx_RefNannyFinishContext();
@@ -4929,19 +4921,19 @@ static PyObject *__pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_14__reduce_cyth
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_5cygym_4envs_7acrobot_14FastAcrobotEnv_17__setstate_cython__(PyObject *__pyx_v_self, PyObject *__pyx_v___pyx_state); /*proto*/
-static PyObject *__pyx_pw_5cygym_4envs_7acrobot_14FastAcrobotEnv_17__setstate_cython__(PyObject *__pyx_v_self, PyObject *__pyx_v___pyx_state) {
+static PyObject *__pyx_pw_5cygym_7acrobot_12CyAcrobotEnv_17__setstate_cython__(PyObject *__pyx_v_self, PyObject *__pyx_v___pyx_state); /*proto*/
+static PyObject *__pyx_pw_5cygym_7acrobot_12CyAcrobotEnv_17__setstate_cython__(PyObject *__pyx_v_self, PyObject *__pyx_v___pyx_state) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__setstate_cython__ (wrapper)", 0);
-  __pyx_r = __pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_16__setstate_cython__(((struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv *)__pyx_v_self), ((PyObject *)__pyx_v___pyx_state));
+  __pyx_r = __pyx_pf_5cygym_7acrobot_12CyAcrobotEnv_16__setstate_cython__(((struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv *)__pyx_v_self), ((PyObject *)__pyx_v___pyx_state));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_16__setstate_cython__(CYTHON_UNUSED struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv *__pyx_v_self, CYTHON_UNUSED PyObject *__pyx_v___pyx_state) {
+static PyObject *__pyx_pf_5cygym_7acrobot_12CyAcrobotEnv_16__setstate_cython__(CYTHON_UNUSED struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv *__pyx_v_self, CYTHON_UNUSED PyObject *__pyx_v___pyx_state) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -4968,14 +4960,14 @@ static PyObject *__pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_16__setstate_cy
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("cygym.envs.acrobot.FastAcrobotEnv.__setstate_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("cygym.acrobot.CyAcrobotEnv.__setstate_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __Pyx_XGIVEREF(__pyx_r);
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-/* "cygym/envs/acrobot.pyx":148
+/* "cygym/acrobot.pyx":164
  * 
  * 
  * cdef float wrap(float x, float m,  float M):             # <<<<<<<<<<<<<<
@@ -4983,14 +4975,14 @@ static PyObject *__pyx_pf_5cygym_4envs_7acrobot_14FastAcrobotEnv_16__setstate_cy
  *     :param x: a scalar
  */
 
-static float __pyx_f_5cygym_4envs_7acrobot_wrap(float __pyx_v_x, float __pyx_v_m, float __pyx_v_M) {
+static float __pyx_f_5cygym_7acrobot_wrap(float __pyx_v_x, float __pyx_v_m, float __pyx_v_M) {
   float __pyx_v_diff;
   float __pyx_r;
   __Pyx_RefNannyDeclarations
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("wrap", 0);
 
-  /* "cygym/envs/acrobot.pyx":157
+  /* "cygym/acrobot.pyx":173
  *     For example, m = -180, M = 180 (degrees), x = 360 --> returns 0.
  *     """
  *     cdef float diff = M - m             # <<<<<<<<<<<<<<
@@ -4999,7 +4991,7 @@ static float __pyx_f_5cygym_4envs_7acrobot_wrap(float __pyx_v_x, float __pyx_v_m
  */
   __pyx_v_diff = (__pyx_v_M - __pyx_v_m);
 
-  /* "cygym/envs/acrobot.pyx":158
+  /* "cygym/acrobot.pyx":174
  *     """
  *     cdef float diff = M - m
  *     while x > M:             # <<<<<<<<<<<<<<
@@ -5010,7 +5002,7 @@ static float __pyx_f_5cygym_4envs_7acrobot_wrap(float __pyx_v_x, float __pyx_v_m
     __pyx_t_1 = ((__pyx_v_x > __pyx_v_M) != 0);
     if (!__pyx_t_1) break;
 
-    /* "cygym/envs/acrobot.pyx":159
+    /* "cygym/acrobot.pyx":175
  *     cdef float diff = M - m
  *     while x > M:
  *         x = x - diff             # <<<<<<<<<<<<<<
@@ -5020,7 +5012,7 @@ static float __pyx_f_5cygym_4envs_7acrobot_wrap(float __pyx_v_x, float __pyx_v_m
     __pyx_v_x = (__pyx_v_x - __pyx_v_diff);
   }
 
-  /* "cygym/envs/acrobot.pyx":160
+  /* "cygym/acrobot.pyx":176
  *     while x > M:
  *         x = x - diff
  *     while x < m:             # <<<<<<<<<<<<<<
@@ -5031,7 +5023,7 @@ static float __pyx_f_5cygym_4envs_7acrobot_wrap(float __pyx_v_x, float __pyx_v_m
     __pyx_t_1 = ((__pyx_v_x < __pyx_v_m) != 0);
     if (!__pyx_t_1) break;
 
-    /* "cygym/envs/acrobot.pyx":161
+    /* "cygym/acrobot.pyx":177
  *         x = x - diff
  *     while x < m:
  *         x = x + diff             # <<<<<<<<<<<<<<
@@ -5041,7 +5033,7 @@ static float __pyx_f_5cygym_4envs_7acrobot_wrap(float __pyx_v_x, float __pyx_v_m
     __pyx_v_x = (__pyx_v_x + __pyx_v_diff);
   }
 
-  /* "cygym/envs/acrobot.pyx":162
+  /* "cygym/acrobot.pyx":178
  *     while x < m:
  *         x = x + diff
  *     return x             # <<<<<<<<<<<<<<
@@ -5051,7 +5043,7 @@ static float __pyx_f_5cygym_4envs_7acrobot_wrap(float __pyx_v_x, float __pyx_v_m
   __pyx_r = __pyx_v_x;
   goto __pyx_L0;
 
-  /* "cygym/envs/acrobot.pyx":148
+  /* "cygym/acrobot.pyx":164
  * 
  * 
  * cdef float wrap(float x, float m,  float M):             # <<<<<<<<<<<<<<
@@ -5065,7 +5057,7 @@ static float __pyx_f_5cygym_4envs_7acrobot_wrap(float __pyx_v_x, float __pyx_v_m
   return __pyx_r;
 }
 
-/* "cygym/envs/acrobot.pyx":164
+/* "cygym/acrobot.pyx":180
  *     return x
  * 
  * cdef float bound(float x, float m, float M):             # <<<<<<<<<<<<<<
@@ -5073,7 +5065,7 @@ static float __pyx_f_5cygym_4envs_7acrobot_wrap(float __pyx_v_x, float __pyx_v_m
  *     :param x: scalar
  */
 
-static float __pyx_f_5cygym_4envs_7acrobot_bound(float __pyx_v_x, float __pyx_v_m, float __pyx_v_M) {
+static float __pyx_f_5cygym_7acrobot_bound(float __pyx_v_x, float __pyx_v_m, float __pyx_v_M) {
   float __pyx_r;
   __Pyx_RefNannyDeclarations
   float __pyx_t_1;
@@ -5082,7 +5074,7 @@ static float __pyx_f_5cygym_4envs_7acrobot_bound(float __pyx_v_x, float __pyx_v_
   float __pyx_t_4;
   __Pyx_RefNannySetupContext("bound", 0);
 
-  /* "cygym/envs/acrobot.pyx":170
+  /* "cygym/acrobot.pyx":186
  *     have m as length 2 vector, bound(x,m, <IGNORED>) returns m[0] <= x <= m[1].
  *     """
  *     return min(max(x, m), M)             # <<<<<<<<<<<<<<
@@ -5106,7 +5098,7 @@ static float __pyx_f_5cygym_4envs_7acrobot_bound(float __pyx_v_x, float __pyx_v_
   __pyx_r = __pyx_t_4;
   goto __pyx_L0;
 
-  /* "cygym/envs/acrobot.pyx":164
+  /* "cygym/acrobot.pyx":180
  *     return x
  * 
  * cdef float bound(float x, float m, float M):             # <<<<<<<<<<<<<<
@@ -5120,7 +5112,7 @@ static float __pyx_f_5cygym_4envs_7acrobot_bound(float __pyx_v_x, float __pyx_v_
   return __pyx_r;
 }
 
-/* "cygym/envs/acrobot.pyx":173
+/* "cygym/acrobot.pyx":189
  * 
  * 
  * cdef np_float_t[:,:] rk4(object derivs, np_float_t[:] y0, tuple t):             # <<<<<<<<<<<<<<
@@ -5128,7 +5120,7 @@ static float __pyx_f_5cygym_4envs_7acrobot_bound(float __pyx_v_x, float __pyx_v_
  *     cdef:
  */
 
-static __Pyx_memviewslice __pyx_f_5cygym_4envs_7acrobot_rk4(PyObject *__pyx_v_derivs, __Pyx_memviewslice __pyx_v_y0, PyObject *__pyx_v_t) {
+static __Pyx_memviewslice __pyx_f_5cygym_7acrobot_rk4(PyObject *__pyx_v_derivs, __Pyx_memviewslice __pyx_v_y0, PyObject *__pyx_v_t) {
   int __pyx_v_i;
   PyArrayObject *__pyx_v_yout = 0;
   float __pyx_v_thist;
@@ -5170,28 +5162,28 @@ static __Pyx_memviewslice __pyx_f_5cygym_4envs_7acrobot_rk4(PyObject *__pyx_v_de
   __pyx_pybuffernd_yout.data = NULL;
   __pyx_pybuffernd_yout.rcbuffer = &__pyx_pybuffer_yout;
 
-  /* "cygym/envs/acrobot.pyx":177
+  /* "cygym/acrobot.pyx":193
  *     cdef:
  *         int i
  *         np.ndarray[dtype=np_float_t, ndim=2] yout = np.empty((len(t), y0.shape[0]), dtype=np.float64)             # <<<<<<<<<<<<<<
  *         float thist
  *         float dt
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_np); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 177, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_np); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 193, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_empty); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 177, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_empty); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 193, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   if (unlikely(__pyx_v_t == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "object of type 'NoneType' has no len()");
-    __PYX_ERR(1, 177, __pyx_L1_error)
+    __PYX_ERR(1, 193, __pyx_L1_error)
   }
-  __pyx_t_3 = PyTuple_GET_SIZE(__pyx_v_t); if (unlikely(__pyx_t_3 == ((Py_ssize_t)-1))) __PYX_ERR(1, 177, __pyx_L1_error)
-  __pyx_t_1 = PyInt_FromSsize_t(__pyx_t_3); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 177, __pyx_L1_error)
+  __pyx_t_3 = PyTuple_GET_SIZE(__pyx_v_t); if (unlikely(__pyx_t_3 == ((Py_ssize_t)-1))) __PYX_ERR(1, 193, __pyx_L1_error)
+  __pyx_t_1 = PyInt_FromSsize_t(__pyx_t_3); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 193, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_4 = PyInt_FromSsize_t((__pyx_v_y0.shape[0])); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 177, __pyx_L1_error)
+  __pyx_t_4 = PyInt_FromSsize_t((__pyx_v_y0.shape[0])); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 193, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __pyx_t_5 = PyTuple_New(2); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 177, __pyx_L1_error)
+  __pyx_t_5 = PyTuple_New(2); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 193, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_GIVEREF(__pyx_t_1);
   PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_1);
@@ -5199,32 +5191,32 @@ static __Pyx_memviewslice __pyx_f_5cygym_4envs_7acrobot_rk4(PyObject *__pyx_v_de
   PyTuple_SET_ITEM(__pyx_t_5, 1, __pyx_t_4);
   __pyx_t_1 = 0;
   __pyx_t_4 = 0;
-  __pyx_t_4 = PyTuple_New(1); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 177, __pyx_L1_error)
+  __pyx_t_4 = PyTuple_New(1); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 193, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_GIVEREF(__pyx_t_5);
   PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_t_5);
   __pyx_t_5 = 0;
-  __pyx_t_5 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 177, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 193, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_np); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 177, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_np); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 193, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_float64); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 177, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_float64); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 193, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  if (PyDict_SetItem(__pyx_t_5, __pyx_n_s_dtype, __pyx_t_6) < 0) __PYX_ERR(1, 177, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_5, __pyx_n_s_dtype, __pyx_t_6) < 0) __PYX_ERR(1, 193, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-  __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_t_4, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 177, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_t_4, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 193, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  if (!(likely(((__pyx_t_6) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_6, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 177, __pyx_L1_error)
+  if (!(likely(((__pyx_t_6) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_6, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 193, __pyx_L1_error)
   __pyx_t_7 = ((PyArrayObject *)__pyx_t_6);
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_yout.rcbuffer->pybuffer, (PyObject*)__pyx_t_7, &__Pyx_TypeInfo_nn___pyx_t_5cygym_4envs_7acrobot_np_float_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_yout.rcbuffer->pybuffer, (PyObject*)__pyx_t_7, &__Pyx_TypeInfo_nn___pyx_t_5cygym_7acrobot_np_float_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {
       __pyx_v_yout = ((PyArrayObject *)Py_None); __Pyx_INCREF(Py_None); __pyx_pybuffernd_yout.rcbuffer->pybuffer.buf = NULL;
-      __PYX_ERR(1, 177, __pyx_L1_error)
+      __PYX_ERR(1, 193, __pyx_L1_error)
     } else {__pyx_pybuffernd_yout.diminfo[0].strides = __pyx_pybuffernd_yout.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_yout.diminfo[0].shape = __pyx_pybuffernd_yout.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_yout.diminfo[1].strides = __pyx_pybuffernd_yout.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_yout.diminfo[1].shape = __pyx_pybuffernd_yout.rcbuffer->pybuffer.shape[1];
     }
   }
@@ -5232,36 +5224,36 @@ static __Pyx_memviewslice __pyx_f_5cygym_4envs_7acrobot_rk4(PyObject *__pyx_v_de
   __pyx_v_yout = ((PyArrayObject *)__pyx_t_6);
   __pyx_t_6 = 0;
 
-  /* "cygym/envs/acrobot.pyx":186
+  /* "cygym/acrobot.pyx":202
  *         np_float_t[:] k4
  * 
  *     yout[0] = y0             # <<<<<<<<<<<<<<
  * 
  *     for i in np.arange(len(t) - 1):
  */
-  __pyx_t_6 = __pyx_memoryview_fromslice(__pyx_v_y0, 1, (PyObject *(*)(char *)) __pyx_memview_get_nn___pyx_t_5cygym_4envs_7acrobot_np_float_t, (int (*)(char *, PyObject *)) __pyx_memview_set_nn___pyx_t_5cygym_4envs_7acrobot_np_float_t, 0);; if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 186, __pyx_L1_error)
+  __pyx_t_6 = __pyx_memoryview_fromslice(__pyx_v_y0, 1, (PyObject *(*)(char *)) __pyx_memview_get_nn___pyx_t_5cygym_7acrobot_np_float_t, (int (*)(char *, PyObject *)) __pyx_memview_set_nn___pyx_t_5cygym_7acrobot_np_float_t, 0);; if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 202, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  if (unlikely(__Pyx_SetItemInt(((PyObject *)__pyx_v_yout), 0, __pyx_t_6, long, 1, __Pyx_PyInt_From_long, 0, 0, 0) < 0)) __PYX_ERR(1, 186, __pyx_L1_error)
+  if (unlikely(__Pyx_SetItemInt(((PyObject *)__pyx_v_yout), 0, __pyx_t_6, long, 1, __Pyx_PyInt_From_long, 0, 0, 0) < 0)) __PYX_ERR(1, 202, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-  /* "cygym/envs/acrobot.pyx":188
+  /* "cygym/acrobot.pyx":204
  *     yout[0] = y0
  * 
  *     for i in np.arange(len(t) - 1):             # <<<<<<<<<<<<<<
  * 
  *         thist = t[i]
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_np); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 188, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_np); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 204, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_arange); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 188, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_arange); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 204, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   if (unlikely(__pyx_v_t == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "object of type 'NoneType' has no len()");
-    __PYX_ERR(1, 188, __pyx_L1_error)
+    __PYX_ERR(1, 204, __pyx_L1_error)
   }
-  __pyx_t_3 = PyTuple_GET_SIZE(__pyx_v_t); if (unlikely(__pyx_t_3 == ((Py_ssize_t)-1))) __PYX_ERR(1, 188, __pyx_L1_error)
-  __pyx_t_5 = PyInt_FromSsize_t((__pyx_t_3 - 1)); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 188, __pyx_L1_error)
+  __pyx_t_3 = PyTuple_GET_SIZE(__pyx_v_t); if (unlikely(__pyx_t_3 == ((Py_ssize_t)-1))) __PYX_ERR(1, 204, __pyx_L1_error)
+  __pyx_t_5 = PyInt_FromSsize_t((__pyx_t_3 - 1)); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 204, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __pyx_t_2 = NULL;
   if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_4))) {
@@ -5276,16 +5268,16 @@ static __Pyx_memviewslice __pyx_f_5cygym_4envs_7acrobot_rk4(PyObject *__pyx_v_de
   __pyx_t_6 = (__pyx_t_2) ? __Pyx_PyObject_Call2Args(__pyx_t_4, __pyx_t_2, __pyx_t_5) : __Pyx_PyObject_CallOneArg(__pyx_t_4, __pyx_t_5);
   __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 188, __pyx_L1_error)
+  if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 204, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   if (likely(PyList_CheckExact(__pyx_t_6)) || PyTuple_CheckExact(__pyx_t_6)) {
     __pyx_t_4 = __pyx_t_6; __Pyx_INCREF(__pyx_t_4); __pyx_t_3 = 0;
     __pyx_t_8 = NULL;
   } else {
-    __pyx_t_3 = -1; __pyx_t_4 = PyObject_GetIter(__pyx_t_6); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 188, __pyx_L1_error)
+    __pyx_t_3 = -1; __pyx_t_4 = PyObject_GetIter(__pyx_t_6); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 204, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __pyx_t_8 = Py_TYPE(__pyx_t_4)->tp_iternext; if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 188, __pyx_L1_error)
+    __pyx_t_8 = Py_TYPE(__pyx_t_4)->tp_iternext; if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 204, __pyx_L1_error)
   }
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   for (;;) {
@@ -5293,17 +5285,17 @@ static __Pyx_memviewslice __pyx_f_5cygym_4envs_7acrobot_rk4(PyObject *__pyx_v_de
       if (likely(PyList_CheckExact(__pyx_t_4))) {
         if (__pyx_t_3 >= PyList_GET_SIZE(__pyx_t_4)) break;
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-        __pyx_t_6 = PyList_GET_ITEM(__pyx_t_4, __pyx_t_3); __Pyx_INCREF(__pyx_t_6); __pyx_t_3++; if (unlikely(0 < 0)) __PYX_ERR(1, 188, __pyx_L1_error)
+        __pyx_t_6 = PyList_GET_ITEM(__pyx_t_4, __pyx_t_3); __Pyx_INCREF(__pyx_t_6); __pyx_t_3++; if (unlikely(0 < 0)) __PYX_ERR(1, 204, __pyx_L1_error)
         #else
-        __pyx_t_6 = PySequence_ITEM(__pyx_t_4, __pyx_t_3); __pyx_t_3++; if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 188, __pyx_L1_error)
+        __pyx_t_6 = PySequence_ITEM(__pyx_t_4, __pyx_t_3); __pyx_t_3++; if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 204, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_6);
         #endif
       } else {
         if (__pyx_t_3 >= PyTuple_GET_SIZE(__pyx_t_4)) break;
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-        __pyx_t_6 = PyTuple_GET_ITEM(__pyx_t_4, __pyx_t_3); __Pyx_INCREF(__pyx_t_6); __pyx_t_3++; if (unlikely(0 < 0)) __PYX_ERR(1, 188, __pyx_L1_error)
+        __pyx_t_6 = PyTuple_GET_ITEM(__pyx_t_4, __pyx_t_3); __Pyx_INCREF(__pyx_t_6); __pyx_t_3++; if (unlikely(0 < 0)) __PYX_ERR(1, 204, __pyx_L1_error)
         #else
-        __pyx_t_6 = PySequence_ITEM(__pyx_t_4, __pyx_t_3); __pyx_t_3++; if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 188, __pyx_L1_error)
+        __pyx_t_6 = PySequence_ITEM(__pyx_t_4, __pyx_t_3); __pyx_t_3++; if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 204, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_6);
         #endif
       }
@@ -5313,17 +5305,17 @@ static __Pyx_memviewslice __pyx_f_5cygym_4envs_7acrobot_rk4(PyObject *__pyx_v_de
         PyObject* exc_type = PyErr_Occurred();
         if (exc_type) {
           if (likely(__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) PyErr_Clear();
-          else __PYX_ERR(1, 188, __pyx_L1_error)
+          else __PYX_ERR(1, 204, __pyx_L1_error)
         }
         break;
       }
       __Pyx_GOTREF(__pyx_t_6);
     }
-    __pyx_t_9 = __Pyx_PyInt_As_int(__pyx_t_6); if (unlikely((__pyx_t_9 == (int)-1) && PyErr_Occurred())) __PYX_ERR(1, 188, __pyx_L1_error)
+    __pyx_t_9 = __Pyx_PyInt_As_int(__pyx_t_6); if (unlikely((__pyx_t_9 == (int)-1) && PyErr_Occurred())) __PYX_ERR(1, 204, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __pyx_v_i = __pyx_t_9;
 
-    /* "cygym/envs/acrobot.pyx":190
+    /* "cygym/acrobot.pyx":206
  *     for i in np.arange(len(t) - 1):
  * 
  *         thist = t[i]             # <<<<<<<<<<<<<<
@@ -5332,12 +5324,12 @@ static __Pyx_memviewslice __pyx_f_5cygym_4envs_7acrobot_rk4(PyObject *__pyx_v_de
  */
     if (unlikely(__pyx_v_t == Py_None)) {
       PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
-      __PYX_ERR(1, 190, __pyx_L1_error)
+      __PYX_ERR(1, 206, __pyx_L1_error)
     }
-    __pyx_t_10 = __pyx_PyFloat_AsFloat(PyTuple_GET_ITEM(__pyx_v_t, __pyx_v_i)); if (unlikely((__pyx_t_10 == (float)-1) && PyErr_Occurred())) __PYX_ERR(1, 190, __pyx_L1_error)
+    __pyx_t_10 = __pyx_PyFloat_AsFloat(PyTuple_GET_ITEM(__pyx_v_t, __pyx_v_i)); if (unlikely((__pyx_t_10 == (float)-1) && PyErr_Occurred())) __PYX_ERR(1, 206, __pyx_L1_error)
     __pyx_v_thist = __pyx_t_10;
 
-    /* "cygym/envs/acrobot.pyx":191
+    /* "cygym/acrobot.pyx":207
  * 
  *         thist = t[i]
  *         dt = t[i + 1] - thist             # <<<<<<<<<<<<<<
@@ -5346,19 +5338,19 @@ static __Pyx_memviewslice __pyx_f_5cygym_4envs_7acrobot_rk4(PyObject *__pyx_v_de
  */
     if (unlikely(__pyx_v_t == Py_None)) {
       PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
-      __PYX_ERR(1, 191, __pyx_L1_error)
+      __PYX_ERR(1, 207, __pyx_L1_error)
     }
     __pyx_t_11 = (__pyx_v_i + 1);
-    __pyx_t_6 = PyFloat_FromDouble(__pyx_v_thist); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 191, __pyx_L1_error)
+    __pyx_t_6 = PyFloat_FromDouble(__pyx_v_thist); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 207, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
-    __pyx_t_5 = PyNumber_Subtract(PyTuple_GET_ITEM(__pyx_v_t, __pyx_t_11), __pyx_t_6); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 191, __pyx_L1_error)
+    __pyx_t_5 = PyNumber_Subtract(PyTuple_GET_ITEM(__pyx_v_t, __pyx_t_11), __pyx_t_6); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 207, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-    __pyx_t_10 = __pyx_PyFloat_AsFloat(__pyx_t_5); if (unlikely((__pyx_t_10 == (float)-1) && PyErr_Occurred())) __PYX_ERR(1, 191, __pyx_L1_error)
+    __pyx_t_10 = __pyx_PyFloat_AsFloat(__pyx_t_5); if (unlikely((__pyx_t_10 == (float)-1) && PyErr_Occurred())) __PYX_ERR(1, 207, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __pyx_v_dt = __pyx_t_10;
 
-    /* "cygym/envs/acrobot.pyx":192
+    /* "cygym/acrobot.pyx":208
  *         thist = t[i]
  *         dt = t[i + 1] - thist
  *         dt2 = dt / 2.0             # <<<<<<<<<<<<<<
@@ -5367,30 +5359,30 @@ static __Pyx_memviewslice __pyx_f_5cygym_4envs_7acrobot_rk4(PyObject *__pyx_v_de
  */
     __pyx_v_dt2 = (((double)__pyx_v_dt) / 2.0);
 
-    /* "cygym/envs/acrobot.pyx":193
+    /* "cygym/acrobot.pyx":209
  *         dt = t[i + 1] - thist
  *         dt2 = dt / 2.0
  *         y0 = yout[i]             # <<<<<<<<<<<<<<
  * 
  *         k1 = derivs(y0)
  */
-    __pyx_t_5 = __Pyx_GetItemInt(((PyObject *)__pyx_v_yout), __pyx_v_i, int, 1, __Pyx_PyInt_From_int, 0, 0, 0); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 193, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_GetItemInt(((PyObject *)__pyx_v_yout), __pyx_v_i, int, 1, __Pyx_PyInt_From_int, 0, 0, 0); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 209, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_12 = __Pyx_PyObject_to_MemoryviewSlice_ds_nn___pyx_t_5cygym_4envs_7acrobot_np_float_t(__pyx_t_5, PyBUF_WRITABLE); if (unlikely(!__pyx_t_12.memview)) __PYX_ERR(1, 193, __pyx_L1_error)
+    __pyx_t_12 = __Pyx_PyObject_to_MemoryviewSlice_ds_nn___pyx_t_5cygym_7acrobot_np_float_t(__pyx_t_5, PyBUF_WRITABLE); if (unlikely(!__pyx_t_12.memview)) __PYX_ERR(1, 209, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __PYX_XDEC_MEMVIEW(&__pyx_v_y0, 1);
     __pyx_v_y0 = __pyx_t_12;
     __pyx_t_12.memview = NULL;
     __pyx_t_12.data = NULL;
 
-    /* "cygym/envs/acrobot.pyx":195
+    /* "cygym/acrobot.pyx":211
  *         y0 = yout[i]
  * 
  *         k1 = derivs(y0)             # <<<<<<<<<<<<<<
  *         k2 = derivs(y0 + np.multiply(dt2, k1))
  *         k3 = derivs(y0 + np.multiply(dt2, k2))
  */
-    __pyx_t_6 = __pyx_memoryview_fromslice(__pyx_v_y0, 1, (PyObject *(*)(char *)) __pyx_memview_get_nn___pyx_t_5cygym_4envs_7acrobot_np_float_t, (int (*)(char *, PyObject *)) __pyx_memview_set_nn___pyx_t_5cygym_4envs_7acrobot_np_float_t, 0);; if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 195, __pyx_L1_error)
+    __pyx_t_6 = __pyx_memoryview_fromslice(__pyx_v_y0, 1, (PyObject *(*)(char *)) __pyx_memview_get_nn___pyx_t_5cygym_7acrobot_np_float_t, (int (*)(char *, PyObject *)) __pyx_memview_set_nn___pyx_t_5cygym_7acrobot_np_float_t, 0);; if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 211, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_INCREF(__pyx_v_derivs);
     __pyx_t_2 = __pyx_v_derivs; __pyx_t_1 = NULL;
@@ -5406,33 +5398,33 @@ static __Pyx_memviewslice __pyx_f_5cygym_4envs_7acrobot_rk4(PyObject *__pyx_v_de
     __pyx_t_5 = (__pyx_t_1) ? __Pyx_PyObject_Call2Args(__pyx_t_2, __pyx_t_1, __pyx_t_6) : __Pyx_PyObject_CallOneArg(__pyx_t_2, __pyx_t_6);
     __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-    if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 195, __pyx_L1_error)
+    if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 211, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __pyx_t_12 = __Pyx_PyObject_to_MemoryviewSlice_ds_nn___pyx_t_5cygym_4envs_7acrobot_np_float_t(__pyx_t_5, PyBUF_WRITABLE); if (unlikely(!__pyx_t_12.memview)) __PYX_ERR(1, 195, __pyx_L1_error)
+    __pyx_t_12 = __Pyx_PyObject_to_MemoryviewSlice_ds_nn___pyx_t_5cygym_7acrobot_np_float_t(__pyx_t_5, PyBUF_WRITABLE); if (unlikely(!__pyx_t_12.memview)) __PYX_ERR(1, 211, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __PYX_XDEC_MEMVIEW(&__pyx_v_k1, 1);
     __pyx_v_k1 = __pyx_t_12;
     __pyx_t_12.memview = NULL;
     __pyx_t_12.data = NULL;
 
-    /* "cygym/envs/acrobot.pyx":196
+    /* "cygym/acrobot.pyx":212
  * 
  *         k1 = derivs(y0)
  *         k2 = derivs(y0 + np.multiply(dt2, k1))             # <<<<<<<<<<<<<<
  *         k3 = derivs(y0 + np.multiply(dt2, k2))
  *         k4 = derivs(y0 + np.multiply(dt, k3))
  */
-    __pyx_t_2 = __pyx_memoryview_fromslice(__pyx_v_y0, 1, (PyObject *(*)(char *)) __pyx_memview_get_nn___pyx_t_5cygym_4envs_7acrobot_np_float_t, (int (*)(char *, PyObject *)) __pyx_memview_set_nn___pyx_t_5cygym_4envs_7acrobot_np_float_t, 0);; if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 196, __pyx_L1_error)
+    __pyx_t_2 = __pyx_memoryview_fromslice(__pyx_v_y0, 1, (PyObject *(*)(char *)) __pyx_memview_get_nn___pyx_t_5cygym_7acrobot_np_float_t, (int (*)(char *, PyObject *)) __pyx_memview_set_nn___pyx_t_5cygym_7acrobot_np_float_t, 0);; if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 212, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_np); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 196, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_np); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 212, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_13 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_multiply); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 196, __pyx_L1_error)
+    __pyx_t_13 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_multiply); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 212, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_13);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __pyx_t_1 = PyFloat_FromDouble(__pyx_v_dt2); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 196, __pyx_L1_error)
+    __pyx_t_1 = PyFloat_FromDouble(__pyx_v_dt2); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 212, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_14 = __pyx_memoryview_fromslice(__pyx_v_k1, 1, (PyObject *(*)(char *)) __pyx_memview_get_nn___pyx_t_5cygym_4envs_7acrobot_np_float_t, (int (*)(char *, PyObject *)) __pyx_memview_set_nn___pyx_t_5cygym_4envs_7acrobot_np_float_t, 0);; if (unlikely(!__pyx_t_14)) __PYX_ERR(1, 196, __pyx_L1_error)
+    __pyx_t_14 = __pyx_memoryview_fromslice(__pyx_v_k1, 1, (PyObject *(*)(char *)) __pyx_memview_get_nn___pyx_t_5cygym_7acrobot_np_float_t, (int (*)(char *, PyObject *)) __pyx_memview_set_nn___pyx_t_5cygym_7acrobot_np_float_t, 0);; if (unlikely(!__pyx_t_14)) __PYX_ERR(1, 212, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_14);
     __pyx_t_15 = NULL;
     __pyx_t_9 = 0;
@@ -5449,7 +5441,7 @@ static __Pyx_memviewslice __pyx_f_5cygym_4envs_7acrobot_rk4(PyObject *__pyx_v_de
     #if CYTHON_FAST_PYCALL
     if (PyFunction_Check(__pyx_t_13)) {
       PyObject *__pyx_temp[3] = {__pyx_t_15, __pyx_t_1, __pyx_t_14};
-      __pyx_t_6 = __Pyx_PyFunction_FastCall(__pyx_t_13, __pyx_temp+1-__pyx_t_9, 2+__pyx_t_9); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 196, __pyx_L1_error)
+      __pyx_t_6 = __Pyx_PyFunction_FastCall(__pyx_t_13, __pyx_temp+1-__pyx_t_9, 2+__pyx_t_9); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 212, __pyx_L1_error)
       __Pyx_XDECREF(__pyx_t_15); __pyx_t_15 = 0;
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -5459,7 +5451,7 @@ static __Pyx_memviewslice __pyx_f_5cygym_4envs_7acrobot_rk4(PyObject *__pyx_v_de
     #if CYTHON_FAST_PYCCALL
     if (__Pyx_PyFastCFunction_Check(__pyx_t_13)) {
       PyObject *__pyx_temp[3] = {__pyx_t_15, __pyx_t_1, __pyx_t_14};
-      __pyx_t_6 = __Pyx_PyCFunction_FastCall(__pyx_t_13, __pyx_temp+1-__pyx_t_9, 2+__pyx_t_9); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 196, __pyx_L1_error)
+      __pyx_t_6 = __Pyx_PyCFunction_FastCall(__pyx_t_13, __pyx_temp+1-__pyx_t_9, 2+__pyx_t_9); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 212, __pyx_L1_error)
       __Pyx_XDECREF(__pyx_t_15); __pyx_t_15 = 0;
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -5467,7 +5459,7 @@ static __Pyx_memviewslice __pyx_f_5cygym_4envs_7acrobot_rk4(PyObject *__pyx_v_de
     } else
     #endif
     {
-      __pyx_t_16 = PyTuple_New(2+__pyx_t_9); if (unlikely(!__pyx_t_16)) __PYX_ERR(1, 196, __pyx_L1_error)
+      __pyx_t_16 = PyTuple_New(2+__pyx_t_9); if (unlikely(!__pyx_t_16)) __PYX_ERR(1, 212, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_16);
       if (__pyx_t_15) {
         __Pyx_GIVEREF(__pyx_t_15); PyTuple_SET_ITEM(__pyx_t_16, 0, __pyx_t_15); __pyx_t_15 = NULL;
@@ -5478,12 +5470,12 @@ static __Pyx_memviewslice __pyx_f_5cygym_4envs_7acrobot_rk4(PyObject *__pyx_v_de
       PyTuple_SET_ITEM(__pyx_t_16, 1+__pyx_t_9, __pyx_t_14);
       __pyx_t_1 = 0;
       __pyx_t_14 = 0;
-      __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_13, __pyx_t_16, NULL); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 196, __pyx_L1_error)
+      __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_13, __pyx_t_16, NULL); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 212, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_DECREF(__pyx_t_16); __pyx_t_16 = 0;
     }
     __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
-    __pyx_t_13 = PyNumber_Add(__pyx_t_2, __pyx_t_6); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 196, __pyx_L1_error)
+    __pyx_t_13 = PyNumber_Add(__pyx_t_2, __pyx_t_6); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 212, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_13);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
@@ -5501,33 +5493,33 @@ static __Pyx_memviewslice __pyx_f_5cygym_4envs_7acrobot_rk4(PyObject *__pyx_v_de
     __pyx_t_5 = (__pyx_t_2) ? __Pyx_PyObject_Call2Args(__pyx_t_6, __pyx_t_2, __pyx_t_13) : __Pyx_PyObject_CallOneArg(__pyx_t_6, __pyx_t_13);
     __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
-    if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 196, __pyx_L1_error)
+    if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 212, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-    __pyx_t_12 = __Pyx_PyObject_to_MemoryviewSlice_ds_nn___pyx_t_5cygym_4envs_7acrobot_np_float_t(__pyx_t_5, PyBUF_WRITABLE); if (unlikely(!__pyx_t_12.memview)) __PYX_ERR(1, 196, __pyx_L1_error)
+    __pyx_t_12 = __Pyx_PyObject_to_MemoryviewSlice_ds_nn___pyx_t_5cygym_7acrobot_np_float_t(__pyx_t_5, PyBUF_WRITABLE); if (unlikely(!__pyx_t_12.memview)) __PYX_ERR(1, 212, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __PYX_XDEC_MEMVIEW(&__pyx_v_k2, 1);
     __pyx_v_k2 = __pyx_t_12;
     __pyx_t_12.memview = NULL;
     __pyx_t_12.data = NULL;
 
-    /* "cygym/envs/acrobot.pyx":197
+    /* "cygym/acrobot.pyx":213
  *         k1 = derivs(y0)
  *         k2 = derivs(y0 + np.multiply(dt2, k1))
  *         k3 = derivs(y0 + np.multiply(dt2, k2))             # <<<<<<<<<<<<<<
  *         k4 = derivs(y0 + np.multiply(dt, k3))
  *         yout[i + 1] = np.add(y0, np.array(dt / 6.0 * (k1 + np.multiply(2.0, k2) + np.multiply(2.0, k3) + k4)))
  */
-    __pyx_t_6 = __pyx_memoryview_fromslice(__pyx_v_y0, 1, (PyObject *(*)(char *)) __pyx_memview_get_nn___pyx_t_5cygym_4envs_7acrobot_np_float_t, (int (*)(char *, PyObject *)) __pyx_memview_set_nn___pyx_t_5cygym_4envs_7acrobot_np_float_t, 0);; if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 197, __pyx_L1_error)
+    __pyx_t_6 = __pyx_memoryview_fromslice(__pyx_v_y0, 1, (PyObject *(*)(char *)) __pyx_memview_get_nn___pyx_t_5cygym_7acrobot_np_float_t, (int (*)(char *, PyObject *)) __pyx_memview_set_nn___pyx_t_5cygym_7acrobot_np_float_t, 0);; if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 213, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
-    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 197, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 213, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_16 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_multiply); if (unlikely(!__pyx_t_16)) __PYX_ERR(1, 197, __pyx_L1_error)
+    __pyx_t_16 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_multiply); if (unlikely(!__pyx_t_16)) __PYX_ERR(1, 213, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_16);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __pyx_t_2 = PyFloat_FromDouble(__pyx_v_dt2); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 197, __pyx_L1_error)
+    __pyx_t_2 = PyFloat_FromDouble(__pyx_v_dt2); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 213, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_14 = __pyx_memoryview_fromslice(__pyx_v_k2, 1, (PyObject *(*)(char *)) __pyx_memview_get_nn___pyx_t_5cygym_4envs_7acrobot_np_float_t, (int (*)(char *, PyObject *)) __pyx_memview_set_nn___pyx_t_5cygym_4envs_7acrobot_np_float_t, 0);; if (unlikely(!__pyx_t_14)) __PYX_ERR(1, 197, __pyx_L1_error)
+    __pyx_t_14 = __pyx_memoryview_fromslice(__pyx_v_k2, 1, (PyObject *(*)(char *)) __pyx_memview_get_nn___pyx_t_5cygym_7acrobot_np_float_t, (int (*)(char *, PyObject *)) __pyx_memview_set_nn___pyx_t_5cygym_7acrobot_np_float_t, 0);; if (unlikely(!__pyx_t_14)) __PYX_ERR(1, 213, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_14);
     __pyx_t_1 = NULL;
     __pyx_t_9 = 0;
@@ -5544,7 +5536,7 @@ static __Pyx_memviewslice __pyx_f_5cygym_4envs_7acrobot_rk4(PyObject *__pyx_v_de
     #if CYTHON_FAST_PYCALL
     if (PyFunction_Check(__pyx_t_16)) {
       PyObject *__pyx_temp[3] = {__pyx_t_1, __pyx_t_2, __pyx_t_14};
-      __pyx_t_13 = __Pyx_PyFunction_FastCall(__pyx_t_16, __pyx_temp+1-__pyx_t_9, 2+__pyx_t_9); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 197, __pyx_L1_error)
+      __pyx_t_13 = __Pyx_PyFunction_FastCall(__pyx_t_16, __pyx_temp+1-__pyx_t_9, 2+__pyx_t_9); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 213, __pyx_L1_error)
       __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
       __Pyx_GOTREF(__pyx_t_13);
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -5554,7 +5546,7 @@ static __Pyx_memviewslice __pyx_f_5cygym_4envs_7acrobot_rk4(PyObject *__pyx_v_de
     #if CYTHON_FAST_PYCCALL
     if (__Pyx_PyFastCFunction_Check(__pyx_t_16)) {
       PyObject *__pyx_temp[3] = {__pyx_t_1, __pyx_t_2, __pyx_t_14};
-      __pyx_t_13 = __Pyx_PyCFunction_FastCall(__pyx_t_16, __pyx_temp+1-__pyx_t_9, 2+__pyx_t_9); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 197, __pyx_L1_error)
+      __pyx_t_13 = __Pyx_PyCFunction_FastCall(__pyx_t_16, __pyx_temp+1-__pyx_t_9, 2+__pyx_t_9); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 213, __pyx_L1_error)
       __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
       __Pyx_GOTREF(__pyx_t_13);
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -5562,7 +5554,7 @@ static __Pyx_memviewslice __pyx_f_5cygym_4envs_7acrobot_rk4(PyObject *__pyx_v_de
     } else
     #endif
     {
-      __pyx_t_15 = PyTuple_New(2+__pyx_t_9); if (unlikely(!__pyx_t_15)) __PYX_ERR(1, 197, __pyx_L1_error)
+      __pyx_t_15 = PyTuple_New(2+__pyx_t_9); if (unlikely(!__pyx_t_15)) __PYX_ERR(1, 213, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_15);
       if (__pyx_t_1) {
         __Pyx_GIVEREF(__pyx_t_1); PyTuple_SET_ITEM(__pyx_t_15, 0, __pyx_t_1); __pyx_t_1 = NULL;
@@ -5573,12 +5565,12 @@ static __Pyx_memviewslice __pyx_f_5cygym_4envs_7acrobot_rk4(PyObject *__pyx_v_de
       PyTuple_SET_ITEM(__pyx_t_15, 1+__pyx_t_9, __pyx_t_14);
       __pyx_t_2 = 0;
       __pyx_t_14 = 0;
-      __pyx_t_13 = __Pyx_PyObject_Call(__pyx_t_16, __pyx_t_15, NULL); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 197, __pyx_L1_error)
+      __pyx_t_13 = __Pyx_PyObject_Call(__pyx_t_16, __pyx_t_15, NULL); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 213, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_13);
       __Pyx_DECREF(__pyx_t_15); __pyx_t_15 = 0;
     }
     __Pyx_DECREF(__pyx_t_16); __pyx_t_16 = 0;
-    __pyx_t_16 = PyNumber_Add(__pyx_t_6, __pyx_t_13); if (unlikely(!__pyx_t_16)) __PYX_ERR(1, 197, __pyx_L1_error)
+    __pyx_t_16 = PyNumber_Add(__pyx_t_6, __pyx_t_13); if (unlikely(!__pyx_t_16)) __PYX_ERR(1, 213, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_16);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
@@ -5596,33 +5588,33 @@ static __Pyx_memviewslice __pyx_f_5cygym_4envs_7acrobot_rk4(PyObject *__pyx_v_de
     __pyx_t_5 = (__pyx_t_6) ? __Pyx_PyObject_Call2Args(__pyx_t_13, __pyx_t_6, __pyx_t_16) : __Pyx_PyObject_CallOneArg(__pyx_t_13, __pyx_t_16);
     __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
     __Pyx_DECREF(__pyx_t_16); __pyx_t_16 = 0;
-    if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 197, __pyx_L1_error)
+    if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 213, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
-    __pyx_t_12 = __Pyx_PyObject_to_MemoryviewSlice_ds_nn___pyx_t_5cygym_4envs_7acrobot_np_float_t(__pyx_t_5, PyBUF_WRITABLE); if (unlikely(!__pyx_t_12.memview)) __PYX_ERR(1, 197, __pyx_L1_error)
+    __pyx_t_12 = __Pyx_PyObject_to_MemoryviewSlice_ds_nn___pyx_t_5cygym_7acrobot_np_float_t(__pyx_t_5, PyBUF_WRITABLE); if (unlikely(!__pyx_t_12.memview)) __PYX_ERR(1, 213, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __PYX_XDEC_MEMVIEW(&__pyx_v_k3, 1);
     __pyx_v_k3 = __pyx_t_12;
     __pyx_t_12.memview = NULL;
     __pyx_t_12.data = NULL;
 
-    /* "cygym/envs/acrobot.pyx":198
+    /* "cygym/acrobot.pyx":214
  *         k2 = derivs(y0 + np.multiply(dt2, k1))
  *         k3 = derivs(y0 + np.multiply(dt2, k2))
  *         k4 = derivs(y0 + np.multiply(dt, k3))             # <<<<<<<<<<<<<<
  *         yout[i + 1] = np.add(y0, np.array(dt / 6.0 * (k1 + np.multiply(2.0, k2) + np.multiply(2.0, k3) + k4)))
  *     return yout
  */
-    __pyx_t_13 = __pyx_memoryview_fromslice(__pyx_v_y0, 1, (PyObject *(*)(char *)) __pyx_memview_get_nn___pyx_t_5cygym_4envs_7acrobot_np_float_t, (int (*)(char *, PyObject *)) __pyx_memview_set_nn___pyx_t_5cygym_4envs_7acrobot_np_float_t, 0);; if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 198, __pyx_L1_error)
+    __pyx_t_13 = __pyx_memoryview_fromslice(__pyx_v_y0, 1, (PyObject *(*)(char *)) __pyx_memview_get_nn___pyx_t_5cygym_7acrobot_np_float_t, (int (*)(char *, PyObject *)) __pyx_memview_set_nn___pyx_t_5cygym_7acrobot_np_float_t, 0);; if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 214, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_13);
-    __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 198, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 214, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
-    __pyx_t_15 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_multiply); if (unlikely(!__pyx_t_15)) __PYX_ERR(1, 198, __pyx_L1_error)
+    __pyx_t_15 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_multiply); if (unlikely(!__pyx_t_15)) __PYX_ERR(1, 214, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_15);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-    __pyx_t_6 = PyFloat_FromDouble(__pyx_v_dt); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 198, __pyx_L1_error)
+    __pyx_t_6 = PyFloat_FromDouble(__pyx_v_dt); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 214, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
-    __pyx_t_14 = __pyx_memoryview_fromslice(__pyx_v_k3, 1, (PyObject *(*)(char *)) __pyx_memview_get_nn___pyx_t_5cygym_4envs_7acrobot_np_float_t, (int (*)(char *, PyObject *)) __pyx_memview_set_nn___pyx_t_5cygym_4envs_7acrobot_np_float_t, 0);; if (unlikely(!__pyx_t_14)) __PYX_ERR(1, 198, __pyx_L1_error)
+    __pyx_t_14 = __pyx_memoryview_fromslice(__pyx_v_k3, 1, (PyObject *(*)(char *)) __pyx_memview_get_nn___pyx_t_5cygym_7acrobot_np_float_t, (int (*)(char *, PyObject *)) __pyx_memview_set_nn___pyx_t_5cygym_7acrobot_np_float_t, 0);; if (unlikely(!__pyx_t_14)) __PYX_ERR(1, 214, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_14);
     __pyx_t_2 = NULL;
     __pyx_t_9 = 0;
@@ -5639,7 +5631,7 @@ static __Pyx_memviewslice __pyx_f_5cygym_4envs_7acrobot_rk4(PyObject *__pyx_v_de
     #if CYTHON_FAST_PYCALL
     if (PyFunction_Check(__pyx_t_15)) {
       PyObject *__pyx_temp[3] = {__pyx_t_2, __pyx_t_6, __pyx_t_14};
-      __pyx_t_16 = __Pyx_PyFunction_FastCall(__pyx_t_15, __pyx_temp+1-__pyx_t_9, 2+__pyx_t_9); if (unlikely(!__pyx_t_16)) __PYX_ERR(1, 198, __pyx_L1_error)
+      __pyx_t_16 = __Pyx_PyFunction_FastCall(__pyx_t_15, __pyx_temp+1-__pyx_t_9, 2+__pyx_t_9); if (unlikely(!__pyx_t_16)) __PYX_ERR(1, 214, __pyx_L1_error)
       __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
       __Pyx_GOTREF(__pyx_t_16);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
@@ -5649,7 +5641,7 @@ static __Pyx_memviewslice __pyx_f_5cygym_4envs_7acrobot_rk4(PyObject *__pyx_v_de
     #if CYTHON_FAST_PYCCALL
     if (__Pyx_PyFastCFunction_Check(__pyx_t_15)) {
       PyObject *__pyx_temp[3] = {__pyx_t_2, __pyx_t_6, __pyx_t_14};
-      __pyx_t_16 = __Pyx_PyCFunction_FastCall(__pyx_t_15, __pyx_temp+1-__pyx_t_9, 2+__pyx_t_9); if (unlikely(!__pyx_t_16)) __PYX_ERR(1, 198, __pyx_L1_error)
+      __pyx_t_16 = __Pyx_PyCFunction_FastCall(__pyx_t_15, __pyx_temp+1-__pyx_t_9, 2+__pyx_t_9); if (unlikely(!__pyx_t_16)) __PYX_ERR(1, 214, __pyx_L1_error)
       __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
       __Pyx_GOTREF(__pyx_t_16);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
@@ -5657,7 +5649,7 @@ static __Pyx_memviewslice __pyx_f_5cygym_4envs_7acrobot_rk4(PyObject *__pyx_v_de
     } else
     #endif
     {
-      __pyx_t_1 = PyTuple_New(2+__pyx_t_9); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 198, __pyx_L1_error)
+      __pyx_t_1 = PyTuple_New(2+__pyx_t_9); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 214, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       if (__pyx_t_2) {
         __Pyx_GIVEREF(__pyx_t_2); PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_t_2); __pyx_t_2 = NULL;
@@ -5668,12 +5660,12 @@ static __Pyx_memviewslice __pyx_f_5cygym_4envs_7acrobot_rk4(PyObject *__pyx_v_de
       PyTuple_SET_ITEM(__pyx_t_1, 1+__pyx_t_9, __pyx_t_14);
       __pyx_t_6 = 0;
       __pyx_t_14 = 0;
-      __pyx_t_16 = __Pyx_PyObject_Call(__pyx_t_15, __pyx_t_1, NULL); if (unlikely(!__pyx_t_16)) __PYX_ERR(1, 198, __pyx_L1_error)
+      __pyx_t_16 = __Pyx_PyObject_Call(__pyx_t_15, __pyx_t_1, NULL); if (unlikely(!__pyx_t_16)) __PYX_ERR(1, 214, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_16);
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     }
     __Pyx_DECREF(__pyx_t_15); __pyx_t_15 = 0;
-    __pyx_t_15 = PyNumber_Add(__pyx_t_13, __pyx_t_16); if (unlikely(!__pyx_t_15)) __PYX_ERR(1, 198, __pyx_L1_error)
+    __pyx_t_15 = PyNumber_Add(__pyx_t_13, __pyx_t_16); if (unlikely(!__pyx_t_15)) __PYX_ERR(1, 214, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_15);
     __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
     __Pyx_DECREF(__pyx_t_16); __pyx_t_16 = 0;
@@ -5691,44 +5683,44 @@ static __Pyx_memviewslice __pyx_f_5cygym_4envs_7acrobot_rk4(PyObject *__pyx_v_de
     __pyx_t_5 = (__pyx_t_13) ? __Pyx_PyObject_Call2Args(__pyx_t_16, __pyx_t_13, __pyx_t_15) : __Pyx_PyObject_CallOneArg(__pyx_t_16, __pyx_t_15);
     __Pyx_XDECREF(__pyx_t_13); __pyx_t_13 = 0;
     __Pyx_DECREF(__pyx_t_15); __pyx_t_15 = 0;
-    if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 198, __pyx_L1_error)
+    if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 214, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_DECREF(__pyx_t_16); __pyx_t_16 = 0;
-    __pyx_t_12 = __Pyx_PyObject_to_MemoryviewSlice_ds_nn___pyx_t_5cygym_4envs_7acrobot_np_float_t(__pyx_t_5, PyBUF_WRITABLE); if (unlikely(!__pyx_t_12.memview)) __PYX_ERR(1, 198, __pyx_L1_error)
+    __pyx_t_12 = __Pyx_PyObject_to_MemoryviewSlice_ds_nn___pyx_t_5cygym_7acrobot_np_float_t(__pyx_t_5, PyBUF_WRITABLE); if (unlikely(!__pyx_t_12.memview)) __PYX_ERR(1, 214, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __PYX_XDEC_MEMVIEW(&__pyx_v_k4, 1);
     __pyx_v_k4 = __pyx_t_12;
     __pyx_t_12.memview = NULL;
     __pyx_t_12.data = NULL;
 
-    /* "cygym/envs/acrobot.pyx":199
+    /* "cygym/acrobot.pyx":215
  *         k3 = derivs(y0 + np.multiply(dt2, k2))
  *         k4 = derivs(y0 + np.multiply(dt, k3))
  *         yout[i + 1] = np.add(y0, np.array(dt / 6.0 * (k1 + np.multiply(2.0, k2) + np.multiply(2.0, k3) + k4)))             # <<<<<<<<<<<<<<
  *     return yout
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_16, __pyx_n_s_np); if (unlikely(!__pyx_t_16)) __PYX_ERR(1, 199, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_16, __pyx_n_s_np); if (unlikely(!__pyx_t_16)) __PYX_ERR(1, 215, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_16);
-    __pyx_t_15 = __Pyx_PyObject_GetAttrStr(__pyx_t_16, __pyx_n_s_add); if (unlikely(!__pyx_t_15)) __PYX_ERR(1, 199, __pyx_L1_error)
+    __pyx_t_15 = __Pyx_PyObject_GetAttrStr(__pyx_t_16, __pyx_n_s_add); if (unlikely(!__pyx_t_15)) __PYX_ERR(1, 215, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_15);
     __Pyx_DECREF(__pyx_t_16); __pyx_t_16 = 0;
-    __pyx_t_16 = __pyx_memoryview_fromslice(__pyx_v_y0, 1, (PyObject *(*)(char *)) __pyx_memview_get_nn___pyx_t_5cygym_4envs_7acrobot_np_float_t, (int (*)(char *, PyObject *)) __pyx_memview_set_nn___pyx_t_5cygym_4envs_7acrobot_np_float_t, 0);; if (unlikely(!__pyx_t_16)) __PYX_ERR(1, 199, __pyx_L1_error)
+    __pyx_t_16 = __pyx_memoryview_fromslice(__pyx_v_y0, 1, (PyObject *(*)(char *)) __pyx_memview_get_nn___pyx_t_5cygym_7acrobot_np_float_t, (int (*)(char *, PyObject *)) __pyx_memview_set_nn___pyx_t_5cygym_7acrobot_np_float_t, 0);; if (unlikely(!__pyx_t_16)) __PYX_ERR(1, 215, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_16);
-    __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_np); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 199, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_np); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 215, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_14 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_array); if (unlikely(!__pyx_t_14)) __PYX_ERR(1, 199, __pyx_L1_error)
+    __pyx_t_14 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_array); if (unlikely(!__pyx_t_14)) __PYX_ERR(1, 215, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_14);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __pyx_t_1 = PyFloat_FromDouble((((double)__pyx_v_dt) / 6.0)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 199, __pyx_L1_error)
+    __pyx_t_1 = PyFloat_FromDouble((((double)__pyx_v_dt) / 6.0)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 215, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_6 = __pyx_memoryview_fromslice(__pyx_v_k1, 1, (PyObject *(*)(char *)) __pyx_memview_get_nn___pyx_t_5cygym_4envs_7acrobot_np_float_t, (int (*)(char *, PyObject *)) __pyx_memview_set_nn___pyx_t_5cygym_4envs_7acrobot_np_float_t, 0);; if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 199, __pyx_L1_error)
+    __pyx_t_6 = __pyx_memoryview_fromslice(__pyx_v_k1, 1, (PyObject *(*)(char *)) __pyx_memview_get_nn___pyx_t_5cygym_7acrobot_np_float_t, (int (*)(char *, PyObject *)) __pyx_memview_set_nn___pyx_t_5cygym_7acrobot_np_float_t, 0);; if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 215, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
-    __Pyx_GetModuleGlobalName(__pyx_t_17, __pyx_n_s_np); if (unlikely(!__pyx_t_17)) __PYX_ERR(1, 199, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_17, __pyx_n_s_np); if (unlikely(!__pyx_t_17)) __PYX_ERR(1, 215, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_17);
-    __pyx_t_18 = __Pyx_PyObject_GetAttrStr(__pyx_t_17, __pyx_n_s_multiply); if (unlikely(!__pyx_t_18)) __PYX_ERR(1, 199, __pyx_L1_error)
+    __pyx_t_18 = __Pyx_PyObject_GetAttrStr(__pyx_t_17, __pyx_n_s_multiply); if (unlikely(!__pyx_t_18)) __PYX_ERR(1, 215, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_18);
     __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
-    __pyx_t_17 = __pyx_memoryview_fromslice(__pyx_v_k2, 1, (PyObject *(*)(char *)) __pyx_memview_get_nn___pyx_t_5cygym_4envs_7acrobot_np_float_t, (int (*)(char *, PyObject *)) __pyx_memview_set_nn___pyx_t_5cygym_4envs_7acrobot_np_float_t, 0);; if (unlikely(!__pyx_t_17)) __PYX_ERR(1, 199, __pyx_L1_error)
+    __pyx_t_17 = __pyx_memoryview_fromslice(__pyx_v_k2, 1, (PyObject *(*)(char *)) __pyx_memview_get_nn___pyx_t_5cygym_7acrobot_np_float_t, (int (*)(char *, PyObject *)) __pyx_memview_set_nn___pyx_t_5cygym_7acrobot_np_float_t, 0);; if (unlikely(!__pyx_t_17)) __PYX_ERR(1, 215, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_17);
     __pyx_t_19 = NULL;
     __pyx_t_9 = 0;
@@ -5745,7 +5737,7 @@ static __Pyx_memviewslice __pyx_f_5cygym_4envs_7acrobot_rk4(PyObject *__pyx_v_de
     #if CYTHON_FAST_PYCALL
     if (PyFunction_Check(__pyx_t_18)) {
       PyObject *__pyx_temp[3] = {__pyx_t_19, __pyx_float_2_0, __pyx_t_17};
-      __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_18, __pyx_temp+1-__pyx_t_9, 2+__pyx_t_9); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 199, __pyx_L1_error)
+      __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_18, __pyx_temp+1-__pyx_t_9, 2+__pyx_t_9); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 215, __pyx_L1_error)
       __Pyx_XDECREF(__pyx_t_19); __pyx_t_19 = 0;
       __Pyx_GOTREF(__pyx_t_2);
       __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
@@ -5754,14 +5746,14 @@ static __Pyx_memviewslice __pyx_f_5cygym_4envs_7acrobot_rk4(PyObject *__pyx_v_de
     #if CYTHON_FAST_PYCCALL
     if (__Pyx_PyFastCFunction_Check(__pyx_t_18)) {
       PyObject *__pyx_temp[3] = {__pyx_t_19, __pyx_float_2_0, __pyx_t_17};
-      __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_18, __pyx_temp+1-__pyx_t_9, 2+__pyx_t_9); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 199, __pyx_L1_error)
+      __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_18, __pyx_temp+1-__pyx_t_9, 2+__pyx_t_9); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 215, __pyx_L1_error)
       __Pyx_XDECREF(__pyx_t_19); __pyx_t_19 = 0;
       __Pyx_GOTREF(__pyx_t_2);
       __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
     } else
     #endif
     {
-      __pyx_t_20 = PyTuple_New(2+__pyx_t_9); if (unlikely(!__pyx_t_20)) __PYX_ERR(1, 199, __pyx_L1_error)
+      __pyx_t_20 = PyTuple_New(2+__pyx_t_9); if (unlikely(!__pyx_t_20)) __PYX_ERR(1, 215, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_20);
       if (__pyx_t_19) {
         __Pyx_GIVEREF(__pyx_t_19); PyTuple_SET_ITEM(__pyx_t_20, 0, __pyx_t_19); __pyx_t_19 = NULL;
@@ -5772,21 +5764,21 @@ static __Pyx_memviewslice __pyx_f_5cygym_4envs_7acrobot_rk4(PyObject *__pyx_v_de
       __Pyx_GIVEREF(__pyx_t_17);
       PyTuple_SET_ITEM(__pyx_t_20, 1+__pyx_t_9, __pyx_t_17);
       __pyx_t_17 = 0;
-      __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_18, __pyx_t_20, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 199, __pyx_L1_error)
+      __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_18, __pyx_t_20, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 215, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
       __Pyx_DECREF(__pyx_t_20); __pyx_t_20 = 0;
     }
     __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
-    __pyx_t_18 = PyNumber_Add(__pyx_t_6, __pyx_t_2); if (unlikely(!__pyx_t_18)) __PYX_ERR(1, 199, __pyx_L1_error)
+    __pyx_t_18 = PyNumber_Add(__pyx_t_6, __pyx_t_2); if (unlikely(!__pyx_t_18)) __PYX_ERR(1, 215, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_18);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 199, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 215, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
-    __pyx_t_20 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_multiply); if (unlikely(!__pyx_t_20)) __PYX_ERR(1, 199, __pyx_L1_error)
+    __pyx_t_20 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_multiply); if (unlikely(!__pyx_t_20)) __PYX_ERR(1, 215, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_20);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-    __pyx_t_6 = __pyx_memoryview_fromslice(__pyx_v_k3, 1, (PyObject *(*)(char *)) __pyx_memview_get_nn___pyx_t_5cygym_4envs_7acrobot_np_float_t, (int (*)(char *, PyObject *)) __pyx_memview_set_nn___pyx_t_5cygym_4envs_7acrobot_np_float_t, 0);; if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 199, __pyx_L1_error)
+    __pyx_t_6 = __pyx_memoryview_fromslice(__pyx_v_k3, 1, (PyObject *(*)(char *)) __pyx_memview_get_nn___pyx_t_5cygym_7acrobot_np_float_t, (int (*)(char *, PyObject *)) __pyx_memview_set_nn___pyx_t_5cygym_7acrobot_np_float_t, 0);; if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 215, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __pyx_t_17 = NULL;
     __pyx_t_9 = 0;
@@ -5803,7 +5795,7 @@ static __Pyx_memviewslice __pyx_f_5cygym_4envs_7acrobot_rk4(PyObject *__pyx_v_de
     #if CYTHON_FAST_PYCALL
     if (PyFunction_Check(__pyx_t_20)) {
       PyObject *__pyx_temp[3] = {__pyx_t_17, __pyx_float_2_0, __pyx_t_6};
-      __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_20, __pyx_temp+1-__pyx_t_9, 2+__pyx_t_9); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 199, __pyx_L1_error)
+      __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_20, __pyx_temp+1-__pyx_t_9, 2+__pyx_t_9); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 215, __pyx_L1_error)
       __Pyx_XDECREF(__pyx_t_17); __pyx_t_17 = 0;
       __Pyx_GOTREF(__pyx_t_2);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
@@ -5812,14 +5804,14 @@ static __Pyx_memviewslice __pyx_f_5cygym_4envs_7acrobot_rk4(PyObject *__pyx_v_de
     #if CYTHON_FAST_PYCCALL
     if (__Pyx_PyFastCFunction_Check(__pyx_t_20)) {
       PyObject *__pyx_temp[3] = {__pyx_t_17, __pyx_float_2_0, __pyx_t_6};
-      __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_20, __pyx_temp+1-__pyx_t_9, 2+__pyx_t_9); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 199, __pyx_L1_error)
+      __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_20, __pyx_temp+1-__pyx_t_9, 2+__pyx_t_9); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 215, __pyx_L1_error)
       __Pyx_XDECREF(__pyx_t_17); __pyx_t_17 = 0;
       __Pyx_GOTREF(__pyx_t_2);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     } else
     #endif
     {
-      __pyx_t_19 = PyTuple_New(2+__pyx_t_9); if (unlikely(!__pyx_t_19)) __PYX_ERR(1, 199, __pyx_L1_error)
+      __pyx_t_19 = PyTuple_New(2+__pyx_t_9); if (unlikely(!__pyx_t_19)) __PYX_ERR(1, 215, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_19);
       if (__pyx_t_17) {
         __Pyx_GIVEREF(__pyx_t_17); PyTuple_SET_ITEM(__pyx_t_19, 0, __pyx_t_17); __pyx_t_17 = NULL;
@@ -5830,22 +5822,22 @@ static __Pyx_memviewslice __pyx_f_5cygym_4envs_7acrobot_rk4(PyObject *__pyx_v_de
       __Pyx_GIVEREF(__pyx_t_6);
       PyTuple_SET_ITEM(__pyx_t_19, 1+__pyx_t_9, __pyx_t_6);
       __pyx_t_6 = 0;
-      __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_20, __pyx_t_19, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 199, __pyx_L1_error)
+      __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_20, __pyx_t_19, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 215, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
       __Pyx_DECREF(__pyx_t_19); __pyx_t_19 = 0;
     }
     __Pyx_DECREF(__pyx_t_20); __pyx_t_20 = 0;
-    __pyx_t_20 = PyNumber_Add(__pyx_t_18, __pyx_t_2); if (unlikely(!__pyx_t_20)) __PYX_ERR(1, 199, __pyx_L1_error)
+    __pyx_t_20 = PyNumber_Add(__pyx_t_18, __pyx_t_2); if (unlikely(!__pyx_t_20)) __PYX_ERR(1, 215, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_20);
     __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __pyx_t_2 = __pyx_memoryview_fromslice(__pyx_v_k4, 1, (PyObject *(*)(char *)) __pyx_memview_get_nn___pyx_t_5cygym_4envs_7acrobot_np_float_t, (int (*)(char *, PyObject *)) __pyx_memview_set_nn___pyx_t_5cygym_4envs_7acrobot_np_float_t, 0);; if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 199, __pyx_L1_error)
+    __pyx_t_2 = __pyx_memoryview_fromslice(__pyx_v_k4, 1, (PyObject *(*)(char *)) __pyx_memview_get_nn___pyx_t_5cygym_7acrobot_np_float_t, (int (*)(char *, PyObject *)) __pyx_memview_set_nn___pyx_t_5cygym_7acrobot_np_float_t, 0);; if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 215, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_18 = PyNumber_Add(__pyx_t_20, __pyx_t_2); if (unlikely(!__pyx_t_18)) __PYX_ERR(1, 199, __pyx_L1_error)
+    __pyx_t_18 = PyNumber_Add(__pyx_t_20, __pyx_t_2); if (unlikely(!__pyx_t_18)) __PYX_ERR(1, 215, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_18);
     __Pyx_DECREF(__pyx_t_20); __pyx_t_20 = 0;
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __pyx_t_2 = PyNumber_Multiply(__pyx_t_1, __pyx_t_18); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 199, __pyx_L1_error)
+    __pyx_t_2 = PyNumber_Multiply(__pyx_t_1, __pyx_t_18); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 215, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
@@ -5862,7 +5854,7 @@ static __Pyx_memviewslice __pyx_f_5cygym_4envs_7acrobot_rk4(PyObject *__pyx_v_de
     __pyx_t_13 = (__pyx_t_18) ? __Pyx_PyObject_Call2Args(__pyx_t_14, __pyx_t_18, __pyx_t_2) : __Pyx_PyObject_CallOneArg(__pyx_t_14, __pyx_t_2);
     __Pyx_XDECREF(__pyx_t_18); __pyx_t_18 = 0;
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 199, __pyx_L1_error)
+    if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 215, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_13);
     __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
     __pyx_t_14 = NULL;
@@ -5880,7 +5872,7 @@ static __Pyx_memviewslice __pyx_f_5cygym_4envs_7acrobot_rk4(PyObject *__pyx_v_de
     #if CYTHON_FAST_PYCALL
     if (PyFunction_Check(__pyx_t_15)) {
       PyObject *__pyx_temp[3] = {__pyx_t_14, __pyx_t_16, __pyx_t_13};
-      __pyx_t_5 = __Pyx_PyFunction_FastCall(__pyx_t_15, __pyx_temp+1-__pyx_t_9, 2+__pyx_t_9); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 199, __pyx_L1_error)
+      __pyx_t_5 = __Pyx_PyFunction_FastCall(__pyx_t_15, __pyx_temp+1-__pyx_t_9, 2+__pyx_t_9); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 215, __pyx_L1_error)
       __Pyx_XDECREF(__pyx_t_14); __pyx_t_14 = 0;
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_DECREF(__pyx_t_16); __pyx_t_16 = 0;
@@ -5890,7 +5882,7 @@ static __Pyx_memviewslice __pyx_f_5cygym_4envs_7acrobot_rk4(PyObject *__pyx_v_de
     #if CYTHON_FAST_PYCCALL
     if (__Pyx_PyFastCFunction_Check(__pyx_t_15)) {
       PyObject *__pyx_temp[3] = {__pyx_t_14, __pyx_t_16, __pyx_t_13};
-      __pyx_t_5 = __Pyx_PyCFunction_FastCall(__pyx_t_15, __pyx_temp+1-__pyx_t_9, 2+__pyx_t_9); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 199, __pyx_L1_error)
+      __pyx_t_5 = __Pyx_PyCFunction_FastCall(__pyx_t_15, __pyx_temp+1-__pyx_t_9, 2+__pyx_t_9); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 215, __pyx_L1_error)
       __Pyx_XDECREF(__pyx_t_14); __pyx_t_14 = 0;
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_DECREF(__pyx_t_16); __pyx_t_16 = 0;
@@ -5898,7 +5890,7 @@ static __Pyx_memviewslice __pyx_f_5cygym_4envs_7acrobot_rk4(PyObject *__pyx_v_de
     } else
     #endif
     {
-      __pyx_t_2 = PyTuple_New(2+__pyx_t_9); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 199, __pyx_L1_error)
+      __pyx_t_2 = PyTuple_New(2+__pyx_t_9); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 215, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
       if (__pyx_t_14) {
         __Pyx_GIVEREF(__pyx_t_14); PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_t_14); __pyx_t_14 = NULL;
@@ -5909,16 +5901,16 @@ static __Pyx_memviewslice __pyx_f_5cygym_4envs_7acrobot_rk4(PyObject *__pyx_v_de
       PyTuple_SET_ITEM(__pyx_t_2, 1+__pyx_t_9, __pyx_t_13);
       __pyx_t_16 = 0;
       __pyx_t_13 = 0;
-      __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_15, __pyx_t_2, NULL); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 199, __pyx_L1_error)
+      __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_15, __pyx_t_2, NULL); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 215, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     }
     __Pyx_DECREF(__pyx_t_15); __pyx_t_15 = 0;
     __pyx_t_11 = (__pyx_v_i + 1);
-    if (unlikely(__Pyx_SetItemInt(((PyObject *)__pyx_v_yout), __pyx_t_11, __pyx_t_5, long, 1, __Pyx_PyInt_From_long, 0, 0, 0) < 0)) __PYX_ERR(1, 199, __pyx_L1_error)
+    if (unlikely(__Pyx_SetItemInt(((PyObject *)__pyx_v_yout), __pyx_t_11, __pyx_t_5, long, 1, __Pyx_PyInt_From_long, 0, 0, 0) < 0)) __PYX_ERR(1, 215, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-    /* "cygym/envs/acrobot.pyx":188
+    /* "cygym/acrobot.pyx":204
  *     yout[0] = y0
  * 
  *     for i in np.arange(len(t) - 1):             # <<<<<<<<<<<<<<
@@ -5928,18 +5920,18 @@ static __Pyx_memviewslice __pyx_f_5cygym_4envs_7acrobot_rk4(PyObject *__pyx_v_de
   }
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "cygym/envs/acrobot.pyx":200
+  /* "cygym/acrobot.pyx":216
  *         k4 = derivs(y0 + np.multiply(dt, k3))
  *         yout[i + 1] = np.add(y0, np.array(dt / 6.0 * (k1 + np.multiply(2.0, k2) + np.multiply(2.0, k3) + k4)))
  *     return yout             # <<<<<<<<<<<<<<
  */
-  __pyx_t_21 = __Pyx_PyObject_to_MemoryviewSlice_dsds_nn___pyx_t_5cygym_4envs_7acrobot_np_float_t(((PyObject *)__pyx_v_yout), PyBUF_WRITABLE); if (unlikely(!__pyx_t_21.memview)) __PYX_ERR(1, 200, __pyx_L1_error)
+  __pyx_t_21 = __Pyx_PyObject_to_MemoryviewSlice_dsds_nn___pyx_t_5cygym_7acrobot_np_float_t(((PyObject *)__pyx_v_yout), PyBUF_WRITABLE); if (unlikely(!__pyx_t_21.memview)) __PYX_ERR(1, 216, __pyx_L1_error)
   __pyx_r = __pyx_t_21;
   __pyx_t_21.memview = NULL;
   __pyx_t_21.data = NULL;
   goto __pyx_L0;
 
-  /* "cygym/envs/acrobot.pyx":173
+  /* "cygym/acrobot.pyx":189
  * 
  * 
  * cdef np_float_t[:,:] rk4(object derivs, np_float_t[:] y0, tuple t):             # <<<<<<<<<<<<<<
@@ -5972,7 +5964,7 @@ static __Pyx_memviewslice __pyx_f_5cygym_4envs_7acrobot_rk4(PyObject *__pyx_v_de
   __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
   __pyx_r.data = NULL;
   __pyx_r.memview = NULL;
-  __Pyx_AddTraceback("cygym.envs.acrobot.rk4", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("cygym.acrobot.rk4", __pyx_clineno, __pyx_lineno, __pyx_filename);
   goto __pyx_L2;
   __pyx_L0:;
   __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_yout.rcbuffer->pybuffer);
@@ -5990,7 +5982,7 @@ static __Pyx_memviewslice __pyx_f_5cygym_4envs_7acrobot_rk4(PyObject *__pyx_v_de
   return __pyx_r;
 }
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":258
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":258
  *         # experimental exception made for __getbuffer__ and __releasebuffer__
  *         # -- the details of this may change.
  *         def __getbuffer__(ndarray self, Py_buffer* info, int flags):             # <<<<<<<<<<<<<<
@@ -6039,7 +6031,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_v_info->obj = Py_None; __Pyx_INCREF(Py_None);
   __Pyx_GIVEREF(__pyx_v_info->obj);
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":265
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":265
  * 
  *             cdef int i, ndim
  *             cdef int endian_detector = 1             # <<<<<<<<<<<<<<
@@ -6048,7 +6040,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_endian_detector = 1;
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":266
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":266
  *             cdef int i, ndim
  *             cdef int endian_detector = 1
  *             cdef bint little_endian = ((<char*>&endian_detector)[0] != 0)             # <<<<<<<<<<<<<<
@@ -6057,7 +6049,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_little_endian = ((((char *)(&__pyx_v_endian_detector))[0]) != 0);
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":268
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":268
  *             cdef bint little_endian = ((<char*>&endian_detector)[0] != 0)
  * 
  *             ndim = PyArray_NDIM(self)             # <<<<<<<<<<<<<<
@@ -6066,7 +6058,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_ndim = PyArray_NDIM(__pyx_v_self);
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":270
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":270
  *             ndim = PyArray_NDIM(self)
  * 
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)             # <<<<<<<<<<<<<<
@@ -6080,7 +6072,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     goto __pyx_L4_bool_binop_done;
   }
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":271
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":271
  * 
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_ARRAY_C_CONTIGUOUS)):             # <<<<<<<<<<<<<<
@@ -6091,7 +6083,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_t_1 = __pyx_t_2;
   __pyx_L4_bool_binop_done:;
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":270
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":270
  *             ndim = PyArray_NDIM(self)
  * 
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)             # <<<<<<<<<<<<<<
@@ -6100,7 +6092,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   if (unlikely(__pyx_t_1)) {
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":272
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":272
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_ARRAY_C_CONTIGUOUS)):
  *                 raise ValueError(u"ndarray is not C contiguous")             # <<<<<<<<<<<<<<
@@ -6113,7 +6105,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __PYX_ERR(2, 272, __pyx_L1_error)
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":270
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":270
  *             ndim = PyArray_NDIM(self)
  * 
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)             # <<<<<<<<<<<<<<
@@ -6122,7 +6114,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   }
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":274
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":274
  *                 raise ValueError(u"ndarray is not C contiguous")
  * 
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)             # <<<<<<<<<<<<<<
@@ -6136,7 +6128,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     goto __pyx_L7_bool_binop_done;
   }
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":275
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":275
  * 
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_ARRAY_F_CONTIGUOUS)):             # <<<<<<<<<<<<<<
@@ -6147,7 +6139,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_t_1 = __pyx_t_2;
   __pyx_L7_bool_binop_done:;
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":274
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":274
  *                 raise ValueError(u"ndarray is not C contiguous")
  * 
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)             # <<<<<<<<<<<<<<
@@ -6156,7 +6148,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   if (unlikely(__pyx_t_1)) {
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":276
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":276
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_ARRAY_F_CONTIGUOUS)):
  *                 raise ValueError(u"ndarray is not Fortran contiguous")             # <<<<<<<<<<<<<<
@@ -6169,7 +6161,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __PYX_ERR(2, 276, __pyx_L1_error)
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":274
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":274
  *                 raise ValueError(u"ndarray is not C contiguous")
  * 
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)             # <<<<<<<<<<<<<<
@@ -6178,7 +6170,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   }
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":278
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":278
  *                 raise ValueError(u"ndarray is not Fortran contiguous")
  * 
  *             info.buf = PyArray_DATA(self)             # <<<<<<<<<<<<<<
@@ -6187,7 +6179,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_info->buf = PyArray_DATA(__pyx_v_self);
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":279
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":279
  * 
  *             info.buf = PyArray_DATA(self)
  *             info.ndim = ndim             # <<<<<<<<<<<<<<
@@ -6196,7 +6188,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_info->ndim = __pyx_v_ndim;
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":280
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":280
  *             info.buf = PyArray_DATA(self)
  *             info.ndim = ndim
  *             if sizeof(npy_intp) != sizeof(Py_ssize_t):             # <<<<<<<<<<<<<<
@@ -6206,7 +6198,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_t_1 = (((sizeof(npy_intp)) != (sizeof(Py_ssize_t))) != 0);
   if (__pyx_t_1) {
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":283
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":283
  *                 # Allocate new buffer for strides and shape info.
  *                 # This is allocated as one block, strides first.
  *                 info.strides = <Py_ssize_t*>PyObject_Malloc(sizeof(Py_ssize_t) * 2 * <size_t>ndim)             # <<<<<<<<<<<<<<
@@ -6215,7 +6207,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     __pyx_v_info->strides = ((Py_ssize_t *)PyObject_Malloc((((sizeof(Py_ssize_t)) * 2) * ((size_t)__pyx_v_ndim))));
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":284
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":284
  *                 # This is allocated as one block, strides first.
  *                 info.strides = <Py_ssize_t*>PyObject_Malloc(sizeof(Py_ssize_t) * 2 * <size_t>ndim)
  *                 info.shape = info.strides + ndim             # <<<<<<<<<<<<<<
@@ -6224,7 +6216,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     __pyx_v_info->shape = (__pyx_v_info->strides + __pyx_v_ndim);
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":285
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":285
  *                 info.strides = <Py_ssize_t*>PyObject_Malloc(sizeof(Py_ssize_t) * 2 * <size_t>ndim)
  *                 info.shape = info.strides + ndim
  *                 for i in range(ndim):             # <<<<<<<<<<<<<<
@@ -6236,7 +6228,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     for (__pyx_t_6 = 0; __pyx_t_6 < __pyx_t_5; __pyx_t_6+=1) {
       __pyx_v_i = __pyx_t_6;
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":286
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":286
  *                 info.shape = info.strides + ndim
  *                 for i in range(ndim):
  *                     info.strides[i] = PyArray_STRIDES(self)[i]             # <<<<<<<<<<<<<<
@@ -6245,7 +6237,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
       (__pyx_v_info->strides[__pyx_v_i]) = (PyArray_STRIDES(__pyx_v_self)[__pyx_v_i]);
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":287
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":287
  *                 for i in range(ndim):
  *                     info.strides[i] = PyArray_STRIDES(self)[i]
  *                     info.shape[i] = PyArray_DIMS(self)[i]             # <<<<<<<<<<<<<<
@@ -6255,7 +6247,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       (__pyx_v_info->shape[__pyx_v_i]) = (PyArray_DIMS(__pyx_v_self)[__pyx_v_i]);
     }
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":280
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":280
  *             info.buf = PyArray_DATA(self)
  *             info.ndim = ndim
  *             if sizeof(npy_intp) != sizeof(Py_ssize_t):             # <<<<<<<<<<<<<<
@@ -6265,7 +6257,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     goto __pyx_L9;
   }
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":289
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":289
  *                     info.shape[i] = PyArray_DIMS(self)[i]
  *             else:
  *                 info.strides = <Py_ssize_t*>PyArray_STRIDES(self)             # <<<<<<<<<<<<<<
@@ -6275,7 +6267,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   /*else*/ {
     __pyx_v_info->strides = ((Py_ssize_t *)PyArray_STRIDES(__pyx_v_self));
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":290
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":290
  *             else:
  *                 info.strides = <Py_ssize_t*>PyArray_STRIDES(self)
  *                 info.shape = <Py_ssize_t*>PyArray_DIMS(self)             # <<<<<<<<<<<<<<
@@ -6286,7 +6278,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   }
   __pyx_L9:;
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":291
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":291
  *                 info.strides = <Py_ssize_t*>PyArray_STRIDES(self)
  *                 info.shape = <Py_ssize_t*>PyArray_DIMS(self)
  *             info.suboffsets = NULL             # <<<<<<<<<<<<<<
@@ -6295,7 +6287,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_info->suboffsets = NULL;
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":292
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":292
  *                 info.shape = <Py_ssize_t*>PyArray_DIMS(self)
  *             info.suboffsets = NULL
  *             info.itemsize = PyArray_ITEMSIZE(self)             # <<<<<<<<<<<<<<
@@ -6304,7 +6296,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_info->itemsize = PyArray_ITEMSIZE(__pyx_v_self);
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":293
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":293
  *             info.suboffsets = NULL
  *             info.itemsize = PyArray_ITEMSIZE(self)
  *             info.readonly = not PyArray_ISWRITEABLE(self)             # <<<<<<<<<<<<<<
@@ -6313,7 +6305,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_info->readonly = (!(PyArray_ISWRITEABLE(__pyx_v_self) != 0));
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":296
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":296
  * 
  *             cdef int t
  *             cdef char* f = NULL             # <<<<<<<<<<<<<<
@@ -6322,7 +6314,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_f = NULL;
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":297
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":297
  *             cdef int t
  *             cdef char* f = NULL
  *             cdef dtype descr = <dtype>PyArray_DESCR(self)             # <<<<<<<<<<<<<<
@@ -6335,7 +6327,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_v_descr = ((PyArray_Descr *)__pyx_t_3);
   __pyx_t_3 = 0;
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":300
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":300
  *             cdef int offset
  * 
  *             info.obj = self             # <<<<<<<<<<<<<<
@@ -6348,7 +6340,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __Pyx_DECREF(__pyx_v_info->obj);
   __pyx_v_info->obj = ((PyObject *)__pyx_v_self);
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":302
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":302
  *             info.obj = self
  * 
  *             if not PyDataType_HASFIELDS(descr):             # <<<<<<<<<<<<<<
@@ -6358,7 +6350,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_t_1 = ((!(PyDataType_HASFIELDS(__pyx_v_descr) != 0)) != 0);
   if (__pyx_t_1) {
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":303
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":303
  * 
  *             if not PyDataType_HASFIELDS(descr):
  *                 t = descr.type_num             # <<<<<<<<<<<<<<
@@ -6368,7 +6360,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __pyx_t_4 = __pyx_v_descr->type_num;
     __pyx_v_t = __pyx_t_4;
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":304
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":304
  *             if not PyDataType_HASFIELDS(descr):
  *                 t = descr.type_num
  *                 if ((descr.byteorder == c'>' and little_endian) or             # <<<<<<<<<<<<<<
@@ -6388,7 +6380,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     }
     __pyx_L15_next_or:;
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":305
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":305
  *                 t = descr.type_num
  *                 if ((descr.byteorder == c'>' and little_endian) or
  *                     (descr.byteorder == c'<' and not little_endian)):             # <<<<<<<<<<<<<<
@@ -6405,7 +6397,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __pyx_t_1 = __pyx_t_2;
     __pyx_L14_bool_binop_done:;
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":304
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":304
  *             if not PyDataType_HASFIELDS(descr):
  *                 t = descr.type_num
  *                 if ((descr.byteorder == c'>' and little_endian) or             # <<<<<<<<<<<<<<
@@ -6414,7 +6406,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     if (unlikely(__pyx_t_1)) {
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":306
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":306
  *                 if ((descr.byteorder == c'>' and little_endian) or
  *                     (descr.byteorder == c'<' and not little_endian)):
  *                     raise ValueError(u"Non-native byte order not supported")             # <<<<<<<<<<<<<<
@@ -6427,7 +6419,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       __PYX_ERR(2, 306, __pyx_L1_error)
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":304
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":304
  *             if not PyDataType_HASFIELDS(descr):
  *                 t = descr.type_num
  *                 if ((descr.byteorder == c'>' and little_endian) or             # <<<<<<<<<<<<<<
@@ -6436,7 +6428,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     }
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":307
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":307
  *                     (descr.byteorder == c'<' and not little_endian)):
  *                     raise ValueError(u"Non-native byte order not supported")
  *                 if   t == NPY_BYTE:        f = "b"             # <<<<<<<<<<<<<<
@@ -6449,7 +6441,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
       case NPY_UBYTE:
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":308
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":308
  *                     raise ValueError(u"Non-native byte order not supported")
  *                 if   t == NPY_BYTE:        f = "b"
  *                 elif t == NPY_UBYTE:       f = "B"             # <<<<<<<<<<<<<<
@@ -6460,7 +6452,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
       case NPY_SHORT:
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":309
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":309
  *                 if   t == NPY_BYTE:        f = "b"
  *                 elif t == NPY_UBYTE:       f = "B"
  *                 elif t == NPY_SHORT:       f = "h"             # <<<<<<<<<<<<<<
@@ -6471,7 +6463,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
       case NPY_USHORT:
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":310
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":310
  *                 elif t == NPY_UBYTE:       f = "B"
  *                 elif t == NPY_SHORT:       f = "h"
  *                 elif t == NPY_USHORT:      f = "H"             # <<<<<<<<<<<<<<
@@ -6482,7 +6474,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
       case NPY_INT:
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":311
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":311
  *                 elif t == NPY_SHORT:       f = "h"
  *                 elif t == NPY_USHORT:      f = "H"
  *                 elif t == NPY_INT:         f = "i"             # <<<<<<<<<<<<<<
@@ -6493,7 +6485,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
       case NPY_UINT:
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":312
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":312
  *                 elif t == NPY_USHORT:      f = "H"
  *                 elif t == NPY_INT:         f = "i"
  *                 elif t == NPY_UINT:        f = "I"             # <<<<<<<<<<<<<<
@@ -6504,7 +6496,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
       case NPY_LONG:
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":313
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":313
  *                 elif t == NPY_INT:         f = "i"
  *                 elif t == NPY_UINT:        f = "I"
  *                 elif t == NPY_LONG:        f = "l"             # <<<<<<<<<<<<<<
@@ -6515,7 +6507,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
       case NPY_ULONG:
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":314
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":314
  *                 elif t == NPY_UINT:        f = "I"
  *                 elif t == NPY_LONG:        f = "l"
  *                 elif t == NPY_ULONG:       f = "L"             # <<<<<<<<<<<<<<
@@ -6526,7 +6518,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
       case NPY_LONGLONG:
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":315
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":315
  *                 elif t == NPY_LONG:        f = "l"
  *                 elif t == NPY_ULONG:       f = "L"
  *                 elif t == NPY_LONGLONG:    f = "q"             # <<<<<<<<<<<<<<
@@ -6537,7 +6529,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
       case NPY_ULONGLONG:
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":316
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":316
  *                 elif t == NPY_ULONG:       f = "L"
  *                 elif t == NPY_LONGLONG:    f = "q"
  *                 elif t == NPY_ULONGLONG:   f = "Q"             # <<<<<<<<<<<<<<
@@ -6548,7 +6540,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
       case NPY_FLOAT:
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":317
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":317
  *                 elif t == NPY_LONGLONG:    f = "q"
  *                 elif t == NPY_ULONGLONG:   f = "Q"
  *                 elif t == NPY_FLOAT:       f = "f"             # <<<<<<<<<<<<<<
@@ -6559,7 +6551,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
       case NPY_DOUBLE:
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":318
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":318
  *                 elif t == NPY_ULONGLONG:   f = "Q"
  *                 elif t == NPY_FLOAT:       f = "f"
  *                 elif t == NPY_DOUBLE:      f = "d"             # <<<<<<<<<<<<<<
@@ -6570,7 +6562,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
       case NPY_LONGDOUBLE:
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":319
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":319
  *                 elif t == NPY_FLOAT:       f = "f"
  *                 elif t == NPY_DOUBLE:      f = "d"
  *                 elif t == NPY_LONGDOUBLE:  f = "g"             # <<<<<<<<<<<<<<
@@ -6581,7 +6573,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
       case NPY_CFLOAT:
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":320
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":320
  *                 elif t == NPY_DOUBLE:      f = "d"
  *                 elif t == NPY_LONGDOUBLE:  f = "g"
  *                 elif t == NPY_CFLOAT:      f = "Zf"             # <<<<<<<<<<<<<<
@@ -6592,7 +6584,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
       case NPY_CDOUBLE:
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":321
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":321
  *                 elif t == NPY_LONGDOUBLE:  f = "g"
  *                 elif t == NPY_CFLOAT:      f = "Zf"
  *                 elif t == NPY_CDOUBLE:     f = "Zd"             # <<<<<<<<<<<<<<
@@ -6603,7 +6595,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
       case NPY_CLONGDOUBLE:
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":322
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":322
  *                 elif t == NPY_CFLOAT:      f = "Zf"
  *                 elif t == NPY_CDOUBLE:     f = "Zd"
  *                 elif t == NPY_CLONGDOUBLE: f = "Zg"             # <<<<<<<<<<<<<<
@@ -6614,7 +6606,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
       case NPY_OBJECT:
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":323
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":323
  *                 elif t == NPY_CDOUBLE:     f = "Zd"
  *                 elif t == NPY_CLONGDOUBLE: f = "Zg"
  *                 elif t == NPY_OBJECT:      f = "O"             # <<<<<<<<<<<<<<
@@ -6625,7 +6617,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
       default:
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":325
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":325
  *                 elif t == NPY_OBJECT:      f = "O"
  *                 else:
  *                     raise ValueError(u"unknown dtype code in numpy.pxd (%d)" % t)             # <<<<<<<<<<<<<<
@@ -6646,7 +6638,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
     }
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":326
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":326
  *                 else:
  *                     raise ValueError(u"unknown dtype code in numpy.pxd (%d)" % t)
  *                 info.format = f             # <<<<<<<<<<<<<<
@@ -6655,7 +6647,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     __pyx_v_info->format = __pyx_v_f;
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":327
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":327
  *                     raise ValueError(u"unknown dtype code in numpy.pxd (%d)" % t)
  *                 info.format = f
  *                 return             # <<<<<<<<<<<<<<
@@ -6665,7 +6657,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __pyx_r = 0;
     goto __pyx_L0;
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":302
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":302
  *             info.obj = self
  * 
  *             if not PyDataType_HASFIELDS(descr):             # <<<<<<<<<<<<<<
@@ -6674,7 +6666,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   }
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":329
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":329
  *                 return
  *             else:
  *                 info.format = <char*>PyObject_Malloc(_buffer_format_string_len)             # <<<<<<<<<<<<<<
@@ -6684,7 +6676,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   /*else*/ {
     __pyx_v_info->format = ((char *)PyObject_Malloc(0xFF));
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":330
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":330
  *             else:
  *                 info.format = <char*>PyObject_Malloc(_buffer_format_string_len)
  *                 info.format[0] = c'^' # Native data types, manual alignment             # <<<<<<<<<<<<<<
@@ -6693,7 +6685,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     (__pyx_v_info->format[0]) = '^';
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":331
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":331
  *                 info.format = <char*>PyObject_Malloc(_buffer_format_string_len)
  *                 info.format[0] = c'^' # Native data types, manual alignment
  *                 offset = 0             # <<<<<<<<<<<<<<
@@ -6702,7 +6694,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     __pyx_v_offset = 0;
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":332
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":332
  *                 info.format[0] = c'^' # Native data types, manual alignment
  *                 offset = 0
  *                 f = _util_dtypestring(descr, info.format + 1,             # <<<<<<<<<<<<<<
@@ -6712,7 +6704,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __pyx_t_9 = __pyx_f_5numpy__util_dtypestring(__pyx_v_descr, (__pyx_v_info->format + 1), (__pyx_v_info->format + 0xFF), (&__pyx_v_offset)); if (unlikely(__pyx_t_9 == ((char *)NULL))) __PYX_ERR(2, 332, __pyx_L1_error)
     __pyx_v_f = __pyx_t_9;
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":335
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":335
  *                                       info.format + _buffer_format_string_len,
  *                                       &offset)
  *                 f[0] = c'\0' # Terminate format string             # <<<<<<<<<<<<<<
@@ -6722,7 +6714,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     (__pyx_v_f[0]) = '\x00';
   }
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":258
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":258
  *         # experimental exception made for __getbuffer__ and __releasebuffer__
  *         # -- the details of this may change.
  *         def __getbuffer__(ndarray self, Py_buffer* info, int flags):             # <<<<<<<<<<<<<<
@@ -6754,7 +6746,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   return __pyx_r;
 }
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":337
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":337
  *                 f[0] = c'\0' # Terminate format string
  * 
  *         def __releasebuffer__(ndarray self, Py_buffer* info):             # <<<<<<<<<<<<<<
@@ -6778,7 +6770,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("__releasebuffer__", 0);
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":338
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":338
  * 
  *         def __releasebuffer__(ndarray self, Py_buffer* info):
  *             if PyArray_HASFIELDS(self):             # <<<<<<<<<<<<<<
@@ -6788,7 +6780,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
   __pyx_t_1 = (PyArray_HASFIELDS(__pyx_v_self) != 0);
   if (__pyx_t_1) {
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":339
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":339
  *         def __releasebuffer__(ndarray self, Py_buffer* info):
  *             if PyArray_HASFIELDS(self):
  *                 PyObject_Free(info.format)             # <<<<<<<<<<<<<<
@@ -6797,7 +6789,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
  */
     PyObject_Free(__pyx_v_info->format);
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":338
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":338
  * 
  *         def __releasebuffer__(ndarray self, Py_buffer* info):
  *             if PyArray_HASFIELDS(self):             # <<<<<<<<<<<<<<
@@ -6806,7 +6798,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
  */
   }
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":340
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":340
  *             if PyArray_HASFIELDS(self):
  *                 PyObject_Free(info.format)
  *             if sizeof(npy_intp) != sizeof(Py_ssize_t):             # <<<<<<<<<<<<<<
@@ -6816,7 +6808,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
   __pyx_t_1 = (((sizeof(npy_intp)) != (sizeof(Py_ssize_t))) != 0);
   if (__pyx_t_1) {
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":341
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":341
  *                 PyObject_Free(info.format)
  *             if sizeof(npy_intp) != sizeof(Py_ssize_t):
  *                 PyObject_Free(info.strides)             # <<<<<<<<<<<<<<
@@ -6825,7 +6817,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
  */
     PyObject_Free(__pyx_v_info->strides);
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":340
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":340
  *             if PyArray_HASFIELDS(self):
  *                 PyObject_Free(info.format)
  *             if sizeof(npy_intp) != sizeof(Py_ssize_t):             # <<<<<<<<<<<<<<
@@ -6834,7 +6826,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
  */
   }
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":337
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":337
  *                 f[0] = c'\0' # Terminate format string
  * 
  *         def __releasebuffer__(ndarray self, Py_buffer* info):             # <<<<<<<<<<<<<<
@@ -6846,7 +6838,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
   __Pyx_RefNannyFinishContext();
 }
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":821
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":821
  * ctypedef npy_cdouble     complex_t
  * 
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
@@ -6860,7 +6852,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   PyObject *__pyx_t_1 = NULL;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew1", 0);
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":822
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":822
  * 
  * cdef inline object PyArray_MultiIterNew1(a):
  *     return PyArray_MultiIterNew(1, <void*>a)             # <<<<<<<<<<<<<<
@@ -6874,7 +6866,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":821
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":821
  * ctypedef npy_cdouble     complex_t
  * 
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
@@ -6893,7 +6885,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":824
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":824
  *     return PyArray_MultiIterNew(1, <void*>a)
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
@@ -6907,7 +6899,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   PyObject *__pyx_t_1 = NULL;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew2", 0);
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":825
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":825
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)             # <<<<<<<<<<<<<<
@@ -6921,7 +6913,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":824
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":824
  *     return PyArray_MultiIterNew(1, <void*>a)
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
@@ -6940,7 +6932,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":827
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":827
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
@@ -6954,7 +6946,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   PyObject *__pyx_t_1 = NULL;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew3", 0);
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":828
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":828
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)             # <<<<<<<<<<<<<<
@@ -6968,7 +6960,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":827
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":827
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
@@ -6987,7 +6979,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":830
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":830
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
@@ -7001,7 +6993,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   PyObject *__pyx_t_1 = NULL;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew4", 0);
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":831
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":831
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)             # <<<<<<<<<<<<<<
@@ -7015,7 +7007,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":830
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":830
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
@@ -7034,7 +7026,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":833
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":833
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
@@ -7048,7 +7040,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   PyObject *__pyx_t_1 = NULL;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew5", 0);
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":834
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":834
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)             # <<<<<<<<<<<<<<
@@ -7062,7 +7054,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":833
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":833
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
@@ -7081,7 +7073,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":836
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":836
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):             # <<<<<<<<<<<<<<
@@ -7095,7 +7087,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("PyDataType_SHAPE", 0);
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":837
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":837
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):             # <<<<<<<<<<<<<<
@@ -7105,7 +7097,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   __pyx_t_1 = (PyDataType_HASSUBARRAY(__pyx_v_d) != 0);
   if (__pyx_t_1) {
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":838
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":838
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):
  *         return <tuple>d.subarray.shape             # <<<<<<<<<<<<<<
@@ -7117,7 +7109,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
     __pyx_r = ((PyObject*)__pyx_v_d->subarray->shape);
     goto __pyx_L0;
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":837
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":837
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):             # <<<<<<<<<<<<<<
@@ -7126,7 +7118,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
  */
   }
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":840
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":840
  *         return <tuple>d.subarray.shape
  *     else:
  *         return ()             # <<<<<<<<<<<<<<
@@ -7140,7 +7132,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
     goto __pyx_L0;
   }
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":836
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":836
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):             # <<<<<<<<<<<<<<
@@ -7155,7 +7147,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   return __pyx_r;
 }
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":842
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":842
  *         return ()
  * 
  * cdef inline char* _util_dtypestring(dtype descr, char* f, char* end, int* offset) except NULL:             # <<<<<<<<<<<<<<
@@ -7184,7 +7176,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
   char *__pyx_t_9;
   __Pyx_RefNannySetupContext("_util_dtypestring", 0);
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":847
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":847
  * 
  *     cdef dtype child
  *     cdef int endian_detector = 1             # <<<<<<<<<<<<<<
@@ -7193,7 +7185,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
   __pyx_v_endian_detector = 1;
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":848
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":848
  *     cdef dtype child
  *     cdef int endian_detector = 1
  *     cdef bint little_endian = ((<char*>&endian_detector)[0] != 0)             # <<<<<<<<<<<<<<
@@ -7202,7 +7194,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
   __pyx_v_little_endian = ((((char *)(&__pyx_v_endian_detector))[0]) != 0);
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":851
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":851
  *     cdef tuple fields
  * 
  *     for childname in descr.names:             # <<<<<<<<<<<<<<
@@ -7225,7 +7217,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __Pyx_XDECREF_SET(__pyx_v_childname, __pyx_t_3);
     __pyx_t_3 = 0;
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":852
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":852
  * 
  *     for childname in descr.names:
  *         fields = descr.fields[childname]             # <<<<<<<<<<<<<<
@@ -7242,7 +7234,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __Pyx_XDECREF_SET(__pyx_v_fields, ((PyObject*)__pyx_t_3));
     __pyx_t_3 = 0;
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":853
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":853
  *     for childname in descr.names:
  *         fields = descr.fields[childname]
  *         child, new_offset = fields             # <<<<<<<<<<<<<<
@@ -7277,7 +7269,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __Pyx_XDECREF_SET(__pyx_v_new_offset, __pyx_t_4);
     __pyx_t_4 = 0;
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":855
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":855
  *         child, new_offset = fields
  * 
  *         if (end - f) - <int>(new_offset - offset[0]) < 15:             # <<<<<<<<<<<<<<
@@ -7294,7 +7286,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __pyx_t_6 = ((((__pyx_v_end - __pyx_v_f) - ((int)__pyx_t_5)) < 15) != 0);
     if (unlikely(__pyx_t_6)) {
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":856
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":856
  * 
  *         if (end - f) - <int>(new_offset - offset[0]) < 15:
  *             raise RuntimeError(u"Format string allocated too short, see comment in numpy.pxd")             # <<<<<<<<<<<<<<
@@ -7307,7 +7299,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       __PYX_ERR(2, 856, __pyx_L1_error)
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":855
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":855
  *         child, new_offset = fields
  * 
  *         if (end - f) - <int>(new_offset - offset[0]) < 15:             # <<<<<<<<<<<<<<
@@ -7316,7 +7308,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
     }
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":858
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":858
  *             raise RuntimeError(u"Format string allocated too short, see comment in numpy.pxd")
  * 
  *         if ((child.byteorder == c'>' and little_endian) or             # <<<<<<<<<<<<<<
@@ -7336,7 +7328,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     }
     __pyx_L8_next_or:;
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":859
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":859
  * 
  *         if ((child.byteorder == c'>' and little_endian) or
  *             (child.byteorder == c'<' and not little_endian)):             # <<<<<<<<<<<<<<
@@ -7353,7 +7345,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __pyx_t_6 = __pyx_t_7;
     __pyx_L7_bool_binop_done:;
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":858
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":858
  *             raise RuntimeError(u"Format string allocated too short, see comment in numpy.pxd")
  * 
  *         if ((child.byteorder == c'>' and little_endian) or             # <<<<<<<<<<<<<<
@@ -7362,7 +7354,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
     if (unlikely(__pyx_t_6)) {
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":860
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":860
  *         if ((child.byteorder == c'>' and little_endian) or
  *             (child.byteorder == c'<' and not little_endian)):
  *             raise ValueError(u"Non-native byte order not supported")             # <<<<<<<<<<<<<<
@@ -7375,7 +7367,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       __PYX_ERR(2, 860, __pyx_L1_error)
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":858
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":858
  *             raise RuntimeError(u"Format string allocated too short, see comment in numpy.pxd")
  * 
  *         if ((child.byteorder == c'>' and little_endian) or             # <<<<<<<<<<<<<<
@@ -7384,7 +7376,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
     }
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":870
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":870
  * 
  *         # Output padding bytes
  *         while offset[0] < new_offset:             # <<<<<<<<<<<<<<
@@ -7400,7 +7392,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       if (!__pyx_t_6) break;
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":871
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":871
  *         # Output padding bytes
  *         while offset[0] < new_offset:
  *             f[0] = 120 # "x"; pad byte             # <<<<<<<<<<<<<<
@@ -7409,7 +7401,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
       (__pyx_v_f[0]) = 0x78;
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":872
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":872
  *         while offset[0] < new_offset:
  *             f[0] = 120 # "x"; pad byte
  *             f += 1             # <<<<<<<<<<<<<<
@@ -7418,7 +7410,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
       __pyx_v_f = (__pyx_v_f + 1);
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":873
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":873
  *             f[0] = 120 # "x"; pad byte
  *             f += 1
  *             offset[0] += 1             # <<<<<<<<<<<<<<
@@ -7429,7 +7421,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       (__pyx_v_offset[__pyx_t_8]) = ((__pyx_v_offset[__pyx_t_8]) + 1);
     }
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":875
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":875
  *             offset[0] += 1
  * 
  *         offset[0] += child.itemsize             # <<<<<<<<<<<<<<
@@ -7439,7 +7431,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __pyx_t_8 = 0;
     (__pyx_v_offset[__pyx_t_8]) = ((__pyx_v_offset[__pyx_t_8]) + __pyx_v_child->elsize);
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":877
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":877
  *         offset[0] += child.itemsize
  * 
  *         if not PyDataType_HASFIELDS(child):             # <<<<<<<<<<<<<<
@@ -7449,7 +7441,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __pyx_t_6 = ((!(PyDataType_HASFIELDS(__pyx_v_child) != 0)) != 0);
     if (__pyx_t_6) {
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":878
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":878
  * 
  *         if not PyDataType_HASFIELDS(child):
  *             t = child.type_num             # <<<<<<<<<<<<<<
@@ -7461,7 +7453,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       __Pyx_XDECREF_SET(__pyx_v_t, __pyx_t_4);
       __pyx_t_4 = 0;
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":879
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":879
  *         if not PyDataType_HASFIELDS(child):
  *             t = child.type_num
  *             if end - f < 5:             # <<<<<<<<<<<<<<
@@ -7471,7 +7463,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       __pyx_t_6 = (((__pyx_v_end - __pyx_v_f) < 5) != 0);
       if (unlikely(__pyx_t_6)) {
 
-        /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":880
+        /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":880
  *             t = child.type_num
  *             if end - f < 5:
  *                 raise RuntimeError(u"Format string allocated too short.")             # <<<<<<<<<<<<<<
@@ -7484,7 +7476,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
         __PYX_ERR(2, 880, __pyx_L1_error)
 
-        /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":879
+        /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":879
  *         if not PyDataType_HASFIELDS(child):
  *             t = child.type_num
  *             if end - f < 5:             # <<<<<<<<<<<<<<
@@ -7493,7 +7485,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
       }
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":883
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":883
  * 
  *             # Until ticket #99 is fixed, use integers to avoid warnings
  *             if   t == NPY_BYTE:        f[0] =  98 #"b"             # <<<<<<<<<<<<<<
@@ -7511,7 +7503,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":884
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":884
  *             # Until ticket #99 is fixed, use integers to avoid warnings
  *             if   t == NPY_BYTE:        f[0] =  98 #"b"
  *             elif t == NPY_UBYTE:       f[0] =  66 #"B"             # <<<<<<<<<<<<<<
@@ -7529,7 +7521,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":885
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":885
  *             if   t == NPY_BYTE:        f[0] =  98 #"b"
  *             elif t == NPY_UBYTE:       f[0] =  66 #"B"
  *             elif t == NPY_SHORT:       f[0] = 104 #"h"             # <<<<<<<<<<<<<<
@@ -7547,7 +7539,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":886
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":886
  *             elif t == NPY_UBYTE:       f[0] =  66 #"B"
  *             elif t == NPY_SHORT:       f[0] = 104 #"h"
  *             elif t == NPY_USHORT:      f[0] =  72 #"H"             # <<<<<<<<<<<<<<
@@ -7565,7 +7557,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":887
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":887
  *             elif t == NPY_SHORT:       f[0] = 104 #"h"
  *             elif t == NPY_USHORT:      f[0] =  72 #"H"
  *             elif t == NPY_INT:         f[0] = 105 #"i"             # <<<<<<<<<<<<<<
@@ -7583,7 +7575,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":888
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":888
  *             elif t == NPY_USHORT:      f[0] =  72 #"H"
  *             elif t == NPY_INT:         f[0] = 105 #"i"
  *             elif t == NPY_UINT:        f[0] =  73 #"I"             # <<<<<<<<<<<<<<
@@ -7601,7 +7593,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":889
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":889
  *             elif t == NPY_INT:         f[0] = 105 #"i"
  *             elif t == NPY_UINT:        f[0] =  73 #"I"
  *             elif t == NPY_LONG:        f[0] = 108 #"l"             # <<<<<<<<<<<<<<
@@ -7619,7 +7611,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":890
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":890
  *             elif t == NPY_UINT:        f[0] =  73 #"I"
  *             elif t == NPY_LONG:        f[0] = 108 #"l"
  *             elif t == NPY_ULONG:       f[0] = 76  #"L"             # <<<<<<<<<<<<<<
@@ -7637,7 +7629,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":891
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":891
  *             elif t == NPY_LONG:        f[0] = 108 #"l"
  *             elif t == NPY_ULONG:       f[0] = 76  #"L"
  *             elif t == NPY_LONGLONG:    f[0] = 113 #"q"             # <<<<<<<<<<<<<<
@@ -7655,7 +7647,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":892
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":892
  *             elif t == NPY_ULONG:       f[0] = 76  #"L"
  *             elif t == NPY_LONGLONG:    f[0] = 113 #"q"
  *             elif t == NPY_ULONGLONG:   f[0] = 81  #"Q"             # <<<<<<<<<<<<<<
@@ -7673,7 +7665,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":893
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":893
  *             elif t == NPY_LONGLONG:    f[0] = 113 #"q"
  *             elif t == NPY_ULONGLONG:   f[0] = 81  #"Q"
  *             elif t == NPY_FLOAT:       f[0] = 102 #"f"             # <<<<<<<<<<<<<<
@@ -7691,7 +7683,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":894
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":894
  *             elif t == NPY_ULONGLONG:   f[0] = 81  #"Q"
  *             elif t == NPY_FLOAT:       f[0] = 102 #"f"
  *             elif t == NPY_DOUBLE:      f[0] = 100 #"d"             # <<<<<<<<<<<<<<
@@ -7709,7 +7701,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":895
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":895
  *             elif t == NPY_FLOAT:       f[0] = 102 #"f"
  *             elif t == NPY_DOUBLE:      f[0] = 100 #"d"
  *             elif t == NPY_LONGDOUBLE:  f[0] = 103 #"g"             # <<<<<<<<<<<<<<
@@ -7727,7 +7719,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":896
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":896
  *             elif t == NPY_DOUBLE:      f[0] = 100 #"d"
  *             elif t == NPY_LONGDOUBLE:  f[0] = 103 #"g"
  *             elif t == NPY_CFLOAT:      f[0] = 90; f[1] = 102; f += 1 # Zf             # <<<<<<<<<<<<<<
@@ -7747,7 +7739,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":897
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":897
  *             elif t == NPY_LONGDOUBLE:  f[0] = 103 #"g"
  *             elif t == NPY_CFLOAT:      f[0] = 90; f[1] = 102; f += 1 # Zf
  *             elif t == NPY_CDOUBLE:     f[0] = 90; f[1] = 100; f += 1 # Zd             # <<<<<<<<<<<<<<
@@ -7767,7 +7759,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":898
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":898
  *             elif t == NPY_CFLOAT:      f[0] = 90; f[1] = 102; f += 1 # Zf
  *             elif t == NPY_CDOUBLE:     f[0] = 90; f[1] = 100; f += 1 # Zd
  *             elif t == NPY_CLONGDOUBLE: f[0] = 90; f[1] = 103; f += 1 # Zg             # <<<<<<<<<<<<<<
@@ -7787,7 +7779,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":899
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":899
  *             elif t == NPY_CDOUBLE:     f[0] = 90; f[1] = 100; f += 1 # Zd
  *             elif t == NPY_CLONGDOUBLE: f[0] = 90; f[1] = 103; f += 1 # Zg
  *             elif t == NPY_OBJECT:      f[0] = 79 #"O"             # <<<<<<<<<<<<<<
@@ -7805,7 +7797,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":901
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":901
  *             elif t == NPY_OBJECT:      f[0] = 79 #"O"
  *             else:
  *                 raise ValueError(u"unknown dtype code in numpy.pxd (%d)" % t)             # <<<<<<<<<<<<<<
@@ -7824,7 +7816,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       }
       __pyx_L15:;
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":902
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":902
  *             else:
  *                 raise ValueError(u"unknown dtype code in numpy.pxd (%d)" % t)
  *             f += 1             # <<<<<<<<<<<<<<
@@ -7833,7 +7825,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
       __pyx_v_f = (__pyx_v_f + 1);
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":877
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":877
  *         offset[0] += child.itemsize
  * 
  *         if not PyDataType_HASFIELDS(child):             # <<<<<<<<<<<<<<
@@ -7843,7 +7835,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       goto __pyx_L13;
     }
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":906
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":906
  *             # Cython ignores struct boundary information ("T{...}"),
  *             # so don't output it
  *             f = _util_dtypestring(child, f, end, offset)             # <<<<<<<<<<<<<<
@@ -7856,7 +7848,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     }
     __pyx_L13:;
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":851
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":851
  *     cdef tuple fields
  * 
  *     for childname in descr.names:             # <<<<<<<<<<<<<<
@@ -7866,7 +7858,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":907
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":907
  *             # so don't output it
  *             f = _util_dtypestring(child, f, end, offset)
  *     return f             # <<<<<<<<<<<<<<
@@ -7876,7 +7868,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
   __pyx_r = __pyx_v_f;
   goto __pyx_L0;
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":842
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":842
  *         return ()
  * 
  * cdef inline char* _util_dtypestring(dtype descr, char* f, char* end, int* offset) except NULL:             # <<<<<<<<<<<<<<
@@ -7901,7 +7893,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
   return __pyx_r;
 }
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1022
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1022
  *     int _import_umath() except -1
  * 
  * cdef inline void set_array_base(ndarray arr, object base):             # <<<<<<<<<<<<<<
@@ -7913,7 +7905,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("set_array_base", 0);
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1023
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1023
  * 
  * cdef inline void set_array_base(ndarray arr, object base):
  *     Py_INCREF(base) # important to do this before stealing the reference below!             # <<<<<<<<<<<<<<
@@ -7922,7 +7914,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
  */
   Py_INCREF(__pyx_v_base);
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1024
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1024
  * cdef inline void set_array_base(ndarray arr, object base):
  *     Py_INCREF(base) # important to do this before stealing the reference below!
  *     PyArray_SetBaseObject(arr, base)             # <<<<<<<<<<<<<<
@@ -7931,7 +7923,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
  */
   (void)(PyArray_SetBaseObject(__pyx_v_arr, __pyx_v_base));
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1022
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1022
  *     int _import_umath() except -1
  * 
  * cdef inline void set_array_base(ndarray arr, object base):             # <<<<<<<<<<<<<<
@@ -7943,7 +7935,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   __Pyx_RefNannyFinishContext();
 }
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1026
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1026
  *     PyArray_SetBaseObject(arr, base)
  * 
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
@@ -7958,7 +7950,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("get_array_base", 0);
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1027
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1027
  * 
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)             # <<<<<<<<<<<<<<
@@ -7967,7 +7959,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
  */
   __pyx_v_base = PyArray_BASE(__pyx_v_arr);
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1028
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1028
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)
  *     if base is NULL:             # <<<<<<<<<<<<<<
@@ -7977,7 +7969,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   __pyx_t_1 = ((__pyx_v_base == NULL) != 0);
   if (__pyx_t_1) {
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1029
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1029
  *     base = PyArray_BASE(arr)
  *     if base is NULL:
  *         return None             # <<<<<<<<<<<<<<
@@ -7988,7 +7980,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
     __pyx_r = Py_None; __Pyx_INCREF(Py_None);
     goto __pyx_L0;
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1028
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1028
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)
  *     if base is NULL:             # <<<<<<<<<<<<<<
@@ -7997,7 +7989,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
  */
   }
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1030
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1030
  *     if base is NULL:
  *         return None
  *     return <object>base             # <<<<<<<<<<<<<<
@@ -8009,7 +8001,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   __pyx_r = ((PyObject *)__pyx_v_base);
   goto __pyx_L0;
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1026
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1026
  *     PyArray_SetBaseObject(arr, base)
  * 
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
@@ -8024,7 +8016,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   return __pyx_r;
 }
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1034
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1034
  * # Versions of the import_* functions which are more suitable for
  * # Cython code.
  * cdef inline int import_array() except -1:             # <<<<<<<<<<<<<<
@@ -8045,7 +8037,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
   PyObject *__pyx_t_8 = NULL;
   __Pyx_RefNannySetupContext("import_array", 0);
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1035
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1035
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -8061,7 +8053,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1036
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1036
  * cdef inline int import_array() except -1:
  *     try:
  *         _import_array()             # <<<<<<<<<<<<<<
@@ -8070,7 +8062,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
  */
       __pyx_t_4 = _import_array(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 1036, __pyx_L3_error)
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1035
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1035
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -8084,7 +8076,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1037
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1037
  *     try:
  *         _import_array()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -8099,7 +8091,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_GOTREF(__pyx_t_7);
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1038
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1038
  *         _import_array()
  *     except Exception:
  *         raise ImportError("numpy.core.multiarray failed to import")             # <<<<<<<<<<<<<<
@@ -8115,7 +8107,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     goto __pyx_L5_except_error;
     __pyx_L5_except_error:;
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1035
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1035
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -8130,7 +8122,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1034
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1034
  * # Versions of the import_* functions which are more suitable for
  * # Cython code.
  * cdef inline int import_array() except -1:             # <<<<<<<<<<<<<<
@@ -8153,7 +8145,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
   return __pyx_r;
 }
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1040
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1040
  *         raise ImportError("numpy.core.multiarray failed to import")
  * 
  * cdef inline int import_umath() except -1:             # <<<<<<<<<<<<<<
@@ -8174,7 +8166,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
   PyObject *__pyx_t_8 = NULL;
   __Pyx_RefNannySetupContext("import_umath", 0);
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1041
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1041
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -8190,7 +8182,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1042
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1042
  * cdef inline int import_umath() except -1:
  *     try:
  *         _import_umath()             # <<<<<<<<<<<<<<
@@ -8199,7 +8191,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
  */
       __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 1042, __pyx_L3_error)
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1041
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1041
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -8213,7 +8205,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1043
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1043
  *     try:
  *         _import_umath()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -8228,7 +8220,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_GOTREF(__pyx_t_7);
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1044
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1044
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
@@ -8244,7 +8236,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     goto __pyx_L5_except_error;
     __pyx_L5_except_error:;
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1041
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1041
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -8259,7 +8251,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1040
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1040
  *         raise ImportError("numpy.core.multiarray failed to import")
  * 
  * cdef inline int import_umath() except -1:             # <<<<<<<<<<<<<<
@@ -8282,7 +8274,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
   return __pyx_r;
 }
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1046
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1046
  *         raise ImportError("numpy.core.umath failed to import")
  * 
  * cdef inline int import_ufunc() except -1:             # <<<<<<<<<<<<<<
@@ -8303,7 +8295,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
   PyObject *__pyx_t_8 = NULL;
   __Pyx_RefNannySetupContext("import_ufunc", 0);
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1047
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1047
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -8319,7 +8311,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1048
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1048
  * cdef inline int import_ufunc() except -1:
  *     try:
  *         _import_umath()             # <<<<<<<<<<<<<<
@@ -8328,7 +8320,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
  */
       __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 1048, __pyx_L3_error)
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1047
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1047
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -8342,7 +8334,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1049
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1049
  *     try:
  *         _import_umath()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -8356,7 +8348,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_GOTREF(__pyx_t_7);
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1050
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1050
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
@@ -8370,7 +8362,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     goto __pyx_L5_except_error;
     __pyx_L5_except_error:;
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1047
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1047
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -8385,7 +8377,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1046
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1046
  *         raise ImportError("numpy.core.umath failed to import")
  * 
  * cdef inline int import_ufunc() except -1:             # <<<<<<<<<<<<<<
@@ -21230,10 +21222,10 @@ static PyObject *__pyx_unpickle_Enum__set_state(struct __pyx_MemviewEnum_obj *__
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
-static struct __pyx_vtabstruct_5cygym_4envs_7acrobot_FastAcrobotEnv __pyx_vtable_5cygym_4envs_7acrobot_FastAcrobotEnv;
+static struct __pyx_vtabstruct_5cygym_7acrobot_CyAcrobotEnv __pyx_vtable_5cygym_7acrobot_CyAcrobotEnv;
 
-static PyObject *__pyx_tp_new_5cygym_4envs_7acrobot_FastAcrobotEnv(PyTypeObject *t, CYTHON_UNUSED PyObject *a, CYTHON_UNUSED PyObject *k) {
-  struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv *p;
+static PyObject *__pyx_tp_new_5cygym_7acrobot_CyAcrobotEnv(PyTypeObject *t, CYTHON_UNUSED PyObject *a, CYTHON_UNUSED PyObject *k) {
+  struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv *p;
   PyObject *o;
   if (likely((t->tp_flags & Py_TPFLAGS_IS_ABSTRACT) == 0)) {
     o = (*t->tp_alloc)(t, 0);
@@ -21241,23 +21233,23 @@ static PyObject *__pyx_tp_new_5cygym_4envs_7acrobot_FastAcrobotEnv(PyTypeObject 
     o = (PyObject *) PyBaseObject_Type.tp_new(t, __pyx_empty_tuple, 0);
   }
   if (unlikely(!o)) return 0;
-  p = ((struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv *)o);
-  p->__pyx_vtab = __pyx_vtabptr_5cygym_4envs_7acrobot_FastAcrobotEnv;
+  p = ((struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv *)o);
+  p->__pyx_vtab = __pyx_vtabptr_5cygym_7acrobot_CyAcrobotEnv;
   p->AVAIL_TORQUE = ((PyObject*)Py_None); Py_INCREF(Py_None);
   p->observation_space = Py_None; Py_INCREF(Py_None);
   p->action_space = Py_None; Py_INCREF(Py_None);
   p->np_random = Py_None; Py_INCREF(Py_None);
   p->state.data = NULL;
   p->state.memview = NULL;
-  if (unlikely(__pyx_pw_5cygym_4envs_7acrobot_14FastAcrobotEnv_3__cinit__(o, __pyx_empty_tuple, NULL) < 0)) goto bad;
+  if (unlikely(__pyx_pw_5cygym_7acrobot_12CyAcrobotEnv_3__cinit__(o, __pyx_empty_tuple, NULL) < 0)) goto bad;
   return o;
   bad:
   Py_DECREF(o); o = 0;
   return NULL;
 }
 
-static void __pyx_tp_dealloc_5cygym_4envs_7acrobot_FastAcrobotEnv(PyObject *o) {
-  struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv *p = (struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv *)o;
+static void __pyx_tp_dealloc_5cygym_7acrobot_CyAcrobotEnv(PyObject *o) {
+  struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv *p = (struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv *)o;
   #if CYTHON_USE_TP_FINALIZE
   if (unlikely(PyType_HasFeature(Py_TYPE(o), Py_TPFLAGS_HAVE_FINALIZE) && Py_TYPE(o)->tp_finalize) && !_PyGC_FINALIZED(o)) {
     if (PyObject_CallFinalizerFromDealloc(o)) return;
@@ -21272,9 +21264,9 @@ static void __pyx_tp_dealloc_5cygym_4envs_7acrobot_FastAcrobotEnv(PyObject *o) {
   (*Py_TYPE(o)->tp_free)(o);
 }
 
-static int __pyx_tp_traverse_5cygym_4envs_7acrobot_FastAcrobotEnv(PyObject *o, visitproc v, void *a) {
+static int __pyx_tp_traverse_5cygym_7acrobot_CyAcrobotEnv(PyObject *o, visitproc v, void *a) {
   int e;
-  struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv *p = (struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv *)o;
+  struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv *p = (struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv *)o;
   if (p->AVAIL_TORQUE) {
     e = (*v)(p->AVAIL_TORQUE, a); if (e) return e;
   }
@@ -21290,9 +21282,9 @@ static int __pyx_tp_traverse_5cygym_4envs_7acrobot_FastAcrobotEnv(PyObject *o, v
   return 0;
 }
 
-static int __pyx_tp_clear_5cygym_4envs_7acrobot_FastAcrobotEnv(PyObject *o) {
+static int __pyx_tp_clear_5cygym_7acrobot_CyAcrobotEnv(PyObject *o) {
   PyObject* tmp;
-  struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv *p = (struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv *)o;
+  struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv *p = (struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv *)o;
   tmp = ((PyObject*)p->AVAIL_TORQUE);
   p->AVAIL_TORQUE = ((PyObject*)Py_None); Py_INCREF(Py_None);
   Py_XDECREF(tmp);
@@ -21308,38 +21300,38 @@ static int __pyx_tp_clear_5cygym_4envs_7acrobot_FastAcrobotEnv(PyObject *o) {
   return 0;
 }
 
-static PyObject *__pyx_getprop_5cygym_4envs_7acrobot_14FastAcrobotEnv_observation_space(PyObject *o, CYTHON_UNUSED void *x) {
-  return __pyx_pw_5cygym_4envs_7acrobot_14FastAcrobotEnv_17observation_space_1__get__(o);
+static PyObject *__pyx_getprop_5cygym_7acrobot_12CyAcrobotEnv_observation_space(PyObject *o, CYTHON_UNUSED void *x) {
+  return __pyx_pw_5cygym_7acrobot_12CyAcrobotEnv_17observation_space_1__get__(o);
 }
 
-static PyObject *__pyx_getprop_5cygym_4envs_7acrobot_14FastAcrobotEnv_action_space(PyObject *o, CYTHON_UNUSED void *x) {
-  return __pyx_pw_5cygym_4envs_7acrobot_14FastAcrobotEnv_12action_space_1__get__(o);
+static PyObject *__pyx_getprop_5cygym_7acrobot_12CyAcrobotEnv_action_space(PyObject *o, CYTHON_UNUSED void *x) {
+  return __pyx_pw_5cygym_7acrobot_12CyAcrobotEnv_12action_space_1__get__(o);
 }
 
-static PyMethodDef __pyx_methods_5cygym_4envs_7acrobot_FastAcrobotEnv[] = {
-  {"unwrapped", (PyCFunction)__pyx_pw_5cygym_4envs_7acrobot_14FastAcrobotEnv_1unwrapped, METH_NOARGS, 0},
-  {"reset", (PyCFunction)__pyx_pw_5cygym_4envs_7acrobot_14FastAcrobotEnv_5reset, METH_NOARGS, 0},
-  {"step", (PyCFunction)__pyx_pw_5cygym_4envs_7acrobot_14FastAcrobotEnv_7step, METH_O, 0},
-  {"_get_ob", (PyCFunction)__pyx_pw_5cygym_4envs_7acrobot_14FastAcrobotEnv_9_get_ob, METH_NOARGS, 0},
-  {"_terminal", (PyCFunction)__pyx_pw_5cygym_4envs_7acrobot_14FastAcrobotEnv_11_terminal, METH_NOARGS, 0},
-  {"_dsdt", (PyCFunction)__pyx_pw_5cygym_4envs_7acrobot_14FastAcrobotEnv_13_dsdt, METH_O, 0},
-  {"__reduce_cython__", (PyCFunction)__pyx_pw_5cygym_4envs_7acrobot_14FastAcrobotEnv_15__reduce_cython__, METH_NOARGS, 0},
-  {"__setstate_cython__", (PyCFunction)__pyx_pw_5cygym_4envs_7acrobot_14FastAcrobotEnv_17__setstate_cython__, METH_O, 0},
+static PyMethodDef __pyx_methods_5cygym_7acrobot_CyAcrobotEnv[] = {
+  {"unwrapped", (PyCFunction)__pyx_pw_5cygym_7acrobot_12CyAcrobotEnv_1unwrapped, METH_NOARGS, 0},
+  {"reset", (PyCFunction)__pyx_pw_5cygym_7acrobot_12CyAcrobotEnv_5reset, METH_NOARGS, 0},
+  {"step", (PyCFunction)__pyx_pw_5cygym_7acrobot_12CyAcrobotEnv_7step, METH_O, 0},
+  {"_get_ob", (PyCFunction)__pyx_pw_5cygym_7acrobot_12CyAcrobotEnv_9_get_ob, METH_NOARGS, 0},
+  {"_terminal", (PyCFunction)__pyx_pw_5cygym_7acrobot_12CyAcrobotEnv_11_terminal, METH_NOARGS, 0},
+  {"_dsdt", (PyCFunction)__pyx_pw_5cygym_7acrobot_12CyAcrobotEnv_13_dsdt, METH_O, 0},
+  {"__reduce_cython__", (PyCFunction)__pyx_pw_5cygym_7acrobot_12CyAcrobotEnv_15__reduce_cython__, METH_NOARGS, 0},
+  {"__setstate_cython__", (PyCFunction)__pyx_pw_5cygym_7acrobot_12CyAcrobotEnv_17__setstate_cython__, METH_O, 0},
   {0, 0, 0, 0}
 };
 
-static struct PyGetSetDef __pyx_getsets_5cygym_4envs_7acrobot_FastAcrobotEnv[] = {
-  {(char *)"observation_space", __pyx_getprop_5cygym_4envs_7acrobot_14FastAcrobotEnv_observation_space, 0, (char *)0, 0},
-  {(char *)"action_space", __pyx_getprop_5cygym_4envs_7acrobot_14FastAcrobotEnv_action_space, 0, (char *)0, 0},
+static struct PyGetSetDef __pyx_getsets_5cygym_7acrobot_CyAcrobotEnv[] = {
+  {(char *)"observation_space", __pyx_getprop_5cygym_7acrobot_12CyAcrobotEnv_observation_space, 0, (char *)0, 0},
+  {(char *)"action_space", __pyx_getprop_5cygym_7acrobot_12CyAcrobotEnv_action_space, 0, (char *)0, 0},
   {0, 0, 0, 0, 0}
 };
 
-static PyTypeObject __pyx_type_5cygym_4envs_7acrobot_FastAcrobotEnv = {
+static PyTypeObject __pyx_type_5cygym_7acrobot_CyAcrobotEnv = {
   PyVarObject_HEAD_INIT(0, 0)
-  "cygym.envs.acrobot.FastAcrobotEnv", /*tp_name*/
-  sizeof(struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv), /*tp_basicsize*/
+  "cygym.acrobot.CyAcrobotEnv", /*tp_name*/
+  sizeof(struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv), /*tp_basicsize*/
   0, /*tp_itemsize*/
-  __pyx_tp_dealloc_5cygym_4envs_7acrobot_FastAcrobotEnv, /*tp_dealloc*/
+  __pyx_tp_dealloc_5cygym_7acrobot_CyAcrobotEnv, /*tp_dealloc*/
   #if PY_VERSION_HEX < 0x030800b4
   0, /*tp_print*/
   #endif
@@ -21366,15 +21358,15 @@ static PyTypeObject __pyx_type_5cygym_4envs_7acrobot_FastAcrobotEnv = {
   0, /*tp_as_buffer*/
   Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_HAVE_GC, /*tp_flags*/
   0, /*tp_doc*/
-  __pyx_tp_traverse_5cygym_4envs_7acrobot_FastAcrobotEnv, /*tp_traverse*/
-  __pyx_tp_clear_5cygym_4envs_7acrobot_FastAcrobotEnv, /*tp_clear*/
+  __pyx_tp_traverse_5cygym_7acrobot_CyAcrobotEnv, /*tp_traverse*/
+  __pyx_tp_clear_5cygym_7acrobot_CyAcrobotEnv, /*tp_clear*/
   0, /*tp_richcompare*/
   0, /*tp_weaklistoffset*/
   0, /*tp_iter*/
   0, /*tp_iternext*/
-  __pyx_methods_5cygym_4envs_7acrobot_FastAcrobotEnv, /*tp_methods*/
+  __pyx_methods_5cygym_7acrobot_CyAcrobotEnv, /*tp_methods*/
   0, /*tp_members*/
-  __pyx_getsets_5cygym_4envs_7acrobot_FastAcrobotEnv, /*tp_getset*/
+  __pyx_getsets_5cygym_7acrobot_CyAcrobotEnv, /*tp_getset*/
   0, /*tp_base*/
   0, /*tp_dict*/
   0, /*tp_descr_get*/
@@ -21382,7 +21374,7 @@ static PyTypeObject __pyx_type_5cygym_4envs_7acrobot_FastAcrobotEnv = {
   0, /*tp_dictoffset*/
   0, /*tp_init*/
   0, /*tp_alloc*/
-  __pyx_tp_new_5cygym_4envs_7acrobot_FastAcrobotEnv, /*tp_new*/
+  __pyx_tp_new_5cygym_7acrobot_CyAcrobotEnv, /*tp_new*/
   0, /*tp_free*/
   0, /*tp_is_gc*/
   0, /*tp_bases*/
@@ -21525,7 +21517,7 @@ static PyBufferProcs __pyx_tp_as_buffer_array = {
 
 static PyTypeObject __pyx_type___pyx_array = {
   PyVarObject_HEAD_INIT(0, 0)
-  "cygym.envs.acrobot.array", /*tp_name*/
+  "cygym.acrobot.array", /*tp_name*/
   sizeof(struct __pyx_array_obj), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc_array, /*tp_dealloc*/
@@ -21644,7 +21636,7 @@ static PyMethodDef __pyx_methods_Enum[] = {
 
 static PyTypeObject __pyx_type___pyx_MemviewEnum = {
   PyVarObject_HEAD_INIT(0, 0)
-  "cygym.envs.acrobot.Enum", /*tp_name*/
+  "cygym.acrobot.Enum", /*tp_name*/
   sizeof(struct __pyx_MemviewEnum_obj), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc_Enum, /*tp_dealloc*/
@@ -21905,7 +21897,7 @@ static PyBufferProcs __pyx_tp_as_buffer_memoryview = {
 
 static PyTypeObject __pyx_type___pyx_memoryview = {
   PyVarObject_HEAD_INIT(0, 0)
-  "cygym.envs.acrobot.memoryview", /*tp_name*/
+  "cygym.acrobot.memoryview", /*tp_name*/
   sizeof(struct __pyx_memoryview_obj), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc_memoryview, /*tp_dealloc*/
@@ -22043,7 +22035,7 @@ static struct PyGetSetDef __pyx_getsets__memoryviewslice[] = {
 
 static PyTypeObject __pyx_type___pyx_memoryviewslice = {
   PyVarObject_HEAD_INIT(0, 0)
-  "cygym.envs.acrobot._memoryviewslice", /*tp_name*/
+  "cygym.acrobot._memoryviewslice", /*tp_name*/
   sizeof(struct __pyx_memoryviewslice_obj), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc__memoryviewslice, /*tp_dealloc*/
@@ -22136,7 +22128,7 @@ static PyModuleDef_Slot __pyx_moduledef_slots[] = {
 static struct PyModuleDef __pyx_moduledef = {
     PyModuleDef_HEAD_INIT,
     "acrobot",
-    0, /* m_doc */
+    __pyx_k_Credit_This_code_has_been_adapt, /* m_doc */
   #if CYTHON_PEP489_MULTI_PHASE_INIT
     0, /* m_size */
   #else
@@ -22171,10 +22163,10 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_kp_s_Cannot_assign_to_read_only_memor, __pyx_k_Cannot_assign_to_read_only_memor, sizeof(__pyx_k_Cannot_assign_to_read_only_memor), 0, 0, 1, 0},
   {&__pyx_kp_s_Cannot_create_writable_memory_vi, __pyx_k_Cannot_create_writable_memory_vi, sizeof(__pyx_k_Cannot_create_writable_memory_vi), 0, 0, 1, 0},
   {&__pyx_kp_s_Cannot_index_with_type_s, __pyx_k_Cannot_index_with_type_s, sizeof(__pyx_k_Cannot_index_with_type_s), 0, 0, 1, 0},
+  {&__pyx_n_s_CyAcrobotEnv, __pyx_k_CyAcrobotEnv, sizeof(__pyx_k_CyAcrobotEnv), 0, 0, 1, 1},
   {&__pyx_n_s_Discrete, __pyx_k_Discrete, sizeof(__pyx_k_Discrete), 0, 0, 1, 1},
   {&__pyx_n_s_Ellipsis, __pyx_k_Ellipsis, sizeof(__pyx_k_Ellipsis), 0, 0, 1, 1},
   {&__pyx_kp_s_Empty_shape_tuple_for_cython_arr, __pyx_k_Empty_shape_tuple_for_cython_arr, sizeof(__pyx_k_Empty_shape_tuple_for_cython_arr), 0, 0, 1, 0},
-  {&__pyx_n_s_FastAcrobotEnv, __pyx_k_FastAcrobotEnv, sizeof(__pyx_k_FastAcrobotEnv), 0, 0, 1, 1},
   {&__pyx_kp_u_Format_string_allocated_too_shor, __pyx_k_Format_string_allocated_too_shor, sizeof(__pyx_k_Format_string_allocated_too_shor), 0, 1, 0, 0},
   {&__pyx_kp_u_Format_string_allocated_too_shor_2, __pyx_k_Format_string_allocated_too_shor_2, sizeof(__pyx_k_Format_string_allocated_too_shor_2), 0, 1, 0, 0},
   {&__pyx_n_s_ImportError, __pyx_k_ImportError, sizeof(__pyx_k_ImportError), 0, 0, 1, 1},
@@ -22309,25 +22301,25 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__Pyx_InitCachedConstants", 0);
 
-  /* "cygym/envs/acrobot.pyx":68
+  /* "cygym/acrobot.pyx":84
  *         self.MAX_VEL_1 = 4*M_PI
  *         self.MAX_VEL_2 =9*M_PI
  *         self.AVAIL_TORQUE = (1., 0., 1.)             # <<<<<<<<<<<<<<
  *         self.torque_noise_max = 0.
  * 
  */
-  __pyx_tuple_ = PyTuple_Pack(3, __pyx_float_1_, __pyx_float_0_, __pyx_float_1_); if (unlikely(!__pyx_tuple_)) __PYX_ERR(1, 68, __pyx_L1_error)
+  __pyx_tuple_ = PyTuple_Pack(3, __pyx_float_1_, __pyx_float_0_, __pyx_float_1_); if (unlikely(!__pyx_tuple_)) __PYX_ERR(1, 84, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple_);
   __Pyx_GIVEREF(__pyx_tuple_);
 
-  /* "cygym/envs/acrobot.pyx":78
+  /* "cygym/acrobot.pyx":94
  * 
  *     cpdef np.ndarray[dtype=np_float_t, ndim=1] reset(self):
  *         self.state = self.np_random.uniform(low=-0.1, high=0.1, size=(4,))             # <<<<<<<<<<<<<<
  *         return np.array(self._get_ob())
  * 
  */
-  __pyx_tuple__2 = PyTuple_Pack(1, __pyx_int_4); if (unlikely(!__pyx_tuple__2)) __PYX_ERR(1, 78, __pyx_L1_error)
+  __pyx_tuple__2 = PyTuple_Pack(1, __pyx_int_4); if (unlikely(!__pyx_tuple__2)) __PYX_ERR(1, 94, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__2);
   __Pyx_GIVEREF(__pyx_tuple__2);
 
@@ -22350,7 +22342,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__4);
   __Pyx_GIVEREF(__pyx_tuple__4);
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":272
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":272
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_ARRAY_C_CONTIGUOUS)):
  *                 raise ValueError(u"ndarray is not C contiguous")             # <<<<<<<<<<<<<<
@@ -22361,7 +22353,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__5);
   __Pyx_GIVEREF(__pyx_tuple__5);
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":276
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":276
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_ARRAY_F_CONTIGUOUS)):
  *                 raise ValueError(u"ndarray is not Fortran contiguous")             # <<<<<<<<<<<<<<
@@ -22372,7 +22364,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__6);
   __Pyx_GIVEREF(__pyx_tuple__6);
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":306
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":306
  *                 if ((descr.byteorder == c'>' and little_endian) or
  *                     (descr.byteorder == c'<' and not little_endian)):
  *                     raise ValueError(u"Non-native byte order not supported")             # <<<<<<<<<<<<<<
@@ -22383,7 +22375,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__7);
   __Pyx_GIVEREF(__pyx_tuple__7);
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":856
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":856
  * 
  *         if (end - f) - <int>(new_offset - offset[0]) < 15:
  *             raise RuntimeError(u"Format string allocated too short, see comment in numpy.pxd")             # <<<<<<<<<<<<<<
@@ -22394,7 +22386,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__8);
   __Pyx_GIVEREF(__pyx_tuple__8);
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":880
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":880
  *             t = child.type_num
  *             if end - f < 5:
  *                 raise RuntimeError(u"Format string allocated too short.")             # <<<<<<<<<<<<<<
@@ -22405,7 +22397,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__9);
   __Pyx_GIVEREF(__pyx_tuple__9);
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1038
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1038
  *         _import_array()
  *     except Exception:
  *         raise ImportError("numpy.core.multiarray failed to import")             # <<<<<<<<<<<<<<
@@ -22416,7 +22408,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__10);
   __Pyx_GIVEREF(__pyx_tuple__10);
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1044
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1044
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
@@ -22751,24 +22743,24 @@ static int __Pyx_modinit_type_init_code(void) {
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__Pyx_modinit_type_init_code", 0);
   /*--- Type init code ---*/
-  __pyx_vtabptr_5cygym_4envs_7acrobot_FastAcrobotEnv = &__pyx_vtable_5cygym_4envs_7acrobot_FastAcrobotEnv;
-  __pyx_vtable_5cygym_4envs_7acrobot_FastAcrobotEnv.seed = (void (*)(struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv *, struct __pyx_opt_args_5cygym_4envs_7acrobot_14FastAcrobotEnv_seed *__pyx_optional_args))__pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv_seed;
-  __pyx_vtable_5cygym_4envs_7acrobot_FastAcrobotEnv.reset = (PyArrayObject *(*)(struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv *, int __pyx_skip_dispatch))__pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv_reset;
-  __pyx_vtable_5cygym_4envs_7acrobot_FastAcrobotEnv.step = (PyObject *(*)(struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv *, int, int __pyx_skip_dispatch))__pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv_step;
-  __pyx_vtable_5cygym_4envs_7acrobot_FastAcrobotEnv._get_ob = (PyObject *(*)(struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv *, int __pyx_skip_dispatch))__pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv__get_ob;
-  __pyx_vtable_5cygym_4envs_7acrobot_FastAcrobotEnv._terminal = (int (*)(struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv *, int __pyx_skip_dispatch))__pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv__terminal;
-  __pyx_vtable_5cygym_4envs_7acrobot_FastAcrobotEnv._dsdt = (__Pyx_memviewslice (*)(struct __pyx_obj_5cygym_4envs_7acrobot_FastAcrobotEnv *, __Pyx_memviewslice, int __pyx_skip_dispatch))__pyx_f_5cygym_4envs_7acrobot_14FastAcrobotEnv__dsdt;
-  if (PyType_Ready(&__pyx_type_5cygym_4envs_7acrobot_FastAcrobotEnv) < 0) __PYX_ERR(1, 22, __pyx_L1_error)
+  __pyx_vtabptr_5cygym_7acrobot_CyAcrobotEnv = &__pyx_vtable_5cygym_7acrobot_CyAcrobotEnv;
+  __pyx_vtable_5cygym_7acrobot_CyAcrobotEnv.seed = (void (*)(struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv *, struct __pyx_opt_args_5cygym_7acrobot_12CyAcrobotEnv_seed *__pyx_optional_args))__pyx_f_5cygym_7acrobot_12CyAcrobotEnv_seed;
+  __pyx_vtable_5cygym_7acrobot_CyAcrobotEnv.reset = (PyArrayObject *(*)(struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv *, int __pyx_skip_dispatch))__pyx_f_5cygym_7acrobot_12CyAcrobotEnv_reset;
+  __pyx_vtable_5cygym_7acrobot_CyAcrobotEnv.step = (PyObject *(*)(struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv *, int, int __pyx_skip_dispatch))__pyx_f_5cygym_7acrobot_12CyAcrobotEnv_step;
+  __pyx_vtable_5cygym_7acrobot_CyAcrobotEnv._get_ob = (PyObject *(*)(struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv *, int __pyx_skip_dispatch))__pyx_f_5cygym_7acrobot_12CyAcrobotEnv__get_ob;
+  __pyx_vtable_5cygym_7acrobot_CyAcrobotEnv._terminal = (int (*)(struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv *, int __pyx_skip_dispatch))__pyx_f_5cygym_7acrobot_12CyAcrobotEnv__terminal;
+  __pyx_vtable_5cygym_7acrobot_CyAcrobotEnv._dsdt = (__Pyx_memviewslice (*)(struct __pyx_obj_5cygym_7acrobot_CyAcrobotEnv *, __Pyx_memviewslice, int __pyx_skip_dispatch))__pyx_f_5cygym_7acrobot_12CyAcrobotEnv__dsdt;
+  if (PyType_Ready(&__pyx_type_5cygym_7acrobot_CyAcrobotEnv) < 0) __PYX_ERR(1, 38, __pyx_L1_error)
   #if PY_VERSION_HEX < 0x030800B1
-  __pyx_type_5cygym_4envs_7acrobot_FastAcrobotEnv.tp_print = 0;
+  __pyx_type_5cygym_7acrobot_CyAcrobotEnv.tp_print = 0;
   #endif
-  if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_type_5cygym_4envs_7acrobot_FastAcrobotEnv.tp_dictoffset && __pyx_type_5cygym_4envs_7acrobot_FastAcrobotEnv.tp_getattro == PyObject_GenericGetAttr)) {
-    __pyx_type_5cygym_4envs_7acrobot_FastAcrobotEnv.tp_getattro = __Pyx_PyObject_GenericGetAttr;
+  if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_type_5cygym_7acrobot_CyAcrobotEnv.tp_dictoffset && __pyx_type_5cygym_7acrobot_CyAcrobotEnv.tp_getattro == PyObject_GenericGetAttr)) {
+    __pyx_type_5cygym_7acrobot_CyAcrobotEnv.tp_getattro = __Pyx_PyObject_GenericGetAttr;
   }
-  if (__Pyx_SetVtable(__pyx_type_5cygym_4envs_7acrobot_FastAcrobotEnv.tp_dict, __pyx_vtabptr_5cygym_4envs_7acrobot_FastAcrobotEnv) < 0) __PYX_ERR(1, 22, __pyx_L1_error)
-  if (PyObject_SetAttr(__pyx_m, __pyx_n_s_FastAcrobotEnv, (PyObject *)&__pyx_type_5cygym_4envs_7acrobot_FastAcrobotEnv) < 0) __PYX_ERR(1, 22, __pyx_L1_error)
-  if (__Pyx_setup_reduce((PyObject*)&__pyx_type_5cygym_4envs_7acrobot_FastAcrobotEnv) < 0) __PYX_ERR(1, 22, __pyx_L1_error)
-  __pyx_ptype_5cygym_4envs_7acrobot_FastAcrobotEnv = &__pyx_type_5cygym_4envs_7acrobot_FastAcrobotEnv;
+  if (__Pyx_SetVtable(__pyx_type_5cygym_7acrobot_CyAcrobotEnv.tp_dict, __pyx_vtabptr_5cygym_7acrobot_CyAcrobotEnv) < 0) __PYX_ERR(1, 38, __pyx_L1_error)
+  if (PyObject_SetAttr(__pyx_m, __pyx_n_s_CyAcrobotEnv, (PyObject *)&__pyx_type_5cygym_7acrobot_CyAcrobotEnv) < 0) __PYX_ERR(1, 38, __pyx_L1_error)
+  if (__Pyx_setup_reduce((PyObject*)&__pyx_type_5cygym_7acrobot_CyAcrobotEnv) < 0) __PYX_ERR(1, 38, __pyx_L1_error)
+  __pyx_ptype_5cygym_7acrobot_CyAcrobotEnv = &__pyx_type_5cygym_7acrobot_CyAcrobotEnv;
   __pyx_vtabptr_array = &__pyx_vtable_array;
   __pyx_vtable_array.get_memview = (PyObject *(*)(struct __pyx_array_obj *))__pyx_array_get_memview;
   if (PyType_Ready(&__pyx_type___pyx_array) < 0) __PYX_ERR(0, 105, __pyx_L1_error)
@@ -23035,7 +23027,7 @@ if (!__Pyx_RefNanny) {
   Py_INCREF(__pyx_m);
   #else
   #if PY_MAJOR_VERSION < 3
-  __pyx_m = Py_InitModule4("acrobot", __pyx_methods, 0, 0, PYTHON_API_VERSION); Py_XINCREF(__pyx_m);
+  __pyx_m = Py_InitModule4("acrobot", __pyx_methods, __pyx_k_Credit_This_code_has_been_adapt, 0, PYTHON_API_VERSION); Py_XINCREF(__pyx_m);
   #else
   __pyx_m = PyModule_Create(&__pyx_moduledef);
   #endif
@@ -23053,14 +23045,14 @@ if (!__Pyx_RefNanny) {
   #if PY_MAJOR_VERSION < 3 && (__PYX_DEFAULT_STRING_ENCODING_IS_ASCII || __PYX_DEFAULT_STRING_ENCODING_IS_DEFAULT)
   if (__Pyx_init_sys_getdefaultencoding_params() < 0) __PYX_ERR(1, 1, __pyx_L1_error)
   #endif
-  if (__pyx_module_is_main_cygym__envs__acrobot) {
+  if (__pyx_module_is_main_cygym__acrobot) {
     if (PyObject_SetAttr(__pyx_m, __pyx_n_s_name_2, __pyx_n_s_main) < 0) __PYX_ERR(1, 1, __pyx_L1_error)
   }
   #if PY_MAJOR_VERSION >= 3
   {
     PyObject *modules = PyImport_GetModuleDict(); if (unlikely(!modules)) __PYX_ERR(1, 1, __pyx_L1_error)
-    if (!PyDict_GetItemString(modules, "cygym.envs.acrobot")) {
-      if (unlikely(PyDict_SetItemString(modules, "cygym.envs.acrobot", __pyx_m) < 0)) __PYX_ERR(1, 1, __pyx_L1_error)
+    if (!PyDict_GetItemString(modules, "cygym.acrobot")) {
+      if (unlikely(PyDict_SetItemString(modules, "cygym.acrobot", __pyx_m) < 0)) __PYX_ERR(1, 1, __pyx_L1_error)
     }
   }
   #endif
@@ -23081,14 +23073,14 @@ if (!__Pyx_RefNanny) {
   if (__Pyx_patch_abc() < 0) __PYX_ERR(1, 1, __pyx_L1_error)
   #endif
 
-  /* "cygym/envs/acrobot.pyx":9
+  /* "cygym/acrobot.pyx":26
  * 
  * ## Loading packages
  * from gym.spaces import Box, Discrete             # <<<<<<<<<<<<<<
  * from gym.utils import seeding
  * import numpy as np
  */
-  __pyx_t_1 = PyList_New(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 9, __pyx_L1_error)
+  __pyx_t_1 = PyList_New(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 26, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_INCREF(__pyx_n_s_Box);
   __Pyx_GIVEREF(__pyx_n_s_Box);
@@ -23096,78 +23088,78 @@ if (!__Pyx_RefNanny) {
   __Pyx_INCREF(__pyx_n_s_Discrete);
   __Pyx_GIVEREF(__pyx_n_s_Discrete);
   PyList_SET_ITEM(__pyx_t_1, 1, __pyx_n_s_Discrete);
-  __pyx_t_2 = __Pyx_Import(__pyx_n_s_gym_spaces, __pyx_t_1, 0); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 9, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_Import(__pyx_n_s_gym_spaces, __pyx_t_1, 0); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 26, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = __Pyx_ImportFrom(__pyx_t_2, __pyx_n_s_Box); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 9, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_ImportFrom(__pyx_t_2, __pyx_n_s_Box); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 26, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_Box, __pyx_t_1) < 0) __PYX_ERR(1, 9, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_Box, __pyx_t_1) < 0) __PYX_ERR(1, 26, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = __Pyx_ImportFrom(__pyx_t_2, __pyx_n_s_Discrete); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 9, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_ImportFrom(__pyx_t_2, __pyx_n_s_Discrete); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 26, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_Discrete, __pyx_t_1) < 0) __PYX_ERR(1, 9, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_Discrete, __pyx_t_1) < 0) __PYX_ERR(1, 26, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "cygym/envs/acrobot.pyx":10
+  /* "cygym/acrobot.pyx":27
  * ## Loading packages
  * from gym.spaces import Box, Discrete
  * from gym.utils import seeding             # <<<<<<<<<<<<<<
  * import numpy as np
  * cimport numpy as np
  */
-  __pyx_t_2 = PyList_New(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 10, __pyx_L1_error)
+  __pyx_t_2 = PyList_New(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 27, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_INCREF(__pyx_n_s_seeding);
   __Pyx_GIVEREF(__pyx_n_s_seeding);
   PyList_SET_ITEM(__pyx_t_2, 0, __pyx_n_s_seeding);
-  __pyx_t_1 = __Pyx_Import(__pyx_n_s_gym_utils, __pyx_t_2, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 10, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_Import(__pyx_n_s_gym_utils, __pyx_t_2, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 27, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_ImportFrom(__pyx_t_1, __pyx_n_s_seeding); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 10, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_ImportFrom(__pyx_t_1, __pyx_n_s_seeding); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 27, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_seeding, __pyx_t_2) < 0) __PYX_ERR(1, 10, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_seeding, __pyx_t_2) < 0) __PYX_ERR(1, 27, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "cygym/envs/acrobot.pyx":11
+  /* "cygym/acrobot.pyx":28
  * from gym.spaces import Box, Discrete
  * from gym.utils import seeding
  * import numpy as np             # <<<<<<<<<<<<<<
  * cimport numpy as np
  * cimport cython
  */
-  __pyx_t_1 = __Pyx_Import(__pyx_n_s_numpy, 0, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 11, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_Import(__pyx_n_s_numpy, 0, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 28, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_np, __pyx_t_1) < 0) __PYX_ERR(1, 11, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_np, __pyx_t_1) < 0) __PYX_ERR(1, 28, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "cygym/envs/acrobot.pyx":44
+  /* "cygym/acrobot.pyx":60
  * 
  *     cdef object np_random
  *     metadata = {}             # <<<<<<<<<<<<<<
  *     reward_range = (-float('inf'), float('inf'))
  *     spec = None
  */
-  __pyx_t_1 = __Pyx_PyDict_NewPresized(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 44, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyDict_NewPresized(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 60, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  if (PyDict_SetItem((PyObject *)__pyx_ptype_5cygym_4envs_7acrobot_FastAcrobotEnv->tp_dict, __pyx_n_s_metadata, __pyx_t_1) < 0) __PYX_ERR(1, 44, __pyx_L1_error)
+  if (PyDict_SetItem((PyObject *)__pyx_ptype_5cygym_7acrobot_CyAcrobotEnv->tp_dict, __pyx_n_s_metadata, __pyx_t_1) < 0) __PYX_ERR(1, 60, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  PyType_Modified(__pyx_ptype_5cygym_4envs_7acrobot_FastAcrobotEnv);
+  PyType_Modified(__pyx_ptype_5cygym_7acrobot_CyAcrobotEnv);
 
-  /* "cygym/envs/acrobot.pyx":45
+  /* "cygym/acrobot.pyx":61
  *     cdef object np_random
  *     metadata = {}
  *     reward_range = (-float('inf'), float('inf'))             # <<<<<<<<<<<<<<
  *     spec = None
  *     def unwrapped(self): return self
  */
-  __pyx_t_3 = __Pyx_PyObject_AsDouble(__pyx_n_u_inf); if (unlikely(__pyx_t_3 == ((double)((double)-1)) && PyErr_Occurred())) __PYX_ERR(1, 45, __pyx_L1_error)
-  __pyx_t_1 = PyFloat_FromDouble((-__pyx_t_3)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 45, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_AsDouble(__pyx_n_u_inf); if (unlikely(__pyx_t_3 == ((double)((double)-1)) && PyErr_Occurred())) __PYX_ERR(1, 61, __pyx_L1_error)
+  __pyx_t_1 = PyFloat_FromDouble((-__pyx_t_3)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 61, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyNumber_Float(__pyx_n_u_inf); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 45, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyNumber_Float(__pyx_n_u_inf); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 61, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_4 = PyTuple_New(2); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 45, __pyx_L1_error)
+  __pyx_t_4 = PyTuple_New(2); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 61, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_GIVEREF(__pyx_t_1);
   PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_t_1);
@@ -23175,21 +23167,21 @@ if (!__Pyx_RefNanny) {
   PyTuple_SET_ITEM(__pyx_t_4, 1, __pyx_t_2);
   __pyx_t_1 = 0;
   __pyx_t_2 = 0;
-  if (PyDict_SetItem((PyObject *)__pyx_ptype_5cygym_4envs_7acrobot_FastAcrobotEnv->tp_dict, __pyx_n_s_reward_range, __pyx_t_4) < 0) __PYX_ERR(1, 45, __pyx_L1_error)
+  if (PyDict_SetItem((PyObject *)__pyx_ptype_5cygym_7acrobot_CyAcrobotEnv->tp_dict, __pyx_n_s_reward_range, __pyx_t_4) < 0) __PYX_ERR(1, 61, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  PyType_Modified(__pyx_ptype_5cygym_4envs_7acrobot_FastAcrobotEnv);
+  PyType_Modified(__pyx_ptype_5cygym_7acrobot_CyAcrobotEnv);
 
-  /* "cygym/envs/acrobot.pyx":46
+  /* "cygym/acrobot.pyx":62
  *     metadata = {}
  *     reward_range = (-float('inf'), float('inf'))
  *     spec = None             # <<<<<<<<<<<<<<
  *     def unwrapped(self): return self
  * 
  */
-  if (PyDict_SetItem((PyObject *)__pyx_ptype_5cygym_4envs_7acrobot_FastAcrobotEnv->tp_dict, __pyx_n_s_spec, Py_None) < 0) __PYX_ERR(1, 46, __pyx_L1_error)
-  PyType_Modified(__pyx_ptype_5cygym_4envs_7acrobot_FastAcrobotEnv);
+  if (PyDict_SetItem((PyObject *)__pyx_ptype_5cygym_7acrobot_CyAcrobotEnv->tp_dict, __pyx_n_s_spec, Py_None) < 0) __PYX_ERR(1, 62, __pyx_L1_error)
+  PyType_Modified(__pyx_ptype_5cygym_7acrobot_CyAcrobotEnv);
 
-  /* "cygym/envs/acrobot.pyx":1
+  /* "cygym/acrobot.pyx":1
  * #!python             # <<<<<<<<<<<<<<
  * 
  * # cython: boundscheck=False
@@ -23361,11 +23353,11 @@ if (!__Pyx_RefNanny) {
   __Pyx_XDECREF(__pyx_t_4);
   if (__pyx_m) {
     if (__pyx_d) {
-      __Pyx_AddTraceback("init cygym.envs.acrobot", __pyx_clineno, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("init cygym.acrobot", __pyx_clineno, __pyx_lineno, __pyx_filename);
     }
     Py_CLEAR(__pyx_m);
   } else if (!PyErr_Occurred()) {
-    PyErr_SetString(PyExc_ImportError, "init cygym.envs.acrobot");
+    PyErr_SetString(PyExc_ImportError, "init cygym.acrobot");
   }
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();
@@ -26734,7 +26726,7 @@ no_fail:
 }
 
 /* ObjectToMemviewSlice */
-  static CYTHON_INLINE __Pyx_memviewslice __Pyx_PyObject_to_MemoryviewSlice_ds_nn___pyx_t_5cygym_4envs_7acrobot_np_float_t(PyObject *obj, int writable_flag) {
+  static CYTHON_INLINE __Pyx_memviewslice __Pyx_PyObject_to_MemoryviewSlice_ds_nn___pyx_t_5cygym_7acrobot_np_float_t(PyObject *obj, int writable_flag) {
     __Pyx_memviewslice result = { 0, 0, { 0 }, { 0 }, { 0 } };
     __Pyx_BufFmt_StackElem stack[1];
     int axes_specs[] = { (__Pyx_MEMVIEW_DIRECT | __Pyx_MEMVIEW_STRIDED) };
@@ -26745,7 +26737,7 @@ no_fail:
     }
     retcode = __Pyx_ValidateAndInit_memviewslice(axes_specs, 0,
                                                  PyBUF_RECORDS_RO | writable_flag, 1,
-                                                 &__Pyx_TypeInfo_nn___pyx_t_5cygym_4envs_7acrobot_np_float_t, stack,
+                                                 &__Pyx_TypeInfo_nn___pyx_t_5cygym_7acrobot_np_float_t, stack,
                                                  &result, obj);
     if (unlikely(retcode == -1))
         goto __pyx_fail;
@@ -26788,14 +26780,14 @@ __pyx_fail:
 }
 
 /* MemviewDtypeToObject */
-  static CYTHON_INLINE PyObject *__pyx_memview_get_nn___pyx_t_5cygym_4envs_7acrobot_np_float_t(const char *itemp) {
-    return (PyObject *) PyFloat_FromDouble(*(__pyx_t_5cygym_4envs_7acrobot_np_float_t *) itemp);
+  static CYTHON_INLINE PyObject *__pyx_memview_get_nn___pyx_t_5cygym_7acrobot_np_float_t(const char *itemp) {
+    return (PyObject *) PyFloat_FromDouble(*(__pyx_t_5cygym_7acrobot_np_float_t *) itemp);
 }
-static CYTHON_INLINE int __pyx_memview_set_nn___pyx_t_5cygym_4envs_7acrobot_np_float_t(const char *itemp, PyObject *obj) {
-    __pyx_t_5cygym_4envs_7acrobot_np_float_t value = __pyx_PyFloat_AsDouble(obj);
+static CYTHON_INLINE int __pyx_memview_set_nn___pyx_t_5cygym_7acrobot_np_float_t(const char *itemp, PyObject *obj) {
+    __pyx_t_5cygym_7acrobot_np_float_t value = __pyx_PyFloat_AsDouble(obj);
     if ((value == ((npy_double)-1)) && PyErr_Occurred())
         return 0;
-    *(__pyx_t_5cygym_4envs_7acrobot_np_float_t *) itemp = value;
+    *(__pyx_t_5cygym_7acrobot_np_float_t *) itemp = value;
     return 1;
 }
 
@@ -27804,7 +27796,7 @@ raise_neg_overflow:
 }
 
 /* ObjectToMemviewSlice */
-  static CYTHON_INLINE __Pyx_memviewslice __Pyx_PyObject_to_MemoryviewSlice_dsds_nn___pyx_t_5cygym_4envs_7acrobot_np_float_t(PyObject *obj, int writable_flag) {
+  static CYTHON_INLINE __Pyx_memviewslice __Pyx_PyObject_to_MemoryviewSlice_dsds_nn___pyx_t_5cygym_7acrobot_np_float_t(PyObject *obj, int writable_flag) {
     __Pyx_memviewslice result = { 0, 0, { 0 }, { 0 }, { 0 } };
     __Pyx_BufFmt_StackElem stack[1];
     int axes_specs[] = { (__Pyx_MEMVIEW_DIRECT | __Pyx_MEMVIEW_STRIDED), (__Pyx_MEMVIEW_DIRECT | __Pyx_MEMVIEW_STRIDED) };
@@ -27815,7 +27807,7 @@ raise_neg_overflow:
     }
     retcode = __Pyx_ValidateAndInit_memviewslice(axes_specs, 0,
                                                  PyBUF_RECORDS_RO | writable_flag, 2,
-                                                 &__Pyx_TypeInfo_nn___pyx_t_5cygym_4envs_7acrobot_np_float_t, stack,
+                                                 &__Pyx_TypeInfo_nn___pyx_t_5cygym_7acrobot_np_float_t, stack,
                                                  &result, obj);
     if (unlikely(retcode == -1))
         goto __pyx_fail;

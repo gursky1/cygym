@@ -5,6 +5,23 @@
 # cython: wraparound=False
 # cython: nonecheck=False
 
+"""
+Credit:
+    
+This code has been adapted from the original OpenAI release:
+https://github.com/openai/gym/blob/master/gym/envs/classic_control/acrobot.py
+
+__copyright__ = "Copyright 2013, RLPy http://acl.mit.edu/RLPy"
+__credits__ = ["Alborz Geramifard", "Robert H. Klein", "Christoph Dann",
+               "William Dabney", "Jonathan P. How"]
+__license__ = "BSD 3-Clause"
+__author__ = "Christoph Dann <cdann@cdann.de>"
+
+# SOURCE:
+# https://github.com/rlpy/rlpy/blob/master/rlpy/Domains/Acrobot.py
+
+"""
+
 ## Loading packages
 from gym.spaces import Box, Discrete
 from gym.utils import seeding
@@ -16,10 +33,9 @@ from libc.math cimport sin, cos, M_PI
 
 # Defining our numpy types
 ctypedef np.float_t np_float_t
-ctypedef np.int_t np_int_t
 
 
-cdef class FastAcrobotEnv():
+cdef class CyAcrobotEnv():
 
 
     cdef:

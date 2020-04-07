@@ -10,12 +10,12 @@
         "include_dirs": [
             "/home/jacob/anaconda3/envs/fast_gym/lib/python3.7/site-packages/numpy/core/include"
         ],
-        "name": "cygym.envs.pendulum",
+        "name": "cygym.pendulum",
         "sources": [
-            "cygym/envs/pendulum.pyx"
+            "cygym/pendulum.pyx"
         ]
     },
-    "module_name": "cygym.envs.pendulum"
+    "module_name": "cygym.pendulum"
 }
 END: Cython Metadata */
 
@@ -611,8 +611,8 @@ static CYTHON_INLINE float __PYX_NAN() {
   #endif
 #endif
 
-#define __PYX_HAVE__cygym__envs__pendulum
-#define __PYX_HAVE_API__cygym__envs__pendulum
+#define __PYX_HAVE__cygym__pendulum
+#define __PYX_HAVE_API__cygym__pendulum
 /* Early includes */
 #include <string.h>
 #include <stdio.h>
@@ -853,7 +853,7 @@ static const char *__pyx_filename;
 
 static const char *__pyx_f[] = {
   "stringsource",
-  "cygym/envs/pendulum.pyx",
+  "cygym/pendulum.pyx",
   "__init__.pxd",
   "type.pxd",
 };
@@ -966,7 +966,7 @@ typedef struct {
 #define __Pyx_FastGilFuncInit()
 
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":776
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":776
  * # in Cython to enable them only on the right systems.
  * 
  * ctypedef npy_int8       int8_t             # <<<<<<<<<<<<<<
@@ -975,7 +975,7 @@ typedef struct {
  */
 typedef npy_int8 __pyx_t_5numpy_int8_t;
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":777
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":777
  * 
  * ctypedef npy_int8       int8_t
  * ctypedef npy_int16      int16_t             # <<<<<<<<<<<<<<
@@ -984,7 +984,7 @@ typedef npy_int8 __pyx_t_5numpy_int8_t;
  */
 typedef npy_int16 __pyx_t_5numpy_int16_t;
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":778
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":778
  * ctypedef npy_int8       int8_t
  * ctypedef npy_int16      int16_t
  * ctypedef npy_int32      int32_t             # <<<<<<<<<<<<<<
@@ -993,7 +993,7 @@ typedef npy_int16 __pyx_t_5numpy_int16_t;
  */
 typedef npy_int32 __pyx_t_5numpy_int32_t;
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":779
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":779
  * ctypedef npy_int16      int16_t
  * ctypedef npy_int32      int32_t
  * ctypedef npy_int64      int64_t             # <<<<<<<<<<<<<<
@@ -1002,7 +1002,7 @@ typedef npy_int32 __pyx_t_5numpy_int32_t;
  */
 typedef npy_int64 __pyx_t_5numpy_int64_t;
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":783
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":783
  * #ctypedef npy_int128     int128_t
  * 
  * ctypedef npy_uint8      uint8_t             # <<<<<<<<<<<<<<
@@ -1011,7 +1011,7 @@ typedef npy_int64 __pyx_t_5numpy_int64_t;
  */
 typedef npy_uint8 __pyx_t_5numpy_uint8_t;
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":784
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":784
  * 
  * ctypedef npy_uint8      uint8_t
  * ctypedef npy_uint16     uint16_t             # <<<<<<<<<<<<<<
@@ -1020,7 +1020,7 @@ typedef npy_uint8 __pyx_t_5numpy_uint8_t;
  */
 typedef npy_uint16 __pyx_t_5numpy_uint16_t;
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":785
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":785
  * ctypedef npy_uint8      uint8_t
  * ctypedef npy_uint16     uint16_t
  * ctypedef npy_uint32     uint32_t             # <<<<<<<<<<<<<<
@@ -1029,7 +1029,7 @@ typedef npy_uint16 __pyx_t_5numpy_uint16_t;
  */
 typedef npy_uint32 __pyx_t_5numpy_uint32_t;
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":786
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":786
  * ctypedef npy_uint16     uint16_t
  * ctypedef npy_uint32     uint32_t
  * ctypedef npy_uint64     uint64_t             # <<<<<<<<<<<<<<
@@ -1038,7 +1038,7 @@ typedef npy_uint32 __pyx_t_5numpy_uint32_t;
  */
 typedef npy_uint64 __pyx_t_5numpy_uint64_t;
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":790
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":790
  * #ctypedef npy_uint128    uint128_t
  * 
  * ctypedef npy_float32    float32_t             # <<<<<<<<<<<<<<
@@ -1047,7 +1047,7 @@ typedef npy_uint64 __pyx_t_5numpy_uint64_t;
  */
 typedef npy_float32 __pyx_t_5numpy_float32_t;
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":791
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":791
  * 
  * ctypedef npy_float32    float32_t
  * ctypedef npy_float64    float64_t             # <<<<<<<<<<<<<<
@@ -1056,7 +1056,7 @@ typedef npy_float32 __pyx_t_5numpy_float32_t;
  */
 typedef npy_float64 __pyx_t_5numpy_float64_t;
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":800
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":800
  * # The int types are mapped a bit surprising --
  * # numpy.int corresponds to 'l' and numpy.long to 'q'
  * ctypedef npy_long       int_t             # <<<<<<<<<<<<<<
@@ -1065,7 +1065,7 @@ typedef npy_float64 __pyx_t_5numpy_float64_t;
  */
 typedef npy_long __pyx_t_5numpy_int_t;
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":801
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":801
  * # numpy.int corresponds to 'l' and numpy.long to 'q'
  * ctypedef npy_long       int_t
  * ctypedef npy_longlong   long_t             # <<<<<<<<<<<<<<
@@ -1074,7 +1074,7 @@ typedef npy_long __pyx_t_5numpy_int_t;
  */
 typedef npy_longlong __pyx_t_5numpy_long_t;
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":802
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":802
  * ctypedef npy_long       int_t
  * ctypedef npy_longlong   long_t
  * ctypedef npy_longlong   longlong_t             # <<<<<<<<<<<<<<
@@ -1083,7 +1083,7 @@ typedef npy_longlong __pyx_t_5numpy_long_t;
  */
 typedef npy_longlong __pyx_t_5numpy_longlong_t;
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":804
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":804
  * ctypedef npy_longlong   longlong_t
  * 
  * ctypedef npy_ulong      uint_t             # <<<<<<<<<<<<<<
@@ -1092,7 +1092,7 @@ typedef npy_longlong __pyx_t_5numpy_longlong_t;
  */
 typedef npy_ulong __pyx_t_5numpy_uint_t;
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":805
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":805
  * 
  * ctypedef npy_ulong      uint_t
  * ctypedef npy_ulonglong  ulong_t             # <<<<<<<<<<<<<<
@@ -1101,7 +1101,7 @@ typedef npy_ulong __pyx_t_5numpy_uint_t;
  */
 typedef npy_ulonglong __pyx_t_5numpy_ulong_t;
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":806
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":806
  * ctypedef npy_ulong      uint_t
  * ctypedef npy_ulonglong  ulong_t
  * ctypedef npy_ulonglong  ulonglong_t             # <<<<<<<<<<<<<<
@@ -1110,7 +1110,7 @@ typedef npy_ulonglong __pyx_t_5numpy_ulong_t;
  */
 typedef npy_ulonglong __pyx_t_5numpy_ulonglong_t;
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":808
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":808
  * ctypedef npy_ulonglong  ulonglong_t
  * 
  * ctypedef npy_intp       intp_t             # <<<<<<<<<<<<<<
@@ -1119,7 +1119,7 @@ typedef npy_ulonglong __pyx_t_5numpy_ulonglong_t;
  */
 typedef npy_intp __pyx_t_5numpy_intp_t;
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":809
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":809
  * 
  * ctypedef npy_intp       intp_t
  * ctypedef npy_uintp      uintp_t             # <<<<<<<<<<<<<<
@@ -1128,7 +1128,7 @@ typedef npy_intp __pyx_t_5numpy_intp_t;
  */
 typedef npy_uintp __pyx_t_5numpy_uintp_t;
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":811
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":811
  * ctypedef npy_uintp      uintp_t
  * 
  * ctypedef npy_double     float_t             # <<<<<<<<<<<<<<
@@ -1137,7 +1137,7 @@ typedef npy_uintp __pyx_t_5numpy_uintp_t;
  */
 typedef npy_double __pyx_t_5numpy_float_t;
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":812
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":812
  * 
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t             # <<<<<<<<<<<<<<
@@ -1146,7 +1146,7 @@ typedef npy_double __pyx_t_5numpy_float_t;
  */
 typedef npy_double __pyx_t_5numpy_double_t;
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":813
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":813
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t
  * ctypedef npy_longdouble longdouble_t             # <<<<<<<<<<<<<<
@@ -1155,23 +1155,14 @@ typedef npy_double __pyx_t_5numpy_double_t;
  */
 typedef npy_longdouble __pyx_t_5numpy_longdouble_t;
 
-/* "cygym/envs/pendulum.pyx":17
+/* "cygym/pendulum.pyx":25
  * 
  * # Defining our numpy types
  * ctypedef np.float_t np_float_t             # <<<<<<<<<<<<<<
- * ctypedef np.int_t np_int_t
- * 
- */
-typedef __pyx_t_5numpy_float_t __pyx_t_5cygym_4envs_8pendulum_np_float_t;
-
-/* "cygym/envs/pendulum.pyx":18
- * # Defining our numpy types
- * ctypedef np.float_t np_float_t
- * ctypedef np.int_t np_int_t             # <<<<<<<<<<<<<<
  * 
  * 
  */
-typedef __pyx_t_5numpy_int_t __pyx_t_5cygym_4envs_8pendulum_np_int_t;
+typedef __pyx_t_5numpy_float_t __pyx_t_5cygym_8pendulum_np_float_t;
 /* Declarations.proto */
 #if CYTHON_CCOMPLEX
   #ifdef __cplusplus
@@ -1198,13 +1189,13 @@ static CYTHON_INLINE __pyx_t_double_complex __pyx_t_double_complex_from_parts(do
 
 
 /*--- Type declarations ---*/
-struct __pyx_obj_5cygym_4envs_8pendulum_FastPendulumEnv;
+struct __pyx_obj_5cygym_8pendulum_CyPendulumEnv;
 struct __pyx_array_obj;
 struct __pyx_MemviewEnum_obj;
 struct __pyx_memoryview_obj;
 struct __pyx_memoryviewslice_obj;
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":815
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":815
  * ctypedef npy_longdouble longdouble_t
  * 
  * ctypedef npy_cfloat      cfloat_t             # <<<<<<<<<<<<<<
@@ -1213,7 +1204,7 @@ struct __pyx_memoryviewslice_obj;
  */
 typedef npy_cfloat __pyx_t_5numpy_cfloat_t;
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":816
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":816
  * 
  * ctypedef npy_cfloat      cfloat_t
  * ctypedef npy_cdouble     cdouble_t             # <<<<<<<<<<<<<<
@@ -1222,7 +1213,7 @@ typedef npy_cfloat __pyx_t_5numpy_cfloat_t;
  */
 typedef npy_cdouble __pyx_t_5numpy_cdouble_t;
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":817
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":817
  * ctypedef npy_cfloat      cfloat_t
  * ctypedef npy_cdouble     cdouble_t
  * ctypedef npy_clongdouble clongdouble_t             # <<<<<<<<<<<<<<
@@ -1231,7 +1222,7 @@ typedef npy_cdouble __pyx_t_5numpy_cdouble_t;
  */
 typedef npy_clongdouble __pyx_t_5numpy_clongdouble_t;
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":819
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":819
  * ctypedef npy_clongdouble clongdouble_t
  * 
  * ctypedef npy_cdouble     complex_t             # <<<<<<<<<<<<<<
@@ -1239,30 +1230,30 @@ typedef npy_clongdouble __pyx_t_5numpy_clongdouble_t;
  * cdef inline object PyArray_MultiIterNew1(a):
  */
 typedef npy_cdouble __pyx_t_5numpy_complex_t;
-struct __pyx_opt_args_5cygym_4envs_8pendulum_15FastPendulumEnv_seed;
+struct __pyx_opt_args_5cygym_8pendulum_13CyPendulumEnv_seed;
 
-/* "cygym/envs/pendulum.pyx":40
+/* "cygym/pendulum.pyx":47
  *     def unwrapped(self): return self
  * 
  *     cdef inline void seed(self, seed=1):             # <<<<<<<<<<<<<<
  *         if seed == 0:
  *             self.np_random, _ = seeding.np_random()
  */
-struct __pyx_opt_args_5cygym_4envs_8pendulum_15FastPendulumEnv_seed {
+struct __pyx_opt_args_5cygym_8pendulum_13CyPendulumEnv_seed {
   int __pyx_n;
   PyObject *seed;
 };
 
-/* "cygym/envs/pendulum.pyx":21
+/* "cygym/pendulum.pyx":28
  * 
  * 
- * cdef class FastPendulumEnv():             # <<<<<<<<<<<<<<
+ * cdef class CyPendulumEnv():             # <<<<<<<<<<<<<<
  * 
  *     cdef:
  */
-struct __pyx_obj_5cygym_4envs_8pendulum_FastPendulumEnv {
+struct __pyx_obj_5cygym_8pendulum_CyPendulumEnv {
   PyObject_HEAD
-  struct __pyx_vtabstruct_5cygym_4envs_8pendulum_FastPendulumEnv *__pyx_vtab;
+  struct __pyx_vtabstruct_5cygym_8pendulum_CyPendulumEnv *__pyx_vtab;
   int max_speed;
   float max_torque;
   float dt;
@@ -1354,22 +1345,22 @@ struct __pyx_memoryviewslice_obj {
 
 
 
-/* "cygym/envs/pendulum.pyx":21
+/* "cygym/pendulum.pyx":28
  * 
  * 
- * cdef class FastPendulumEnv():             # <<<<<<<<<<<<<<
+ * cdef class CyPendulumEnv():             # <<<<<<<<<<<<<<
  * 
  *     cdef:
  */
 
-struct __pyx_vtabstruct_5cygym_4envs_8pendulum_FastPendulumEnv {
-  void (*seed)(struct __pyx_obj_5cygym_4envs_8pendulum_FastPendulumEnv *, struct __pyx_opt_args_5cygym_4envs_8pendulum_15FastPendulumEnv_seed *__pyx_optional_args);
-  PyObject *(*step)(struct __pyx_obj_5cygym_4envs_8pendulum_FastPendulumEnv *, float, int __pyx_skip_dispatch);
-  PyArrayObject *(*reset)(struct __pyx_obj_5cygym_4envs_8pendulum_FastPendulumEnv *, int __pyx_skip_dispatch);
-  PyObject *(*_get_obs)(struct __pyx_obj_5cygym_4envs_8pendulum_FastPendulumEnv *, int __pyx_skip_dispatch);
+struct __pyx_vtabstruct_5cygym_8pendulum_CyPendulumEnv {
+  void (*seed)(struct __pyx_obj_5cygym_8pendulum_CyPendulumEnv *, struct __pyx_opt_args_5cygym_8pendulum_13CyPendulumEnv_seed *__pyx_optional_args);
+  PyObject *(*step)(struct __pyx_obj_5cygym_8pendulum_CyPendulumEnv *, float, int __pyx_skip_dispatch);
+  PyArrayObject *(*reset)(struct __pyx_obj_5cygym_8pendulum_CyPendulumEnv *, int __pyx_skip_dispatch);
+  PyObject *(*_get_obs)(struct __pyx_obj_5cygym_8pendulum_CyPendulumEnv *, int __pyx_skip_dispatch);
 };
-static struct __pyx_vtabstruct_5cygym_4envs_8pendulum_FastPendulumEnv *__pyx_vtabptr_5cygym_4envs_8pendulum_FastPendulumEnv;
-static CYTHON_INLINE void __pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_seed(struct __pyx_obj_5cygym_4envs_8pendulum_FastPendulumEnv *, struct __pyx_opt_args_5cygym_4envs_8pendulum_15FastPendulumEnv_seed *__pyx_optional_args);
+static struct __pyx_vtabstruct_5cygym_8pendulum_CyPendulumEnv *__pyx_vtabptr_5cygym_8pendulum_CyPendulumEnv;
+static CYTHON_INLINE void __pyx_f_5cygym_8pendulum_13CyPendulumEnv_seed(struct __pyx_obj_5cygym_8pendulum_CyPendulumEnv *, struct __pyx_opt_args_5cygym_8pendulum_13CyPendulumEnv_seed *__pyx_optional_args);
 
 
 /* "View.MemoryView":105
@@ -2176,7 +2167,7 @@ static int __Pyx_ValidateAndInit_memviewslice(
                 PyObject *original_obj);
 
 /* ObjectToMemviewSlice.proto */
-static CYTHON_INLINE __Pyx_memviewslice __Pyx_PyObject_to_MemoryviewSlice_ds_nn___pyx_t_5cygym_4envs_8pendulum_np_float_t(PyObject *, int writable_flag);
+static CYTHON_INLINE __Pyx_memviewslice __Pyx_PyObject_to_MemoryviewSlice_ds_nn___pyx_t_5cygym_8pendulum_np_float_t(PyObject *, int writable_flag);
 
 /* CheckBinaryVersion.proto */
 static int __Pyx_check_binary_version(void);
@@ -2184,10 +2175,10 @@ static int __Pyx_check_binary_version(void);
 /* InitStrings.proto */
 static int __Pyx_InitStrings(__Pyx_StringTabEntry *t);
 
-static CYTHON_INLINE void __pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_seed(struct __pyx_obj_5cygym_4envs_8pendulum_FastPendulumEnv *__pyx_v_self, struct __pyx_opt_args_5cygym_4envs_8pendulum_15FastPendulumEnv_seed *__pyx_optional_args); /* proto*/
-static PyObject *__pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_step(struct __pyx_obj_5cygym_4envs_8pendulum_FastPendulumEnv *__pyx_v_self, float __pyx_v_u, int __pyx_skip_dispatch); /* proto*/
-static PyArrayObject *__pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_reset(struct __pyx_obj_5cygym_4envs_8pendulum_FastPendulumEnv *__pyx_v_self, int __pyx_skip_dispatch); /* proto*/
-static PyObject *__pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv__get_obs(struct __pyx_obj_5cygym_4envs_8pendulum_FastPendulumEnv *__pyx_v_self, int __pyx_skip_dispatch); /* proto*/
+static CYTHON_INLINE void __pyx_f_5cygym_8pendulum_13CyPendulumEnv_seed(struct __pyx_obj_5cygym_8pendulum_CyPendulumEnv *__pyx_v_self, struct __pyx_opt_args_5cygym_8pendulum_13CyPendulumEnv_seed *__pyx_optional_args); /* proto*/
+static PyObject *__pyx_f_5cygym_8pendulum_13CyPendulumEnv_step(struct __pyx_obj_5cygym_8pendulum_CyPendulumEnv *__pyx_v_self, float __pyx_v_u, int __pyx_skip_dispatch); /* proto*/
+static PyArrayObject *__pyx_f_5cygym_8pendulum_13CyPendulumEnv_reset(struct __pyx_obj_5cygym_8pendulum_CyPendulumEnv *__pyx_v_self, int __pyx_skip_dispatch); /* proto*/
+static PyObject *__pyx_f_5cygym_8pendulum_13CyPendulumEnv__get_obs(struct __pyx_obj_5cygym_8pendulum_CyPendulumEnv *__pyx_v_self, int __pyx_skip_dispatch); /* proto*/
 static PyObject *__pyx_array_get_memview(struct __pyx_array_obj *__pyx_v_self); /* proto*/
 static char *__pyx_memoryview_get_item_pointer(struct __pyx_memoryview_obj *__pyx_v_self, PyObject *__pyx_v_index); /* proto*/
 static PyObject *__pyx_memoryview_is_slice(struct __pyx_memoryview_obj *__pyx_v_self, PyObject *__pyx_v_obj); /* proto*/
@@ -2234,8 +2225,8 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *, cha
 
 /* Module declarations from 'libc.math' */
 
-/* Module declarations from 'cygym.envs.pendulum' */
-static PyTypeObject *__pyx_ptype_5cygym_4envs_8pendulum_FastPendulumEnv = 0;
+/* Module declarations from 'cygym.pendulum' */
+static PyTypeObject *__pyx_ptype_5cygym_8pendulum_CyPendulumEnv = 0;
 static PyTypeObject *__pyx_array_type = 0;
 static PyTypeObject *__pyx_MemviewEnum_type = 0;
 static PyTypeObject *__pyx_memoryview_type = 0;
@@ -2247,7 +2238,7 @@ static PyObject *contiguous = 0;
 static PyObject *indirect_contiguous = 0;
 static int __pyx_memoryview_thread_locks_used;
 static PyThread_type_lock __pyx_memoryview_thread_locks[8];
-static float __pyx_f_5cygym_4envs_8pendulum_angle_normalize(float); /*proto*/
+static float __pyx_f_5cygym_8pendulum_angle_normalize(float); /*proto*/
 static struct __pyx_array_obj *__pyx_array_new(PyObject *, Py_ssize_t, char *, char *, char *); /*proto*/
 static void *__pyx_align_pointer(void *, size_t); /*proto*/
 static PyObject *__pyx_memoryview_new(PyObject *, int, int, __Pyx_TypeInfo *); /*proto*/
@@ -2281,12 +2272,12 @@ static void __pyx_memoryview_refcount_objects_in_slice(char *, Py_ssize_t *, Py_
 static void __pyx_memoryview_slice_assign_scalar(__Pyx_memviewslice *, int, size_t, void *, int); /*proto*/
 static void __pyx_memoryview__slice_assign_scalar(char *, Py_ssize_t *, Py_ssize_t *, int, size_t, void *); /*proto*/
 static PyObject *__pyx_unpickle_Enum__set_state(struct __pyx_MemviewEnum_obj *, PyObject *); /*proto*/
-static __Pyx_TypeInfo __Pyx_TypeInfo_nn___pyx_t_5cygym_4envs_8pendulum_np_float_t = { "np_float_t", NULL, sizeof(__pyx_t_5cygym_4envs_8pendulum_np_float_t), { 0 }, 0, 'R', 0, 0 };
-#define __Pyx_MODULE_NAME "cygym.envs.pendulum"
-extern int __pyx_module_is_main_cygym__envs__pendulum;
-int __pyx_module_is_main_cygym__envs__pendulum = 0;
+static __Pyx_TypeInfo __Pyx_TypeInfo_nn___pyx_t_5cygym_8pendulum_np_float_t = { "np_float_t", NULL, sizeof(__pyx_t_5cygym_8pendulum_np_float_t), { 0 }, 0, 'R', 0, 0 };
+#define __Pyx_MODULE_NAME "cygym.pendulum"
+extern int __pyx_module_is_main_cygym__pendulum;
+int __pyx_module_is_main_cygym__pendulum = 0;
 
-/* Implementation of 'cygym.envs.pendulum' */
+/* Implementation of 'cygym.pendulum' */
 static PyObject *__pyx_builtin_TypeError;
 static PyObject *__pyx_builtin_ValueError;
 static PyObject *__pyx_builtin_range;
@@ -2368,9 +2359,9 @@ static const char __pyx_k_RuntimeError[] = "RuntimeError";
 static const char __pyx_k_pyx_checksum[] = "__pyx_checksum";
 static const char __pyx_k_reward_range[] = "reward_range";
 static const char __pyx_k_stringsource[] = "stringsource";
+static const char __pyx_k_CyPendulumEnv[] = "CyPendulumEnv";
 static const char __pyx_k_pyx_getbuffer[] = "__pyx_getbuffer";
 static const char __pyx_k_reduce_cython[] = "__reduce_cython__";
-static const char __pyx_k_FastPendulumEnv[] = "FastPendulumEnv";
 static const char __pyx_k_View_MemoryView[] = "View.MemoryView";
 static const char __pyx_k_allocate_buffer[] = "allocate_buffer";
 static const char __pyx_k_dtype_is_object[] = "dtype_is_object";
@@ -2390,6 +2381,7 @@ static const char __pyx_k_itemsize_0_for_cython_array[] = "itemsize <= 0 for cyt
 static const char __pyx_k_ndarray_is_not_C_contiguous[] = "ndarray is not C contiguous";
 static const char __pyx_k_unable_to_allocate_array_data[] = "unable to allocate array data.";
 static const char __pyx_k_strided_and_direct_or_indirect[] = "<strided and direct or indirect>";
+static const char __pyx_k_Credit_This_code_has_been_adapt[] = "\nCredit:\n    \nThis code has been adapted from the original OpenAI release:\nhttps://github.com/openai/gym/blob/master/gym/envs/classic_control/pendulum.py\n\n";
 static const char __pyx_k_numpy_core_multiarray_failed_to[] = "numpy.core.multiarray failed to import";
 static const char __pyx_k_unknown_dtype_code_in_numpy_pxd[] = "unknown dtype code in numpy.pxd (%d)";
 static const char __pyx_k_Buffer_view_does_not_expose_stri[] = "Buffer view does not expose strides";
@@ -2417,9 +2409,9 @@ static PyObject *__pyx_kp_s_Can_only_create_a_buffer_that_is;
 static PyObject *__pyx_kp_s_Cannot_assign_to_read_only_memor;
 static PyObject *__pyx_kp_s_Cannot_create_writable_memory_vi;
 static PyObject *__pyx_kp_s_Cannot_index_with_type_s;
+static PyObject *__pyx_n_s_CyPendulumEnv;
 static PyObject *__pyx_n_s_Ellipsis;
 static PyObject *__pyx_kp_s_Empty_shape_tuple_for_cython_arr;
-static PyObject *__pyx_n_s_FastPendulumEnv;
 static PyObject *__pyx_kp_u_Format_string_allocated_too_shor;
 static PyObject *__pyx_kp_u_Format_string_allocated_too_shor_2;
 static PyObject *__pyx_n_s_ImportError;
@@ -2525,15 +2517,15 @@ static PyObject *__pyx_n_s_uniform;
 static PyObject *__pyx_kp_u_unknown_dtype_code_in_numpy_pxd;
 static PyObject *__pyx_n_s_unpack;
 static PyObject *__pyx_n_s_update;
-static PyObject *__pyx_pf_5cygym_4envs_8pendulum_15FastPendulumEnv_unwrapped(struct __pyx_obj_5cygym_4envs_8pendulum_FastPendulumEnv *__pyx_v_self); /* proto */
-static int __pyx_pf_5cygym_4envs_8pendulum_15FastPendulumEnv_2__cinit__(struct __pyx_obj_5cygym_4envs_8pendulum_FastPendulumEnv *__pyx_v_self, float __pyx_v_g); /* proto */
-static PyObject *__pyx_pf_5cygym_4envs_8pendulum_15FastPendulumEnv_4step(struct __pyx_obj_5cygym_4envs_8pendulum_FastPendulumEnv *__pyx_v_self, float __pyx_v_u); /* proto */
-static PyObject *__pyx_pf_5cygym_4envs_8pendulum_15FastPendulumEnv_6reset(struct __pyx_obj_5cygym_4envs_8pendulum_FastPendulumEnv *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_5cygym_4envs_8pendulum_15FastPendulumEnv_8_get_obs(struct __pyx_obj_5cygym_4envs_8pendulum_FastPendulumEnv *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_5cygym_4envs_8pendulum_15FastPendulumEnv_12action_space___get__(struct __pyx_obj_5cygym_4envs_8pendulum_FastPendulumEnv *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_5cygym_4envs_8pendulum_15FastPendulumEnv_17observation_space___get__(struct __pyx_obj_5cygym_4envs_8pendulum_FastPendulumEnv *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_5cygym_4envs_8pendulum_15FastPendulumEnv_10__reduce_cython__(CYTHON_UNUSED struct __pyx_obj_5cygym_4envs_8pendulum_FastPendulumEnv *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_5cygym_4envs_8pendulum_15FastPendulumEnv_12__setstate_cython__(CYTHON_UNUSED struct __pyx_obj_5cygym_4envs_8pendulum_FastPendulumEnv *__pyx_v_self, CYTHON_UNUSED PyObject *__pyx_v___pyx_state); /* proto */
+static PyObject *__pyx_pf_5cygym_8pendulum_13CyPendulumEnv_unwrapped(struct __pyx_obj_5cygym_8pendulum_CyPendulumEnv *__pyx_v_self); /* proto */
+static int __pyx_pf_5cygym_8pendulum_13CyPendulumEnv_2__cinit__(struct __pyx_obj_5cygym_8pendulum_CyPendulumEnv *__pyx_v_self, float __pyx_v_g); /* proto */
+static PyObject *__pyx_pf_5cygym_8pendulum_13CyPendulumEnv_4step(struct __pyx_obj_5cygym_8pendulum_CyPendulumEnv *__pyx_v_self, float __pyx_v_u); /* proto */
+static PyObject *__pyx_pf_5cygym_8pendulum_13CyPendulumEnv_6reset(struct __pyx_obj_5cygym_8pendulum_CyPendulumEnv *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_5cygym_8pendulum_13CyPendulumEnv_8_get_obs(struct __pyx_obj_5cygym_8pendulum_CyPendulumEnv *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_5cygym_8pendulum_13CyPendulumEnv_12action_space___get__(struct __pyx_obj_5cygym_8pendulum_CyPendulumEnv *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_5cygym_8pendulum_13CyPendulumEnv_17observation_space___get__(struct __pyx_obj_5cygym_8pendulum_CyPendulumEnv *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_5cygym_8pendulum_13CyPendulumEnv_10__reduce_cython__(CYTHON_UNUSED struct __pyx_obj_5cygym_8pendulum_CyPendulumEnv *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_5cygym_8pendulum_13CyPendulumEnv_12__setstate_cython__(CYTHON_UNUSED struct __pyx_obj_5cygym_8pendulum_CyPendulumEnv *__pyx_v_self, CYTHON_UNUSED PyObject *__pyx_v___pyx_state); /* proto */
 static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, Py_buffer *__pyx_v_info, int __pyx_v_flags); /* proto */
 static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_self, Py_buffer *__pyx_v_info); /* proto */
 static int __pyx_array___pyx_pf_15View_dot_MemoryView_5array___cinit__(struct __pyx_array_obj *__pyx_v_self, PyObject *__pyx_v_shape, Py_ssize_t __pyx_v_itemsize, PyObject *__pyx_v_format, PyObject *__pyx_v_mode, int __pyx_v_allocate_buffer); /* proto */
@@ -2578,7 +2570,7 @@ static PyObject *__pyx_pf_15View_dot_MemoryView_16_memoryviewslice_4base___get__
 static PyObject *__pyx_pf___pyx_memoryviewslice___reduce_cython__(CYTHON_UNUSED struct __pyx_memoryviewslice_obj *__pyx_v_self); /* proto */
 static PyObject *__pyx_pf___pyx_memoryviewslice_2__setstate_cython__(CYTHON_UNUSED struct __pyx_memoryviewslice_obj *__pyx_v_self, CYTHON_UNUSED PyObject *__pyx_v___pyx_state); /* proto */
 static PyObject *__pyx_pf_15View_dot_MemoryView___pyx_unpickle_Enum(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v___pyx_type, long __pyx_v___pyx_checksum, PyObject *__pyx_v___pyx_state); /* proto */
-static PyObject *__pyx_tp_new_5cygym_4envs_8pendulum_FastPendulumEnv(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
+static PyObject *__pyx_tp_new_5cygym_8pendulum_CyPendulumEnv(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
 static PyObject *__pyx_tp_new_array(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
 static PyObject *__pyx_tp_new_Enum(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
 static PyObject *__pyx_tp_new_memoryview(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
@@ -2626,7 +2618,7 @@ static PyObject *__pyx_tuple__34;
 static PyObject *__pyx_codeobj__35;
 /* Late includes */
 
-/* "cygym/envs/pendulum.pyx":38
+/* "cygym/pendulum.pyx":45
  *     reward_range = (-float('inf'), float('inf'))
  *     spec = None
  *     def unwrapped(self): return self             # <<<<<<<<<<<<<<
@@ -2635,19 +2627,19 @@ static PyObject *__pyx_codeobj__35;
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_5cygym_4envs_8pendulum_15FastPendulumEnv_1unwrapped(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
-static PyObject *__pyx_pw_5cygym_4envs_8pendulum_15FastPendulumEnv_1unwrapped(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
+static PyObject *__pyx_pw_5cygym_8pendulum_13CyPendulumEnv_1unwrapped(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static PyObject *__pyx_pw_5cygym_8pendulum_13CyPendulumEnv_1unwrapped(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("unwrapped (wrapper)", 0);
-  __pyx_r = __pyx_pf_5cygym_4envs_8pendulum_15FastPendulumEnv_unwrapped(((struct __pyx_obj_5cygym_4envs_8pendulum_FastPendulumEnv *)__pyx_v_self));
+  __pyx_r = __pyx_pf_5cygym_8pendulum_13CyPendulumEnv_unwrapped(((struct __pyx_obj_5cygym_8pendulum_CyPendulumEnv *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_5cygym_4envs_8pendulum_15FastPendulumEnv_unwrapped(struct __pyx_obj_5cygym_4envs_8pendulum_FastPendulumEnv *__pyx_v_self) {
+static PyObject *__pyx_pf_5cygym_8pendulum_13CyPendulumEnv_unwrapped(struct __pyx_obj_5cygym_8pendulum_CyPendulumEnv *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("unwrapped", 0);
@@ -2663,7 +2655,7 @@ static PyObject *__pyx_pf_5cygym_4envs_8pendulum_15FastPendulumEnv_unwrapped(str
   return __pyx_r;
 }
 
-/* "cygym/envs/pendulum.pyx":40
+/* "cygym/pendulum.pyx":47
  *     def unwrapped(self): return self
  * 
  *     cdef inline void seed(self, seed=1):             # <<<<<<<<<<<<<<
@@ -2671,7 +2663,7 @@ static PyObject *__pyx_pf_5cygym_4envs_8pendulum_15FastPendulumEnv_unwrapped(str
  *             self.np_random, _ = seeding.np_random()
  */
 
-static CYTHON_INLINE void __pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_seed(struct __pyx_obj_5cygym_4envs_8pendulum_FastPendulumEnv *__pyx_v_self, struct __pyx_opt_args_5cygym_4envs_8pendulum_15FastPendulumEnv_seed *__pyx_optional_args) {
+static CYTHON_INLINE void __pyx_f_5cygym_8pendulum_13CyPendulumEnv_seed(struct __pyx_obj_5cygym_8pendulum_CyPendulumEnv *__pyx_v_self, struct __pyx_opt_args_5cygym_8pendulum_13CyPendulumEnv_seed *__pyx_optional_args) {
   PyObject *__pyx_v_seed = ((PyObject *)__pyx_int_1);
   CYTHON_UNUSED PyObject *__pyx_v__ = NULL;
   __Pyx_RefNannyDeclarations
@@ -2688,29 +2680,29 @@ static CYTHON_INLINE void __pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_seed(
     }
   }
 
-  /* "cygym/envs/pendulum.pyx":41
+  /* "cygym/pendulum.pyx":48
  * 
  *     cdef inline void seed(self, seed=1):
  *         if seed == 0:             # <<<<<<<<<<<<<<
  *             self.np_random, _ = seeding.np_random()
  *         else:
  */
-  __pyx_t_1 = __Pyx_PyInt_EqObjC(__pyx_v_seed, __pyx_int_0, 0, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 41, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_EqObjC(__pyx_v_seed, __pyx_int_0, 0, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 48, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(1, 41, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(1, 48, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   if (__pyx_t_2) {
 
-    /* "cygym/envs/pendulum.pyx":42
+    /* "cygym/pendulum.pyx":49
  *     cdef inline void seed(self, seed=1):
  *         if seed == 0:
  *             self.np_random, _ = seeding.np_random()             # <<<<<<<<<<<<<<
  *         else:
  *             self.np_random, _ = seeding.np_random(seed)
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_seeding); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 42, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_seeding); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 49, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_np_random); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 42, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_np_random); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 49, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __pyx_t_3 = NULL;
@@ -2725,7 +2717,7 @@ static CYTHON_INLINE void __pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_seed(
     }
     __pyx_t_1 = (__pyx_t_3) ? __Pyx_PyObject_CallOneArg(__pyx_t_4, __pyx_t_3) : __Pyx_PyObject_CallNoArg(__pyx_t_4);
     __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 42, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 49, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     if ((likely(PyTuple_CheckExact(__pyx_t_1))) || (PyList_CheckExact(__pyx_t_1))) {
@@ -2734,7 +2726,7 @@ static CYTHON_INLINE void __pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_seed(
       if (unlikely(size != 2)) {
         if (size > 2) __Pyx_RaiseTooManyValuesError(2);
         else if (size >= 0) __Pyx_RaiseNeedMoreValuesError(size);
-        __PYX_ERR(1, 42, __pyx_L1_error)
+        __PYX_ERR(1, 49, __pyx_L1_error)
       }
       #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
       if (likely(PyTuple_CheckExact(sequence))) {
@@ -2747,15 +2739,15 @@ static CYTHON_INLINE void __pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_seed(
       __Pyx_INCREF(__pyx_t_4);
       __Pyx_INCREF(__pyx_t_3);
       #else
-      __pyx_t_4 = PySequence_ITEM(sequence, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 42, __pyx_L1_error)
+      __pyx_t_4 = PySequence_ITEM(sequence, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 49, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
-      __pyx_t_3 = PySequence_ITEM(sequence, 1); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 42, __pyx_L1_error)
+      __pyx_t_3 = PySequence_ITEM(sequence, 1); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 49, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       #endif
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     } else {
       Py_ssize_t index = -1;
-      __pyx_t_5 = PyObject_GetIter(__pyx_t_1); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 42, __pyx_L1_error)
+      __pyx_t_5 = PyObject_GetIter(__pyx_t_1); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 49, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
       __pyx_t_6 = Py_TYPE(__pyx_t_5)->tp_iternext;
@@ -2763,7 +2755,7 @@ static CYTHON_INLINE void __pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_seed(
       __Pyx_GOTREF(__pyx_t_4);
       index = 1; __pyx_t_3 = __pyx_t_6(__pyx_t_5); if (unlikely(!__pyx_t_3)) goto __pyx_L4_unpacking_failed;
       __Pyx_GOTREF(__pyx_t_3);
-      if (__Pyx_IternextUnpackEndCheck(__pyx_t_6(__pyx_t_5), 2) < 0) __PYX_ERR(1, 42, __pyx_L1_error)
+      if (__Pyx_IternextUnpackEndCheck(__pyx_t_6(__pyx_t_5), 2) < 0) __PYX_ERR(1, 49, __pyx_L1_error)
       __pyx_t_6 = NULL;
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       goto __pyx_L5_unpacking_done;
@@ -2771,7 +2763,7 @@ static CYTHON_INLINE void __pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_seed(
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       __pyx_t_6 = NULL;
       if (__Pyx_IterFinish() == 0) __Pyx_RaiseNeedMoreValuesError(index);
-      __PYX_ERR(1, 42, __pyx_L1_error)
+      __PYX_ERR(1, 49, __pyx_L1_error)
       __pyx_L5_unpacking_done:;
     }
     __Pyx_GIVEREF(__pyx_t_4);
@@ -2782,7 +2774,7 @@ static CYTHON_INLINE void __pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_seed(
     __pyx_v__ = __pyx_t_3;
     __pyx_t_3 = 0;
 
-    /* "cygym/envs/pendulum.pyx":41
+    /* "cygym/pendulum.pyx":48
  * 
  *     cdef inline void seed(self, seed=1):
  *         if seed == 0:             # <<<<<<<<<<<<<<
@@ -2792,7 +2784,7 @@ static CYTHON_INLINE void __pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_seed(
     goto __pyx_L3;
   }
 
-  /* "cygym/envs/pendulum.pyx":44
+  /* "cygym/pendulum.pyx":51
  *             self.np_random, _ = seeding.np_random()
  *         else:
  *             self.np_random, _ = seeding.np_random(seed)             # <<<<<<<<<<<<<<
@@ -2800,9 +2792,9 @@ static CYTHON_INLINE void __pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_seed(
  * 
  */
   /*else*/ {
-    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_seeding); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 44, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_seeding); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 51, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_np_random); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 44, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_np_random); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 51, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __pyx_t_3 = NULL;
@@ -2817,7 +2809,7 @@ static CYTHON_INLINE void __pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_seed(
     }
     __pyx_t_1 = (__pyx_t_3) ? __Pyx_PyObject_Call2Args(__pyx_t_4, __pyx_t_3, __pyx_v_seed) : __Pyx_PyObject_CallOneArg(__pyx_t_4, __pyx_v_seed);
     __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 44, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 51, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     if ((likely(PyTuple_CheckExact(__pyx_t_1))) || (PyList_CheckExact(__pyx_t_1))) {
@@ -2826,7 +2818,7 @@ static CYTHON_INLINE void __pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_seed(
       if (unlikely(size != 2)) {
         if (size > 2) __Pyx_RaiseTooManyValuesError(2);
         else if (size >= 0) __Pyx_RaiseNeedMoreValuesError(size);
-        __PYX_ERR(1, 44, __pyx_L1_error)
+        __PYX_ERR(1, 51, __pyx_L1_error)
       }
       #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
       if (likely(PyTuple_CheckExact(sequence))) {
@@ -2839,15 +2831,15 @@ static CYTHON_INLINE void __pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_seed(
       __Pyx_INCREF(__pyx_t_4);
       __Pyx_INCREF(__pyx_t_3);
       #else
-      __pyx_t_4 = PySequence_ITEM(sequence, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 44, __pyx_L1_error)
+      __pyx_t_4 = PySequence_ITEM(sequence, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 51, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
-      __pyx_t_3 = PySequence_ITEM(sequence, 1); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 44, __pyx_L1_error)
+      __pyx_t_3 = PySequence_ITEM(sequence, 1); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 51, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       #endif
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     } else {
       Py_ssize_t index = -1;
-      __pyx_t_5 = PyObject_GetIter(__pyx_t_1); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 44, __pyx_L1_error)
+      __pyx_t_5 = PyObject_GetIter(__pyx_t_1); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 51, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
       __pyx_t_6 = Py_TYPE(__pyx_t_5)->tp_iternext;
@@ -2855,7 +2847,7 @@ static CYTHON_INLINE void __pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_seed(
       __Pyx_GOTREF(__pyx_t_4);
       index = 1; __pyx_t_3 = __pyx_t_6(__pyx_t_5); if (unlikely(!__pyx_t_3)) goto __pyx_L6_unpacking_failed;
       __Pyx_GOTREF(__pyx_t_3);
-      if (__Pyx_IternextUnpackEndCheck(__pyx_t_6(__pyx_t_5), 2) < 0) __PYX_ERR(1, 44, __pyx_L1_error)
+      if (__Pyx_IternextUnpackEndCheck(__pyx_t_6(__pyx_t_5), 2) < 0) __PYX_ERR(1, 51, __pyx_L1_error)
       __pyx_t_6 = NULL;
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       goto __pyx_L7_unpacking_done;
@@ -2863,7 +2855,7 @@ static CYTHON_INLINE void __pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_seed(
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       __pyx_t_6 = NULL;
       if (__Pyx_IterFinish() == 0) __Pyx_RaiseNeedMoreValuesError(index);
-      __PYX_ERR(1, 44, __pyx_L1_error)
+      __PYX_ERR(1, 51, __pyx_L1_error)
       __pyx_L7_unpacking_done:;
     }
     __Pyx_GIVEREF(__pyx_t_4);
@@ -2876,7 +2868,7 @@ static CYTHON_INLINE void __pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_seed(
   }
   __pyx_L3:;
 
-  /* "cygym/envs/pendulum.pyx":40
+  /* "cygym/pendulum.pyx":47
  *     def unwrapped(self): return self
  * 
  *     cdef inline void seed(self, seed=1):             # <<<<<<<<<<<<<<
@@ -2891,13 +2883,13 @@ static CYTHON_INLINE void __pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_seed(
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_5);
-  __Pyx_WriteUnraisable("cygym.envs.pendulum.FastPendulumEnv.seed", __pyx_clineno, __pyx_lineno, __pyx_filename, 1, 0);
+  __Pyx_WriteUnraisable("cygym.pendulum.CyPendulumEnv.seed", __pyx_clineno, __pyx_lineno, __pyx_filename, 1, 0);
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v__);
   __Pyx_RefNannyFinishContext();
 }
 
-/* "cygym/envs/pendulum.pyx":47
+/* "cygym/pendulum.pyx":54
  * 
  * 
  *     def __cinit__(self, float g=10.0):             # <<<<<<<<<<<<<<
@@ -2906,8 +2898,8 @@ static CYTHON_INLINE void __pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_seed(
  */
 
 /* Python wrapper */
-static int __pyx_pw_5cygym_4envs_8pendulum_15FastPendulumEnv_3__cinit__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static int __pyx_pw_5cygym_4envs_8pendulum_15FastPendulumEnv_3__cinit__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static int __pyx_pw_5cygym_8pendulum_13CyPendulumEnv_3__cinit__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static int __pyx_pw_5cygym_8pendulum_13CyPendulumEnv_3__cinit__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   float __pyx_v_g;
   int __pyx_r;
   __Pyx_RefNannyDeclarations
@@ -2933,7 +2925,7 @@ static int __pyx_pw_5cygym_4envs_8pendulum_15FastPendulumEnv_3__cinit__(PyObject
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "__cinit__") < 0)) __PYX_ERR(1, 47, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "__cinit__") < 0)) __PYX_ERR(1, 54, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -2944,27 +2936,27 @@ static int __pyx_pw_5cygym_4envs_8pendulum_15FastPendulumEnv_3__cinit__(PyObject
       }
     }
     if (values[0]) {
-      __pyx_v_g = __pyx_PyFloat_AsFloat(values[0]); if (unlikely((__pyx_v_g == (float)-1) && PyErr_Occurred())) __PYX_ERR(1, 47, __pyx_L3_error)
+      __pyx_v_g = __pyx_PyFloat_AsFloat(values[0]); if (unlikely((__pyx_v_g == (float)-1) && PyErr_Occurred())) __PYX_ERR(1, 54, __pyx_L3_error)
     } else {
       __pyx_v_g = ((float)10.0);
     }
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("__cinit__", 0, 0, 1, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(1, 47, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("__cinit__", 0, 0, 1, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(1, 54, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("cygym.envs.pendulum.FastPendulumEnv.__cinit__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("cygym.pendulum.CyPendulumEnv.__cinit__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return -1;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_5cygym_4envs_8pendulum_15FastPendulumEnv_2__cinit__(((struct __pyx_obj_5cygym_4envs_8pendulum_FastPendulumEnv *)__pyx_v_self), __pyx_v_g);
+  __pyx_r = __pyx_pf_5cygym_8pendulum_13CyPendulumEnv_2__cinit__(((struct __pyx_obj_5cygym_8pendulum_CyPendulumEnv *)__pyx_v_self), __pyx_v_g);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static int __pyx_pf_5cygym_4envs_8pendulum_15FastPendulumEnv_2__cinit__(struct __pyx_obj_5cygym_4envs_8pendulum_FastPendulumEnv *__pyx_v_self, float __pyx_v_g) {
+static int __pyx_pf_5cygym_8pendulum_13CyPendulumEnv_2__cinit__(struct __pyx_obj_5cygym_8pendulum_CyPendulumEnv *__pyx_v_self, float __pyx_v_g) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -2975,7 +2967,7 @@ static int __pyx_pf_5cygym_4envs_8pendulum_15FastPendulumEnv_2__cinit__(struct _
   PyObject *__pyx_t_6 = NULL;
   __Pyx_RefNannySetupContext("__cinit__", 0);
 
-  /* "cygym/envs/pendulum.pyx":48
+  /* "cygym/pendulum.pyx":55
  * 
  *     def __cinit__(self, float g=10.0):
  *         self.max_speed=8             # <<<<<<<<<<<<<<
@@ -2984,7 +2976,7 @@ static int __pyx_pf_5cygym_4envs_8pendulum_15FastPendulumEnv_2__cinit__(struct _
  */
   __pyx_v_self->max_speed = 8;
 
-  /* "cygym/envs/pendulum.pyx":49
+  /* "cygym/pendulum.pyx":56
  *     def __cinit__(self, float g=10.0):
  *         self.max_speed=8
  *         self.max_torque=2.             # <<<<<<<<<<<<<<
@@ -2993,7 +2985,7 @@ static int __pyx_pf_5cygym_4envs_8pendulum_15FastPendulumEnv_2__cinit__(struct _
  */
   __pyx_v_self->max_torque = 2.;
 
-  /* "cygym/envs/pendulum.pyx":50
+  /* "cygym/pendulum.pyx":57
  *         self.max_speed=8
  *         self.max_torque=2.
  *         self.dt=.05             # <<<<<<<<<<<<<<
@@ -3002,7 +2994,7 @@ static int __pyx_pf_5cygym_4envs_8pendulum_15FastPendulumEnv_2__cinit__(struct _
  */
   __pyx_v_self->dt = .05;
 
-  /* "cygym/envs/pendulum.pyx":51
+  /* "cygym/pendulum.pyx":58
  *         self.max_torque=2.
  *         self.dt=.05
  *         self.g = g             # <<<<<<<<<<<<<<
@@ -3011,7 +3003,7 @@ static int __pyx_pf_5cygym_4envs_8pendulum_15FastPendulumEnv_2__cinit__(struct _
  */
   __pyx_v_self->g = __pyx_v_g;
 
-  /* "cygym/envs/pendulum.pyx":52
+  /* "cygym/pendulum.pyx":59
  *         self.dt=.05
  *         self.g = g
  *         self.m = 1.             # <<<<<<<<<<<<<<
@@ -3020,7 +3012,7 @@ static int __pyx_pf_5cygym_4envs_8pendulum_15FastPendulumEnv_2__cinit__(struct _
  */
   __pyx_v_self->m = 1.;
 
-  /* "cygym/envs/pendulum.pyx":53
+  /* "cygym/pendulum.pyx":60
  *         self.g = g
  *         self.m = 1.
  *         self.l = 1.             # <<<<<<<<<<<<<<
@@ -3029,27 +3021,27 @@ static int __pyx_pf_5cygym_4envs_8pendulum_15FastPendulumEnv_2__cinit__(struct _
  */
   __pyx_v_self->l = 1.;
 
-  /* "cygym/envs/pendulum.pyx":55
+  /* "cygym/pendulum.pyx":62
  *         self.l = 1.
  * 
  *         self.action_space = Box(low=-self.max_torque, high=self.max_torque, shape=(1,))             # <<<<<<<<<<<<<<
  *         self.observation_space = Box(low=np.array((-1., -1., -self.max_speed)),
  *                                      high=np.array((1., 1., self.max_speed)))
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_Box); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 55, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_Box); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 62, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyDict_NewPresized(3); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 55, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyDict_NewPresized(3); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 62, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = PyFloat_FromDouble((-__pyx_v_self->max_torque)); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 55, __pyx_L1_error)
+  __pyx_t_3 = PyFloat_FromDouble((-__pyx_v_self->max_torque)); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 62, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_low, __pyx_t_3) < 0) __PYX_ERR(1, 55, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_low, __pyx_t_3) < 0) __PYX_ERR(1, 62, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyFloat_FromDouble(__pyx_v_self->max_torque); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 55, __pyx_L1_error)
+  __pyx_t_3 = PyFloat_FromDouble(__pyx_v_self->max_torque); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 62, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_high, __pyx_t_3) < 0) __PYX_ERR(1, 55, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_high, __pyx_t_3) < 0) __PYX_ERR(1, 62, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_shape, __pyx_tuple_) < 0) __PYX_ERR(1, 55, __pyx_L1_error)
-  __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_empty_tuple, __pyx_t_2); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 55, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_shape, __pyx_tuple_) < 0) __PYX_ERR(1, 62, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_empty_tuple, __pyx_t_2); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 62, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -3059,25 +3051,25 @@ static int __pyx_pf_5cygym_4envs_8pendulum_15FastPendulumEnv_2__cinit__(struct _
   __pyx_v_self->action_space = __pyx_t_3;
   __pyx_t_3 = 0;
 
-  /* "cygym/envs/pendulum.pyx":56
+  /* "cygym/pendulum.pyx":63
  * 
  *         self.action_space = Box(low=-self.max_torque, high=self.max_torque, shape=(1,))
  *         self.observation_space = Box(low=np.array((-1., -1., -self.max_speed)),             # <<<<<<<<<<<<<<
  *                                      high=np.array((1., 1., self.max_speed)))
  * 
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_Box); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 56, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_Box); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 63, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_2 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 56, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 63, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_np); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 56, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_np); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 63, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_array); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 56, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_array); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 63, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  __pyx_t_4 = __Pyx_PyInt_From_int((-__pyx_v_self->max_speed)); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 56, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyInt_From_int((-__pyx_v_self->max_speed)); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 63, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __pyx_t_6 = PyTuple_New(3); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 56, __pyx_L1_error)
+  __pyx_t_6 = PyTuple_New(3); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 63, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_INCREF(__pyx_float_neg_1_);
   __Pyx_GIVEREF(__pyx_float_neg_1_);
@@ -3101,27 +3093,27 @@ static int __pyx_pf_5cygym_4envs_8pendulum_15FastPendulumEnv_2__cinit__(struct _
   __pyx_t_1 = (__pyx_t_4) ? __Pyx_PyObject_Call2Args(__pyx_t_5, __pyx_t_4, __pyx_t_6) : __Pyx_PyObject_CallOneArg(__pyx_t_5, __pyx_t_6);
   __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-  if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 56, __pyx_L1_error)
+  if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 63, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_low, __pyx_t_1) < 0) __PYX_ERR(1, 56, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_low, __pyx_t_1) < 0) __PYX_ERR(1, 63, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "cygym/envs/pendulum.pyx":57
+  /* "cygym/pendulum.pyx":64
  *         self.action_space = Box(low=-self.max_torque, high=self.max_torque, shape=(1,))
  *         self.observation_space = Box(low=np.array((-1., -1., -self.max_speed)),
  *                                      high=np.array((1., 1., self.max_speed)))             # <<<<<<<<<<<<<<
  * 
  *         self.seed()
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_np); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 57, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_np); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 64, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_array); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 57, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_array); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 64, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_5 = __Pyx_PyInt_From_int(__pyx_v_self->max_speed); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 57, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyInt_From_int(__pyx_v_self->max_speed); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 64, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_4 = PyTuple_New(3); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 57, __pyx_L1_error)
+  __pyx_t_4 = PyTuple_New(3); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 64, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_INCREF(__pyx_float_1_);
   __Pyx_GIVEREF(__pyx_float_1_);
@@ -3145,20 +3137,20 @@ static int __pyx_pf_5cygym_4envs_8pendulum_15FastPendulumEnv_2__cinit__(struct _
   __pyx_t_1 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_6, __pyx_t_5, __pyx_t_4) : __Pyx_PyObject_CallOneArg(__pyx_t_6, __pyx_t_4);
   __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 57, __pyx_L1_error)
+  if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 64, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_high, __pyx_t_1) < 0) __PYX_ERR(1, 56, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_high, __pyx_t_1) < 0) __PYX_ERR(1, 63, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "cygym/envs/pendulum.pyx":56
+  /* "cygym/pendulum.pyx":63
  * 
  *         self.action_space = Box(low=-self.max_torque, high=self.max_torque, shape=(1,))
  *         self.observation_space = Box(low=np.array((-1., -1., -self.max_speed)),             # <<<<<<<<<<<<<<
  *                                      high=np.array((1., 1., self.max_speed)))
  * 
  */
-  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_empty_tuple, __pyx_t_2); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 56, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_empty_tuple, __pyx_t_2); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 63, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -3168,16 +3160,16 @@ static int __pyx_pf_5cygym_4envs_8pendulum_15FastPendulumEnv_2__cinit__(struct _
   __pyx_v_self->observation_space = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "cygym/envs/pendulum.pyx":59
+  /* "cygym/pendulum.pyx":66
  *                                      high=np.array((1., 1., self.max_speed)))
  * 
  *         self.seed()             # <<<<<<<<<<<<<<
  * 
  *     cpdef tuple step(self, float u):
  */
-  __pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_seed(__pyx_v_self, NULL);
+  __pyx_f_5cygym_8pendulum_13CyPendulumEnv_seed(__pyx_v_self, NULL);
 
-  /* "cygym/envs/pendulum.pyx":47
+  /* "cygym/pendulum.pyx":54
  * 
  * 
  *     def __cinit__(self, float g=10.0):             # <<<<<<<<<<<<<<
@@ -3195,14 +3187,14 @@ static int __pyx_pf_5cygym_4envs_8pendulum_15FastPendulumEnv_2__cinit__(struct _
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_5);
   __Pyx_XDECREF(__pyx_t_6);
-  __Pyx_AddTraceback("cygym.envs.pendulum.FastPendulumEnv.__cinit__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("cygym.pendulum.CyPendulumEnv.__cinit__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = -1;
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-/* "cygym/envs/pendulum.pyx":61
+/* "cygym/pendulum.pyx":68
  *         self.seed()
  * 
  *     cpdef tuple step(self, float u):             # <<<<<<<<<<<<<<
@@ -3210,8 +3202,8 @@ static int __pyx_pf_5cygym_4envs_8pendulum_15FastPendulumEnv_2__cinit__(struct _
  *             float th = self.state[0]
  */
 
-static PyObject *__pyx_pw_5cygym_4envs_8pendulum_15FastPendulumEnv_5step(PyObject *__pyx_v_self, PyObject *__pyx_arg_u); /*proto*/
-static PyObject *__pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_step(struct __pyx_obj_5cygym_4envs_8pendulum_FastPendulumEnv *__pyx_v_self, float __pyx_v_u, int __pyx_skip_dispatch) {
+static PyObject *__pyx_pw_5cygym_8pendulum_13CyPendulumEnv_5step(PyObject *__pyx_v_self, PyObject *__pyx_arg_u); /*proto*/
+static PyObject *__pyx_f_5cygym_8pendulum_13CyPendulumEnv_step(struct __pyx_obj_5cygym_8pendulum_CyPendulumEnv *__pyx_v_self, float __pyx_v_u, int __pyx_skip_dispatch) {
   float __pyx_v_th;
   float __pyx_v_thdot;
   float __pyx_v_mt;
@@ -3246,11 +3238,11 @@ static PyObject *__pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_step(struct __
     if (unlikely(!__Pyx_object_dict_version_matches(((PyObject *)__pyx_v_self), __pyx_tp_dict_version, __pyx_obj_dict_version))) {
       PY_UINT64_T __pyx_type_dict_guard = __Pyx_get_tp_dict_version(((PyObject *)__pyx_v_self));
       #endif
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_step); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 61, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_step); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 68, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
-      if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_5cygym_4envs_8pendulum_15FastPendulumEnv_5step)) {
+      if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_5cygym_8pendulum_13CyPendulumEnv_5step)) {
         __Pyx_XDECREF(__pyx_r);
-        __pyx_t_3 = PyFloat_FromDouble(__pyx_v_u); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 61, __pyx_L1_error)
+        __pyx_t_3 = PyFloat_FromDouble(__pyx_v_u); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 68, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
         __Pyx_INCREF(__pyx_t_1);
         __pyx_t_4 = __pyx_t_1; __pyx_t_5 = NULL;
@@ -3266,10 +3258,10 @@ static PyObject *__pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_step(struct __
         __pyx_t_2 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_4, __pyx_t_5, __pyx_t_3) : __Pyx_PyObject_CallOneArg(__pyx_t_4, __pyx_t_3);
         __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-        if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 61, __pyx_L1_error)
+        if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 68, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (!(likely(PyTuple_CheckExact(__pyx_t_2))||((__pyx_t_2) == Py_None)||(PyErr_Format(PyExc_TypeError, "Expected %.16s, got %.200s", "tuple", Py_TYPE(__pyx_t_2)->tp_name), 0))) __PYX_ERR(1, 61, __pyx_L1_error)
+        if (!(likely(PyTuple_CheckExact(__pyx_t_2))||((__pyx_t_2) == Py_None)||(PyErr_Format(PyExc_TypeError, "Expected %.16s, got %.200s", "tuple", Py_TYPE(__pyx_t_2)->tp_name), 0))) __PYX_ERR(1, 68, __pyx_L1_error)
         __pyx_r = ((PyObject*)__pyx_t_2);
         __pyx_t_2 = 0;
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -3288,29 +3280,29 @@ static PyObject *__pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_step(struct __
     #endif
   }
 
-  /* "cygym/envs/pendulum.pyx":63
+  /* "cygym/pendulum.pyx":70
  *     cpdef tuple step(self, float u):
  *         cdef:
  *             float th = self.state[0]             # <<<<<<<<<<<<<<
  *             float thdot = self.state[1]
  *             float mt = self.max_torque
  */
-  if (unlikely(!__pyx_v_self->state.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(1, 63, __pyx_L1_error)}
+  if (unlikely(!__pyx_v_self->state.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(1, 70, __pyx_L1_error)}
   __pyx_t_6 = 0;
-  __pyx_v_th = (*((__pyx_t_5cygym_4envs_8pendulum_np_float_t *) ( /* dim=0 */ (__pyx_v_self->state.data + __pyx_t_6 * __pyx_v_self->state.strides[0]) )));
+  __pyx_v_th = (*((__pyx_t_5cygym_8pendulum_np_float_t *) ( /* dim=0 */ (__pyx_v_self->state.data + __pyx_t_6 * __pyx_v_self->state.strides[0]) )));
 
-  /* "cygym/envs/pendulum.pyx":64
+  /* "cygym/pendulum.pyx":71
  *         cdef:
  *             float th = self.state[0]
  *             float thdot = self.state[1]             # <<<<<<<<<<<<<<
  *             float mt = self.max_torque
  *             float ms = self.max_speed
  */
-  if (unlikely(!__pyx_v_self->state.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(1, 64, __pyx_L1_error)}
+  if (unlikely(!__pyx_v_self->state.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(1, 71, __pyx_L1_error)}
   __pyx_t_7 = 1;
-  __pyx_v_thdot = (*((__pyx_t_5cygym_4envs_8pendulum_np_float_t *) ( /* dim=0 */ (__pyx_v_self->state.data + __pyx_t_7 * __pyx_v_self->state.strides[0]) )));
+  __pyx_v_thdot = (*((__pyx_t_5cygym_8pendulum_np_float_t *) ( /* dim=0 */ (__pyx_v_self->state.data + __pyx_t_7 * __pyx_v_self->state.strides[0]) )));
 
-  /* "cygym/envs/pendulum.pyx":65
+  /* "cygym/pendulum.pyx":72
  *             float th = self.state[0]
  *             float thdot = self.state[1]
  *             float mt = self.max_torque             # <<<<<<<<<<<<<<
@@ -3320,7 +3312,7 @@ static PyObject *__pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_step(struct __
   __pyx_t_8 = __pyx_v_self->max_torque;
   __pyx_v_mt = __pyx_t_8;
 
-  /* "cygym/envs/pendulum.pyx":66
+  /* "cygym/pendulum.pyx":73
  *             float thdot = self.state[1]
  *             float mt = self.max_torque
  *             float ms = self.max_speed             # <<<<<<<<<<<<<<
@@ -3330,7 +3322,7 @@ static PyObject *__pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_step(struct __
   __pyx_t_9 = __pyx_v_self->max_speed;
   __pyx_v_ms = __pyx_t_9;
 
-  /* "cygym/envs/pendulum.pyx":67
+  /* "cygym/pendulum.pyx":74
  *             float mt = self.max_torque
  *             float ms = self.max_speed
  *             float g = self.g             # <<<<<<<<<<<<<<
@@ -3340,7 +3332,7 @@ static PyObject *__pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_step(struct __
   __pyx_t_8 = __pyx_v_self->g;
   __pyx_v_g = __pyx_t_8;
 
-  /* "cygym/envs/pendulum.pyx":68
+  /* "cygym/pendulum.pyx":75
  *             float ms = self.max_speed
  *             float g = self.g
  *             float m = self.m             # <<<<<<<<<<<<<<
@@ -3350,7 +3342,7 @@ static PyObject *__pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_step(struct __
   __pyx_t_8 = __pyx_v_self->m;
   __pyx_v_m = __pyx_t_8;
 
-  /* "cygym/envs/pendulum.pyx":69
+  /* "cygym/pendulum.pyx":76
  *             float g = self.g
  *             float m = self.m
  *             float l = self.l             # <<<<<<<<<<<<<<
@@ -3360,7 +3352,7 @@ static PyObject *__pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_step(struct __
   __pyx_t_8 = __pyx_v_self->l;
   __pyx_v_l = __pyx_t_8;
 
-  /* "cygym/envs/pendulum.pyx":70
+  /* "cygym/pendulum.pyx":77
  *             float m = self.m
  *             float l = self.l
  *             float dt = self.dt             # <<<<<<<<<<<<<<
@@ -3370,7 +3362,7 @@ static PyObject *__pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_step(struct __
   __pyx_t_8 = __pyx_v_self->dt;
   __pyx_v_dt = __pyx_t_8;
 
-  /* "cygym/envs/pendulum.pyx":75
+  /* "cygym/pendulum.pyx":82
  *             float newth
  * 
  *         if u < -mt:             # <<<<<<<<<<<<<<
@@ -3380,7 +3372,7 @@ static PyObject *__pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_step(struct __
   __pyx_t_10 = ((__pyx_v_u < (-__pyx_v_mt)) != 0);
   if (__pyx_t_10) {
 
-    /* "cygym/envs/pendulum.pyx":76
+    /* "cygym/pendulum.pyx":83
  * 
  *         if u < -mt:
  *             u = -mt             # <<<<<<<<<<<<<<
@@ -3389,7 +3381,7 @@ static PyObject *__pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_step(struct __
  */
     __pyx_v_u = (-__pyx_v_mt);
 
-    /* "cygym/envs/pendulum.pyx":75
+    /* "cygym/pendulum.pyx":82
  *             float newth
  * 
  *         if u < -mt:             # <<<<<<<<<<<<<<
@@ -3399,7 +3391,7 @@ static PyObject *__pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_step(struct __
     goto __pyx_L3;
   }
 
-  /* "cygym/envs/pendulum.pyx":77
+  /* "cygym/pendulum.pyx":84
  *         if u < -mt:
  *             u = -mt
  *         elif u > mt:             # <<<<<<<<<<<<<<
@@ -3409,7 +3401,7 @@ static PyObject *__pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_step(struct __
   __pyx_t_10 = ((__pyx_v_u > __pyx_v_mt) != 0);
   if (__pyx_t_10) {
 
-    /* "cygym/envs/pendulum.pyx":78
+    /* "cygym/pendulum.pyx":85
  *             u = -mt
  *         elif u > mt:
  *             u = mt             # <<<<<<<<<<<<<<
@@ -3418,7 +3410,7 @@ static PyObject *__pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_step(struct __
  */
     __pyx_v_u = __pyx_v_mt;
 
-    /* "cygym/envs/pendulum.pyx":77
+    /* "cygym/pendulum.pyx":84
  *         if u < -mt:
  *             u = -mt
  *         elif u > mt:             # <<<<<<<<<<<<<<
@@ -3428,16 +3420,16 @@ static PyObject *__pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_step(struct __
   }
   __pyx_L3:;
 
-  /* "cygym/envs/pendulum.pyx":79
+  /* "cygym/pendulum.pyx":86
  *         elif u > mt:
  *             u = mt
  *         costs = angle_normalize(th)**2 + .1*thdot**2 + .001*(u**2)             # <<<<<<<<<<<<<<
  * 
  *         newthdot = thdot + (-3*g/(2*l) * sin(th + M_PI) + 3./(m*l**2)*u) * dt
  */
-  __pyx_v_costs = ((powf(__pyx_f_5cygym_4envs_8pendulum_angle_normalize(__pyx_v_th), 2.0) + (.1 * powf(__pyx_v_thdot, 2.0))) + (.001 * powf(__pyx_v_u, 2.0)));
+  __pyx_v_costs = ((powf(__pyx_f_5cygym_8pendulum_angle_normalize(__pyx_v_th), 2.0) + (.1 * powf(__pyx_v_thdot, 2.0))) + (.001 * powf(__pyx_v_u, 2.0)));
 
-  /* "cygym/envs/pendulum.pyx":81
+  /* "cygym/pendulum.pyx":88
  *         costs = angle_normalize(th)**2 + .1*thdot**2 + .001*(u**2)
  * 
  *         newthdot = thdot + (-3*g/(2*l) * sin(th + M_PI) + 3./(m*l**2)*u) * dt             # <<<<<<<<<<<<<<
@@ -3446,7 +3438,7 @@ static PyObject *__pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_step(struct __
  */
   __pyx_v_newthdot = (__pyx_v_thdot + (((((-3.0 * __pyx_v_g) / (2.0 * __pyx_v_l)) * sin((__pyx_v_th + M_PI))) + ((3. / ((double)(__pyx_v_m * powf(__pyx_v_l, 2.0)))) * __pyx_v_u)) * __pyx_v_dt));
 
-  /* "cygym/envs/pendulum.pyx":82
+  /* "cygym/pendulum.pyx":89
  * 
  *         newthdot = thdot + (-3*g/(2*l) * sin(th + M_PI) + 3./(m*l**2)*u) * dt
  *         newth = th + newthdot*dt             # <<<<<<<<<<<<<<
@@ -3455,7 +3447,7 @@ static PyObject *__pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_step(struct __
  */
   __pyx_v_newth = (__pyx_v_th + (__pyx_v_newthdot * __pyx_v_dt));
 
-  /* "cygym/envs/pendulum.pyx":83
+  /* "cygym/pendulum.pyx":90
  *         newthdot = thdot + (-3*g/(2*l) * sin(th + M_PI) + 3./(m*l**2)*u) * dt
  *         newth = th + newthdot*dt
  *         if newthdot < -ms:             # <<<<<<<<<<<<<<
@@ -3465,7 +3457,7 @@ static PyObject *__pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_step(struct __
   __pyx_t_10 = ((__pyx_v_newthdot < (-__pyx_v_ms)) != 0);
   if (__pyx_t_10) {
 
-    /* "cygym/envs/pendulum.pyx":84
+    /* "cygym/pendulum.pyx":91
  *         newth = th + newthdot*dt
  *         if newthdot < -ms:
  *             newthdot = -ms             # <<<<<<<<<<<<<<
@@ -3474,7 +3466,7 @@ static PyObject *__pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_step(struct __
  */
     __pyx_v_newthdot = (-__pyx_v_ms);
 
-    /* "cygym/envs/pendulum.pyx":83
+    /* "cygym/pendulum.pyx":90
  *         newthdot = thdot + (-3*g/(2*l) * sin(th + M_PI) + 3./(m*l**2)*u) * dt
  *         newth = th + newthdot*dt
  *         if newthdot < -ms:             # <<<<<<<<<<<<<<
@@ -3484,7 +3476,7 @@ static PyObject *__pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_step(struct __
     goto __pyx_L4;
   }
 
-  /* "cygym/envs/pendulum.pyx":85
+  /* "cygym/pendulum.pyx":92
  *         if newthdot < -ms:
  *             newthdot = -ms
  *         elif newthdot > ms:             # <<<<<<<<<<<<<<
@@ -3494,7 +3486,7 @@ static PyObject *__pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_step(struct __
   __pyx_t_10 = ((__pyx_v_newthdot > __pyx_v_ms) != 0);
   if (__pyx_t_10) {
 
-    /* "cygym/envs/pendulum.pyx":86
+    /* "cygym/pendulum.pyx":93
  *             newthdot = -ms
  *         elif newthdot > ms:
  *             newthdot = ms             # <<<<<<<<<<<<<<
@@ -3503,7 +3495,7 @@ static PyObject *__pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_step(struct __
  */
     __pyx_v_newthdot = __pyx_v_ms;
 
-    /* "cygym/envs/pendulum.pyx":85
+    /* "cygym/pendulum.pyx":92
  *         if newthdot < -ms:
  *             newthdot = -ms
  *         elif newthdot > ms:             # <<<<<<<<<<<<<<
@@ -3513,23 +3505,23 @@ static PyObject *__pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_step(struct __
   }
   __pyx_L4:;
 
-  /* "cygym/envs/pendulum.pyx":88
+  /* "cygym/pendulum.pyx":95
  *             newthdot = ms
  * 
  *         self.state = np.array((newth, newthdot))             # <<<<<<<<<<<<<<
  *         return (np.array(self._get_obs()), -costs, False, {})
  * 
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 88, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 95, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_array); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 88, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_array); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 95, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = PyFloat_FromDouble(__pyx_v_newth); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 88, __pyx_L1_error)
+  __pyx_t_2 = PyFloat_FromDouble(__pyx_v_newth); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 95, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = PyFloat_FromDouble(__pyx_v_newthdot); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 88, __pyx_L1_error)
+  __pyx_t_3 = PyFloat_FromDouble(__pyx_v_newthdot); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 95, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = PyTuple_New(2); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 88, __pyx_L1_error)
+  __pyx_t_5 = PyTuple_New(2); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 95, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_GIVEREF(__pyx_t_2);
   PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_2);
@@ -3550,17 +3542,17 @@ static PyObject *__pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_step(struct __
   __pyx_t_1 = (__pyx_t_3) ? __Pyx_PyObject_Call2Args(__pyx_t_4, __pyx_t_3, __pyx_t_5) : __Pyx_PyObject_CallOneArg(__pyx_t_4, __pyx_t_5);
   __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 88, __pyx_L1_error)
+  if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 95, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  __pyx_t_11 = __Pyx_PyObject_to_MemoryviewSlice_ds_nn___pyx_t_5cygym_4envs_8pendulum_np_float_t(__pyx_t_1, PyBUF_WRITABLE); if (unlikely(!__pyx_t_11.memview)) __PYX_ERR(1, 88, __pyx_L1_error)
+  __pyx_t_11 = __Pyx_PyObject_to_MemoryviewSlice_ds_nn___pyx_t_5cygym_8pendulum_np_float_t(__pyx_t_1, PyBUF_WRITABLE); if (unlikely(!__pyx_t_11.memview)) __PYX_ERR(1, 95, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __PYX_XDEC_MEMVIEW(&__pyx_v_self->state, 0);
   __pyx_v_self->state = __pyx_t_11;
   __pyx_t_11.memview = NULL;
   __pyx_t_11.data = NULL;
 
-  /* "cygym/envs/pendulum.pyx":89
+  /* "cygym/pendulum.pyx":96
  * 
  *         self.state = np.array((newth, newthdot))
  *         return (np.array(self._get_obs()), -costs, False, {})             # <<<<<<<<<<<<<<
@@ -3568,12 +3560,12 @@ static PyObject *__pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_step(struct __
  * 
  */
   __Pyx_XDECREF(__pyx_r);
-  __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_np); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 89, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_np); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 96, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_array); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 89, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_array); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 96, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  __pyx_t_4 = ((struct __pyx_vtabstruct_5cygym_4envs_8pendulum_FastPendulumEnv *)__pyx_v_self->__pyx_vtab)->_get_obs(__pyx_v_self, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 89, __pyx_L1_error)
+  __pyx_t_4 = ((struct __pyx_vtabstruct_5cygym_8pendulum_CyPendulumEnv *)__pyx_v_self->__pyx_vtab)->_get_obs(__pyx_v_self, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 96, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __pyx_t_3 = NULL;
   if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_5))) {
@@ -3588,14 +3580,14 @@ static PyObject *__pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_step(struct __
   __pyx_t_1 = (__pyx_t_3) ? __Pyx_PyObject_Call2Args(__pyx_t_5, __pyx_t_3, __pyx_t_4) : __Pyx_PyObject_CallOneArg(__pyx_t_5, __pyx_t_4);
   __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 89, __pyx_L1_error)
+  if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 96, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_5 = PyFloat_FromDouble((-__pyx_v_costs)); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 89, __pyx_L1_error)
+  __pyx_t_5 = PyFloat_FromDouble((-__pyx_v_costs)); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 96, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_4 = __Pyx_PyDict_NewPresized(0); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 89, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyDict_NewPresized(0); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 96, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __pyx_t_3 = PyTuple_New(4); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 89, __pyx_L1_error)
+  __pyx_t_3 = PyTuple_New(4); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 96, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_GIVEREF(__pyx_t_1);
   PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_t_1);
@@ -3613,7 +3605,7 @@ static PyObject *__pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_step(struct __
   __pyx_t_3 = 0;
   goto __pyx_L0;
 
-  /* "cygym/envs/pendulum.pyx":61
+  /* "cygym/pendulum.pyx":68
  *         self.seed()
  * 
  *     cpdef tuple step(self, float u):             # <<<<<<<<<<<<<<
@@ -3629,7 +3621,7 @@ static PyObject *__pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_step(struct __
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_5);
   __PYX_XDEC_MEMVIEW(&__pyx_t_11, 1);
-  __Pyx_AddTraceback("cygym.envs.pendulum.FastPendulumEnv.step", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("cygym.pendulum.CyPendulumEnv.step", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -3638,35 +3630,35 @@ static PyObject *__pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_step(struct __
 }
 
 /* Python wrapper */
-static PyObject *__pyx_pw_5cygym_4envs_8pendulum_15FastPendulumEnv_5step(PyObject *__pyx_v_self, PyObject *__pyx_arg_u); /*proto*/
-static PyObject *__pyx_pw_5cygym_4envs_8pendulum_15FastPendulumEnv_5step(PyObject *__pyx_v_self, PyObject *__pyx_arg_u) {
+static PyObject *__pyx_pw_5cygym_8pendulum_13CyPendulumEnv_5step(PyObject *__pyx_v_self, PyObject *__pyx_arg_u); /*proto*/
+static PyObject *__pyx_pw_5cygym_8pendulum_13CyPendulumEnv_5step(PyObject *__pyx_v_self, PyObject *__pyx_arg_u) {
   float __pyx_v_u;
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("step (wrapper)", 0);
   assert(__pyx_arg_u); {
-    __pyx_v_u = __pyx_PyFloat_AsFloat(__pyx_arg_u); if (unlikely((__pyx_v_u == (float)-1) && PyErr_Occurred())) __PYX_ERR(1, 61, __pyx_L3_error)
+    __pyx_v_u = __pyx_PyFloat_AsFloat(__pyx_arg_u); if (unlikely((__pyx_v_u == (float)-1) && PyErr_Occurred())) __PYX_ERR(1, 68, __pyx_L3_error)
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
-  __Pyx_AddTraceback("cygym.envs.pendulum.FastPendulumEnv.step", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("cygym.pendulum.CyPendulumEnv.step", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_5cygym_4envs_8pendulum_15FastPendulumEnv_4step(((struct __pyx_obj_5cygym_4envs_8pendulum_FastPendulumEnv *)__pyx_v_self), ((float)__pyx_v_u));
+  __pyx_r = __pyx_pf_5cygym_8pendulum_13CyPendulumEnv_4step(((struct __pyx_obj_5cygym_8pendulum_CyPendulumEnv *)__pyx_v_self), ((float)__pyx_v_u));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_5cygym_4envs_8pendulum_15FastPendulumEnv_4step(struct __pyx_obj_5cygym_4envs_8pendulum_FastPendulumEnv *__pyx_v_self, float __pyx_v_u) {
+static PyObject *__pyx_pf_5cygym_8pendulum_13CyPendulumEnv_4step(struct __pyx_obj_5cygym_8pendulum_CyPendulumEnv *__pyx_v_self, float __pyx_v_u) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
   __Pyx_RefNannySetupContext("step", 0);
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_step(__pyx_v_self, __pyx_v_u, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 61, __pyx_L1_error)
+  __pyx_t_1 = __pyx_f_5cygym_8pendulum_13CyPendulumEnv_step(__pyx_v_self, __pyx_v_u, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 68, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -3675,7 +3667,7 @@ static PyObject *__pyx_pf_5cygym_4envs_8pendulum_15FastPendulumEnv_4step(struct 
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("cygym.envs.pendulum.FastPendulumEnv.step", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("cygym.pendulum.CyPendulumEnv.step", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -3683,7 +3675,7 @@ static PyObject *__pyx_pf_5cygym_4envs_8pendulum_15FastPendulumEnv_4step(struct 
   return __pyx_r;
 }
 
-/* "cygym/envs/pendulum.pyx":92
+/* "cygym/pendulum.pyx":99
  * 
  * 
  *     cpdef np.ndarray[dtype=np_float_t, ndim=1] reset(self):             # <<<<<<<<<<<<<<
@@ -3691,8 +3683,8 @@ static PyObject *__pyx_pf_5cygym_4envs_8pendulum_15FastPendulumEnv_4step(struct 
  *         self.state = self.np_random.uniform(low=-1*high, high=high)
  */
 
-static PyObject *__pyx_pw_5cygym_4envs_8pendulum_15FastPendulumEnv_7reset(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
-static PyArrayObject *__pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_reset(struct __pyx_obj_5cygym_4envs_8pendulum_FastPendulumEnv *__pyx_v_self, int __pyx_skip_dispatch) {
+static PyObject *__pyx_pw_5cygym_8pendulum_13CyPendulumEnv_7reset(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static PyArrayObject *__pyx_f_5cygym_8pendulum_13CyPendulumEnv_reset(struct __pyx_obj_5cygym_8pendulum_CyPendulumEnv *__pyx_v_self, int __pyx_skip_dispatch) {
   PyArrayObject *__pyx_v_high = 0;
   __Pyx_LocalBuf_ND __pyx_pybuffernd_high;
   __Pyx_Buffer __pyx_pybuffer_high;
@@ -3718,9 +3710,9 @@ static PyArrayObject *__pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_reset(str
     if (unlikely(!__Pyx_object_dict_version_matches(((PyObject *)__pyx_v_self), __pyx_tp_dict_version, __pyx_obj_dict_version))) {
       PY_UINT64_T __pyx_type_dict_guard = __Pyx_get_tp_dict_version(((PyObject *)__pyx_v_self));
       #endif
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_reset); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 92, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_reset); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 99, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
-      if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_5cygym_4envs_8pendulum_15FastPendulumEnv_7reset)) {
+      if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_5cygym_8pendulum_13CyPendulumEnv_7reset)) {
         __Pyx_XDECREF(((PyObject *)__pyx_r));
         __Pyx_INCREF(__pyx_t_1);
         __pyx_t_3 = __pyx_t_1; __pyx_t_4 = NULL;
@@ -3735,10 +3727,10 @@ static PyArrayObject *__pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_reset(str
         }
         __pyx_t_2 = (__pyx_t_4) ? __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_t_4) : __Pyx_PyObject_CallNoArg(__pyx_t_3);
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 92, __pyx_L1_error)
+        if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 99, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-        if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 92, __pyx_L1_error)
+        if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 99, __pyx_L1_error)
         __pyx_r = ((PyArrayObject *)__pyx_t_2);
         __pyx_t_2 = 0;
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -3757,21 +3749,21 @@ static PyArrayObject *__pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_reset(str
     #endif
   }
 
-  /* "cygym/envs/pendulum.pyx":93
+  /* "cygym/pendulum.pyx":100
  * 
  *     cpdef np.ndarray[dtype=np_float_t, ndim=1] reset(self):
  *         cdef np.ndarray[dtype=np_float_t, ndim=1] high = np.array((M_PI, 1.))             # <<<<<<<<<<<<<<
  *         self.state = self.np_random.uniform(low=-1*high, high=high)
  *         return np.array(self._get_obs())
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 93, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 100, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_array); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 93, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_array); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 100, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = PyFloat_FromDouble(M_PI); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 93, __pyx_L1_error)
+  __pyx_t_2 = PyFloat_FromDouble(M_PI); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 100, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_4 = PyTuple_New(2); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 93, __pyx_L1_error)
+  __pyx_t_4 = PyTuple_New(2); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 100, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_GIVEREF(__pyx_t_2);
   PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_t_2);
@@ -3792,16 +3784,16 @@ static PyArrayObject *__pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_reset(str
   __pyx_t_1 = (__pyx_t_2) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_2, __pyx_t_4) : __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_t_4);
   __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 93, __pyx_L1_error)
+  if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 100, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 93, __pyx_L1_error)
+  if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 100, __pyx_L1_error)
   __pyx_t_5 = ((PyArrayObject *)__pyx_t_1);
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_high.rcbuffer->pybuffer, (PyObject*)__pyx_t_5, &__Pyx_TypeInfo_nn___pyx_t_5cygym_4envs_8pendulum_np_float_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) {
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_high.rcbuffer->pybuffer, (PyObject*)__pyx_t_5, &__Pyx_TypeInfo_nn___pyx_t_5cygym_8pendulum_np_float_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) {
       __pyx_v_high = ((PyArrayObject *)Py_None); __Pyx_INCREF(Py_None); __pyx_pybuffernd_high.rcbuffer->pybuffer.buf = NULL;
-      __PYX_ERR(1, 93, __pyx_L1_error)
+      __PYX_ERR(1, 100, __pyx_L1_error)
     } else {__pyx_pybuffernd_high.diminfo[0].strides = __pyx_pybuffernd_high.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_high.diminfo[0].shape = __pyx_pybuffernd_high.rcbuffer->pybuffer.shape[0];
     }
   }
@@ -3809,34 +3801,34 @@ static PyArrayObject *__pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_reset(str
   __pyx_v_high = ((PyArrayObject *)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "cygym/envs/pendulum.pyx":94
+  /* "cygym/pendulum.pyx":101
  *     cpdef np.ndarray[dtype=np_float_t, ndim=1] reset(self):
  *         cdef np.ndarray[dtype=np_float_t, ndim=1] high = np.array((M_PI, 1.))
  *         self.state = self.np_random.uniform(low=-1*high, high=high)             # <<<<<<<<<<<<<<
  *         return np.array(self._get_obs())
  * 
  */
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self->np_random, __pyx_n_s_uniform); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 94, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self->np_random, __pyx_n_s_uniform); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 101, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_3 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 94, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 101, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_4 = PyNumber_Multiply(__pyx_int_neg_1, ((PyObject *)__pyx_v_high)); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 94, __pyx_L1_error)
+  __pyx_t_4 = PyNumber_Multiply(__pyx_int_neg_1, ((PyObject *)__pyx_v_high)); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 101, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_low, __pyx_t_4) < 0) __PYX_ERR(1, 94, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_low, __pyx_t_4) < 0) __PYX_ERR(1, 101, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_high, ((PyObject *)__pyx_v_high)) < 0) __PYX_ERR(1, 94, __pyx_L1_error)
-  __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_empty_tuple, __pyx_t_3); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 94, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_high, ((PyObject *)__pyx_v_high)) < 0) __PYX_ERR(1, 101, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_empty_tuple, __pyx_t_3); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 101, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_6 = __Pyx_PyObject_to_MemoryviewSlice_ds_nn___pyx_t_5cygym_4envs_8pendulum_np_float_t(__pyx_t_4, PyBUF_WRITABLE); if (unlikely(!__pyx_t_6.memview)) __PYX_ERR(1, 94, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyObject_to_MemoryviewSlice_ds_nn___pyx_t_5cygym_8pendulum_np_float_t(__pyx_t_4, PyBUF_WRITABLE); if (unlikely(!__pyx_t_6.memview)) __PYX_ERR(1, 101, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   __PYX_XDEC_MEMVIEW(&__pyx_v_self->state, 0);
   __pyx_v_self->state = __pyx_t_6;
   __pyx_t_6.memview = NULL;
   __pyx_t_6.data = NULL;
 
-  /* "cygym/envs/pendulum.pyx":95
+  /* "cygym/pendulum.pyx":102
  *         cdef np.ndarray[dtype=np_float_t, ndim=1] high = np.array((M_PI, 1.))
  *         self.state = self.np_random.uniform(low=-1*high, high=high)
  *         return np.array(self._get_obs())             # <<<<<<<<<<<<<<
@@ -3844,12 +3836,12 @@ static PyArrayObject *__pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_reset(str
  *     cpdef tuple _get_obs(self):
  */
   __Pyx_XDECREF(((PyObject *)__pyx_r));
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 95, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 102, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_array); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 95, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_array); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 102, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = ((struct __pyx_vtabstruct_5cygym_4envs_8pendulum_FastPendulumEnv *)__pyx_v_self->__pyx_vtab)->_get_obs(__pyx_v_self, 0); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 95, __pyx_L1_error)
+  __pyx_t_3 = ((struct __pyx_vtabstruct_5cygym_8pendulum_CyPendulumEnv *)__pyx_v_self->__pyx_vtab)->_get_obs(__pyx_v_self, 0); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 102, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __pyx_t_2 = NULL;
   if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_1))) {
@@ -3864,15 +3856,15 @@ static PyArrayObject *__pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_reset(str
   __pyx_t_4 = (__pyx_t_2) ? __Pyx_PyObject_Call2Args(__pyx_t_1, __pyx_t_2, __pyx_t_3) : __Pyx_PyObject_CallOneArg(__pyx_t_1, __pyx_t_3);
   __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 95, __pyx_L1_error)
+  if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 102, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  if (!(likely(((__pyx_t_4) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_4, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 95, __pyx_L1_error)
+  if (!(likely(((__pyx_t_4) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_4, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 102, __pyx_L1_error)
   __pyx_r = ((PyArrayObject *)__pyx_t_4);
   __pyx_t_4 = 0;
   goto __pyx_L0;
 
-  /* "cygym/envs/pendulum.pyx":92
+  /* "cygym/pendulum.pyx":99
  * 
  * 
  *     cpdef np.ndarray[dtype=np_float_t, ndim=1] reset(self):             # <<<<<<<<<<<<<<
@@ -3893,7 +3885,7 @@ static PyArrayObject *__pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_reset(str
     __Pyx_ErrFetch(&__pyx_type, &__pyx_value, &__pyx_tb);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_high.rcbuffer->pybuffer);
   __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_AddTraceback("cygym.envs.pendulum.FastPendulumEnv.reset", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("cygym.pendulum.CyPendulumEnv.reset", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   goto __pyx_L2;
   __pyx_L0:;
@@ -3906,25 +3898,25 @@ static PyArrayObject *__pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_reset(str
 }
 
 /* Python wrapper */
-static PyObject *__pyx_pw_5cygym_4envs_8pendulum_15FastPendulumEnv_7reset(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
-static PyObject *__pyx_pw_5cygym_4envs_8pendulum_15FastPendulumEnv_7reset(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
+static PyObject *__pyx_pw_5cygym_8pendulum_13CyPendulumEnv_7reset(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static PyObject *__pyx_pw_5cygym_8pendulum_13CyPendulumEnv_7reset(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("reset (wrapper)", 0);
-  __pyx_r = __pyx_pf_5cygym_4envs_8pendulum_15FastPendulumEnv_6reset(((struct __pyx_obj_5cygym_4envs_8pendulum_FastPendulumEnv *)__pyx_v_self));
+  __pyx_r = __pyx_pf_5cygym_8pendulum_13CyPendulumEnv_6reset(((struct __pyx_obj_5cygym_8pendulum_CyPendulumEnv *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_5cygym_4envs_8pendulum_15FastPendulumEnv_6reset(struct __pyx_obj_5cygym_4envs_8pendulum_FastPendulumEnv *__pyx_v_self) {
+static PyObject *__pyx_pf_5cygym_8pendulum_13CyPendulumEnv_6reset(struct __pyx_obj_5cygym_8pendulum_CyPendulumEnv *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
   __Pyx_RefNannySetupContext("reset", 0);
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = ((PyObject *)__pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_reset(__pyx_v_self, 1)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 92, __pyx_L1_error)
+  __pyx_t_1 = ((PyObject *)__pyx_f_5cygym_8pendulum_13CyPendulumEnv_reset(__pyx_v_self, 1)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 99, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -3933,7 +3925,7 @@ static PyObject *__pyx_pf_5cygym_4envs_8pendulum_15FastPendulumEnv_6reset(struct
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("cygym.envs.pendulum.FastPendulumEnv.reset", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("cygym.pendulum.CyPendulumEnv.reset", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -3941,7 +3933,7 @@ static PyObject *__pyx_pf_5cygym_4envs_8pendulum_15FastPendulumEnv_6reset(struct
   return __pyx_r;
 }
 
-/* "cygym/envs/pendulum.pyx":97
+/* "cygym/pendulum.pyx":104
  *         return np.array(self._get_obs())
  * 
  *     cpdef tuple _get_obs(self):             # <<<<<<<<<<<<<<
@@ -3949,8 +3941,8 @@ static PyObject *__pyx_pf_5cygym_4envs_8pendulum_15FastPendulumEnv_6reset(struct
  *         cdef float thetadot = self.state[1]
  */
 
-static PyObject *__pyx_pw_5cygym_4envs_8pendulum_15FastPendulumEnv_9_get_obs(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
-static PyObject *__pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv__get_obs(struct __pyx_obj_5cygym_4envs_8pendulum_FastPendulumEnv *__pyx_v_self, int __pyx_skip_dispatch) {
+static PyObject *__pyx_pw_5cygym_8pendulum_13CyPendulumEnv_9_get_obs(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static PyObject *__pyx_f_5cygym_8pendulum_13CyPendulumEnv__get_obs(struct __pyx_obj_5cygym_8pendulum_CyPendulumEnv *__pyx_v_self, int __pyx_skip_dispatch) {
   float __pyx_v_theta;
   float __pyx_v_thetadot;
   PyObject *__pyx_r = NULL;
@@ -3971,9 +3963,9 @@ static PyObject *__pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv__get_obs(struc
     if (unlikely(!__Pyx_object_dict_version_matches(((PyObject *)__pyx_v_self), __pyx_tp_dict_version, __pyx_obj_dict_version))) {
       PY_UINT64_T __pyx_type_dict_guard = __Pyx_get_tp_dict_version(((PyObject *)__pyx_v_self));
       #endif
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_get_obs); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 97, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_get_obs); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 104, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
-      if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_5cygym_4envs_8pendulum_15FastPendulumEnv_9_get_obs)) {
+      if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_5cygym_8pendulum_13CyPendulumEnv_9_get_obs)) {
         __Pyx_XDECREF(__pyx_r);
         __Pyx_INCREF(__pyx_t_1);
         __pyx_t_3 = __pyx_t_1; __pyx_t_4 = NULL;
@@ -3988,10 +3980,10 @@ static PyObject *__pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv__get_obs(struc
         }
         __pyx_t_2 = (__pyx_t_4) ? __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_t_4) : __Pyx_PyObject_CallNoArg(__pyx_t_3);
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 97, __pyx_L1_error)
+        if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 104, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-        if (!(likely(PyTuple_CheckExact(__pyx_t_2))||((__pyx_t_2) == Py_None)||(PyErr_Format(PyExc_TypeError, "Expected %.16s, got %.200s", "tuple", Py_TYPE(__pyx_t_2)->tp_name), 0))) __PYX_ERR(1, 97, __pyx_L1_error)
+        if (!(likely(PyTuple_CheckExact(__pyx_t_2))||((__pyx_t_2) == Py_None)||(PyErr_Format(PyExc_TypeError, "Expected %.16s, got %.200s", "tuple", Py_TYPE(__pyx_t_2)->tp_name), 0))) __PYX_ERR(1, 104, __pyx_L1_error)
         __pyx_r = ((PyObject*)__pyx_t_2);
         __pyx_t_2 = 0;
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -4010,29 +4002,29 @@ static PyObject *__pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv__get_obs(struc
     #endif
   }
 
-  /* "cygym/envs/pendulum.pyx":98
+  /* "cygym/pendulum.pyx":105
  * 
  *     cpdef tuple _get_obs(self):
  *         cdef float theta = self.state[0]             # <<<<<<<<<<<<<<
  *         cdef float thetadot = self.state[1]
  *         return (cos(theta), sin(theta), thetadot)
  */
-  if (unlikely(!__pyx_v_self->state.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(1, 98, __pyx_L1_error)}
+  if (unlikely(!__pyx_v_self->state.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(1, 105, __pyx_L1_error)}
   __pyx_t_5 = 0;
-  __pyx_v_theta = (*((__pyx_t_5cygym_4envs_8pendulum_np_float_t *) ( /* dim=0 */ (__pyx_v_self->state.data + __pyx_t_5 * __pyx_v_self->state.strides[0]) )));
+  __pyx_v_theta = (*((__pyx_t_5cygym_8pendulum_np_float_t *) ( /* dim=0 */ (__pyx_v_self->state.data + __pyx_t_5 * __pyx_v_self->state.strides[0]) )));
 
-  /* "cygym/envs/pendulum.pyx":99
+  /* "cygym/pendulum.pyx":106
  *     cpdef tuple _get_obs(self):
  *         cdef float theta = self.state[0]
  *         cdef float thetadot = self.state[1]             # <<<<<<<<<<<<<<
  *         return (cos(theta), sin(theta), thetadot)
  * 
  */
-  if (unlikely(!__pyx_v_self->state.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(1, 99, __pyx_L1_error)}
+  if (unlikely(!__pyx_v_self->state.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(1, 106, __pyx_L1_error)}
   __pyx_t_6 = 1;
-  __pyx_v_thetadot = (*((__pyx_t_5cygym_4envs_8pendulum_np_float_t *) ( /* dim=0 */ (__pyx_v_self->state.data + __pyx_t_6 * __pyx_v_self->state.strides[0]) )));
+  __pyx_v_thetadot = (*((__pyx_t_5cygym_8pendulum_np_float_t *) ( /* dim=0 */ (__pyx_v_self->state.data + __pyx_t_6 * __pyx_v_self->state.strides[0]) )));
 
-  /* "cygym/envs/pendulum.pyx":100
+  /* "cygym/pendulum.pyx":107
  *         cdef float theta = self.state[0]
  *         cdef float thetadot = self.state[1]
  *         return (cos(theta), sin(theta), thetadot)             # <<<<<<<<<<<<<<
@@ -4040,13 +4032,13 @@ static PyObject *__pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv__get_obs(struc
  * 
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = PyFloat_FromDouble(cos(__pyx_v_theta)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 100, __pyx_L1_error)
+  __pyx_t_1 = PyFloat_FromDouble(cos(__pyx_v_theta)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 107, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = PyFloat_FromDouble(sin(__pyx_v_theta)); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 100, __pyx_L1_error)
+  __pyx_t_2 = PyFloat_FromDouble(sin(__pyx_v_theta)); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 107, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = PyFloat_FromDouble(__pyx_v_thetadot); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 100, __pyx_L1_error)
+  __pyx_t_3 = PyFloat_FromDouble(__pyx_v_thetadot); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 107, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_4 = PyTuple_New(3); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 100, __pyx_L1_error)
+  __pyx_t_4 = PyTuple_New(3); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 107, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_GIVEREF(__pyx_t_1);
   PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_t_1);
@@ -4061,7 +4053,7 @@ static PyObject *__pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv__get_obs(struc
   __pyx_t_4 = 0;
   goto __pyx_L0;
 
-  /* "cygym/envs/pendulum.pyx":97
+  /* "cygym/pendulum.pyx":104
  *         return np.array(self._get_obs())
  * 
  *     cpdef tuple _get_obs(self):             # <<<<<<<<<<<<<<
@@ -4075,7 +4067,7 @@ static PyObject *__pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv__get_obs(struc
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
-  __Pyx_AddTraceback("cygym.envs.pendulum.FastPendulumEnv._get_obs", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("cygym.pendulum.CyPendulumEnv._get_obs", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -4084,25 +4076,25 @@ static PyObject *__pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv__get_obs(struc
 }
 
 /* Python wrapper */
-static PyObject *__pyx_pw_5cygym_4envs_8pendulum_15FastPendulumEnv_9_get_obs(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
-static PyObject *__pyx_pw_5cygym_4envs_8pendulum_15FastPendulumEnv_9_get_obs(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
+static PyObject *__pyx_pw_5cygym_8pendulum_13CyPendulumEnv_9_get_obs(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static PyObject *__pyx_pw_5cygym_8pendulum_13CyPendulumEnv_9_get_obs(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("_get_obs (wrapper)", 0);
-  __pyx_r = __pyx_pf_5cygym_4envs_8pendulum_15FastPendulumEnv_8_get_obs(((struct __pyx_obj_5cygym_4envs_8pendulum_FastPendulumEnv *)__pyx_v_self));
+  __pyx_r = __pyx_pf_5cygym_8pendulum_13CyPendulumEnv_8_get_obs(((struct __pyx_obj_5cygym_8pendulum_CyPendulumEnv *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_5cygym_4envs_8pendulum_15FastPendulumEnv_8_get_obs(struct __pyx_obj_5cygym_4envs_8pendulum_FastPendulumEnv *__pyx_v_self) {
+static PyObject *__pyx_pf_5cygym_8pendulum_13CyPendulumEnv_8_get_obs(struct __pyx_obj_5cygym_8pendulum_CyPendulumEnv *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
   __Pyx_RefNannySetupContext("_get_obs", 0);
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv__get_obs(__pyx_v_self, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 97, __pyx_L1_error)
+  __pyx_t_1 = __pyx_f_5cygym_8pendulum_13CyPendulumEnv__get_obs(__pyx_v_self, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 104, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -4111,7 +4103,7 @@ static PyObject *__pyx_pf_5cygym_4envs_8pendulum_15FastPendulumEnv_8_get_obs(str
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("cygym.envs.pendulum.FastPendulumEnv._get_obs", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("cygym.pendulum.CyPendulumEnv._get_obs", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -4119,7 +4111,7 @@ static PyObject *__pyx_pf_5cygym_4envs_8pendulum_15FastPendulumEnv_8_get_obs(str
   return __pyx_r;
 }
 
-/* "cygym/envs/pendulum.pyx":31
+/* "cygym/pendulum.pyx":38
  *         float l
  *         np_float_t[:] state
  *         readonly object action_space             # <<<<<<<<<<<<<<
@@ -4128,19 +4120,19 @@ static PyObject *__pyx_pf_5cygym_4envs_8pendulum_15FastPendulumEnv_8_get_obs(str
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_5cygym_4envs_8pendulum_15FastPendulumEnv_12action_space_1__get__(PyObject *__pyx_v_self); /*proto*/
-static PyObject *__pyx_pw_5cygym_4envs_8pendulum_15FastPendulumEnv_12action_space_1__get__(PyObject *__pyx_v_self) {
+static PyObject *__pyx_pw_5cygym_8pendulum_13CyPendulumEnv_12action_space_1__get__(PyObject *__pyx_v_self); /*proto*/
+static PyObject *__pyx_pw_5cygym_8pendulum_13CyPendulumEnv_12action_space_1__get__(PyObject *__pyx_v_self) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
-  __pyx_r = __pyx_pf_5cygym_4envs_8pendulum_15FastPendulumEnv_12action_space___get__(((struct __pyx_obj_5cygym_4envs_8pendulum_FastPendulumEnv *)__pyx_v_self));
+  __pyx_r = __pyx_pf_5cygym_8pendulum_13CyPendulumEnv_12action_space___get__(((struct __pyx_obj_5cygym_8pendulum_CyPendulumEnv *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_5cygym_4envs_8pendulum_15FastPendulumEnv_12action_space___get__(struct __pyx_obj_5cygym_4envs_8pendulum_FastPendulumEnv *__pyx_v_self) {
+static PyObject *__pyx_pf_5cygym_8pendulum_13CyPendulumEnv_12action_space___get__(struct __pyx_obj_5cygym_8pendulum_CyPendulumEnv *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__", 0);
@@ -4156,7 +4148,7 @@ static PyObject *__pyx_pf_5cygym_4envs_8pendulum_15FastPendulumEnv_12action_spac
   return __pyx_r;
 }
 
-/* "cygym/envs/pendulum.pyx":32
+/* "cygym/pendulum.pyx":39
  *         np_float_t[:] state
  *         readonly object action_space
  *         readonly object observation_space             # <<<<<<<<<<<<<<
@@ -4165,19 +4157,19 @@ static PyObject *__pyx_pf_5cygym_4envs_8pendulum_15FastPendulumEnv_12action_spac
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_5cygym_4envs_8pendulum_15FastPendulumEnv_17observation_space_1__get__(PyObject *__pyx_v_self); /*proto*/
-static PyObject *__pyx_pw_5cygym_4envs_8pendulum_15FastPendulumEnv_17observation_space_1__get__(PyObject *__pyx_v_self) {
+static PyObject *__pyx_pw_5cygym_8pendulum_13CyPendulumEnv_17observation_space_1__get__(PyObject *__pyx_v_self); /*proto*/
+static PyObject *__pyx_pw_5cygym_8pendulum_13CyPendulumEnv_17observation_space_1__get__(PyObject *__pyx_v_self) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
-  __pyx_r = __pyx_pf_5cygym_4envs_8pendulum_15FastPendulumEnv_17observation_space___get__(((struct __pyx_obj_5cygym_4envs_8pendulum_FastPendulumEnv *)__pyx_v_self));
+  __pyx_r = __pyx_pf_5cygym_8pendulum_13CyPendulumEnv_17observation_space___get__(((struct __pyx_obj_5cygym_8pendulum_CyPendulumEnv *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_5cygym_4envs_8pendulum_15FastPendulumEnv_17observation_space___get__(struct __pyx_obj_5cygym_4envs_8pendulum_FastPendulumEnv *__pyx_v_self) {
+static PyObject *__pyx_pf_5cygym_8pendulum_13CyPendulumEnv_17observation_space___get__(struct __pyx_obj_5cygym_8pendulum_CyPendulumEnv *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__", 0);
@@ -4200,19 +4192,19 @@ static PyObject *__pyx_pf_5cygym_4envs_8pendulum_15FastPendulumEnv_17observation
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_5cygym_4envs_8pendulum_15FastPendulumEnv_11__reduce_cython__(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
-static PyObject *__pyx_pw_5cygym_4envs_8pendulum_15FastPendulumEnv_11__reduce_cython__(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
+static PyObject *__pyx_pw_5cygym_8pendulum_13CyPendulumEnv_11__reduce_cython__(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static PyObject *__pyx_pw_5cygym_8pendulum_13CyPendulumEnv_11__reduce_cython__(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__reduce_cython__ (wrapper)", 0);
-  __pyx_r = __pyx_pf_5cygym_4envs_8pendulum_15FastPendulumEnv_10__reduce_cython__(((struct __pyx_obj_5cygym_4envs_8pendulum_FastPendulumEnv *)__pyx_v_self));
+  __pyx_r = __pyx_pf_5cygym_8pendulum_13CyPendulumEnv_10__reduce_cython__(((struct __pyx_obj_5cygym_8pendulum_CyPendulumEnv *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_5cygym_4envs_8pendulum_15FastPendulumEnv_10__reduce_cython__(CYTHON_UNUSED struct __pyx_obj_5cygym_4envs_8pendulum_FastPendulumEnv *__pyx_v_self) {
+static PyObject *__pyx_pf_5cygym_8pendulum_13CyPendulumEnv_10__reduce_cython__(CYTHON_UNUSED struct __pyx_obj_5cygym_8pendulum_CyPendulumEnv *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -4239,7 +4231,7 @@ static PyObject *__pyx_pf_5cygym_4envs_8pendulum_15FastPendulumEnv_10__reduce_cy
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("cygym.envs.pendulum.FastPendulumEnv.__reduce_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("cygym.pendulum.CyPendulumEnv.__reduce_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __Pyx_XGIVEREF(__pyx_r);
   __Pyx_RefNannyFinishContext();
@@ -4254,19 +4246,19 @@ static PyObject *__pyx_pf_5cygym_4envs_8pendulum_15FastPendulumEnv_10__reduce_cy
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_5cygym_4envs_8pendulum_15FastPendulumEnv_13__setstate_cython__(PyObject *__pyx_v_self, PyObject *__pyx_v___pyx_state); /*proto*/
-static PyObject *__pyx_pw_5cygym_4envs_8pendulum_15FastPendulumEnv_13__setstate_cython__(PyObject *__pyx_v_self, PyObject *__pyx_v___pyx_state) {
+static PyObject *__pyx_pw_5cygym_8pendulum_13CyPendulumEnv_13__setstate_cython__(PyObject *__pyx_v_self, PyObject *__pyx_v___pyx_state); /*proto*/
+static PyObject *__pyx_pw_5cygym_8pendulum_13CyPendulumEnv_13__setstate_cython__(PyObject *__pyx_v_self, PyObject *__pyx_v___pyx_state) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__setstate_cython__ (wrapper)", 0);
-  __pyx_r = __pyx_pf_5cygym_4envs_8pendulum_15FastPendulumEnv_12__setstate_cython__(((struct __pyx_obj_5cygym_4envs_8pendulum_FastPendulumEnv *)__pyx_v_self), ((PyObject *)__pyx_v___pyx_state));
+  __pyx_r = __pyx_pf_5cygym_8pendulum_13CyPendulumEnv_12__setstate_cython__(((struct __pyx_obj_5cygym_8pendulum_CyPendulumEnv *)__pyx_v_self), ((PyObject *)__pyx_v___pyx_state));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_5cygym_4envs_8pendulum_15FastPendulumEnv_12__setstate_cython__(CYTHON_UNUSED struct __pyx_obj_5cygym_4envs_8pendulum_FastPendulumEnv *__pyx_v_self, CYTHON_UNUSED PyObject *__pyx_v___pyx_state) {
+static PyObject *__pyx_pf_5cygym_8pendulum_13CyPendulumEnv_12__setstate_cython__(CYTHON_UNUSED struct __pyx_obj_5cygym_8pendulum_CyPendulumEnv *__pyx_v_self, CYTHON_UNUSED PyObject *__pyx_v___pyx_state) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -4293,26 +4285,26 @@ static PyObject *__pyx_pf_5cygym_4envs_8pendulum_15FastPendulumEnv_12__setstate_
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("cygym.envs.pendulum.FastPendulumEnv.__setstate_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("cygym.pendulum.CyPendulumEnv.__setstate_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __Pyx_XGIVEREF(__pyx_r);
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-/* "cygym/envs/pendulum.pyx":103
+/* "cygym/pendulum.pyx":110
  * 
  * 
  * cdef float angle_normalize(float x):             # <<<<<<<<<<<<<<
  *     return (((x+M_PI) % (2*M_PI)) - M_PI)
  */
 
-static float __pyx_f_5cygym_4envs_8pendulum_angle_normalize(float __pyx_v_x) {
+static float __pyx_f_5cygym_8pendulum_angle_normalize(float __pyx_v_x) {
   float __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("angle_normalize", 0);
 
-  /* "cygym/envs/pendulum.pyx":104
+  /* "cygym/pendulum.pyx":111
  * 
  * cdef float angle_normalize(float x):
  *     return (((x+M_PI) % (2*M_PI)) - M_PI)             # <<<<<<<<<<<<<<
@@ -4320,7 +4312,7 @@ static float __pyx_f_5cygym_4envs_8pendulum_angle_normalize(float __pyx_v_x) {
   __pyx_r = (fmod((__pyx_v_x + M_PI), (2.0 * M_PI)) - M_PI);
   goto __pyx_L0;
 
-  /* "cygym/envs/pendulum.pyx":103
+  /* "cygym/pendulum.pyx":110
  * 
  * 
  * cdef float angle_normalize(float x):             # <<<<<<<<<<<<<<
@@ -4333,7 +4325,7 @@ static float __pyx_f_5cygym_4envs_8pendulum_angle_normalize(float __pyx_v_x) {
   return __pyx_r;
 }
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":258
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":258
  *         # experimental exception made for __getbuffer__ and __releasebuffer__
  *         # -- the details of this may change.
  *         def __getbuffer__(ndarray self, Py_buffer* info, int flags):             # <<<<<<<<<<<<<<
@@ -4382,7 +4374,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_v_info->obj = Py_None; __Pyx_INCREF(Py_None);
   __Pyx_GIVEREF(__pyx_v_info->obj);
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":265
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":265
  * 
  *             cdef int i, ndim
  *             cdef int endian_detector = 1             # <<<<<<<<<<<<<<
@@ -4391,7 +4383,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_endian_detector = 1;
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":266
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":266
  *             cdef int i, ndim
  *             cdef int endian_detector = 1
  *             cdef bint little_endian = ((<char*>&endian_detector)[0] != 0)             # <<<<<<<<<<<<<<
@@ -4400,7 +4392,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_little_endian = ((((char *)(&__pyx_v_endian_detector))[0]) != 0);
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":268
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":268
  *             cdef bint little_endian = ((<char*>&endian_detector)[0] != 0)
  * 
  *             ndim = PyArray_NDIM(self)             # <<<<<<<<<<<<<<
@@ -4409,7 +4401,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_ndim = PyArray_NDIM(__pyx_v_self);
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":270
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":270
  *             ndim = PyArray_NDIM(self)
  * 
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)             # <<<<<<<<<<<<<<
@@ -4423,7 +4415,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     goto __pyx_L4_bool_binop_done;
   }
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":271
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":271
  * 
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_ARRAY_C_CONTIGUOUS)):             # <<<<<<<<<<<<<<
@@ -4434,7 +4426,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_t_1 = __pyx_t_2;
   __pyx_L4_bool_binop_done:;
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":270
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":270
  *             ndim = PyArray_NDIM(self)
  * 
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)             # <<<<<<<<<<<<<<
@@ -4443,7 +4435,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   if (unlikely(__pyx_t_1)) {
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":272
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":272
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_ARRAY_C_CONTIGUOUS)):
  *                 raise ValueError(u"ndarray is not C contiguous")             # <<<<<<<<<<<<<<
@@ -4456,7 +4448,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __PYX_ERR(2, 272, __pyx_L1_error)
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":270
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":270
  *             ndim = PyArray_NDIM(self)
  * 
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)             # <<<<<<<<<<<<<<
@@ -4465,7 +4457,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   }
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":274
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":274
  *                 raise ValueError(u"ndarray is not C contiguous")
  * 
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)             # <<<<<<<<<<<<<<
@@ -4479,7 +4471,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     goto __pyx_L7_bool_binop_done;
   }
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":275
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":275
  * 
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_ARRAY_F_CONTIGUOUS)):             # <<<<<<<<<<<<<<
@@ -4490,7 +4482,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_t_1 = __pyx_t_2;
   __pyx_L7_bool_binop_done:;
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":274
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":274
  *                 raise ValueError(u"ndarray is not C contiguous")
  * 
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)             # <<<<<<<<<<<<<<
@@ -4499,7 +4491,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   if (unlikely(__pyx_t_1)) {
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":276
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":276
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_ARRAY_F_CONTIGUOUS)):
  *                 raise ValueError(u"ndarray is not Fortran contiguous")             # <<<<<<<<<<<<<<
@@ -4512,7 +4504,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __PYX_ERR(2, 276, __pyx_L1_error)
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":274
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":274
  *                 raise ValueError(u"ndarray is not C contiguous")
  * 
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)             # <<<<<<<<<<<<<<
@@ -4521,7 +4513,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   }
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":278
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":278
  *                 raise ValueError(u"ndarray is not Fortran contiguous")
  * 
  *             info.buf = PyArray_DATA(self)             # <<<<<<<<<<<<<<
@@ -4530,7 +4522,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_info->buf = PyArray_DATA(__pyx_v_self);
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":279
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":279
  * 
  *             info.buf = PyArray_DATA(self)
  *             info.ndim = ndim             # <<<<<<<<<<<<<<
@@ -4539,7 +4531,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_info->ndim = __pyx_v_ndim;
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":280
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":280
  *             info.buf = PyArray_DATA(self)
  *             info.ndim = ndim
  *             if sizeof(npy_intp) != sizeof(Py_ssize_t):             # <<<<<<<<<<<<<<
@@ -4549,7 +4541,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_t_1 = (((sizeof(npy_intp)) != (sizeof(Py_ssize_t))) != 0);
   if (__pyx_t_1) {
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":283
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":283
  *                 # Allocate new buffer for strides and shape info.
  *                 # This is allocated as one block, strides first.
  *                 info.strides = <Py_ssize_t*>PyObject_Malloc(sizeof(Py_ssize_t) * 2 * <size_t>ndim)             # <<<<<<<<<<<<<<
@@ -4558,7 +4550,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     __pyx_v_info->strides = ((Py_ssize_t *)PyObject_Malloc((((sizeof(Py_ssize_t)) * 2) * ((size_t)__pyx_v_ndim))));
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":284
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":284
  *                 # This is allocated as one block, strides first.
  *                 info.strides = <Py_ssize_t*>PyObject_Malloc(sizeof(Py_ssize_t) * 2 * <size_t>ndim)
  *                 info.shape = info.strides + ndim             # <<<<<<<<<<<<<<
@@ -4567,7 +4559,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     __pyx_v_info->shape = (__pyx_v_info->strides + __pyx_v_ndim);
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":285
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":285
  *                 info.strides = <Py_ssize_t*>PyObject_Malloc(sizeof(Py_ssize_t) * 2 * <size_t>ndim)
  *                 info.shape = info.strides + ndim
  *                 for i in range(ndim):             # <<<<<<<<<<<<<<
@@ -4579,7 +4571,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     for (__pyx_t_6 = 0; __pyx_t_6 < __pyx_t_5; __pyx_t_6+=1) {
       __pyx_v_i = __pyx_t_6;
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":286
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":286
  *                 info.shape = info.strides + ndim
  *                 for i in range(ndim):
  *                     info.strides[i] = PyArray_STRIDES(self)[i]             # <<<<<<<<<<<<<<
@@ -4588,7 +4580,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
       (__pyx_v_info->strides[__pyx_v_i]) = (PyArray_STRIDES(__pyx_v_self)[__pyx_v_i]);
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":287
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":287
  *                 for i in range(ndim):
  *                     info.strides[i] = PyArray_STRIDES(self)[i]
  *                     info.shape[i] = PyArray_DIMS(self)[i]             # <<<<<<<<<<<<<<
@@ -4598,7 +4590,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       (__pyx_v_info->shape[__pyx_v_i]) = (PyArray_DIMS(__pyx_v_self)[__pyx_v_i]);
     }
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":280
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":280
  *             info.buf = PyArray_DATA(self)
  *             info.ndim = ndim
  *             if sizeof(npy_intp) != sizeof(Py_ssize_t):             # <<<<<<<<<<<<<<
@@ -4608,7 +4600,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     goto __pyx_L9;
   }
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":289
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":289
  *                     info.shape[i] = PyArray_DIMS(self)[i]
  *             else:
  *                 info.strides = <Py_ssize_t*>PyArray_STRIDES(self)             # <<<<<<<<<<<<<<
@@ -4618,7 +4610,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   /*else*/ {
     __pyx_v_info->strides = ((Py_ssize_t *)PyArray_STRIDES(__pyx_v_self));
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":290
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":290
  *             else:
  *                 info.strides = <Py_ssize_t*>PyArray_STRIDES(self)
  *                 info.shape = <Py_ssize_t*>PyArray_DIMS(self)             # <<<<<<<<<<<<<<
@@ -4629,7 +4621,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   }
   __pyx_L9:;
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":291
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":291
  *                 info.strides = <Py_ssize_t*>PyArray_STRIDES(self)
  *                 info.shape = <Py_ssize_t*>PyArray_DIMS(self)
  *             info.suboffsets = NULL             # <<<<<<<<<<<<<<
@@ -4638,7 +4630,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_info->suboffsets = NULL;
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":292
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":292
  *                 info.shape = <Py_ssize_t*>PyArray_DIMS(self)
  *             info.suboffsets = NULL
  *             info.itemsize = PyArray_ITEMSIZE(self)             # <<<<<<<<<<<<<<
@@ -4647,7 +4639,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_info->itemsize = PyArray_ITEMSIZE(__pyx_v_self);
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":293
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":293
  *             info.suboffsets = NULL
  *             info.itemsize = PyArray_ITEMSIZE(self)
  *             info.readonly = not PyArray_ISWRITEABLE(self)             # <<<<<<<<<<<<<<
@@ -4656,7 +4648,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_info->readonly = (!(PyArray_ISWRITEABLE(__pyx_v_self) != 0));
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":296
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":296
  * 
  *             cdef int t
  *             cdef char* f = NULL             # <<<<<<<<<<<<<<
@@ -4665,7 +4657,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_f = NULL;
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":297
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":297
  *             cdef int t
  *             cdef char* f = NULL
  *             cdef dtype descr = <dtype>PyArray_DESCR(self)             # <<<<<<<<<<<<<<
@@ -4678,7 +4670,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_v_descr = ((PyArray_Descr *)__pyx_t_3);
   __pyx_t_3 = 0;
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":300
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":300
  *             cdef int offset
  * 
  *             info.obj = self             # <<<<<<<<<<<<<<
@@ -4691,7 +4683,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __Pyx_DECREF(__pyx_v_info->obj);
   __pyx_v_info->obj = ((PyObject *)__pyx_v_self);
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":302
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":302
  *             info.obj = self
  * 
  *             if not PyDataType_HASFIELDS(descr):             # <<<<<<<<<<<<<<
@@ -4701,7 +4693,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_t_1 = ((!(PyDataType_HASFIELDS(__pyx_v_descr) != 0)) != 0);
   if (__pyx_t_1) {
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":303
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":303
  * 
  *             if not PyDataType_HASFIELDS(descr):
  *                 t = descr.type_num             # <<<<<<<<<<<<<<
@@ -4711,7 +4703,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __pyx_t_4 = __pyx_v_descr->type_num;
     __pyx_v_t = __pyx_t_4;
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":304
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":304
  *             if not PyDataType_HASFIELDS(descr):
  *                 t = descr.type_num
  *                 if ((descr.byteorder == c'>' and little_endian) or             # <<<<<<<<<<<<<<
@@ -4731,7 +4723,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     }
     __pyx_L15_next_or:;
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":305
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":305
  *                 t = descr.type_num
  *                 if ((descr.byteorder == c'>' and little_endian) or
  *                     (descr.byteorder == c'<' and not little_endian)):             # <<<<<<<<<<<<<<
@@ -4748,7 +4740,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __pyx_t_1 = __pyx_t_2;
     __pyx_L14_bool_binop_done:;
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":304
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":304
  *             if not PyDataType_HASFIELDS(descr):
  *                 t = descr.type_num
  *                 if ((descr.byteorder == c'>' and little_endian) or             # <<<<<<<<<<<<<<
@@ -4757,7 +4749,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     if (unlikely(__pyx_t_1)) {
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":306
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":306
  *                 if ((descr.byteorder == c'>' and little_endian) or
  *                     (descr.byteorder == c'<' and not little_endian)):
  *                     raise ValueError(u"Non-native byte order not supported")             # <<<<<<<<<<<<<<
@@ -4770,7 +4762,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       __PYX_ERR(2, 306, __pyx_L1_error)
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":304
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":304
  *             if not PyDataType_HASFIELDS(descr):
  *                 t = descr.type_num
  *                 if ((descr.byteorder == c'>' and little_endian) or             # <<<<<<<<<<<<<<
@@ -4779,7 +4771,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     }
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":307
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":307
  *                     (descr.byteorder == c'<' and not little_endian)):
  *                     raise ValueError(u"Non-native byte order not supported")
  *                 if   t == NPY_BYTE:        f = "b"             # <<<<<<<<<<<<<<
@@ -4792,7 +4784,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
       case NPY_UBYTE:
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":308
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":308
  *                     raise ValueError(u"Non-native byte order not supported")
  *                 if   t == NPY_BYTE:        f = "b"
  *                 elif t == NPY_UBYTE:       f = "B"             # <<<<<<<<<<<<<<
@@ -4803,7 +4795,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
       case NPY_SHORT:
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":309
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":309
  *                 if   t == NPY_BYTE:        f = "b"
  *                 elif t == NPY_UBYTE:       f = "B"
  *                 elif t == NPY_SHORT:       f = "h"             # <<<<<<<<<<<<<<
@@ -4814,7 +4806,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
       case NPY_USHORT:
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":310
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":310
  *                 elif t == NPY_UBYTE:       f = "B"
  *                 elif t == NPY_SHORT:       f = "h"
  *                 elif t == NPY_USHORT:      f = "H"             # <<<<<<<<<<<<<<
@@ -4825,7 +4817,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
       case NPY_INT:
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":311
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":311
  *                 elif t == NPY_SHORT:       f = "h"
  *                 elif t == NPY_USHORT:      f = "H"
  *                 elif t == NPY_INT:         f = "i"             # <<<<<<<<<<<<<<
@@ -4836,7 +4828,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
       case NPY_UINT:
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":312
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":312
  *                 elif t == NPY_USHORT:      f = "H"
  *                 elif t == NPY_INT:         f = "i"
  *                 elif t == NPY_UINT:        f = "I"             # <<<<<<<<<<<<<<
@@ -4847,7 +4839,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
       case NPY_LONG:
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":313
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":313
  *                 elif t == NPY_INT:         f = "i"
  *                 elif t == NPY_UINT:        f = "I"
  *                 elif t == NPY_LONG:        f = "l"             # <<<<<<<<<<<<<<
@@ -4858,7 +4850,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
       case NPY_ULONG:
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":314
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":314
  *                 elif t == NPY_UINT:        f = "I"
  *                 elif t == NPY_LONG:        f = "l"
  *                 elif t == NPY_ULONG:       f = "L"             # <<<<<<<<<<<<<<
@@ -4869,7 +4861,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
       case NPY_LONGLONG:
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":315
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":315
  *                 elif t == NPY_LONG:        f = "l"
  *                 elif t == NPY_ULONG:       f = "L"
  *                 elif t == NPY_LONGLONG:    f = "q"             # <<<<<<<<<<<<<<
@@ -4880,7 +4872,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
       case NPY_ULONGLONG:
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":316
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":316
  *                 elif t == NPY_ULONG:       f = "L"
  *                 elif t == NPY_LONGLONG:    f = "q"
  *                 elif t == NPY_ULONGLONG:   f = "Q"             # <<<<<<<<<<<<<<
@@ -4891,7 +4883,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
       case NPY_FLOAT:
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":317
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":317
  *                 elif t == NPY_LONGLONG:    f = "q"
  *                 elif t == NPY_ULONGLONG:   f = "Q"
  *                 elif t == NPY_FLOAT:       f = "f"             # <<<<<<<<<<<<<<
@@ -4902,7 +4894,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
       case NPY_DOUBLE:
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":318
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":318
  *                 elif t == NPY_ULONGLONG:   f = "Q"
  *                 elif t == NPY_FLOAT:       f = "f"
  *                 elif t == NPY_DOUBLE:      f = "d"             # <<<<<<<<<<<<<<
@@ -4913,7 +4905,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
       case NPY_LONGDOUBLE:
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":319
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":319
  *                 elif t == NPY_FLOAT:       f = "f"
  *                 elif t == NPY_DOUBLE:      f = "d"
  *                 elif t == NPY_LONGDOUBLE:  f = "g"             # <<<<<<<<<<<<<<
@@ -4924,7 +4916,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
       case NPY_CFLOAT:
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":320
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":320
  *                 elif t == NPY_DOUBLE:      f = "d"
  *                 elif t == NPY_LONGDOUBLE:  f = "g"
  *                 elif t == NPY_CFLOAT:      f = "Zf"             # <<<<<<<<<<<<<<
@@ -4935,7 +4927,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
       case NPY_CDOUBLE:
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":321
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":321
  *                 elif t == NPY_LONGDOUBLE:  f = "g"
  *                 elif t == NPY_CFLOAT:      f = "Zf"
  *                 elif t == NPY_CDOUBLE:     f = "Zd"             # <<<<<<<<<<<<<<
@@ -4946,7 +4938,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
       case NPY_CLONGDOUBLE:
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":322
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":322
  *                 elif t == NPY_CFLOAT:      f = "Zf"
  *                 elif t == NPY_CDOUBLE:     f = "Zd"
  *                 elif t == NPY_CLONGDOUBLE: f = "Zg"             # <<<<<<<<<<<<<<
@@ -4957,7 +4949,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
       case NPY_OBJECT:
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":323
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":323
  *                 elif t == NPY_CDOUBLE:     f = "Zd"
  *                 elif t == NPY_CLONGDOUBLE: f = "Zg"
  *                 elif t == NPY_OBJECT:      f = "O"             # <<<<<<<<<<<<<<
@@ -4968,7 +4960,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
       default:
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":325
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":325
  *                 elif t == NPY_OBJECT:      f = "O"
  *                 else:
  *                     raise ValueError(u"unknown dtype code in numpy.pxd (%d)" % t)             # <<<<<<<<<<<<<<
@@ -4989,7 +4981,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
     }
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":326
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":326
  *                 else:
  *                     raise ValueError(u"unknown dtype code in numpy.pxd (%d)" % t)
  *                 info.format = f             # <<<<<<<<<<<<<<
@@ -4998,7 +4990,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     __pyx_v_info->format = __pyx_v_f;
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":327
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":327
  *                     raise ValueError(u"unknown dtype code in numpy.pxd (%d)" % t)
  *                 info.format = f
  *                 return             # <<<<<<<<<<<<<<
@@ -5008,7 +5000,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __pyx_r = 0;
     goto __pyx_L0;
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":302
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":302
  *             info.obj = self
  * 
  *             if not PyDataType_HASFIELDS(descr):             # <<<<<<<<<<<<<<
@@ -5017,7 +5009,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   }
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":329
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":329
  *                 return
  *             else:
  *                 info.format = <char*>PyObject_Malloc(_buffer_format_string_len)             # <<<<<<<<<<<<<<
@@ -5027,7 +5019,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   /*else*/ {
     __pyx_v_info->format = ((char *)PyObject_Malloc(0xFF));
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":330
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":330
  *             else:
  *                 info.format = <char*>PyObject_Malloc(_buffer_format_string_len)
  *                 info.format[0] = c'^' # Native data types, manual alignment             # <<<<<<<<<<<<<<
@@ -5036,7 +5028,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     (__pyx_v_info->format[0]) = '^';
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":331
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":331
  *                 info.format = <char*>PyObject_Malloc(_buffer_format_string_len)
  *                 info.format[0] = c'^' # Native data types, manual alignment
  *                 offset = 0             # <<<<<<<<<<<<<<
@@ -5045,7 +5037,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     __pyx_v_offset = 0;
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":332
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":332
  *                 info.format[0] = c'^' # Native data types, manual alignment
  *                 offset = 0
  *                 f = _util_dtypestring(descr, info.format + 1,             # <<<<<<<<<<<<<<
@@ -5055,7 +5047,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __pyx_t_9 = __pyx_f_5numpy__util_dtypestring(__pyx_v_descr, (__pyx_v_info->format + 1), (__pyx_v_info->format + 0xFF), (&__pyx_v_offset)); if (unlikely(__pyx_t_9 == ((char *)NULL))) __PYX_ERR(2, 332, __pyx_L1_error)
     __pyx_v_f = __pyx_t_9;
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":335
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":335
  *                                       info.format + _buffer_format_string_len,
  *                                       &offset)
  *                 f[0] = c'\0' # Terminate format string             # <<<<<<<<<<<<<<
@@ -5065,7 +5057,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     (__pyx_v_f[0]) = '\x00';
   }
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":258
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":258
  *         # experimental exception made for __getbuffer__ and __releasebuffer__
  *         # -- the details of this may change.
  *         def __getbuffer__(ndarray self, Py_buffer* info, int flags):             # <<<<<<<<<<<<<<
@@ -5097,7 +5089,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   return __pyx_r;
 }
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":337
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":337
  *                 f[0] = c'\0' # Terminate format string
  * 
  *         def __releasebuffer__(ndarray self, Py_buffer* info):             # <<<<<<<<<<<<<<
@@ -5121,7 +5113,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("__releasebuffer__", 0);
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":338
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":338
  * 
  *         def __releasebuffer__(ndarray self, Py_buffer* info):
  *             if PyArray_HASFIELDS(self):             # <<<<<<<<<<<<<<
@@ -5131,7 +5123,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
   __pyx_t_1 = (PyArray_HASFIELDS(__pyx_v_self) != 0);
   if (__pyx_t_1) {
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":339
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":339
  *         def __releasebuffer__(ndarray self, Py_buffer* info):
  *             if PyArray_HASFIELDS(self):
  *                 PyObject_Free(info.format)             # <<<<<<<<<<<<<<
@@ -5140,7 +5132,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
  */
     PyObject_Free(__pyx_v_info->format);
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":338
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":338
  * 
  *         def __releasebuffer__(ndarray self, Py_buffer* info):
  *             if PyArray_HASFIELDS(self):             # <<<<<<<<<<<<<<
@@ -5149,7 +5141,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
  */
   }
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":340
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":340
  *             if PyArray_HASFIELDS(self):
  *                 PyObject_Free(info.format)
  *             if sizeof(npy_intp) != sizeof(Py_ssize_t):             # <<<<<<<<<<<<<<
@@ -5159,7 +5151,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
   __pyx_t_1 = (((sizeof(npy_intp)) != (sizeof(Py_ssize_t))) != 0);
   if (__pyx_t_1) {
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":341
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":341
  *                 PyObject_Free(info.format)
  *             if sizeof(npy_intp) != sizeof(Py_ssize_t):
  *                 PyObject_Free(info.strides)             # <<<<<<<<<<<<<<
@@ -5168,7 +5160,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
  */
     PyObject_Free(__pyx_v_info->strides);
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":340
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":340
  *             if PyArray_HASFIELDS(self):
  *                 PyObject_Free(info.format)
  *             if sizeof(npy_intp) != sizeof(Py_ssize_t):             # <<<<<<<<<<<<<<
@@ -5177,7 +5169,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
  */
   }
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":337
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":337
  *                 f[0] = c'\0' # Terminate format string
  * 
  *         def __releasebuffer__(ndarray self, Py_buffer* info):             # <<<<<<<<<<<<<<
@@ -5189,7 +5181,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
   __Pyx_RefNannyFinishContext();
 }
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":821
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":821
  * ctypedef npy_cdouble     complex_t
  * 
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
@@ -5203,7 +5195,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   PyObject *__pyx_t_1 = NULL;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew1", 0);
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":822
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":822
  * 
  * cdef inline object PyArray_MultiIterNew1(a):
  *     return PyArray_MultiIterNew(1, <void*>a)             # <<<<<<<<<<<<<<
@@ -5217,7 +5209,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":821
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":821
  * ctypedef npy_cdouble     complex_t
  * 
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
@@ -5236,7 +5228,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":824
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":824
  *     return PyArray_MultiIterNew(1, <void*>a)
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
@@ -5250,7 +5242,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   PyObject *__pyx_t_1 = NULL;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew2", 0);
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":825
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":825
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)             # <<<<<<<<<<<<<<
@@ -5264,7 +5256,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":824
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":824
  *     return PyArray_MultiIterNew(1, <void*>a)
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
@@ -5283,7 +5275,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":827
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":827
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
@@ -5297,7 +5289,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   PyObject *__pyx_t_1 = NULL;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew3", 0);
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":828
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":828
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)             # <<<<<<<<<<<<<<
@@ -5311,7 +5303,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":827
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":827
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
@@ -5330,7 +5322,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":830
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":830
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
@@ -5344,7 +5336,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   PyObject *__pyx_t_1 = NULL;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew4", 0);
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":831
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":831
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)             # <<<<<<<<<<<<<<
@@ -5358,7 +5350,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":830
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":830
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
@@ -5377,7 +5369,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":833
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":833
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
@@ -5391,7 +5383,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   PyObject *__pyx_t_1 = NULL;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew5", 0);
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":834
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":834
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)             # <<<<<<<<<<<<<<
@@ -5405,7 +5397,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":833
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":833
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
@@ -5424,7 +5416,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":836
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":836
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):             # <<<<<<<<<<<<<<
@@ -5438,7 +5430,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("PyDataType_SHAPE", 0);
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":837
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":837
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):             # <<<<<<<<<<<<<<
@@ -5448,7 +5440,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   __pyx_t_1 = (PyDataType_HASSUBARRAY(__pyx_v_d) != 0);
   if (__pyx_t_1) {
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":838
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":838
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):
  *         return <tuple>d.subarray.shape             # <<<<<<<<<<<<<<
@@ -5460,7 +5452,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
     __pyx_r = ((PyObject*)__pyx_v_d->subarray->shape);
     goto __pyx_L0;
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":837
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":837
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):             # <<<<<<<<<<<<<<
@@ -5469,7 +5461,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
  */
   }
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":840
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":840
  *         return <tuple>d.subarray.shape
  *     else:
  *         return ()             # <<<<<<<<<<<<<<
@@ -5483,7 +5475,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
     goto __pyx_L0;
   }
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":836
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":836
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):             # <<<<<<<<<<<<<<
@@ -5498,7 +5490,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   return __pyx_r;
 }
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":842
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":842
  *         return ()
  * 
  * cdef inline char* _util_dtypestring(dtype descr, char* f, char* end, int* offset) except NULL:             # <<<<<<<<<<<<<<
@@ -5527,7 +5519,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
   char *__pyx_t_9;
   __Pyx_RefNannySetupContext("_util_dtypestring", 0);
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":847
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":847
  * 
  *     cdef dtype child
  *     cdef int endian_detector = 1             # <<<<<<<<<<<<<<
@@ -5536,7 +5528,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
   __pyx_v_endian_detector = 1;
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":848
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":848
  *     cdef dtype child
  *     cdef int endian_detector = 1
  *     cdef bint little_endian = ((<char*>&endian_detector)[0] != 0)             # <<<<<<<<<<<<<<
@@ -5545,7 +5537,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
   __pyx_v_little_endian = ((((char *)(&__pyx_v_endian_detector))[0]) != 0);
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":851
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":851
  *     cdef tuple fields
  * 
  *     for childname in descr.names:             # <<<<<<<<<<<<<<
@@ -5568,7 +5560,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __Pyx_XDECREF_SET(__pyx_v_childname, __pyx_t_3);
     __pyx_t_3 = 0;
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":852
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":852
  * 
  *     for childname in descr.names:
  *         fields = descr.fields[childname]             # <<<<<<<<<<<<<<
@@ -5585,7 +5577,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __Pyx_XDECREF_SET(__pyx_v_fields, ((PyObject*)__pyx_t_3));
     __pyx_t_3 = 0;
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":853
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":853
  *     for childname in descr.names:
  *         fields = descr.fields[childname]
  *         child, new_offset = fields             # <<<<<<<<<<<<<<
@@ -5620,7 +5612,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __Pyx_XDECREF_SET(__pyx_v_new_offset, __pyx_t_4);
     __pyx_t_4 = 0;
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":855
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":855
  *         child, new_offset = fields
  * 
  *         if (end - f) - <int>(new_offset - offset[0]) < 15:             # <<<<<<<<<<<<<<
@@ -5637,7 +5629,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __pyx_t_6 = ((((__pyx_v_end - __pyx_v_f) - ((int)__pyx_t_5)) < 15) != 0);
     if (unlikely(__pyx_t_6)) {
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":856
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":856
  * 
  *         if (end - f) - <int>(new_offset - offset[0]) < 15:
  *             raise RuntimeError(u"Format string allocated too short, see comment in numpy.pxd")             # <<<<<<<<<<<<<<
@@ -5650,7 +5642,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       __PYX_ERR(2, 856, __pyx_L1_error)
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":855
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":855
  *         child, new_offset = fields
  * 
  *         if (end - f) - <int>(new_offset - offset[0]) < 15:             # <<<<<<<<<<<<<<
@@ -5659,7 +5651,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
     }
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":858
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":858
  *             raise RuntimeError(u"Format string allocated too short, see comment in numpy.pxd")
  * 
  *         if ((child.byteorder == c'>' and little_endian) or             # <<<<<<<<<<<<<<
@@ -5679,7 +5671,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     }
     __pyx_L8_next_or:;
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":859
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":859
  * 
  *         if ((child.byteorder == c'>' and little_endian) or
  *             (child.byteorder == c'<' and not little_endian)):             # <<<<<<<<<<<<<<
@@ -5696,7 +5688,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __pyx_t_6 = __pyx_t_7;
     __pyx_L7_bool_binop_done:;
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":858
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":858
  *             raise RuntimeError(u"Format string allocated too short, see comment in numpy.pxd")
  * 
  *         if ((child.byteorder == c'>' and little_endian) or             # <<<<<<<<<<<<<<
@@ -5705,7 +5697,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
     if (unlikely(__pyx_t_6)) {
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":860
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":860
  *         if ((child.byteorder == c'>' and little_endian) or
  *             (child.byteorder == c'<' and not little_endian)):
  *             raise ValueError(u"Non-native byte order not supported")             # <<<<<<<<<<<<<<
@@ -5718,7 +5710,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       __PYX_ERR(2, 860, __pyx_L1_error)
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":858
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":858
  *             raise RuntimeError(u"Format string allocated too short, see comment in numpy.pxd")
  * 
  *         if ((child.byteorder == c'>' and little_endian) or             # <<<<<<<<<<<<<<
@@ -5727,7 +5719,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
     }
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":870
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":870
  * 
  *         # Output padding bytes
  *         while offset[0] < new_offset:             # <<<<<<<<<<<<<<
@@ -5743,7 +5735,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       if (!__pyx_t_6) break;
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":871
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":871
  *         # Output padding bytes
  *         while offset[0] < new_offset:
  *             f[0] = 120 # "x"; pad byte             # <<<<<<<<<<<<<<
@@ -5752,7 +5744,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
       (__pyx_v_f[0]) = 0x78;
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":872
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":872
  *         while offset[0] < new_offset:
  *             f[0] = 120 # "x"; pad byte
  *             f += 1             # <<<<<<<<<<<<<<
@@ -5761,7 +5753,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
       __pyx_v_f = (__pyx_v_f + 1);
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":873
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":873
  *             f[0] = 120 # "x"; pad byte
  *             f += 1
  *             offset[0] += 1             # <<<<<<<<<<<<<<
@@ -5772,7 +5764,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       (__pyx_v_offset[__pyx_t_8]) = ((__pyx_v_offset[__pyx_t_8]) + 1);
     }
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":875
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":875
  *             offset[0] += 1
  * 
  *         offset[0] += child.itemsize             # <<<<<<<<<<<<<<
@@ -5782,7 +5774,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __pyx_t_8 = 0;
     (__pyx_v_offset[__pyx_t_8]) = ((__pyx_v_offset[__pyx_t_8]) + __pyx_v_child->elsize);
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":877
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":877
  *         offset[0] += child.itemsize
  * 
  *         if not PyDataType_HASFIELDS(child):             # <<<<<<<<<<<<<<
@@ -5792,7 +5784,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __pyx_t_6 = ((!(PyDataType_HASFIELDS(__pyx_v_child) != 0)) != 0);
     if (__pyx_t_6) {
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":878
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":878
  * 
  *         if not PyDataType_HASFIELDS(child):
  *             t = child.type_num             # <<<<<<<<<<<<<<
@@ -5804,7 +5796,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       __Pyx_XDECREF_SET(__pyx_v_t, __pyx_t_4);
       __pyx_t_4 = 0;
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":879
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":879
  *         if not PyDataType_HASFIELDS(child):
  *             t = child.type_num
  *             if end - f < 5:             # <<<<<<<<<<<<<<
@@ -5814,7 +5806,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       __pyx_t_6 = (((__pyx_v_end - __pyx_v_f) < 5) != 0);
       if (unlikely(__pyx_t_6)) {
 
-        /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":880
+        /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":880
  *             t = child.type_num
  *             if end - f < 5:
  *                 raise RuntimeError(u"Format string allocated too short.")             # <<<<<<<<<<<<<<
@@ -5827,7 +5819,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
         __PYX_ERR(2, 880, __pyx_L1_error)
 
-        /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":879
+        /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":879
  *         if not PyDataType_HASFIELDS(child):
  *             t = child.type_num
  *             if end - f < 5:             # <<<<<<<<<<<<<<
@@ -5836,7 +5828,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
       }
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":883
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":883
  * 
  *             # Until ticket #99 is fixed, use integers to avoid warnings
  *             if   t == NPY_BYTE:        f[0] =  98 #"b"             # <<<<<<<<<<<<<<
@@ -5854,7 +5846,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":884
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":884
  *             # Until ticket #99 is fixed, use integers to avoid warnings
  *             if   t == NPY_BYTE:        f[0] =  98 #"b"
  *             elif t == NPY_UBYTE:       f[0] =  66 #"B"             # <<<<<<<<<<<<<<
@@ -5872,7 +5864,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":885
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":885
  *             if   t == NPY_BYTE:        f[0] =  98 #"b"
  *             elif t == NPY_UBYTE:       f[0] =  66 #"B"
  *             elif t == NPY_SHORT:       f[0] = 104 #"h"             # <<<<<<<<<<<<<<
@@ -5890,7 +5882,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":886
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":886
  *             elif t == NPY_UBYTE:       f[0] =  66 #"B"
  *             elif t == NPY_SHORT:       f[0] = 104 #"h"
  *             elif t == NPY_USHORT:      f[0] =  72 #"H"             # <<<<<<<<<<<<<<
@@ -5908,7 +5900,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":887
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":887
  *             elif t == NPY_SHORT:       f[0] = 104 #"h"
  *             elif t == NPY_USHORT:      f[0] =  72 #"H"
  *             elif t == NPY_INT:         f[0] = 105 #"i"             # <<<<<<<<<<<<<<
@@ -5926,7 +5918,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":888
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":888
  *             elif t == NPY_USHORT:      f[0] =  72 #"H"
  *             elif t == NPY_INT:         f[0] = 105 #"i"
  *             elif t == NPY_UINT:        f[0] =  73 #"I"             # <<<<<<<<<<<<<<
@@ -5944,7 +5936,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":889
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":889
  *             elif t == NPY_INT:         f[0] = 105 #"i"
  *             elif t == NPY_UINT:        f[0] =  73 #"I"
  *             elif t == NPY_LONG:        f[0] = 108 #"l"             # <<<<<<<<<<<<<<
@@ -5962,7 +5954,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":890
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":890
  *             elif t == NPY_UINT:        f[0] =  73 #"I"
  *             elif t == NPY_LONG:        f[0] = 108 #"l"
  *             elif t == NPY_ULONG:       f[0] = 76  #"L"             # <<<<<<<<<<<<<<
@@ -5980,7 +5972,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":891
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":891
  *             elif t == NPY_LONG:        f[0] = 108 #"l"
  *             elif t == NPY_ULONG:       f[0] = 76  #"L"
  *             elif t == NPY_LONGLONG:    f[0] = 113 #"q"             # <<<<<<<<<<<<<<
@@ -5998,7 +5990,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":892
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":892
  *             elif t == NPY_ULONG:       f[0] = 76  #"L"
  *             elif t == NPY_LONGLONG:    f[0] = 113 #"q"
  *             elif t == NPY_ULONGLONG:   f[0] = 81  #"Q"             # <<<<<<<<<<<<<<
@@ -6016,7 +6008,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":893
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":893
  *             elif t == NPY_LONGLONG:    f[0] = 113 #"q"
  *             elif t == NPY_ULONGLONG:   f[0] = 81  #"Q"
  *             elif t == NPY_FLOAT:       f[0] = 102 #"f"             # <<<<<<<<<<<<<<
@@ -6034,7 +6026,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":894
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":894
  *             elif t == NPY_ULONGLONG:   f[0] = 81  #"Q"
  *             elif t == NPY_FLOAT:       f[0] = 102 #"f"
  *             elif t == NPY_DOUBLE:      f[0] = 100 #"d"             # <<<<<<<<<<<<<<
@@ -6052,7 +6044,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":895
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":895
  *             elif t == NPY_FLOAT:       f[0] = 102 #"f"
  *             elif t == NPY_DOUBLE:      f[0] = 100 #"d"
  *             elif t == NPY_LONGDOUBLE:  f[0] = 103 #"g"             # <<<<<<<<<<<<<<
@@ -6070,7 +6062,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":896
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":896
  *             elif t == NPY_DOUBLE:      f[0] = 100 #"d"
  *             elif t == NPY_LONGDOUBLE:  f[0] = 103 #"g"
  *             elif t == NPY_CFLOAT:      f[0] = 90; f[1] = 102; f += 1 # Zf             # <<<<<<<<<<<<<<
@@ -6090,7 +6082,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":897
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":897
  *             elif t == NPY_LONGDOUBLE:  f[0] = 103 #"g"
  *             elif t == NPY_CFLOAT:      f[0] = 90; f[1] = 102; f += 1 # Zf
  *             elif t == NPY_CDOUBLE:     f[0] = 90; f[1] = 100; f += 1 # Zd             # <<<<<<<<<<<<<<
@@ -6110,7 +6102,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":898
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":898
  *             elif t == NPY_CFLOAT:      f[0] = 90; f[1] = 102; f += 1 # Zf
  *             elif t == NPY_CDOUBLE:     f[0] = 90; f[1] = 100; f += 1 # Zd
  *             elif t == NPY_CLONGDOUBLE: f[0] = 90; f[1] = 103; f += 1 # Zg             # <<<<<<<<<<<<<<
@@ -6130,7 +6122,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":899
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":899
  *             elif t == NPY_CDOUBLE:     f[0] = 90; f[1] = 100; f += 1 # Zd
  *             elif t == NPY_CLONGDOUBLE: f[0] = 90; f[1] = 103; f += 1 # Zg
  *             elif t == NPY_OBJECT:      f[0] = 79 #"O"             # <<<<<<<<<<<<<<
@@ -6148,7 +6140,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":901
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":901
  *             elif t == NPY_OBJECT:      f[0] = 79 #"O"
  *             else:
  *                 raise ValueError(u"unknown dtype code in numpy.pxd (%d)" % t)             # <<<<<<<<<<<<<<
@@ -6167,7 +6159,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       }
       __pyx_L15:;
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":902
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":902
  *             else:
  *                 raise ValueError(u"unknown dtype code in numpy.pxd (%d)" % t)
  *             f += 1             # <<<<<<<<<<<<<<
@@ -6176,7 +6168,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
       __pyx_v_f = (__pyx_v_f + 1);
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":877
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":877
  *         offset[0] += child.itemsize
  * 
  *         if not PyDataType_HASFIELDS(child):             # <<<<<<<<<<<<<<
@@ -6186,7 +6178,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       goto __pyx_L13;
     }
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":906
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":906
  *             # Cython ignores struct boundary information ("T{...}"),
  *             # so don't output it
  *             f = _util_dtypestring(child, f, end, offset)             # <<<<<<<<<<<<<<
@@ -6199,7 +6191,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     }
     __pyx_L13:;
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":851
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":851
  *     cdef tuple fields
  * 
  *     for childname in descr.names:             # <<<<<<<<<<<<<<
@@ -6209,7 +6201,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":907
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":907
  *             # so don't output it
  *             f = _util_dtypestring(child, f, end, offset)
  *     return f             # <<<<<<<<<<<<<<
@@ -6219,7 +6211,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
   __pyx_r = __pyx_v_f;
   goto __pyx_L0;
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":842
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":842
  *         return ()
  * 
  * cdef inline char* _util_dtypestring(dtype descr, char* f, char* end, int* offset) except NULL:             # <<<<<<<<<<<<<<
@@ -6244,7 +6236,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
   return __pyx_r;
 }
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1022
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1022
  *     int _import_umath() except -1
  * 
  * cdef inline void set_array_base(ndarray arr, object base):             # <<<<<<<<<<<<<<
@@ -6256,7 +6248,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("set_array_base", 0);
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1023
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1023
  * 
  * cdef inline void set_array_base(ndarray arr, object base):
  *     Py_INCREF(base) # important to do this before stealing the reference below!             # <<<<<<<<<<<<<<
@@ -6265,7 +6257,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
  */
   Py_INCREF(__pyx_v_base);
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1024
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1024
  * cdef inline void set_array_base(ndarray arr, object base):
  *     Py_INCREF(base) # important to do this before stealing the reference below!
  *     PyArray_SetBaseObject(arr, base)             # <<<<<<<<<<<<<<
@@ -6274,7 +6266,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
  */
   (void)(PyArray_SetBaseObject(__pyx_v_arr, __pyx_v_base));
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1022
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1022
  *     int _import_umath() except -1
  * 
  * cdef inline void set_array_base(ndarray arr, object base):             # <<<<<<<<<<<<<<
@@ -6286,7 +6278,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   __Pyx_RefNannyFinishContext();
 }
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1026
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1026
  *     PyArray_SetBaseObject(arr, base)
  * 
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
@@ -6301,7 +6293,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("get_array_base", 0);
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1027
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1027
  * 
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)             # <<<<<<<<<<<<<<
@@ -6310,7 +6302,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
  */
   __pyx_v_base = PyArray_BASE(__pyx_v_arr);
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1028
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1028
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)
  *     if base is NULL:             # <<<<<<<<<<<<<<
@@ -6320,7 +6312,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   __pyx_t_1 = ((__pyx_v_base == NULL) != 0);
   if (__pyx_t_1) {
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1029
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1029
  *     base = PyArray_BASE(arr)
  *     if base is NULL:
  *         return None             # <<<<<<<<<<<<<<
@@ -6331,7 +6323,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
     __pyx_r = Py_None; __Pyx_INCREF(Py_None);
     goto __pyx_L0;
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1028
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1028
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)
  *     if base is NULL:             # <<<<<<<<<<<<<<
@@ -6340,7 +6332,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
  */
   }
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1030
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1030
  *     if base is NULL:
  *         return None
  *     return <object>base             # <<<<<<<<<<<<<<
@@ -6352,7 +6344,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   __pyx_r = ((PyObject *)__pyx_v_base);
   goto __pyx_L0;
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1026
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1026
  *     PyArray_SetBaseObject(arr, base)
  * 
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
@@ -6367,7 +6359,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   return __pyx_r;
 }
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1034
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1034
  * # Versions of the import_* functions which are more suitable for
  * # Cython code.
  * cdef inline int import_array() except -1:             # <<<<<<<<<<<<<<
@@ -6388,7 +6380,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
   PyObject *__pyx_t_8 = NULL;
   __Pyx_RefNannySetupContext("import_array", 0);
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1035
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1035
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -6404,7 +6396,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1036
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1036
  * cdef inline int import_array() except -1:
  *     try:
  *         _import_array()             # <<<<<<<<<<<<<<
@@ -6413,7 +6405,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
  */
       __pyx_t_4 = _import_array(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 1036, __pyx_L3_error)
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1035
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1035
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -6427,7 +6419,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1037
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1037
  *     try:
  *         _import_array()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -6442,7 +6434,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_GOTREF(__pyx_t_7);
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1038
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1038
  *         _import_array()
  *     except Exception:
  *         raise ImportError("numpy.core.multiarray failed to import")             # <<<<<<<<<<<<<<
@@ -6458,7 +6450,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     goto __pyx_L5_except_error;
     __pyx_L5_except_error:;
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1035
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1035
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -6473,7 +6465,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1034
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1034
  * # Versions of the import_* functions which are more suitable for
  * # Cython code.
  * cdef inline int import_array() except -1:             # <<<<<<<<<<<<<<
@@ -6496,7 +6488,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
   return __pyx_r;
 }
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1040
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1040
  *         raise ImportError("numpy.core.multiarray failed to import")
  * 
  * cdef inline int import_umath() except -1:             # <<<<<<<<<<<<<<
@@ -6517,7 +6509,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
   PyObject *__pyx_t_8 = NULL;
   __Pyx_RefNannySetupContext("import_umath", 0);
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1041
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1041
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -6533,7 +6525,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1042
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1042
  * cdef inline int import_umath() except -1:
  *     try:
  *         _import_umath()             # <<<<<<<<<<<<<<
@@ -6542,7 +6534,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
  */
       __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 1042, __pyx_L3_error)
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1041
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1041
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -6556,7 +6548,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1043
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1043
  *     try:
  *         _import_umath()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -6571,7 +6563,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_GOTREF(__pyx_t_7);
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1044
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1044
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
@@ -6587,7 +6579,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     goto __pyx_L5_except_error;
     __pyx_L5_except_error:;
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1041
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1041
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -6602,7 +6594,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1040
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1040
  *         raise ImportError("numpy.core.multiarray failed to import")
  * 
  * cdef inline int import_umath() except -1:             # <<<<<<<<<<<<<<
@@ -6625,7 +6617,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
   return __pyx_r;
 }
 
-/* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1046
+/* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1046
  *         raise ImportError("numpy.core.umath failed to import")
  * 
  * cdef inline int import_ufunc() except -1:             # <<<<<<<<<<<<<<
@@ -6646,7 +6638,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
   PyObject *__pyx_t_8 = NULL;
   __Pyx_RefNannySetupContext("import_ufunc", 0);
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1047
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1047
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -6662,7 +6654,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1048
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1048
  * cdef inline int import_ufunc() except -1:
  *     try:
  *         _import_umath()             # <<<<<<<<<<<<<<
@@ -6671,7 +6663,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
  */
       __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 1048, __pyx_L3_error)
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1047
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1047
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -6685,7 +6677,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1049
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1049
  *     try:
  *         _import_umath()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -6699,7 +6691,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_GOTREF(__pyx_t_7);
 
-      /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1050
+      /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1050
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
@@ -6713,7 +6705,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     goto __pyx_L5_except_error;
     __pyx_L5_except_error:;
 
-    /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1047
+    /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1047
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -6728,7 +6720,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1046
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1046
  *         raise ImportError("numpy.core.umath failed to import")
  * 
  * cdef inline int import_ufunc() except -1:             # <<<<<<<<<<<<<<
@@ -19573,10 +19565,10 @@ static PyObject *__pyx_unpickle_Enum__set_state(struct __pyx_MemviewEnum_obj *__
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
-static struct __pyx_vtabstruct_5cygym_4envs_8pendulum_FastPendulumEnv __pyx_vtable_5cygym_4envs_8pendulum_FastPendulumEnv;
+static struct __pyx_vtabstruct_5cygym_8pendulum_CyPendulumEnv __pyx_vtable_5cygym_8pendulum_CyPendulumEnv;
 
-static PyObject *__pyx_tp_new_5cygym_4envs_8pendulum_FastPendulumEnv(PyTypeObject *t, PyObject *a, PyObject *k) {
-  struct __pyx_obj_5cygym_4envs_8pendulum_FastPendulumEnv *p;
+static PyObject *__pyx_tp_new_5cygym_8pendulum_CyPendulumEnv(PyTypeObject *t, PyObject *a, PyObject *k) {
+  struct __pyx_obj_5cygym_8pendulum_CyPendulumEnv *p;
   PyObject *o;
   if (likely((t->tp_flags & Py_TPFLAGS_IS_ABSTRACT) == 0)) {
     o = (*t->tp_alloc)(t, 0);
@@ -19584,22 +19576,22 @@ static PyObject *__pyx_tp_new_5cygym_4envs_8pendulum_FastPendulumEnv(PyTypeObjec
     o = (PyObject *) PyBaseObject_Type.tp_new(t, __pyx_empty_tuple, 0);
   }
   if (unlikely(!o)) return 0;
-  p = ((struct __pyx_obj_5cygym_4envs_8pendulum_FastPendulumEnv *)o);
-  p->__pyx_vtab = __pyx_vtabptr_5cygym_4envs_8pendulum_FastPendulumEnv;
+  p = ((struct __pyx_obj_5cygym_8pendulum_CyPendulumEnv *)o);
+  p->__pyx_vtab = __pyx_vtabptr_5cygym_8pendulum_CyPendulumEnv;
   p->action_space = Py_None; Py_INCREF(Py_None);
   p->observation_space = Py_None; Py_INCREF(Py_None);
   p->np_random = Py_None; Py_INCREF(Py_None);
   p->state.data = NULL;
   p->state.memview = NULL;
-  if (unlikely(__pyx_pw_5cygym_4envs_8pendulum_15FastPendulumEnv_3__cinit__(o, a, k) < 0)) goto bad;
+  if (unlikely(__pyx_pw_5cygym_8pendulum_13CyPendulumEnv_3__cinit__(o, a, k) < 0)) goto bad;
   return o;
   bad:
   Py_DECREF(o); o = 0;
   return NULL;
 }
 
-static void __pyx_tp_dealloc_5cygym_4envs_8pendulum_FastPendulumEnv(PyObject *o) {
-  struct __pyx_obj_5cygym_4envs_8pendulum_FastPendulumEnv *p = (struct __pyx_obj_5cygym_4envs_8pendulum_FastPendulumEnv *)o;
+static void __pyx_tp_dealloc_5cygym_8pendulum_CyPendulumEnv(PyObject *o) {
+  struct __pyx_obj_5cygym_8pendulum_CyPendulumEnv *p = (struct __pyx_obj_5cygym_8pendulum_CyPendulumEnv *)o;
   #if CYTHON_USE_TP_FINALIZE
   if (unlikely(PyType_HasFeature(Py_TYPE(o), Py_TPFLAGS_HAVE_FINALIZE) && Py_TYPE(o)->tp_finalize) && !_PyGC_FINALIZED(o)) {
     if (PyObject_CallFinalizerFromDealloc(o)) return;
@@ -19613,9 +19605,9 @@ static void __pyx_tp_dealloc_5cygym_4envs_8pendulum_FastPendulumEnv(PyObject *o)
   (*Py_TYPE(o)->tp_free)(o);
 }
 
-static int __pyx_tp_traverse_5cygym_4envs_8pendulum_FastPendulumEnv(PyObject *o, visitproc v, void *a) {
+static int __pyx_tp_traverse_5cygym_8pendulum_CyPendulumEnv(PyObject *o, visitproc v, void *a) {
   int e;
-  struct __pyx_obj_5cygym_4envs_8pendulum_FastPendulumEnv *p = (struct __pyx_obj_5cygym_4envs_8pendulum_FastPendulumEnv *)o;
+  struct __pyx_obj_5cygym_8pendulum_CyPendulumEnv *p = (struct __pyx_obj_5cygym_8pendulum_CyPendulumEnv *)o;
   if (p->action_space) {
     e = (*v)(p->action_space, a); if (e) return e;
   }
@@ -19628,9 +19620,9 @@ static int __pyx_tp_traverse_5cygym_4envs_8pendulum_FastPendulumEnv(PyObject *o,
   return 0;
 }
 
-static int __pyx_tp_clear_5cygym_4envs_8pendulum_FastPendulumEnv(PyObject *o) {
+static int __pyx_tp_clear_5cygym_8pendulum_CyPendulumEnv(PyObject *o) {
   PyObject* tmp;
-  struct __pyx_obj_5cygym_4envs_8pendulum_FastPendulumEnv *p = (struct __pyx_obj_5cygym_4envs_8pendulum_FastPendulumEnv *)o;
+  struct __pyx_obj_5cygym_8pendulum_CyPendulumEnv *p = (struct __pyx_obj_5cygym_8pendulum_CyPendulumEnv *)o;
   tmp = ((PyObject*)p->action_space);
   p->action_space = Py_None; Py_INCREF(Py_None);
   Py_XDECREF(tmp);
@@ -19643,36 +19635,36 @@ static int __pyx_tp_clear_5cygym_4envs_8pendulum_FastPendulumEnv(PyObject *o) {
   return 0;
 }
 
-static PyObject *__pyx_getprop_5cygym_4envs_8pendulum_15FastPendulumEnv_action_space(PyObject *o, CYTHON_UNUSED void *x) {
-  return __pyx_pw_5cygym_4envs_8pendulum_15FastPendulumEnv_12action_space_1__get__(o);
+static PyObject *__pyx_getprop_5cygym_8pendulum_13CyPendulumEnv_action_space(PyObject *o, CYTHON_UNUSED void *x) {
+  return __pyx_pw_5cygym_8pendulum_13CyPendulumEnv_12action_space_1__get__(o);
 }
 
-static PyObject *__pyx_getprop_5cygym_4envs_8pendulum_15FastPendulumEnv_observation_space(PyObject *o, CYTHON_UNUSED void *x) {
-  return __pyx_pw_5cygym_4envs_8pendulum_15FastPendulumEnv_17observation_space_1__get__(o);
+static PyObject *__pyx_getprop_5cygym_8pendulum_13CyPendulumEnv_observation_space(PyObject *o, CYTHON_UNUSED void *x) {
+  return __pyx_pw_5cygym_8pendulum_13CyPendulumEnv_17observation_space_1__get__(o);
 }
 
-static PyMethodDef __pyx_methods_5cygym_4envs_8pendulum_FastPendulumEnv[] = {
-  {"unwrapped", (PyCFunction)__pyx_pw_5cygym_4envs_8pendulum_15FastPendulumEnv_1unwrapped, METH_NOARGS, 0},
-  {"step", (PyCFunction)__pyx_pw_5cygym_4envs_8pendulum_15FastPendulumEnv_5step, METH_O, 0},
-  {"reset", (PyCFunction)__pyx_pw_5cygym_4envs_8pendulum_15FastPendulumEnv_7reset, METH_NOARGS, 0},
-  {"_get_obs", (PyCFunction)__pyx_pw_5cygym_4envs_8pendulum_15FastPendulumEnv_9_get_obs, METH_NOARGS, 0},
-  {"__reduce_cython__", (PyCFunction)__pyx_pw_5cygym_4envs_8pendulum_15FastPendulumEnv_11__reduce_cython__, METH_NOARGS, 0},
-  {"__setstate_cython__", (PyCFunction)__pyx_pw_5cygym_4envs_8pendulum_15FastPendulumEnv_13__setstate_cython__, METH_O, 0},
+static PyMethodDef __pyx_methods_5cygym_8pendulum_CyPendulumEnv[] = {
+  {"unwrapped", (PyCFunction)__pyx_pw_5cygym_8pendulum_13CyPendulumEnv_1unwrapped, METH_NOARGS, 0},
+  {"step", (PyCFunction)__pyx_pw_5cygym_8pendulum_13CyPendulumEnv_5step, METH_O, 0},
+  {"reset", (PyCFunction)__pyx_pw_5cygym_8pendulum_13CyPendulumEnv_7reset, METH_NOARGS, 0},
+  {"_get_obs", (PyCFunction)__pyx_pw_5cygym_8pendulum_13CyPendulumEnv_9_get_obs, METH_NOARGS, 0},
+  {"__reduce_cython__", (PyCFunction)__pyx_pw_5cygym_8pendulum_13CyPendulumEnv_11__reduce_cython__, METH_NOARGS, 0},
+  {"__setstate_cython__", (PyCFunction)__pyx_pw_5cygym_8pendulum_13CyPendulumEnv_13__setstate_cython__, METH_O, 0},
   {0, 0, 0, 0}
 };
 
-static struct PyGetSetDef __pyx_getsets_5cygym_4envs_8pendulum_FastPendulumEnv[] = {
-  {(char *)"action_space", __pyx_getprop_5cygym_4envs_8pendulum_15FastPendulumEnv_action_space, 0, (char *)0, 0},
-  {(char *)"observation_space", __pyx_getprop_5cygym_4envs_8pendulum_15FastPendulumEnv_observation_space, 0, (char *)0, 0},
+static struct PyGetSetDef __pyx_getsets_5cygym_8pendulum_CyPendulumEnv[] = {
+  {(char *)"action_space", __pyx_getprop_5cygym_8pendulum_13CyPendulumEnv_action_space, 0, (char *)0, 0},
+  {(char *)"observation_space", __pyx_getprop_5cygym_8pendulum_13CyPendulumEnv_observation_space, 0, (char *)0, 0},
   {0, 0, 0, 0, 0}
 };
 
-static PyTypeObject __pyx_type_5cygym_4envs_8pendulum_FastPendulumEnv = {
+static PyTypeObject __pyx_type_5cygym_8pendulum_CyPendulumEnv = {
   PyVarObject_HEAD_INIT(0, 0)
-  "cygym.envs.pendulum.FastPendulumEnv", /*tp_name*/
-  sizeof(struct __pyx_obj_5cygym_4envs_8pendulum_FastPendulumEnv), /*tp_basicsize*/
+  "cygym.pendulum.CyPendulumEnv", /*tp_name*/
+  sizeof(struct __pyx_obj_5cygym_8pendulum_CyPendulumEnv), /*tp_basicsize*/
   0, /*tp_itemsize*/
-  __pyx_tp_dealloc_5cygym_4envs_8pendulum_FastPendulumEnv, /*tp_dealloc*/
+  __pyx_tp_dealloc_5cygym_8pendulum_CyPendulumEnv, /*tp_dealloc*/
   #if PY_VERSION_HEX < 0x030800b4
   0, /*tp_print*/
   #endif
@@ -19699,15 +19691,15 @@ static PyTypeObject __pyx_type_5cygym_4envs_8pendulum_FastPendulumEnv = {
   0, /*tp_as_buffer*/
   Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_HAVE_GC, /*tp_flags*/
   0, /*tp_doc*/
-  __pyx_tp_traverse_5cygym_4envs_8pendulum_FastPendulumEnv, /*tp_traverse*/
-  __pyx_tp_clear_5cygym_4envs_8pendulum_FastPendulumEnv, /*tp_clear*/
+  __pyx_tp_traverse_5cygym_8pendulum_CyPendulumEnv, /*tp_traverse*/
+  __pyx_tp_clear_5cygym_8pendulum_CyPendulumEnv, /*tp_clear*/
   0, /*tp_richcompare*/
   0, /*tp_weaklistoffset*/
   0, /*tp_iter*/
   0, /*tp_iternext*/
-  __pyx_methods_5cygym_4envs_8pendulum_FastPendulumEnv, /*tp_methods*/
+  __pyx_methods_5cygym_8pendulum_CyPendulumEnv, /*tp_methods*/
   0, /*tp_members*/
-  __pyx_getsets_5cygym_4envs_8pendulum_FastPendulumEnv, /*tp_getset*/
+  __pyx_getsets_5cygym_8pendulum_CyPendulumEnv, /*tp_getset*/
   0, /*tp_base*/
   0, /*tp_dict*/
   0, /*tp_descr_get*/
@@ -19715,7 +19707,7 @@ static PyTypeObject __pyx_type_5cygym_4envs_8pendulum_FastPendulumEnv = {
   0, /*tp_dictoffset*/
   0, /*tp_init*/
   0, /*tp_alloc*/
-  __pyx_tp_new_5cygym_4envs_8pendulum_FastPendulumEnv, /*tp_new*/
+  __pyx_tp_new_5cygym_8pendulum_CyPendulumEnv, /*tp_new*/
   0, /*tp_free*/
   0, /*tp_is_gc*/
   0, /*tp_bases*/
@@ -19858,7 +19850,7 @@ static PyBufferProcs __pyx_tp_as_buffer_array = {
 
 static PyTypeObject __pyx_type___pyx_array = {
   PyVarObject_HEAD_INIT(0, 0)
-  "cygym.envs.pendulum.array", /*tp_name*/
+  "cygym.pendulum.array", /*tp_name*/
   sizeof(struct __pyx_array_obj), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc_array, /*tp_dealloc*/
@@ -19977,7 +19969,7 @@ static PyMethodDef __pyx_methods_Enum[] = {
 
 static PyTypeObject __pyx_type___pyx_MemviewEnum = {
   PyVarObject_HEAD_INIT(0, 0)
-  "cygym.envs.pendulum.Enum", /*tp_name*/
+  "cygym.pendulum.Enum", /*tp_name*/
   sizeof(struct __pyx_MemviewEnum_obj), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc_Enum, /*tp_dealloc*/
@@ -20238,7 +20230,7 @@ static PyBufferProcs __pyx_tp_as_buffer_memoryview = {
 
 static PyTypeObject __pyx_type___pyx_memoryview = {
   PyVarObject_HEAD_INIT(0, 0)
-  "cygym.envs.pendulum.memoryview", /*tp_name*/
+  "cygym.pendulum.memoryview", /*tp_name*/
   sizeof(struct __pyx_memoryview_obj), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc_memoryview, /*tp_dealloc*/
@@ -20376,7 +20368,7 @@ static struct PyGetSetDef __pyx_getsets__memoryviewslice[] = {
 
 static PyTypeObject __pyx_type___pyx_memoryviewslice = {
   PyVarObject_HEAD_INIT(0, 0)
-  "cygym.envs.pendulum._memoryviewslice", /*tp_name*/
+  "cygym.pendulum._memoryviewslice", /*tp_name*/
   sizeof(struct __pyx_memoryviewslice_obj), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc__memoryviewslice, /*tp_dealloc*/
@@ -20469,7 +20461,7 @@ static PyModuleDef_Slot __pyx_moduledef_slots[] = {
 static struct PyModuleDef __pyx_moduledef = {
     PyModuleDef_HEAD_INIT,
     "pendulum",
-    0, /* m_doc */
+    __pyx_k_Credit_This_code_has_been_adapt, /* m_doc */
   #if CYTHON_PEP489_MULTI_PHASE_INIT
     0, /* m_size */
   #else
@@ -20504,9 +20496,9 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_kp_s_Cannot_assign_to_read_only_memor, __pyx_k_Cannot_assign_to_read_only_memor, sizeof(__pyx_k_Cannot_assign_to_read_only_memor), 0, 0, 1, 0},
   {&__pyx_kp_s_Cannot_create_writable_memory_vi, __pyx_k_Cannot_create_writable_memory_vi, sizeof(__pyx_k_Cannot_create_writable_memory_vi), 0, 0, 1, 0},
   {&__pyx_kp_s_Cannot_index_with_type_s, __pyx_k_Cannot_index_with_type_s, sizeof(__pyx_k_Cannot_index_with_type_s), 0, 0, 1, 0},
+  {&__pyx_n_s_CyPendulumEnv, __pyx_k_CyPendulumEnv, sizeof(__pyx_k_CyPendulumEnv), 0, 0, 1, 1},
   {&__pyx_n_s_Ellipsis, __pyx_k_Ellipsis, sizeof(__pyx_k_Ellipsis), 0, 0, 1, 1},
   {&__pyx_kp_s_Empty_shape_tuple_for_cython_arr, __pyx_k_Empty_shape_tuple_for_cython_arr, sizeof(__pyx_k_Empty_shape_tuple_for_cython_arr), 0, 0, 1, 0},
-  {&__pyx_n_s_FastPendulumEnv, __pyx_k_FastPendulumEnv, sizeof(__pyx_k_FastPendulumEnv), 0, 0, 1, 1},
   {&__pyx_kp_u_Format_string_allocated_too_shor, __pyx_k_Format_string_allocated_too_shor, sizeof(__pyx_k_Format_string_allocated_too_shor), 0, 1, 0, 0},
   {&__pyx_kp_u_Format_string_allocated_too_shor_2, __pyx_k_Format_string_allocated_too_shor_2, sizeof(__pyx_k_Format_string_allocated_too_shor_2), 0, 1, 0, 0},
   {&__pyx_n_s_ImportError, __pyx_k_ImportError, sizeof(__pyx_k_ImportError), 0, 0, 1, 1},
@@ -20634,14 +20626,14 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__Pyx_InitCachedConstants", 0);
 
-  /* "cygym/envs/pendulum.pyx":55
+  /* "cygym/pendulum.pyx":62
  *         self.l = 1.
  * 
  *         self.action_space = Box(low=-self.max_torque, high=self.max_torque, shape=(1,))             # <<<<<<<<<<<<<<
  *         self.observation_space = Box(low=np.array((-1., -1., -self.max_speed)),
  *                                      high=np.array((1., 1., self.max_speed)))
  */
-  __pyx_tuple_ = PyTuple_Pack(1, __pyx_int_1); if (unlikely(!__pyx_tuple_)) __PYX_ERR(1, 55, __pyx_L1_error)
+  __pyx_tuple_ = PyTuple_Pack(1, __pyx_int_1); if (unlikely(!__pyx_tuple_)) __PYX_ERR(1, 62, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple_);
   __Pyx_GIVEREF(__pyx_tuple_);
 
@@ -20664,7 +20656,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__3);
   __Pyx_GIVEREF(__pyx_tuple__3);
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":272
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":272
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_ARRAY_C_CONTIGUOUS)):
  *                 raise ValueError(u"ndarray is not C contiguous")             # <<<<<<<<<<<<<<
@@ -20675,7 +20667,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__4);
   __Pyx_GIVEREF(__pyx_tuple__4);
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":276
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":276
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_ARRAY_F_CONTIGUOUS)):
  *                 raise ValueError(u"ndarray is not Fortran contiguous")             # <<<<<<<<<<<<<<
@@ -20686,7 +20678,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__5);
   __Pyx_GIVEREF(__pyx_tuple__5);
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":306
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":306
  *                 if ((descr.byteorder == c'>' and little_endian) or
  *                     (descr.byteorder == c'<' and not little_endian)):
  *                     raise ValueError(u"Non-native byte order not supported")             # <<<<<<<<<<<<<<
@@ -20697,7 +20689,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__6);
   __Pyx_GIVEREF(__pyx_tuple__6);
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":856
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":856
  * 
  *         if (end - f) - <int>(new_offset - offset[0]) < 15:
  *             raise RuntimeError(u"Format string allocated too short, see comment in numpy.pxd")             # <<<<<<<<<<<<<<
@@ -20708,7 +20700,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__7);
   __Pyx_GIVEREF(__pyx_tuple__7);
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":880
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":880
  *             t = child.type_num
  *             if end - f < 5:
  *                 raise RuntimeError(u"Format string allocated too short.")             # <<<<<<<<<<<<<<
@@ -20719,7 +20711,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__8);
   __Pyx_GIVEREF(__pyx_tuple__8);
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1038
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1038
  *         _import_array()
  *     except Exception:
  *         raise ImportError("numpy.core.multiarray failed to import")             # <<<<<<<<<<<<<<
@@ -20730,7 +20722,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__9);
   __Pyx_GIVEREF(__pyx_tuple__9);
 
-  /* "../../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1044
+  /* "../../anaconda3/envs/fast_gym/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1044
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
@@ -21058,22 +21050,22 @@ static int __Pyx_modinit_type_init_code(void) {
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__Pyx_modinit_type_init_code", 0);
   /*--- Type init code ---*/
-  __pyx_vtabptr_5cygym_4envs_8pendulum_FastPendulumEnv = &__pyx_vtable_5cygym_4envs_8pendulum_FastPendulumEnv;
-  __pyx_vtable_5cygym_4envs_8pendulum_FastPendulumEnv.seed = (void (*)(struct __pyx_obj_5cygym_4envs_8pendulum_FastPendulumEnv *, struct __pyx_opt_args_5cygym_4envs_8pendulum_15FastPendulumEnv_seed *__pyx_optional_args))__pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_seed;
-  __pyx_vtable_5cygym_4envs_8pendulum_FastPendulumEnv.step = (PyObject *(*)(struct __pyx_obj_5cygym_4envs_8pendulum_FastPendulumEnv *, float, int __pyx_skip_dispatch))__pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_step;
-  __pyx_vtable_5cygym_4envs_8pendulum_FastPendulumEnv.reset = (PyArrayObject *(*)(struct __pyx_obj_5cygym_4envs_8pendulum_FastPendulumEnv *, int __pyx_skip_dispatch))__pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv_reset;
-  __pyx_vtable_5cygym_4envs_8pendulum_FastPendulumEnv._get_obs = (PyObject *(*)(struct __pyx_obj_5cygym_4envs_8pendulum_FastPendulumEnv *, int __pyx_skip_dispatch))__pyx_f_5cygym_4envs_8pendulum_15FastPendulumEnv__get_obs;
-  if (PyType_Ready(&__pyx_type_5cygym_4envs_8pendulum_FastPendulumEnv) < 0) __PYX_ERR(1, 21, __pyx_L1_error)
+  __pyx_vtabptr_5cygym_8pendulum_CyPendulumEnv = &__pyx_vtable_5cygym_8pendulum_CyPendulumEnv;
+  __pyx_vtable_5cygym_8pendulum_CyPendulumEnv.seed = (void (*)(struct __pyx_obj_5cygym_8pendulum_CyPendulumEnv *, struct __pyx_opt_args_5cygym_8pendulum_13CyPendulumEnv_seed *__pyx_optional_args))__pyx_f_5cygym_8pendulum_13CyPendulumEnv_seed;
+  __pyx_vtable_5cygym_8pendulum_CyPendulumEnv.step = (PyObject *(*)(struct __pyx_obj_5cygym_8pendulum_CyPendulumEnv *, float, int __pyx_skip_dispatch))__pyx_f_5cygym_8pendulum_13CyPendulumEnv_step;
+  __pyx_vtable_5cygym_8pendulum_CyPendulumEnv.reset = (PyArrayObject *(*)(struct __pyx_obj_5cygym_8pendulum_CyPendulumEnv *, int __pyx_skip_dispatch))__pyx_f_5cygym_8pendulum_13CyPendulumEnv_reset;
+  __pyx_vtable_5cygym_8pendulum_CyPendulumEnv._get_obs = (PyObject *(*)(struct __pyx_obj_5cygym_8pendulum_CyPendulumEnv *, int __pyx_skip_dispatch))__pyx_f_5cygym_8pendulum_13CyPendulumEnv__get_obs;
+  if (PyType_Ready(&__pyx_type_5cygym_8pendulum_CyPendulumEnv) < 0) __PYX_ERR(1, 28, __pyx_L1_error)
   #if PY_VERSION_HEX < 0x030800B1
-  __pyx_type_5cygym_4envs_8pendulum_FastPendulumEnv.tp_print = 0;
+  __pyx_type_5cygym_8pendulum_CyPendulumEnv.tp_print = 0;
   #endif
-  if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_type_5cygym_4envs_8pendulum_FastPendulumEnv.tp_dictoffset && __pyx_type_5cygym_4envs_8pendulum_FastPendulumEnv.tp_getattro == PyObject_GenericGetAttr)) {
-    __pyx_type_5cygym_4envs_8pendulum_FastPendulumEnv.tp_getattro = __Pyx_PyObject_GenericGetAttr;
+  if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_type_5cygym_8pendulum_CyPendulumEnv.tp_dictoffset && __pyx_type_5cygym_8pendulum_CyPendulumEnv.tp_getattro == PyObject_GenericGetAttr)) {
+    __pyx_type_5cygym_8pendulum_CyPendulumEnv.tp_getattro = __Pyx_PyObject_GenericGetAttr;
   }
-  if (__Pyx_SetVtable(__pyx_type_5cygym_4envs_8pendulum_FastPendulumEnv.tp_dict, __pyx_vtabptr_5cygym_4envs_8pendulum_FastPendulumEnv) < 0) __PYX_ERR(1, 21, __pyx_L1_error)
-  if (PyObject_SetAttr(__pyx_m, __pyx_n_s_FastPendulumEnv, (PyObject *)&__pyx_type_5cygym_4envs_8pendulum_FastPendulumEnv) < 0) __PYX_ERR(1, 21, __pyx_L1_error)
-  if (__Pyx_setup_reduce((PyObject*)&__pyx_type_5cygym_4envs_8pendulum_FastPendulumEnv) < 0) __PYX_ERR(1, 21, __pyx_L1_error)
-  __pyx_ptype_5cygym_4envs_8pendulum_FastPendulumEnv = &__pyx_type_5cygym_4envs_8pendulum_FastPendulumEnv;
+  if (__Pyx_SetVtable(__pyx_type_5cygym_8pendulum_CyPendulumEnv.tp_dict, __pyx_vtabptr_5cygym_8pendulum_CyPendulumEnv) < 0) __PYX_ERR(1, 28, __pyx_L1_error)
+  if (PyObject_SetAttr(__pyx_m, __pyx_n_s_CyPendulumEnv, (PyObject *)&__pyx_type_5cygym_8pendulum_CyPendulumEnv) < 0) __PYX_ERR(1, 28, __pyx_L1_error)
+  if (__Pyx_setup_reduce((PyObject*)&__pyx_type_5cygym_8pendulum_CyPendulumEnv) < 0) __PYX_ERR(1, 28, __pyx_L1_error)
+  __pyx_ptype_5cygym_8pendulum_CyPendulumEnv = &__pyx_type_5cygym_8pendulum_CyPendulumEnv;
   __pyx_vtabptr_array = &__pyx_vtable_array;
   __pyx_vtable_array.get_memview = (PyObject *(*)(struct __pyx_array_obj *))__pyx_array_get_memview;
   if (PyType_Ready(&__pyx_type___pyx_array) < 0) __PYX_ERR(0, 105, __pyx_L1_error)
@@ -21340,7 +21332,7 @@ if (!__Pyx_RefNanny) {
   Py_INCREF(__pyx_m);
   #else
   #if PY_MAJOR_VERSION < 3
-  __pyx_m = Py_InitModule4("pendulum", __pyx_methods, 0, 0, PYTHON_API_VERSION); Py_XINCREF(__pyx_m);
+  __pyx_m = Py_InitModule4("pendulum", __pyx_methods, __pyx_k_Credit_This_code_has_been_adapt, 0, PYTHON_API_VERSION); Py_XINCREF(__pyx_m);
   #else
   __pyx_m = PyModule_Create(&__pyx_moduledef);
   #endif
@@ -21358,14 +21350,14 @@ if (!__Pyx_RefNanny) {
   #if PY_MAJOR_VERSION < 3 && (__PYX_DEFAULT_STRING_ENCODING_IS_ASCII || __PYX_DEFAULT_STRING_ENCODING_IS_DEFAULT)
   if (__Pyx_init_sys_getdefaultencoding_params() < 0) __PYX_ERR(1, 1, __pyx_L1_error)
   #endif
-  if (__pyx_module_is_main_cygym__envs__pendulum) {
+  if (__pyx_module_is_main_cygym__pendulum) {
     if (PyObject_SetAttr(__pyx_m, __pyx_n_s_name_2, __pyx_n_s_main) < 0) __PYX_ERR(1, 1, __pyx_L1_error)
   }
   #if PY_MAJOR_VERSION >= 3
   {
     PyObject *modules = PyImport_GetModuleDict(); if (unlikely(!modules)) __PYX_ERR(1, 1, __pyx_L1_error)
-    if (!PyDict_GetItemString(modules, "cygym.envs.pendulum")) {
-      if (unlikely(PyDict_SetItemString(modules, "cygym.envs.pendulum", __pyx_m) < 0)) __PYX_ERR(1, 1, __pyx_L1_error)
+    if (!PyDict_GetItemString(modules, "cygym.pendulum")) {
+      if (unlikely(PyDict_SetItemString(modules, "cygym.pendulum", __pyx_m) < 0)) __PYX_ERR(1, 1, __pyx_L1_error)
     }
   }
   #endif
@@ -21386,86 +21378,86 @@ if (!__Pyx_RefNanny) {
   if (__Pyx_patch_abc() < 0) __PYX_ERR(1, 1, __pyx_L1_error)
   #endif
 
-  /* "cygym/envs/pendulum.pyx":9
+  /* "cygym/pendulum.pyx":17
  * 
  * ## Loading packages
  * from gym.spaces import Box             # <<<<<<<<<<<<<<
  * from gym.utils import seeding
  * import numpy as np
  */
-  __pyx_t_1 = PyList_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 9, __pyx_L1_error)
+  __pyx_t_1 = PyList_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 17, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_INCREF(__pyx_n_s_Box);
   __Pyx_GIVEREF(__pyx_n_s_Box);
   PyList_SET_ITEM(__pyx_t_1, 0, __pyx_n_s_Box);
-  __pyx_t_2 = __Pyx_Import(__pyx_n_s_gym_spaces, __pyx_t_1, 0); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 9, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_Import(__pyx_n_s_gym_spaces, __pyx_t_1, 0); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 17, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = __Pyx_ImportFrom(__pyx_t_2, __pyx_n_s_Box); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 9, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_ImportFrom(__pyx_t_2, __pyx_n_s_Box); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 17, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_Box, __pyx_t_1) < 0) __PYX_ERR(1, 9, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_Box, __pyx_t_1) < 0) __PYX_ERR(1, 17, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "cygym/envs/pendulum.pyx":10
+  /* "cygym/pendulum.pyx":18
  * ## Loading packages
  * from gym.spaces import Box
  * from gym.utils import seeding             # <<<<<<<<<<<<<<
  * import numpy as np
  * cimport numpy as np
  */
-  __pyx_t_2 = PyList_New(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 10, __pyx_L1_error)
+  __pyx_t_2 = PyList_New(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 18, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_INCREF(__pyx_n_s_seeding);
   __Pyx_GIVEREF(__pyx_n_s_seeding);
   PyList_SET_ITEM(__pyx_t_2, 0, __pyx_n_s_seeding);
-  __pyx_t_1 = __Pyx_Import(__pyx_n_s_gym_utils, __pyx_t_2, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 10, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_Import(__pyx_n_s_gym_utils, __pyx_t_2, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 18, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_ImportFrom(__pyx_t_1, __pyx_n_s_seeding); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 10, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_ImportFrom(__pyx_t_1, __pyx_n_s_seeding); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 18, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_seeding, __pyx_t_2) < 0) __PYX_ERR(1, 10, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_seeding, __pyx_t_2) < 0) __PYX_ERR(1, 18, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "cygym/envs/pendulum.pyx":11
+  /* "cygym/pendulum.pyx":19
  * from gym.spaces import Box
  * from gym.utils import seeding
  * import numpy as np             # <<<<<<<<<<<<<<
  * cimport numpy as np
  * cimport cython
  */
-  __pyx_t_1 = __Pyx_Import(__pyx_n_s_numpy, 0, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 11, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_Import(__pyx_n_s_numpy, 0, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 19, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_np, __pyx_t_1) < 0) __PYX_ERR(1, 11, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_np, __pyx_t_1) < 0) __PYX_ERR(1, 19, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "cygym/envs/pendulum.pyx":35
+  /* "cygym/pendulum.pyx":42
  * 
  *     cdef object np_random
  *     metadata = {}             # <<<<<<<<<<<<<<
  *     reward_range = (-float('inf'), float('inf'))
  *     spec = None
  */
-  __pyx_t_1 = __Pyx_PyDict_NewPresized(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 35, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyDict_NewPresized(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 42, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  if (PyDict_SetItem((PyObject *)__pyx_ptype_5cygym_4envs_8pendulum_FastPendulumEnv->tp_dict, __pyx_n_s_metadata, __pyx_t_1) < 0) __PYX_ERR(1, 35, __pyx_L1_error)
+  if (PyDict_SetItem((PyObject *)__pyx_ptype_5cygym_8pendulum_CyPendulumEnv->tp_dict, __pyx_n_s_metadata, __pyx_t_1) < 0) __PYX_ERR(1, 42, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  PyType_Modified(__pyx_ptype_5cygym_4envs_8pendulum_FastPendulumEnv);
+  PyType_Modified(__pyx_ptype_5cygym_8pendulum_CyPendulumEnv);
 
-  /* "cygym/envs/pendulum.pyx":36
+  /* "cygym/pendulum.pyx":43
  *     cdef object np_random
  *     metadata = {}
  *     reward_range = (-float('inf'), float('inf'))             # <<<<<<<<<<<<<<
  *     spec = None
  *     def unwrapped(self): return self
  */
-  __pyx_t_3 = __Pyx_PyObject_AsDouble(__pyx_n_u_inf); if (unlikely(__pyx_t_3 == ((double)((double)-1)) && PyErr_Occurred())) __PYX_ERR(1, 36, __pyx_L1_error)
-  __pyx_t_1 = PyFloat_FromDouble((-__pyx_t_3)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 36, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_AsDouble(__pyx_n_u_inf); if (unlikely(__pyx_t_3 == ((double)((double)-1)) && PyErr_Occurred())) __PYX_ERR(1, 43, __pyx_L1_error)
+  __pyx_t_1 = PyFloat_FromDouble((-__pyx_t_3)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 43, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyNumber_Float(__pyx_n_u_inf); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 36, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyNumber_Float(__pyx_n_u_inf); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 43, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_4 = PyTuple_New(2); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 36, __pyx_L1_error)
+  __pyx_t_4 = PyTuple_New(2); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 43, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_GIVEREF(__pyx_t_1);
   PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_t_1);
@@ -21473,21 +21465,21 @@ if (!__Pyx_RefNanny) {
   PyTuple_SET_ITEM(__pyx_t_4, 1, __pyx_t_2);
   __pyx_t_1 = 0;
   __pyx_t_2 = 0;
-  if (PyDict_SetItem((PyObject *)__pyx_ptype_5cygym_4envs_8pendulum_FastPendulumEnv->tp_dict, __pyx_n_s_reward_range, __pyx_t_4) < 0) __PYX_ERR(1, 36, __pyx_L1_error)
+  if (PyDict_SetItem((PyObject *)__pyx_ptype_5cygym_8pendulum_CyPendulumEnv->tp_dict, __pyx_n_s_reward_range, __pyx_t_4) < 0) __PYX_ERR(1, 43, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  PyType_Modified(__pyx_ptype_5cygym_4envs_8pendulum_FastPendulumEnv);
+  PyType_Modified(__pyx_ptype_5cygym_8pendulum_CyPendulumEnv);
 
-  /* "cygym/envs/pendulum.pyx":37
+  /* "cygym/pendulum.pyx":44
  *     metadata = {}
  *     reward_range = (-float('inf'), float('inf'))
  *     spec = None             # <<<<<<<<<<<<<<
  *     def unwrapped(self): return self
  * 
  */
-  if (PyDict_SetItem((PyObject *)__pyx_ptype_5cygym_4envs_8pendulum_FastPendulumEnv->tp_dict, __pyx_n_s_spec, Py_None) < 0) __PYX_ERR(1, 37, __pyx_L1_error)
-  PyType_Modified(__pyx_ptype_5cygym_4envs_8pendulum_FastPendulumEnv);
+  if (PyDict_SetItem((PyObject *)__pyx_ptype_5cygym_8pendulum_CyPendulumEnv->tp_dict, __pyx_n_s_spec, Py_None) < 0) __PYX_ERR(1, 44, __pyx_L1_error)
+  PyType_Modified(__pyx_ptype_5cygym_8pendulum_CyPendulumEnv);
 
-  /* "cygym/envs/pendulum.pyx":1
+  /* "cygym/pendulum.pyx":1
  * #!python             # <<<<<<<<<<<<<<
  * 
  * # cython: boundscheck=False
@@ -21659,11 +21651,11 @@ if (!__Pyx_RefNanny) {
   __Pyx_XDECREF(__pyx_t_4);
   if (__pyx_m) {
     if (__pyx_d) {
-      __Pyx_AddTraceback("init cygym.envs.pendulum", __pyx_clineno, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("init cygym.pendulum", __pyx_clineno, __pyx_lineno, __pyx_filename);
     }
     Py_CLEAR(__pyx_m);
   } else if (!PyErr_Occurred()) {
-    PyErr_SetString(PyExc_ImportError, "init cygym.envs.pendulum");
+    PyErr_SetString(PyExc_ImportError, "init cygym.pendulum");
   }
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();
@@ -25978,7 +25970,7 @@ no_fail:
 }
 
 /* ObjectToMemviewSlice */
-  static CYTHON_INLINE __Pyx_memviewslice __Pyx_PyObject_to_MemoryviewSlice_ds_nn___pyx_t_5cygym_4envs_8pendulum_np_float_t(PyObject *obj, int writable_flag) {
+  static CYTHON_INLINE __Pyx_memviewslice __Pyx_PyObject_to_MemoryviewSlice_ds_nn___pyx_t_5cygym_8pendulum_np_float_t(PyObject *obj, int writable_flag) {
     __Pyx_memviewslice result = { 0, 0, { 0 }, { 0 }, { 0 } };
     __Pyx_BufFmt_StackElem stack[1];
     int axes_specs[] = { (__Pyx_MEMVIEW_DIRECT | __Pyx_MEMVIEW_STRIDED) };
@@ -25989,7 +25981,7 @@ no_fail:
     }
     retcode = __Pyx_ValidateAndInit_memviewslice(axes_specs, 0,
                                                  PyBUF_RECORDS_RO | writable_flag, 1,
-                                                 &__Pyx_TypeInfo_nn___pyx_t_5cygym_4envs_8pendulum_np_float_t, stack,
+                                                 &__Pyx_TypeInfo_nn___pyx_t_5cygym_8pendulum_np_float_t, stack,
                                                  &result, obj);
     if (unlikely(retcode == -1))
         goto __pyx_fail;

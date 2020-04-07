@@ -2,9 +2,9 @@ Metadata-Version: 1.0
 Name: cygym
 Version: 0.1a0
 Summary: Cython classic control environments for OpenAI Gym
-Home-page: UNKNOWN
+Home-page: https://github.com/gursky1/cygym
 Author: Jacob Gursky
 Author-email: gurskyjacob@gmail.com
-License: UNKNOWN
+License: MIT
 Description: UNKNOWN
 Platform: UNKNOWN
