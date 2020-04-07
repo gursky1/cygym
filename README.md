@@ -1,5 +1,5 @@
 # cygym
-This repository contains cythonized versions on the OpenAI Gym classic control environments.  Note that is this package is actively under development.
+This repository contains cythonized versions of the OpenAI Gym classic control environments.  Note that is this package is actively under development.
 
 ## Installation
 
